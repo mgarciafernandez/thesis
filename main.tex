@@ -1,0 +1,248 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  My documentation report
+%  Objetive: Explain what I did and how, so someone can continue with the investigation
+%
+% Important note:
+% Chapter heading images should have a 2:1 width:height ratio,
+% e.g. 920px width and 460px height.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt,draft]{book} % Default font size
+
+%\usepackage[top=3cm,bottom=3cm,left=3.2cm,right=3.2cm,headsep=10pt,letterpaper]{geometry} % Page margins original
+\usepackage[top=3cm,bottom=3cm,left=3.2cm,right=3.2cm,headsep=10pt,a4paper]{geometry}
+
+\usepackage{xcolor} % Required for specifying colors by name
+\definecolor{ocre}{RGB}{52,177,201} % Define the orange color used for highlighting throughout the book
+
+% Font Settings
+\usepackage{avant} % Use the Avantgarde font for headings
+%\usepackage{times} % Use the Times font for headings
+%\usepackage{mathptmx} % Use the Adobe Times Roman as the default text font together with math symbols from the Sym­bol, Chancery and Com­puter Modern fonts
+
+\usepackage{microtype} % Slightly tweak font spacing for aesthetics
+\usepackage[utf8]{inputenc} % Required for including letters with accents
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+
+% Bibliography
+\usepackage[style=numeric-comp,sorting=none,natbib=true]{biblatex}
+\addbibresource{thesis_bibliography.bib} % BibTeX bibliography file
+\defbibheading{bibempty}{}
+
+%\bibliographystyle{mnras}
+%\usepackage{graphicx}    % Include figure files
+%\usepackage{dcolumn}     % Align table columns on decimal point
+%\usepackage{bm}          % bold math
+%\usepackage{amssymb,amsmath}  
+%\usepackage{color}
+\usepackage{hyperref}
+%\usepackage{lineno}
+\usepackage{cleveref}
+%\usepackage{natbib}
+%\usepackage{amsbsy}
+\usepackage{overpic}
+\usepackage[titletoc]{appendix}
+\usepackage{tikz}
+\usepackage{rotating}
+
+\input{structure} % Insert the commands.tex file which contains the majority of the structure behind the template
+
+%----------------------------------------------------------------------------------------
+%	JOURNAL COMMANDS
+%----------------------------------------------------------------------------------------
+
+\newcommand\aap{A\&A}                % Astronomy and Astrophysics
+\let\astap=\aap                          % alternative shortcut
+\newcommand\aapr{A\&ARv}             % Astronomy and Astrophysics Review (the)
+\newcommand\aaps{A\&AS}              % Astronomy and Astrophysics Supplement Series
+\newcommand\actaa{Acta Astron.}      % Acta Astronomica
+\newcommand\afz{Afz}                 % Astrofizika
+\newcommand\aj{AJ}                   % Astronomical Journal (the)
+\newcommand\ao{Appl. Opt.}           % Applied Optics
+\let\applopt=\ao                         % alternative shortcut
+\newcommand\aplett{Astrophys.~Lett.} % Astrophysics Letters
+\newcommand\apj{ApJ}                 % Astrophysical Journal
+\newcommand\apjl{ApJ}                % Astrophysical Journal, Letters
+\let\apjlett=\apjl                       % alternative shortcut
+\newcommand\apjs{ApJS}               % Astrophysical Journal, Supplement
+\let\apjsupp=\apjs                       % alternative shortcut
+% The following journal does not appear to exist! Disabled.
+%\newcommand\apspr{Astrophys.~Space~Phys.~Res.} % Astrophysics Space Physics Research
+\newcommand\apss{Ap\&SS}             % Astrophysics and Space Science
+\newcommand\araa{ARA\&A}             % Annual Review of Astronomy and Astrophysics
+\newcommand\arep{Astron. Rep.}       % Astronomy Reports
+\newcommand\aspc{ASP Conf. Ser.}     % ASP Conference Series
+\newcommand\azh{Azh}                 % Astronomicheskii Zhurnal
+\newcommand\baas{BAAS}               % Bulletin of the American Astronomical Society
+\newcommand\bac{Bull. Astron. Inst. Czechoslovakia} % Bulletin of the Astronomical Institutes of Czechoslovakia 
+\newcommand\bain{Bull. Astron. Inst. Netherlands} % Bulletin Astronomical Institute of the Netherlands
+\newcommand\caa{Chinese Astron. Astrophys.} % Chinese Astronomy and Astrophysics
+\newcommand\cjaa{Chinese J.~Astron. Astrophys.} % Chinese Journal of Astronomy and Astrophysics
+\newcommand\fcp{Fundamentals Cosmic Phys.}  % Fundamentals of Cosmic Physics
+\newcommand\gca{Geochimica Cosmochimica Acta}   % Geochimica Cosmochimica Acta
+\newcommand\grl{Geophys. Res. Lett.} % Geophysics Research Letters
+\newcommand\iaucirc{IAU~Circ.}       % IAU Cirulars
+\newcommand\icarus{Icarus}           % Icarus
+\newcommand\japa{J.~Astrophys. Astron.} % Journal of Astrophysics and Astronomy
+\newcommand\jcap{J.~Cosmology Astropart. Phys.} % Journal of Cosmology and Astroparticle Physics
+\newcommand\jcp{J.~Chem.~Phys.}      % Journal of Chemical Physics
+\newcommand\jgr{J.~Geophys.~Res.}    % Journal of Geophysics Research
+\newcommand\jqsrt{J.~Quant. Spectrosc. Radiative Transfer} % Journal of Quantitiative Spectroscopy and Radiative Transfer
+\newcommand\jrasc{J.~R.~Astron. Soc. Canada} % Journal of the RAS of Canada
+\newcommand\memras{Mem.~RAS}         % Memoirs of the RAS
+\newcommand\memsai{Mem. Soc. Astron. Italiana} % Memoire della Societa Astronomica Italiana
+\newcommand\mnassa{MNASSA}           % Monthly Notes of the Astronomical Society of Southern Africa
+\newcommand\mnras{MNRAS}             % Monthly Notices of the Royal Astronomical Society
+\newcommand\na{New~Astron.}          % New Astronomy
+\newcommand\nar{New~Astron.~Rev.}    % New Astronomy Review
+\newcommand\nat{Nature}              % Nature
+\newcommand\nphysa{Nuclear Phys.~A}  % Nuclear Physics A
+\newcommand\pra{Phys. Rev.~A}        % Physical Review A: General Physics
+\newcommand\prb{Phys. Rev.~B}        % Physical Review B: Solid State
+\newcommand\prc{Phys. Rev.~C}        % Physical Review C
+\newcommand\prd{Phys. Rev.~D}        % Physical Review D
+\newcommand\pre{Phys. Rev.~E}        % Physical Review E
+\newcommand\prl{Phys. Rev.~Lett.}    % Physical Review Letters
+\newcommand\pasa{Publ. Astron. Soc. Australia}  % Publications of the Astronomical Society of Australia
+\newcommand\pasp{PASP}               % Publications of the Astronomical Society of the Pacific
+\newcommand\pasj{PASJ}               % Publications of the Astronomical Society of Japan
+\newcommand\physrep{Phys.~Rep.}      % Physics Reports
+\newcommand\physscr{Phys.~Scr.}      % Physica Scripta
+\newcommand\planss{Planet. Space~Sci.} % Planetary Space Science
+\newcommand\procspie{Proc.~SPIE}     % Proceedings of the Society of Photo-Optical Instrumentation Engineers
+\newcommand\rmxaa{Rev. Mex. Astron. Astrofis.} % Revista Mexicana de Astronomia y Astrofisica
+\newcommand\qjras{QJRAS}             % Quarterly Journal of the RAS
+\newcommand\sci{Science}             % Science
+\newcommand\skytel{Sky \& Telesc.}   % Sky and Telescope
+\newcommand\solphys{Sol.~Phys.}      % Solar Physics
+\newcommand\sovast{Soviet~Ast.}      % Soviet Astronomy (aka Astronomy Reports)
+\newcommand\ssr{Space Sci. Rev.}     % Space Science Reviews
+\newcommand\zap{Z.~Astrophys.}       % Zeitschrift fuer Astrophysik
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begingroup
+\thispagestyle{empty}
+\pagenumbering{roman}
+\setcounter{page}{1}
+%\AddToShipoutPicture*{\put(0,0){\includegraphics[scale=1.25]{esahubble}}} % Image background
+%\AddToShipoutPicture*{\put(0,0){\includegraphics[height=23cm,angle=90,trim=4cm 2cm 0 0,clip]{ds9.png}}} % Image background
+\AddToShipoutPicture*{\put(0,0){\includegraphics[height=23cm,angle=90,trim=4cm 2cm 0 0,clip]{ds9.png}}\put(100,0){\includegraphics[width=\textwidth,angle=0,clip]{MDM_Banner.jpg}}} % Image background
+
+\centering
+\vspace*{5cm}
+\par\normalfont\fontsize{27}{27}\sffamily\selectfont
+\textcolor{red}{\textbf{Weak-lensing magnification as a probe for the dark Universe}}\par % Book title
+\vspace*{1cm}
+\textcolor{red}{\textbf{\Huge Manuel Garc\'ia Fern\'andez}}\par % Author name
+
+\title{Weak-lensing magnification as a probe for the dark Universe}
+\author{Manuel Garcia-Fernandez}
+\endgroup
+
+%----------------------------------------------------------------------------------------
+%	COPYRIGHT PAGE
+%----------------------------------------------------------------------------------------
+
+\newpage
+~\vfill
+\thispagestyle{empty}
+
+\input{portada_interior.tex}
+
+\newpage
+\noindent
+According to RD-99/2011, in partial fulfillment to obtain the `Menci\'on Internacional' qualification, this Thesis is written in English.\\
+According to UAM's Normative (12/15/2011), Summary and Conclusions are also written in Spanish and included before the core of the Thesis, right after the table of contents.\\
+
+\noindent
+Conforme al RD-99/2011, en requerimiento parcial para la obtenci\'on de la calificaci\'on  de `Menci\'on Internacional', esta Tesis est\'a redactada en Ingl\'es.\\
+Conforme al acuerdo del Consejo de Gobierno de la UAM (15/12/2011), el Res\'umen y las Conclusiones tambi\'en se encuentran redactadas en Castellano y se incluyen antes del cuerpo de la Tesis justo despu\'es del \'indice.
+\vspace*{2cm}
+\begin{flushleft}
+\rule{\textwidth}{2pt}
+This Thesis is part of the following publication archives:\\
+The DES Collaboration archive:\\
+Fermilab preprint/thesis server:\\
+\rule{\textwidth}{2pt}\\
+\vspace*{2cm}
+\noindent
+Part of the results obtained during the development of this Thesis has been published under peer-review journals and proceedings. Their references are listed below.\\
+
+\noindent
+Parte de los resultados obtenidos durante el desarrolo de esta Tesis han sido publicados en revistas y conferencias con un proceso de revisi\'on por pares. Sus referencias bibliogr\'aficas se encuentran abajo.\\
+\vspace*{0.5cm}
+{\bf M. Garcia-Fernandez}, E. Sanchez and N. Sevilla-Noarbe. {\it Magnification with wide-field photometric surveys}. Highlights on Spanish Astrophysics XII. March 2017.\\
+\vspace*{0.5cm}
+{\bf M. Garcia-Fernandez} et~al. {\it Weak lensing magnification in the Dark Energy Survey Science Verification data}, arXiv:1611.10326. November 2016.
+
+~\vfill
+\thispagestyle{empty}
+\begin{footnotesize}
+Cover image credit: M. Garcia-Fernandez \& The DES Collaboration\\
+Chapter header credit: NASA
+\end{footnotesize}
+\end{flushleft}
+
+\newpage
+\thispagestyle{empty}
+\begin{flushright}
+\begin{large}
+\vspace*{3cm}
+{\it Yesterday's sensation is today's calibration.}\\
+RICHARD FEYNMAN\\
+\vspace{1cm}
+{\it And tomorrow's background!}\\
+VALENTINE TELEGDI\\
+\end{large}
+~\vfill
+\end{flushright}
+
+%----------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS
+%----------------------------------------------------------------------------------------
+
+\chapterimage{head1.png} % Table of contents heading image
+
+\pagestyle{empty} % No headers
+
+\tableofcontents % Print the table of contents itself
+
+%\cleardoublepage % Forces the first chapter to start on an odd page so it's on the right
+
+\pagestyle{fancy} % Print headers again
+
+%----------------------------------------------------------------------------------------
+%	CHAPTERS
+%----------------------------------------------------------------------------------------
+\input{appendix_spanish.tex}
+\input{summary.tex}
+\mainmatter
+\input{chapter_introduction.tex}
+\input{chapter_weak_lensing.tex}
+\input{chapter_DES.tex}
+\input{chapter_magnification.tex}
+\input{chapter_conclusions.tex}
+
+%----------------------------------------------------------------------------------------
+%	APPENDICES
+%----------------------------------------------------------------------------------------
+\begin{appendices}
+\noappendicestocpagenum
+%\addappheadtotoc
+\chapter{My test appendix}
+\end{appendices}
+
+\printbibliography[heading=bibintoc,title=References]
+
+\end{document}

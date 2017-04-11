@@ -1,0 +1,87 @@
+\chapterimage{head2.png} % Chapter heading image
+\chapter{The Dark Energy Survey}
+
+The Dark Energy Survey (DES) \cite{2005astro.ph.10346T} is a $grizY$ photometric galaxy-survey that has as main scientific goal to give light on the nature of the Dark Energy. It is labeled as a stage III experiment by the Dark Energy Task Force (DETF) \cite{2006astro.ph..9591A}.
+\newline
+
+The four probes used by DES to unravel the nature of Dark Energy are: the number of clusters as a function of redshift, the measurement of the peak-scale of the barion acoustic oscillations (BAO), the weak gravitational lensing of galaxies and the measurement of the Hubble diagram with type Ia Supernovae (SNIa). By the end of five years of observations, DES will cover 5000 deg$^2$ of the Southern Hemisphere up to magnitude $i<24.0$ at the $10\sigma$ detection level. Taking this into account, this survey is expected to measure 10000 clusters up to redshift 1.0, 200 million galaxy-shapes for weak-lensing, 300 million galaxies for BAO and 3000 SNIa up to redshift 1.0. Thus, each individual probe is not competitive by itself individually compared with specific experiments. Nevertheless, the power of DES resides on the combination of all the probes braking degeneracies on the cosmological parameter phase-space leading to a precision better than the 5\% and 30\% on the parameters $w_0$ and $w_a$ respectively of the equation of state of the Dark Energy.
+\newline
+
+DES is an international collaboration formed by about 500 scientist from more than 20 institutions from: USA, Spain, UK, Brazil, Germany and Switzerland. The Collaboration has built a very sensitivity camera, DECam (see \autoref{fig:cerrotololo} and \autoref{fig:decam}), that has been mounted at the 4-m Victor M. Blanco Telescope\footnote{This is the same telescope where Schmidt and Perlmutter performed the observations leading to the Nobel Prize in 2010 for the discovery of Dark Energy.} at the Cerro Tololo Inter-American Observatory (CTIO). located at La Serena (Chile).
+
+\section{The DECam}
+The DECam (Dark Energy Camera), is the main instrument of the experiment. It is composed mainly by:
+\begin{itemize}
+	\item the 570 megapixel CCDs,
+    \item low-noise readout electronics,
+    \item wide-field optical corrector --producing 2.2 deg$^2$ field of view--,
+    \item filter and shutter system,
+    \item hexapod for stability.   
+\end{itemize}
+Since the DES is going to observe very high redshifted galaxies, CCDs used by DES have been specifically designed at Lawrence Berkeley National Laboratory to detect red light. In order to do so, this CCDs are ten times thicker --250 $\mu m$-- than conventional ones\footnote{Sensitivity to long wavelengths is increased when passing trough more silicon.}. This results in a quantum efficiency of the 90\% at wavelengths grater than 900 nm and about 60\% at the rest. The DECam focal plane consist of the following types of CCDs:
+\begin{itemize}
+\item Science array: formed by 62 CCDs with $2048\times 4096$ pixels. Each pixel is $15\mu m$ of side that, at Blanco Telescope, results on 0.27 arc-seconds on the sky.
+\item Four $2048\times2048$ guider CCDs.
+\item Eight $2048\times 2048$ focus and alignment CCDs.
+\end{itemize}
+To minimize the noise and dark currents due to the electronic system, DECam operates on an environment cooled by liquid nitrogen at 180 K and a vacuum of $\sim 10^{-9}$ atm.
+\newline
+
+The whole readout process takes 17 seconds (about the same slewing-time of the telescope). Readout electronic boards were produced and designed in Spain at CIEMAT and IFAE.
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.9\textwidth]{./Pictures/cerrotololo.jpg}
+\caption{Location of the 4-m Victor Blanco Telescope at Cerro Tololo. Chilean Andes.}
+\label{fig:cerrotololo}
+\vspace{2cm}
+\includegraphics[width=0.9\textwidth]{./Pictures/telescope_DES.jpg}
+\caption{DECam mounted at the focus of the Victor Blanco Telescope.}
+\label{fig:decam}
+\end{center}
+\end{figure}
+
+\section{Survey strategy}
+The total amount of time awarded to DES at CTIO period to reach the total area to the nominal depth on the five photometric bands is of 525 nights over a 5-year period. The rest of the nights the DECam is available to the scientific community. The tank-shaped footprint, that can be seen at \autoref{fig:des_footprint}) is not casual but is optimized for the several probes.
+\begin{itemize}
+	\item The {\it canyon} located at the equator, is known as stripe-82 and overlaps with several spectroscopic surveys such as SDSS, to calibrate the photometric redshifts (photo-z hereafter).
+    \item The rounded shape --{\it the body}-- is intended to have the largest available scale for BAO measurement.
+    \item The lower part --{\it the wheels}-- is designed to overlap with the South Pole Telescope (SPT) to measure the Sunyaev-Zeldovich effect.
+\end{itemize}
+
+\begin{figure}
+\includegraphics[width=\textwidth]{des_footprint.png}
+\caption{DES footprint on equatorial coordinates. Purple area is the total area that DES will cover at the end of the five years (Y5). Red areas -that overlap with the purple- are the Science Verification observations. Shaded areas are the first year campaign of observations (Y1). Dotted line represent the galactic plane.}
+\label{fig:des_footprint}
+\end{figure}
+
+The DES observations can be splitted in two: the transient survey and the wide-field survey.
+
+\subsection{The transient survey}
+The transient survey is designed to measure SNIa. Selected small portions of the sky --known as the supernovae fields-- are surveyed from time to time to look for supernovae explosions by looking objects that are not always present and measure its luminosity curve as a function of time. Although it is designed to SNIa astronomy, some ancillary Solar-System astronomical results as been reported, such as Jupiter-trojan and trans-neptunian detection and searches for the known planet-9.
+
+\subsection{The wide-field survey}
+The wide field survey is intended for the rest of the probes for Dark Energy along with some Milky-Way astrophysics. To cover the whole footprint, the sky has been divided on a grid of half square-degree patches known as tiles. Each tile is visited XX times on each band along the 5-year-period to reach the full depth. The regions to survey are defined at the beginning of the campaign of observations and which band is observed at an specific night is decided based on the seeing and sky-brightness conditions of that night.
+
+\subsection{The night operations at CTIO}
+A typical night of observations, if sky is not overcast and no earthquake threatens the life of the observers, starts in the afternoon taking zeros of the camera and the dome-flats. Then, after the evening twilight, three standard stars are photographed to calibrate the photometry. After that, the wide-field survey starts. When the supernovae fields are visible, they are surveyed, returning to the wide-field survey when they are done. Some time before the morning twilight, other three standard stars are photographed, finishing the night. All the night operations are the same except if some gravity-wave has been detected by LIGO that, due to an agreement with the LIGO Consortium,  DES points to the place where the gravity-wave has been produced to look for an optical counterpart.
+
+\section{The data reduction pipeline}
+The data reduction that goes from images to science-ready catalogs of galaxies is carried at the NCSA. The first step involves is correct by the zeropoints and the the dome flats the images taken and to calibrate them with the standard stars. This, are well known stars with very well defined and measured photometric properties. Then, the different exposures of the same tile for a given band --single-epoch images-- are combined into a single image on a procedure called as co-addition --multi-epoch image--. This procedure allows the increase of the observed depth respect to each individual single-epoch image. This multi-epoch images will constitute the measurement images for each band. Nevertheless, to reach the DES nominal depth, images are detected on the image produced by the co-addition of the $r+i+z$ multi-epoch images. Co-additon of the objects is made by the software {\tt Swarp} and the detection and photometric measurements is made with {\tt SExtractor} in dual mode. Nevertheless, shape and photometry given by {\tt SExtractor} does not reach the precision level required for the shear analysis, so the photometry for this analysis is made with {\tt IM3SHAPE} and {\tt NGMIX}.
+
+\begin{figure}
+\begin{center}
+\begin{overpic}[width=0.4\textwidth,trim=0 2cm 0 0,clip]{./Pictures/destile_g.png}\put(5,5){\colorbox{white}{\Large\it g}}
+\put(47,10){\begin{tikzpicture}\draw[red,thick] (0,0) circle (0.2cm);\end{tikzpicture}}\end{overpic}\hspace*{0.1cm}
+\begin{overpic}[width=0.4\textwidth,trim=0 2cm 0 0,clip]{./Pictures/destile_r.png}\put(5,5){\colorbox{white}{\Large\it r}}
+\put(47,10){\begin{tikzpicture}\draw[red,thick] (0,0) circle (0.2cm);\end{tikzpicture}}\end{overpic}\\
+\vspace*{0.2cm}
+\begin{overpic}[width=0.4\textwidth,trim=0 2cm 0 0,clip]{./Pictures/destile_i.png}\put(5,5){\colorbox{white}{\Large\it i}}
+\put(47,10){\begin{tikzpicture}\draw[red,thick] (0,0) circle (0.2cm);\end{tikzpicture}}\end{overpic}\hspace*{0.1cm}
+\begin{overpic}[width=0.4\textwidth,trim=0 2cm 0 0,clip]{./Pictures/destile_z.png}\put(5,5){\colorbox{white}{\Large\it z}}
+\put(47,10){\begin{tikzpicture}\draw[red,thick] (0,0) circle (0.2cm);\end{tikzpicture}}\end{overpic}\\
+\vspace*{0.2cm}
+\begin{overpic}[width=0.4\textwidth,trim=0 2cm 0 0,clip]{./Pictures/destile_det.png}\put(5,5){\colorbox{white}{\Large coadd}}
+\put(47,10){\begin{tikzpicture}\draw[red,thick] (0,0) circle (0.2cm);\end{tikzpicture}}\end{overpic}
+\caption{Comparison of the multi-epoch image for the {\it griz} bands with the detection coadd. Images are taken from DES-database for a region of the tile DES0419-4914 after the Y1 epoch. Red circle denotes an object that is detected at the coadd image but at the individual image is not.}
+\end{center}
+\end{figure}
