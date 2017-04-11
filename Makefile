@@ -16,3 +16,7 @@ clean:
 	rm -rf main.pdf
 	rm -rf main.dvi
 	rm -rf main.log
+	rm -rf main_resized.pdf
+
+resize:
+	pdfjam --outfile main_resized.pdf --paper a5paper main.pdf
