@@ -1,0 +1,104 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\color {ocre}Res\'umen y Conclusiones}{ix}{chapter*.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Res\'umen}{ix}{section*.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Conclusiones}{ix}{section*.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\color {ocre}Summary}{xi}{chapter*.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}The expanding Universe}{3}{section.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Dark Energy Models}{4}{section.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.1}The Cosmological Constant}{4}{subsection.1.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.2}Exotic matter fields}{7}{subsection.1.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.3}Modified Gravity}{9}{subsection.1.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Current status of Dark Energy constrains}{12}{section.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}Alternative probes for Dark Energy: Voids \& Troughs}{15}{section.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Gravitational Lensing Theory}{17}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Lens Equation on Gravitational Fields}{17}{section.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Weak Gravitational Lensing}{19}{section.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}Magnification}{21}{subsection.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Estimation of $\kappa (\theta )$ with the number counts technique}{22}{section*.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Estimation of $\kappa (\theta )$ with magnitude-shift magnification technique}{24}{section*.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}Shear}{25}{subsection.2.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{The gg-lensing.}{26}{section*.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}The Kaiser-Squires inversion.}{27}{section.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}The Dark Energy Survey}{29}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}The DECam}{30}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Survey strategy}{30}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.1}The transient survey}{32}{subsection.3.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.2}The wide-field survey}{32}{subsection.3.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.3}The night operations at CTIO}{32}{subsection.3.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}The data reduction pipeline}{33}{section.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Magnification in DES}{35}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Magnification in the MICE-GC simulation}{35}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Magnification in DES Science Verification data}{35}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.1}Data sample}{36}{subsection.4.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Lens sample}{37}{section*.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Source sample}{37}{section*.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.2}Detection of the weak-lensing magnification signal}{39}{subsection.4.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.3}Systematic error analysis}{48}{subsection.4.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Number count slope $\alpha $}{48}{section*.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Object obscuration}{50}{section*.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Stellar contamination}{50}{section*.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Survey observing conditions}{53}{section*.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Dust extinction}{53}{section*.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Photometric redshifts}{56}{section*.16}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Magnification in DES Year 1 data}{61}{section.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.1}Data sample}{61}{subsection.4.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Lens sample}{61}{section*.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Lens sample}{61}{section*.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.2}Determination of matter profile: voids \& troughs}{61}{subsection.4.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Conclusions}{63}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Appendix \numberline {A}My test appendix}{65}{Appendix.1.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{References}{67}{chapter*.19}
+\contentsfinish 

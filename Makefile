@@ -16,6 +16,7 @@ clean:
 	rm -rf main.pdf
 	rm -rf main.dvi
 	rm -rf main.log
+	rm -rf main.out
 	rm -rf main_resized.pdf
 
 resize:

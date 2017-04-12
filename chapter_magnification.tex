@@ -2,12 +2,24 @@
 \chapter{Magnification in DES}
 
 Extensive wide-field programs have allowed accurate measurements of weak lensing effects. Previous magnification measurements involve the use of very massive objects as lenses, such as luminous red galaxies (LRGs) and clusters \cite{1995AIPC..336..320B,2014MNRAS.440.3701B,2014MNRAS.439.3755F,2016MNRAS.457.3050C}, or high redshift objects as sources, such as Lyman break galaxies (LBGs) \cite{2009A&A...507..683H,2012MNRAS.426.2489M}, quasars (\cite{1979ApJ...227...30S,1989Natur.339..106H,1990A&A...240...11F,1993A&A...268....1B,2002A&A...386..784M,0004-637X-633-2-589} and sub-mm sources  \cite{2011MNRAS.414..596W} to improve signal-to-noise ratio. In addition to the number count technique used in this paper, other observational effects produced by magnification have been measured as well: the shift in magnitude \cite{2010MNRAS.405.1025M}, flux \cite{2011MNRAS.411.2113J} and size \cite{2041-8205-780-2-L16}.
+\newline
+
+On this chapter, first the methodology to measure magnification is tested with simulations. Then, the methodology is used to measure the magnification signal at the Dark Energy Survey Science Verification data (SV). Finally, the methodology used at the DES-SV data is employed to measure the convergence profile of voids and troughs
 
 \section{Magnification in the MICE-GC simulation}
 
 \section{Magnification in DES Science Verification data}
+As it has been described at the gravitational lensing theory section, the amplitude of the magnification signal is dependent on two factors: the number-count slope parameter ($\alpha-1$) and the lensing kernel, that for a given lens sample, depends on the redshift of the source sample. LBGs has been traditionally used on magnification studies since they have an steep magnitude distribution, leading to a high value of $\alpha-1$. In addition, this population of galaxies is located at very high redshift ($2\lesssim z\lesssim 4$), leading to a high lensing efficiency. Nevertheless, this population of galaxies has much less density than the general population of galaxies, feature that can prevent the measurement of a magnification signal for low-area surveys. In addition, the selection of a population of LBGs involve the known as {\it dropout} technique, that requiere the development of a custom data-reduction pipeline just to select this specific population of galaxies. For large-area surveys such as DES, the amount of computing time to run the data-reduction pipeline is enormous ($\sim 1$ year), reaching manpower and infrastructure difficulties. On the other side, although LRGs do not require a custom pipeline and a template-based approach to select them from the galaxy-catalogs provided by DES standard pipeline, its density is also very low.
+\newline
+
+As of January 2014 --when I started my PhD--, the only data available at DES was the Science Verification data. The first data-release from DES. This data where taking just for testing purposes and in order to explore the capabilities of the experiment. Thus, although the nominal depth of the survey was reached, only $\sim 150$ deg$^2$ where taken. Taking this into account, only $10^4$ LBGs are expected at the full DES-SV data, preventing the measurement of magnification.
+\newline
+
+In order to be capable to reach a detection of the magnification signal with the DES-SV data, the general population of galaxies was selected both as lens and source sample. This leads to technical difficulties, since DES has a low precision on the redshift determination and the general population of galaxies is mainly located at low redshift, complicating the possibility to reach a clean redshift separation. 
+
 \subsection{Data sample}
-The Dark Energy Survey (DES; \cite{2005IJMPA..20.3121F}) is a photometric galaxy survey that uses the Dark Energy Camera (DECam; \cite{DIEHL20121332}; \cite{2015AJ....150..150F}), mounted at the Blanco Telescope, at the Cerro Tololo Interamerican Observatory. The survey will cover about $5000 \mbox{ deg}^2$ of the southern hemisphere, imaging around $3\times10^8$ galaxies in 5 broad-band filters ({\it grizY}) at limiting magnitudes $g<24.6$, $r<24.1$, $i<24.3$, $z<23.9$. The sample used in this analysis corresponds to the Science Verification (DES-SV) data, which contains several disconnected fields. From the DES SVA1-Gold\footnote{des.ncsa.illinois.edu/releases/SVA1} main galaxy catalog \citep{2016MNRAS.455.4301C}, the largest contiguous field is selected, the SPT-E. Regions with declination $ < -61^{\circ}$ are removed in order to avoid the Large Magellanic Cloud. {\scshape Modest\_class} is employed as star-galaxy classifier \citep{0004-637X-801-2-73}.
+The sample used in this analysis corresponds to the Science Verification (DES-SV) data, which contains several disconnected fields. From the DES SVA1-Gold\footnote{des.ncsa.illinois.edu/releases/SVA1} main galaxy catalog \citep{2016MNRAS.455.4301C}, the largest contiguous field is selected, the SPT-E. Regions with declination $ < -61^{\circ}$ are removed in order to avoid the Large Magellanic Cloud. {\scshape Modest\_class} is employed as star-galaxy classifier \citep{0004-637X-801-2-73}.
+\newline
 
 The following colour cuts are made in order to remove outliers in colour space:
 \begin{itemize}
@@ -16,8 +28,10 @@ The following colour cuts are made in order to remove outliers in colour space:
 	\item $-1 < i-z < 2$;
 \end{itemize}
 where {\it g}, {\it r}, {\it i}, {\it z} stand for the corresponding {\scshape mag\_auto} magnitude measured by {\scshape SExtractor} \citep{1996A&AS..117..393B}.
+\newline
 
 Regions of the sky that are tagged as bad, amounting to four per cent of the total area, are removed. An area of radius 2 arcminutes around each 2MASS star is masked to avoid stellar halos (\cite{2005MNRAS.361.1287M}; \cite{0004-637X-633-2-589}).
+\newline
 
 The DES Data Management (\cite{2011arXiv1109.6741S}; \cite{2012ApJ...757...83D};  \cite{2012SPIE.8451E..0DM}) produces a {\scshape mangle}\footnote{http://space.mit.edu/$\sim$molly/mangle/} \citep{2008MNRAS.387.1391S}  magnitude limit mask that is later translated to a $N_{\rm side}=4096$ {\scshape HEALPix}\footnote{healpix.jpl.nasa.gov} \citep{2005ApJ...622..759G} mask. Since the {\scshape HEALPix} mask is a division of the celestial sphere with romboid-like shaped pixels with the same area, to avoid boundary effects due to the possible mismatch between the {\scshape mangle} and {\scshape HEALPix} masks, each pixel is required to be totally inside the observed footprint as determined by {\scshape mangle}, by demanding
 \begin{itemize}
@@ -26,6 +40,7 @@ The DES Data Management (\cite{2011arXiv1109.6741S}; \cite{2012ApJ...757...83D};
 	\item $z_{\rm fracdet}=1$;
 \end{itemize}
 where $r_{\rm fracdet},i_{\rm fracdet},z_{\rm fracdet}$ is the fraction of the pixel lying inside the footprint for {\it r}, {\it i}, {\it z} bands respectively.
+\newline
 
 Depth cuts are also imposed on the {\it riz}-bands in order to have uniform depth when combined with the magnitude cuts. These depth cuts are reached by including only the regions that meet the following conditions:
 \begin{itemize}
@@ -35,21 +50,21 @@ Depth cuts are also imposed on the {\it riz}-bands in order to have uniform dept
 \end{itemize}
 where $r_{\rm lim}, i_{\rm lim},z_{\rm lim}$ stand for the magnitude limit in the corresponding band, that is, the faintest magnitude at which the flux of a galaxy is detected at 10$\sigma$ significance level. The resulting footprint, as shown in \autoref{fig:footprint}, after all the masking cuts amounts to $121 \mbox{ deg}^2$.
 \begin{figure}
+\begin{center}
 \begin{flushright}
-\begin{overpic}[width=\textwidth]{./figures/footprint.pdf}
+\begin{overpic}[width=0.85\textwidth]{./figures/footprint.pdf}
 \put(85,0){RA [$^\circ$]}
 \put(-5,70){\rotatebox{90}{DEC [$^\circ$]}}
 \end{overpic}
 \end{flushright}
 \caption{Final footprint of the DES SPT-E region after all masking is applied.}
 \label{fig:footprint}
-\end{figure}
-
-\begin{figure}
-\includegraphics[width=\textwidth]{./figures/TPZ_phis_i.pdf}
+\includegraphics[width=0.85\textwidth]{./figures/TPZ_phis_i.pdf}
 \caption{Redshift distributions from the stacking of the TPZ probability distribution functions for the lens and two {\it i}-band sub-samples of the source.}
 \label{fig:stacking}
+\end{center}
 \end{figure}
+\newline
 
 Photometric redshifts (photo-z) have been estimated using different techniques. In particular, the fiducial code used in this work employs a machine-learning algorithm (random forests) as implemented by TPZ \citep{2013MNRAS.432.1483C}, which was shown to perform well on SV data \citep{2014MNRAS.445.1482S}. The redshifts of the galaxies are defined according to the mean of the probability density functions given by TPZ ($z_{\rm ph}$). Other methods are also employed to demonstrate that the measured two-point angular cross-correlation are not a feature induced by TPZ).
 
@@ -68,15 +83,14 @@ Three source samples are defined, one per band:
 	\item I: $0.7 < z_{\rm ph} < 1.0$ and $i<22.5$;
 	\item Z: $0.7 < z_{\rm ph} < 1.0$ and $z<22.0$.
 \end{itemize}
-Following the same approach we used on the lens, defined over the `benchmark' sample, the {\scshape mag\_auto} cut along with the previously defined depth cuts also guarantee uniformity on the corresponding band.
-
-Within each R, I, Z source sample five sub-samples that map the magnitude evolution are defined,
+Following the same approach we used on the lens, defined over the `benchmark' sample, the {\scshape mag\_auto} cut along with the previously defined depth cuts also guarantee uniformity on the corresponding band. Within each R, I, Z source sample five sub-samples that map the magnitude evolution are defined,
 \begin{itemize}
 	\item $\rm R_1$: $r<21.0$; $\rm R_2$: $r<21.5$; $\rm R_3$: $r<22.0$; $\rm R_4$: $r<22.5$; $\rm R_5$: $r<23.0$.
 	\item $\rm I_1$: $i<20.5$; $\rm I_2$: $i<21.0$; $\rm I_3$: $i<21.5$; $\rm I_4$: $i<22.0$; $\rm I_5$: $i<22.5$.
 	\item $\rm Z_1$: $z<20.0$; $\rm Z_2$: $z<20.5$; $\rm Z_3$: $z<21.0$; $\rm Z_4$: $z<21.5$; $\rm Z_5$: $z<22.0$.
 \end{itemize}
 Here $\rm S_j$ with $\rm j=1,2,3,4,5$ are the sub-samples of sample S with $\rm S\in \{R,I,Z\}$. In \autoref{fig:stacking}, the redshift distributions of the lens and source sample are shown. Note that the sub-samples $\rm R_5, I_5, Z_5$ are equal to $\rm R, I , Z$ respectively.
+\newline
 
 The {\it g}-band is not used on this analysis because when the same approach is followed and a uniform sample is defined in that band, the number of galaxies of the lens and source samples decrease dramatically. This increases the shot noise preventing the measurement of number count magnification
 
@@ -87,12 +101,12 @@ To estimate the cross-correlation functions, the tree-code {\scshape TreeCorr}\f
 \label{eq:landyszalay}
 \end{equation}
 where $D_{\rm L}D_{\rm S_j}(\theta)$ is the number of pairs from the lens data sample L and the source data sub-sample $\rm S_j$ separated by an angular distance $\theta$ and $D_{\rm L}R_{\rm S_j}(\theta)$, $D_{\rm S_j}R_{\rm L}(\theta)$, $R_{\rm L}R_{\rm S_j}(\theta)$ are the corresponding values for the lens-random, source-random and random-random combinations normalized by the total number of objects on each sample.
+\newline
 
 Catalogs produced with {\scshape Balrog}\footnote{github.com/emhuff/Balrog} \citep{2016MNRAS.457..786S} are used as random samples. The {\scshape Balrog} catalogs are DES-like catalogs, where
 no intrinsic magnification signal has been included. The {\scshape Balrog} software generates images of fake objects, all with zero convergence $\kappa$, that are embedded into the DES-SV coadd images
-(convolving the objects with the measured point spread function, and applying the measured photometric calibration). Then {\scshape SExtractor} was run on them, using the same DES Data Management configuration parameters used for the image processing. The positions for the simulated objects were generated randomly over the celestial sphere, meaning that these positions are intrinsically unclustered. Hence, the detected {\scshape Balrog} objects amount to a set of random points, which sample the survey detection probability. For a full description and an application to the same measurement as in \cite{2016MNRAS.455.4301C} see \cite{2016MNRAS.457..786S}. This is the first time that this extensive simulation is used to correct for systematics.
-
-The same cuts and masking of the data sample (\autoref{sec:data_sample}) are also applied to the the {\scshape Balrog} sample. A re-weighting following a nearest-neighbours approach was applied to {\scshape Balrog} objects in order to follow the same magnitude distribution of the DES-SV data on both lens and sources.
+(convolving the objects with the measured point spread function, and applying the measured photometric calibration). Then {\scshape SExtractor} was run on them, using the same DES Data Management configuration parameters used for the image processing. The positions for the simulated objects were generated randomly over the celestial sphere, meaning that these positions are intrinsically unclustered. Hence, the detected {\scshape Balrog} objects amount to a set of random points, which sample the survey detection probability. For a full description and an application to the same measurement as in \cite{2016MNRAS.455.4301C} see \cite{2016MNRAS.457..786S}. This is the first time that this extensive simulation is used to correct for systematics. The same cuts and masking of the data sample (\autoref{sec:data_sample}) are also applied to the the {\scshape Balrog} sample. A re-weighting following a nearest-neighbours approach was applied to {\scshape Balrog} objects in order to follow the same magnitude distribution of the DES-SV data on both lens and sources.
+\newline
 
 A covariance matrix is computed for each band by jack-knife re-sampling the data taking into account the correlations between the different magnitude cut within each band
 \begin{eqnarray}
@@ -100,15 +114,14 @@ C_{\rm S}(\omega_{\rm LS_i}(\theta_\eta);\omega_{\rm LS_j}(\theta_\nu)) = \frac{
 \times \sum\limits_k^{N_{\rm JK}}[\omega_{\rm LS_i}^k(\theta_\eta)-\omega_{\rm LS_i}(\theta_\eta)][\omega_{\rm LS_j}^k(\theta_\nu)-\omega_{\rm LS_j}(\theta_\nu)]\nonumber,
 \end{eqnarray}
 where $\omega^k_{\rm LS_j}$ stands for the cross-correlation of the $k$-th jack-knife re-sample and $\omega_{\rm LS_j}$ is the cross-correlation of the full sample. The $N_{\rm JK}= 120$ jack-knife regions are defined by a $k$-means algorithm \citep{macqueen1967some} using Python's machine learning library {\scshape scikit-learn}\footnote{scikit-learn.org} \citep{scikit-learn}. In order to get $N_{\rm JK}$ regions with equal area, the algorithm is trained on a uniform random sample following the footprint of the data demanding $N_{\rm JK}$ centres. The regions used on the re-sampling are composed by the Voronoi tessellation defined by these centres. These matrices trace the angular covariance as well as the covariances between functions within each band. No covariance between bands is considered, since each band is treated independently on this work. The reduced covariance matrix of the {\itshape i}-band is displayed at \autoref{fig:cov_matrix}. The behavior is similar for the other bands.
-
 \begin{figure}
 \includegraphics[width=\textwidth,trim={0 0 0 2cm},clip]{./figures/cov_matrix_mag_auto_i.pdf}
 \caption{Covariance matrix of the {\it i}-band rescaled by the value of the diagonal ($C_{ij}/\sqrt{C_{ii}C_{jj}}$). Each box is the part of the matrix corresponding to the samples labeled at the axis whereas the bins within each box stand for the angular values of the correlation function.}
 \label{fig:cov_matrix}
 \end{figure}
+\newline
 
 Measured two-point angular cross-correlation functions and $\Lambda$CDM weak lensing theoretical predictions can be found in \autoref{fig:resultSV}. Measured correlation functions are found to be non-zero, compatible with $\Lambda$CDM and its amplitude evolves with the magnitude cut. The magnitude cuts imposed to guarantee uniform depth make that, for this data, no negative amplitudes are expected.
-
 \begin{sidewaysfigure}
 \includegraphics[width=\textwidth,trim={0 2.3cm 0 3.5cm},clip]{./figures/mag_r.pdf}
 \caption{CONA}
@@ -121,6 +134,7 @@ Measured two-point angular cross-correlation functions and $\Lambda$CDM weak len
 \includegraphics[width=\textwidth,trim={0 2.3cm 0 3.5cm},clip]{./figures/mag_z.pdf}
 \caption{CONA}
 \end{sidewaysfigure}
+\newline
 
 To compare with the expected theory, \autoref{eq:4b} has been used assuming \cite{2016A&A...594A..13P} cosmological parameters. The bias of the lens sample has already been measured independently with different techniques: clustering \citep{2016MNRAS.455.4301C}, gg-lensing \citep{2016arXiv160908167P}, shear \citep{2016MNRAS.459.3203C} and CMB-lensing \citep{2016MNRAS.456.3213G}. From these values the most precise, from \cite{2016MNRAS.455.4301C}, is selected ($b_{\rm L}=1.07\pm0.08$) and is assumed to be a constant scale-independent parameter. The number count slope parameter $\alpha_{\rm S}$ is computed by fitting the cumulative number count of the sample S to a Schechter function \citep{1976ApJ...203..297S} on the range of interest
 \begin{equation}
@@ -133,7 +147,6 @@ where $A,m_*,\beta$ are the free parameters of the fit. Then $\alpha_{\rm S}(m)-
 \caption{Top panel: Dots are the measured {\it i}-band cumulative number count as a function of the {\it i}-band magnitude. Red solid line is the fit using a Schechter function (see text). Bottom panel: number count slope $\alpha-1$ measured from the fitted Schechter function of the top panel.}
 \label{fig:alphai}
 \end{figure}
-
 \begin{table}
 \begin{center}\begin{tabular}{ c | c | c c }
  Weight& Sample & $\log_{10}\mathcal{B}$ & $\chi^2/ndof$  \\
@@ -149,6 +162,7 @@ where $A,m_*,\beta$ are the free parameters of the fit. Then $\alpha_{\rm S}(m)-
 \caption{Significance of the detection of a magnification signal. Results are shown for the combination of the five subsamples within each band as well as for the faintest sample with weighting.}
 \label{tab:significance}
 \end{table}
+\newline
 
 A goodness of fit test of the measured two-point angular cross-correlation function respect to the theoretical predictions for each band is performed:
 \begin{eqnarray}
@@ -178,18 +192,21 @@ The assumed prior sets detection and non-detection of magnification to be equall
 \caption{Red dashed line: expected signal-to-noise ratio computed with \autoref{eq:sn}. Blue solid line is the measured significance of the data. Both curves are normalized to their respective maximum.}
 \label{fig:significance}
 \end{figure}
+\newline
 
-The significance for each individual correlation function has a strong dependence on the considered magnitude limit of the sub-sample. At the bright cuts, shot-noise prevents the identification of a non-zero magnification signal. At the faint end, although the sub-samples are much more populated, the strength of the magnification signal is compatible with zero. This behavior has been compared with the predictions (see \autoref{sec:method}). Predicted and measured values are plotted together in \autoref{fig:significance}. It can be seen that the prediction of the location of the maximum signal-to-noise can only be used as a first approach.
+The significance for each individual correlation function has a strong dependence on the considered magnitude limit of the sub-sample. At the bright cuts, shot-noise prevents the identification of a non-zero magnification signal. At the faint end, although the sub-samples are much more populated, the strength of the magnification signal is compatible with zero. This behaviour has been compared with the predictions (see \autoref{sec:method}). Predicted and measured values are plotted together in \autoref{fig:significance}. It can be seen that the prediction of the location of the maximum signal-to-noise can only be used as a first approach.
+\newline
 
 To compute the significance of the detection for each band, the full covariance is used. One covariance matrix (see \autoref{fig:cov_matrix} for the {\itshape i}-band matrix) per each band is computed taking into account the correlations between each magnitude cut. The logarithm of the Bayes factor can be found in \autoref{tab:significance}, being all above 2, allowing to claim that magnification has been detected \citep{10.2307/2291091}.
+\newline
  
  A usual approach to enhance the signal-to-noise ratio, is to define a unique source sample and weight each source galaxy with its corresponding $\alpha_S(m)-1$ value \cite{2003A&A...403..817M} and compute the two-point angular cross-correlation function. This weighting procedure is used at the samples $r < 23.0$, $i < 22.5$ and $z < 22.0$. These correlation functions can be seen in \autoref{fig:reweight} with a comparison with the theoretical prediction and the correlation functions of the same sample computed without weighting. Significances of these measurement can be found in \autoref{tab:significance} with a marginal difference respect to the one computed without weighting using the five subsamples.
- 
 \begin{figure}
 \includegraphics[width=\textwidth]{./figures/weighted_w.pdf}
 \caption{Measured two-point angular cross-correlation functions for the samples $r<23.0$, $i < 22.5$ and $z < 22.0$ left to right respectively. Dots use the optimal weighting \citep{0004-637X-633-2-589}, where each galaxy is weighted by its corresponding $\alpha_S(m)-1$ value, whereas squares are not weighted. Green line is the theoretical prediction. Red dashed line is an eye-guide for zero.}
 \label{fig:reweight}
 \end{figure}
+\newline
  
  Finally, in order to test that the signal is achromatic, the measured two-point angular cross-correlation functions for each band, normalized by its $\alpha_S(m)-1$ are compared. All cross-correlation functions fluctuate within $1\sigma$ errors (see \autoref{fig:achrom} for an example) demonstrating that the measured convergence field does not depend on the considered band.
 \begin{figure}
@@ -204,7 +221,7 @@ Here, the impact of potential sources of systematic errors on the measured two-p
 \subsubsection{Number count slope $\alpha$}
     
 \begin{figure}
-\includegraphics[width=0.5\textwidth]{./figures/SPTE_SNe.pdf}
+\includegraphics[width=\textwidth]{./figures/SPTE_SNe.pdf}
 \caption{Upper panel: Comparison of the magnitude distribution for the SPT-E and the COSMOS fields. Both histograms are normalized by their respective area. Lower panel: Relative difference between the magnitude distribution of the COSMOS and the SPT-E fields. The shaded region shows the $1\sigma$ confidence interval computed from shot-noise.}
 \label{fig:ndmSN}
 \end{figure}
@@ -229,15 +246,15 @@ In addition to the parameter determination, a possible non-completeness on the S
 	Assuming that the misclassification of stars is spatially random and is a representative sample of the spatial distribution of the population classified as stars and that the fraction of misclassified stars is small, the functions $\omega_{\rm L*},\omega_{\rm *S_j}$ are estimated from the cross-correlation of the galaxy population and the stellar population in the corresponding redshift bin.
 
     \begin{figure}
-	\includegraphics[width=0.5\textwidth]{./figures/purity_lens.pdf}
+	\includegraphics[width=\textwidth]{./figures/purity_lens.pdf}
     \caption{Determination of the purity of the lens sample. For each $N_{\rm nside}=512$ {\scshape HEALPix}-pixel, the number of objects classified as galaxies divided by the average number of galaxies per pixel is plotted as a function of the  number of objects classified as stars. Black dots are the measured data. Red line is the linear fit to the data. The intercept of the line with the Y-axis is the estimated purity of the sample.}
     \label{fig:purity}
 	\end{figure}
-    \begin{figure}
-\includegraphics[width=\textwidth]{./figures/mag_istars.pdf}
+    \begin{sidewaysfigure}
+\includegraphics[width=\textwidth,trim={0 2.3cm 0 3.5cm},clip]{./figures/mag_istars.pdf}
 \caption{Correction by stellar contamination on the $i<21.5$ sample. Blue dots are the correction and shaded area is the $1\sigma$ confidence interval of the measured cross-correlations of the magnification signal. Red dashed line is and eye-guide for zero.}
 \label{fig:correction}
-\end{figure}
+\end{sidewaysfigure}
  
 	Following a similar approach to \cite{2012MNRAS.424..564R}, if the latter is true and the misclassified stars trace the global population of stars, for a given patch of the sky the number of objects classified as galaxies $N_{\rm O}$ must be the average number of true galaxies $\bar N_{\rm g}$ plus a quantity proportional to the number of stars on that given pixel,
 	\begin{equation}
@@ -262,17 +279,17 @@ In addition to the parameter determination, a possible non-completeness on the S
 \subsubsection{Dust extinction}
 \label{sec:dustext}
 
-\begin{figure}
-\includegraphics[width=0.5\textwidth]{./figures/mag_i_ri.pdf}
+\begin{sidewaysfigure}
+\includegraphics[width=\textwidth,trim={0 2.3cm 0 3.5cm},clip]{./figures/mag_i_ri.pdf}
 \caption{Blue dots: colour-density cross-correlation functions measured on SV data for the {\it r} and {\it i} bands (sample $i<21.5$). Green solid line is the expected value from \autoref{eq:colorexcess}. Red dashed line is an eye-guide for zero.}
 \label{fig:colorexcess}
-\end{figure}
+\end{sidewaysfigure}
 
-\begin{figure}
-\includegraphics[width=0.5\textwidth]{./figures/mag_idust.pdf}
+\begin{sidewaysfigure}
+\includegraphics[width=\textwidth,trim={0 2.3cm 0 3.5cm},clip]{./figures/mag_idust.pdf}
 \caption{Impact of dust on the number count from MICE (case $i<21.5$). Shade is the $1\sigma$ confidence interval. Blue dots are the number count differences between the case with and the case without the simulated dust profile. Red dashed line is an eye-guide for zero.}
 \label{fig:micedust}
-\end{figure}
+\end{sidewaysfigure}
 The possible presence of dust in the lenses may modify the observed magnitude in addition to the magnitude shift due to magnification \citep{2010MNRAS.405.1025M}. The change in magnitude ($\delta m$) on the $p$-band may be written as
 \begin{equation}
 \delta m_p = -2.5\log\mu+\frac{2.5}{\ln10}\tau_p,
@@ -325,11 +342,11 @@ where $\phi_L,\phi_S$ are the stacked pdfs of the lens and source sample respect
 
 To estimate the maximum photo-z migration allowed between the lens and the source sample, the MICE simulation (\autoref{sec:simulation}) with the un-lensed coordinates and magnitudes is used. Galaxies are randomly sampled on the lens redshift bin and then placed on the source redshift bin. Conversely, galaxies on the source redshift bin are randomly sampled and placed on the lens redshift bin. For a given lens or source sample, the number of galaxies introduced from the other redshift bin is chosen to be 0.1, 0.3, 0.5, 0.7, 0.9 and 2 per cent of the galaxies. Then, the two-point angular cross-correlation is computed for each case. The difference of the correlation functions measured at the simulation with induced migration between lens and source sample and the original used in \autoref{sec:simulation} is the signal induced by photo-z migration. The signal induced by photo-z for the cases with 0.9 and 2 per cent computed with this method can be seen at \autoref{fig:photozcontamination}. It is found that  at 0.9 per cent of contamination, the induced signal due to photo-z migration is comparable to the error in the correlation functions. This upper limit is greater than the estimated photo-z migration, demonstrating that the effect of photo-z migration is negligible. Photo-z migration has a larger impact on the brightest samples. Nevertheless, since the errors of the correlation functions of these samples are shot-noise dominated, the tightest constrains on photo-z migration are imposed by the faintest samples. With a larger data sample this statement will no longer be true.
 
-\begin{figure}
-\includegraphics[width=0.5\textwidth]{./figures/mag_i_mix.pdf}
+\begin{sidewaysfigure}
+\includegraphics[width=\textwidth,trim={0 2.3cm 0 3.5cm},clip]{./figures/mag_i_mix.pdf}
 \caption{Estimation of the signal induced by migration of selected fractions of MICE un-lensed galaxies between the lens and the source sample (case $i<22.5$). Shaded area is the $1\sigma$ confidence interval for the measured number count cross-correlations. Dark blue dots correspond to a contamination fraction of 0.9 per cent. Violet squares correspond to a 2 per cent. Squares are displaced at the X axis for clarity. Red dashed line is an eye-guide for zero.}
 \label{fig:photozcontamination}
-\end{figure}
+\end{sidewaysfigure}
 
 Photo-z induced correlation functions that mimic magnification may affect the measured significance. Thus, Bayes factor is recomputed with two new hypothesis, the measured signal is a combination of magnification and photo-z ($M+Ph$) or the measured signal is only photo-z ($Ph$):
 \begin{equation}
@@ -348,18 +365,18 @@ To compute $\chi^2_{\rm Planck+Ph}$ and $\chi^2_{\rm Ph}$ it has been assumed th
 All previous calculations were based on the assumption that the pdfs are a reliable description of the true redshift distribution. This statement can be partially validated comparing the pdfs with the spectroscopic redshift distribution for the same sample (see \autoref{fig:specphotoz} for an example).  Redshift distributions predicted by TPZ are found to be representative of those given by the spectroscopic sample. Nevertheless, this statement has limitations --but is good enough for SV data-- and a more accurate description of the real redshift distribution of the full sample will be measured with methodologies involving clustering-based estimators (\cite{2008ApJ...684...88N}; \cite{2010ApJ...721..456M}; \cite{2013arXiv1303.4722M}; \cite{2016MNRAS.462.1683S}) when the size of the data sample grows. This type of estimators involve the use of two-point angular cross-correlations between different redshift bins, whose measurement may be biassed by number count magnification itself. Nevertheless, as it has been stated in \autoref{sec:mag_theory}, depending on the value of the number count slope, the amplitude induced by magnification on the correlation-function may be zero. Thus, when employing this kind of estimators, samples should be carefully chosen so that $\alpha_S-1=0$. This can be done by measuring the number count slope at the cumulative magnitude distribution with methods such that used in this work.
 
 \begin{figure}
-\includegraphics[width=0.5\textwidth]{./figures/spec_photoz_cmp.pdf}
+\includegraphics[width=\textwidth]{./figures/spec_photoz_cmp.pdf}
 \caption{Comparison of the redshift distribution computed by the stacking of the pdfs given by TPZ ( solid lines) with the ones computed with the spectroscopic sample of the lens (black dots) and the source sample $i<22.5$ (blue squares).}
 \label{fig:specphotoz}
 \end{figure}
 
     Finally, to demonstrate that the measured signal is independent of the photo-z technique employed to estimate the redshift, the two-point angular cross-correlation functions used on this analysis are re-computed with redshift estimated with other two different approaches that have shown to have similar performance as TPZ \citep{2014MNRAS.445.1482S} a neural network, Skynet  \citep{2014MNRAS.441.1741G}, and a template based approach, Bayesian Photo-Z (BPZ; \cite{2000ApJ...536..571B}). \autoref{fig:bpzskynet} compares the cross-correlations computed with the three codes for the $i$-band, showing them to be within $1\sigma$ errors.
     
-\begin{figure}
-\includegraphics[width=0.5\textwidth]{./figures/mag_i_photoz_comparison.pdf}
+\begin{sidewaysfigure}
+\includegraphics[width=\textwidth,trim={0 2.3cm 0 3.5cm},clip]{./figures/mag_i_photoz_comparison.pdf}
 \caption{Comparison of the measured two-point angular cross-correlation functions corresponding to the sample $i<21.5$ measured with the Landy-Szalay estimator using TPZ, Skynet and BPZ. Triangles and squares are displaced at the horizontal axis for clarity.}
 \label{fig:bpzskynet}
-\end{figure}
+\end{sidewaysfigure}
 
 
 
