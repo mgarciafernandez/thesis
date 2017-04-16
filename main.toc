@@ -50,11 +50,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}Survey strategy}{30}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}The transient survey}{32}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.1}The transient survey}{33}{subsection.3.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}The wide-field survey}{32}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.2}The wide-field survey}{33}{subsection.3.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}The night operations at CTIO}{32}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.3}The night operations at CTIO}{33}{subsection.3.2.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.3}The data reduction pipeline}{33}{section.3.3}
 \defcounter {refsection}{0}\relax 
@@ -76,29 +76,29 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Number count slope $\alpha $}{48}{section*.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Object obscuration}{50}{section*.12}
+\contentsline {subsubsection}{Object obscuration}{48}{section*.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Stellar contamination}{50}{section*.13}
+\contentsline {subsubsection}{Stellar contamination}{48}{section*.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Survey observing conditions}{53}{section*.14}
+\contentsline {subsubsection}{Survey observing conditions}{50}{section*.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Dust extinction}{53}{section*.15}
+\contentsline {subsubsection}{Dust extinction}{52}{section*.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Photometric redshifts}{56}{section*.16}
+\contentsline {subsubsection}{Photometric redshifts}{55}{section*.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Magnification in DES Year 1 data}{61}{section.4.3}
+\contentsline {section}{\numberline {4.3}Magnification in DES Year 1 data}{58}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Data sample}{61}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.1}Data sample}{58}{subsection.4.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Lens sample}{61}{section*.17}
+\contentsline {subsubsection}{Lens sample}{58}{section*.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Lens sample}{61}{section*.18}
+\contentsline {subsubsection}{Lens sample}{58}{section*.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Determination of matter profile: voids \& troughs}{61}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.2}Determination of matter profile: voids \& troughs}{58}{subsection.4.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusions}{63}{chapter.5}
+\contentsline {chapter}{\numberline {5}Conclusions}{61}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix \numberline {A}My test appendix}{65}{Appendix.1.A}
+\contentsline {chapter}{Appendix \numberline {A}My test appendix}{63}{Appendix.1.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{67}{chapter*.19}
+\contentsline {chapter}{References}{65}{chapter*.19}
 \contentsfinish 
