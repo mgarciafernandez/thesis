@@ -2711,6 +2711,284 @@
       \verb 1609.01284
       \endverb
     \endentry
+    \entry{Dyson291}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=39d4fde165df11359e43d888f2ad7c72}{Dyson}{D\bibinitperiod}{F.\bibnamedelimi W.}{F\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=f900a7f7bee1947dc9f4e86b62ef4965}{Eddington}{E\bibinitperiod}{A.\bibnamedelimi S.}{A\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=4cf8192c825c36bbdf8ce8f36565426a}{Davidson}{D\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=39d4fde165df11359e43d888f2ad7c72}{Dyson}{D\bibinitperiod}{F.\bibnamedelimi W.}{F\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=f900a7f7bee1947dc9f4e86b62ef4965}{Eddington}{E\bibinitperiod}{A.\bibnamedelimi S.}{A\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=4cf8192c825c36bbdf8ce8f36565426a}{Davidson}{D\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {The Royal Society}%
+      }
+      \strng{namehash}{4cc9053f618bbfd54e2f803b5f4c2348}
+      \strng{fullhash}{4cc9053f618bbfd54e2f803b5f4c2348}
+      \field{sortinit}{0}
+      \field{labeltitle}{A Determination of the Deflection of Light by the Sun’s Gravitational Field, from Observations Made at the Total Eclipse of May 29, 1919}
+      \field{issn}{0264-3952}
+      \field{journaltitle}{Philosophical Transactions of the Royal Society of London A: Mathematical, Physical and Engineering Sciences}
+      \field{number}{571-581}
+      \field{title}{A Determination of the Deflection of Light by the Sun’s Gravitational Field, from Observations Made at the Total Eclipse of May 29, 1919}
+      \field{volume}{220}
+      \field{year}{1920}
+      \field{pages}{291\bibrangedash 333}
+      \verb{doi}
+      \verb 10.1098/rsta.1920.0009
+      \endverb
+      \verb{eprint}
+      \verb http://rsta.royalsocietypublishing.org/content/220/571-581/291.full.pdf
+      \endverb
+      \verb{url}
+      \verb http://rsta.royalsocietypublishing.org/content/220/571-581/291
+      \endverb
+    \endentry
+    \entry{2016ApJ...827...51N}{article}{}
+      \name{labelname}{94}{}{%
+        {{hash=18c6745d159ea896b858e4c46f1da765}{{Nord}}{N\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=3060e5962ab8130dfd1c6251e091cf1a}{{Buckley-Geer}}{B\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=b102f43453b30e3c70ecf058c253366a}{{Lin}}{L\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=be4d184c5e1bb16047a5233b7aae9f4f}{{Diehl}}{D\bibinitperiod}{H.\bibnamedelimi T.}{H\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=53abebaa84cefc6e3a6393a3df613434}{{Helsby}}{H\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=79f52d274b4cb58c02416508032f603f}{{Kuropatkin}}{K\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=aec8948362d43f0bb347d9c393a9aedf}{{Amara}}{A\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=6696743d5a33ee8a2d75a62a220e3d80}{{Collett}}{C\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=1f190d9c2878751a74caf76b3a8d28fe}{{Allam}}{A\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=4b3f89fad8a72b8daf29bea0087dff78}{{Caminha}}{C\bibinitperiod}{G.\bibnamedelimi B.}{G\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=e94e2842b5a9f1d426591fa070d2311b}{{De\bibnamedelimb Bom}}{D\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=399e114b7f90a95d805722167455077f}{{Desai}}{D\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=2f793dca5e63c1ab148ee04873357aaf}{{Dúmet-Montoya}}{D\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=75bdbb08cbc0ff3275312c67705a867f}{{Pereira}}{P\bibinitperiod}{M.\bibnamedelimi E.\bibnamedelimi d.\bibnamedelimi S.}{M\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=72a03060e95afa1fd97450457baeaf04}{{Finley}}{F\bibinitperiod}{D.\bibnamedelimi A.}{D\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=6fffa9802f0fffbbed4d51cf7048976e}{{Flaugher}}{F\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=e6fae2cf8b88ed63b1064b2054f1e02e}{{Furlanetto}}{F\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=0bd4ee88bbe86fab8c8d0f49623c3949}{{Gaitsch}}{G\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=8e091b07f4740b527e132fca53ea6fa3}{{Gill}}{G\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=59a7469457872f9354a00b5aeab00843}{{Merritt}}{M\bibinitperiod}{K.\bibnamedelimi W.}{K\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=b00a3056a9e1e057667ef9dea56631fa}{{More}}{M\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=068f9e061b5bb95efb03d1aa07945ff1}{{Tucker}}{T\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=68496cfca6827833e5bc2d4a1934fdd3}{{Saro}}{S\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=7a043bb50f73cee15c724d11948d33e2}{{Rykoff}}{R\bibinitperiod}{E.\bibnamedelimi S.}{E\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=e10e968b3ad33115f8d8e74e41675a40}{{Rozo}}{R\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=33fb8b9d34931e263e74161c72884d82}{{Birrer}}{B\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=293c7cecc83604ec3cc009756fb7b2a5}{{Abdalla}}{A\bibinitperiod}{F.\bibnamedelimi B.}{F\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=4b354a8f63a4eda6e0cba025b5eff685}{{Agnello}}{A\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ccfa90eac45685e04022aeaf912f36d5}{{Auger}}{A\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=a17609556cd718a3c738f2adfe7ff8a3}{{Brunner}}{B\bibinitperiod}{R.\bibnamedelimi J.}{R\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=a1992a25692cb6e8f26e0209f71652af}{{Carrasco\bibnamedelimb Kind}}{C\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=519eba2b8fbc7d3fa7c22e7c117caac1}{{Castander}}{C\bibinitperiod}{F.\bibnamedelimi J.}{F\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=c8eb9928692d5f57f119ea07cf16ebf5}{{Cunha}}{C\bibinitperiod}{C.\bibnamedelimi E.}{C\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=ad179d88a742a3d43233290c26b5a43e}{{da\bibnamedelimb Costa}}{d\bibinitperiod}{L.\bibnamedelimi N.}{L\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=d13e9f546da899a294c058f9a73d2322}{{Foley}}{F\bibinitperiod}{R.\bibnamedelimi J.}{R\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=faf5130187ba36a3b5849b24a0d04758}{{Gerdes}}{G\bibinitperiod}{D.\bibnamedelimi W.}{D\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=9f8adb0418c0b29d9ad678df509bacb1}{{Glazebrook}}{G\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=3152b5eb558606c2dede831142557ae4}{{Gschwend}}{G\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=a280cded07361e1a9cdecb3abbc6a1d7}{{Hartley}}{H\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=4ffe3294853299345a795fdd628b56c5}{{Kessler}}{K\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=c03099519fb574759e9055a4f3d65a7e}{{Lagattuta}}{L\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=59bbd57b5e11d2cb1910289d65970aff}{{Lewis}}{L\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=5cffbcd09ac612f97325bf5054760553}{{Maia}}{M\bibinitperiod}{M.\bibnamedelimi A.\bibnamedelimi G.}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=7e60ca2d1b8c757dbf0fd6f95f6d0a8a}{{Makler}}{M\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=c49466e7be5fb1335b17e0e6787a48af}{{Menanteau}}{M\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=cf96eddb44e4fa10d3a0f63deef51a29}{{Niernberg}}{N\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=1935594edc028e7eb4e5308fddc63195}{{Scolnic}}{S\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=e6125468a284e99b58fb3e3292d20519}{{Vieira}}{V\bibinitperiod}{J.\bibnamedelimi D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=407a5e98c102f8e18ea8d55335aa54ad}{{Gramillano}}{G\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=a573d0dbe90e93fd0423cf84d5903ab7}{{Abbott}}{A\bibinitperiod}{T.\bibnamedelimi M.\bibnamedelimi C.}{T\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=c69202d5249ecfe86d671bf591a93df4}{{Banerji}}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=34ebded3f3e4d78862a8b9b24d586caf}{{Benoit-Lévy}}{B\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=6e104710dc73cfde51947ae30fffab51}{{Brooks}}{B\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=c944d80c020c01443350579fd425b42b}{{Burke}}{B\bibinitperiod}{D.\bibnamedelimi L.}{D\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=8b85996fc6b9bbb79834c18ef40be91f}{{Capozzi}}{C\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=66ec4694cbd49bdc7ecb00b1e8e6c3cb}{{Carnero\bibnamedelimb Rosell}}{C\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=a430adfc354943dc57c8b257b29bc4ae}{{Carretero}}{C\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=9f8f03506fd2c95548d617377aa4c3c5}{{D'Andrea}}{D\bibinitperiod}{C.\bibnamedelimi B.}{C\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=502268ce4ef8644f40fedb3494999b54}{{Dietrich}}{D\bibinitperiod}{J.\bibnamedelimi P.}{J\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{hash=b407393c7b707237fb96cc5af38e4dfa}{{Doel}}{D\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=02b8764a8f258dd745773f772762c98d}{{Evrard}}{E\bibinitperiod}{A.\bibnamedelimi E.}{A\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=f23df0d61248d9f1d86e1a2f7664ff64}{{Frieman}}{F\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=802053fa24f7c4d235c30e28a129c2d1}{{Gaztanaga}}{G\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=9b6b88e06f65d392c8e92fe35df12790}{{Gruen}}{G\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=717016eabf747916e2f974df16467337}{{Honscheid}}{H\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=998df2dfbeb5e302eaf9812557ecd793}{{James}}{J\bibinitperiod}{D.\bibnamedelimi J.}{D\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=f592ee342ecbda9a75d722eb1bafe13c}{{Kuehn}}{K\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=b698a61e0eba7dcee84022ea48668372}{{Li}}{L\bibinitperiod}{T.\bibnamedelimi S.}{T\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=217d6ba566cda94ef0599fe77f0aecb1}{{Lima}}{L\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=3e505a28aae97283a9d12d6c680f7831}{{Marshall}}{M\bibinitperiod}{J.\bibnamedelimi L.}{J\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=652f76bf990dc8dad7df16afe38401dc}{{Martini}}{M\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=6b8fcdfcaf06addce0e020af5d02461e}{{Melchior}}{M\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=d9c0419ce5bc9db9919d411f5ef2d8bc}{{Miquel}}{M\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=f85ddb82a3f410c4d52f476edfac97a6}{{Neilsen}}{N\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=d71e40d6fc65785a8ad809148dfafb18}{{Nichol}}{N\bibinitperiod}{R.\bibnamedelimi C.}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=187716810a2c9e10c7dfddc0d918661a}{{Ogando}}{O\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=dd9b4bf93947bf31862f8b5d870ff0a9}{{Plazas}}{P\bibinitperiod}{A.\bibnamedelimi A.}{A\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=e5877d30dc028821ab3dbf121843392c}{{Romer}}{R\bibinitperiod}{A.\bibnamedelimi K.}{A\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+        {{hash=8f3e34a142e7f8aae181640e3654fc9b}{{Sako}}{S\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=75bbcc4f3fc9045a45201f830610ef4b}{{Sanchez}}{S\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=b8c416d32302328e5ce4c34639280b54}{{Scarpine}}{S\bibinitperiod}{V.}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=ba1544f10e487eff668c7013f8059221}{{Schubnell}}{S\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=86335c3855ddd4f88a9f3c08cc910ed6}{{Sevilla-Noarbe}}{S\bibinitperiod}{I.}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=d507e2b6d1a9eba5ccd522600a9c65b8}{{Smith}}{S\bibinitperiod}{R.\bibnamedelimi C.}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=83d298f7788bd86f78a54ffe40b57172}{{Soares-Santos}}{S\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=dd5f9fee08a1328734e9e195752dd041}{{Sobreira}}{S\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=0e671212ca2d55e04053046b6b1a4aec}{{Suchyta}}{S\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=711d406b536999f46b2727c8803d4101}{{Swanson}}{S\bibinitperiod}{M.\bibnamedelimi E.\bibnamedelimi C.}{M\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=57032f5ef523c84558b93b7b4f24549f}{{Tarle}}{T\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=6ef52c4833cee9f156fbc51b737413a2}{{Thaler}}{T\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=3a478ba7e12c53f8e20928073ad61f9b}{{Walker}}{W\bibinitperiod}{A.\bibnamedelimi R.}{A\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{hash=fa038dcfd72f8c8accb29b95f9cfdbc0}{{Wester}}{W\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=95a281ba3b1fbf7b222b10f7711f11b0}{{Zhang}}{Z\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=77915182d1c7153e5372f513fe91557b}{{DES\bibnamedelimb Collaboration}}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{94}{}{%
+        {{hash=18c6745d159ea896b858e4c46f1da765}{{Nord}}{N\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=3060e5962ab8130dfd1c6251e091cf1a}{{Buckley-Geer}}{B\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=b102f43453b30e3c70ecf058c253366a}{{Lin}}{L\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=be4d184c5e1bb16047a5233b7aae9f4f}{{Diehl}}{D\bibinitperiod}{H.\bibnamedelimi T.}{H\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=53abebaa84cefc6e3a6393a3df613434}{{Helsby}}{H\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=79f52d274b4cb58c02416508032f603f}{{Kuropatkin}}{K\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=aec8948362d43f0bb347d9c393a9aedf}{{Amara}}{A\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=6696743d5a33ee8a2d75a62a220e3d80}{{Collett}}{C\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=1f190d9c2878751a74caf76b3a8d28fe}{{Allam}}{A\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=4b3f89fad8a72b8daf29bea0087dff78}{{Caminha}}{C\bibinitperiod}{G.\bibnamedelimi B.}{G\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=e94e2842b5a9f1d426591fa070d2311b}{{De\bibnamedelimb Bom}}{D\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=399e114b7f90a95d805722167455077f}{{Desai}}{D\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=2f793dca5e63c1ab148ee04873357aaf}{{Dúmet-Montoya}}{D\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=75bdbb08cbc0ff3275312c67705a867f}{{Pereira}}{P\bibinitperiod}{M.\bibnamedelimi E.\bibnamedelimi d.\bibnamedelimi S.}{M\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=72a03060e95afa1fd97450457baeaf04}{{Finley}}{F\bibinitperiod}{D.\bibnamedelimi A.}{D\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=6fffa9802f0fffbbed4d51cf7048976e}{{Flaugher}}{F\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=e6fae2cf8b88ed63b1064b2054f1e02e}{{Furlanetto}}{F\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=0bd4ee88bbe86fab8c8d0f49623c3949}{{Gaitsch}}{G\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=8e091b07f4740b527e132fca53ea6fa3}{{Gill}}{G\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=59a7469457872f9354a00b5aeab00843}{{Merritt}}{M\bibinitperiod}{K.\bibnamedelimi W.}{K\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=b00a3056a9e1e057667ef9dea56631fa}{{More}}{M\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=068f9e061b5bb95efb03d1aa07945ff1}{{Tucker}}{T\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=68496cfca6827833e5bc2d4a1934fdd3}{{Saro}}{S\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=7a043bb50f73cee15c724d11948d33e2}{{Rykoff}}{R\bibinitperiod}{E.\bibnamedelimi S.}{E\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=e10e968b3ad33115f8d8e74e41675a40}{{Rozo}}{R\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=33fb8b9d34931e263e74161c72884d82}{{Birrer}}{B\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=293c7cecc83604ec3cc009756fb7b2a5}{{Abdalla}}{A\bibinitperiod}{F.\bibnamedelimi B.}{F\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=4b354a8f63a4eda6e0cba025b5eff685}{{Agnello}}{A\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ccfa90eac45685e04022aeaf912f36d5}{{Auger}}{A\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=a17609556cd718a3c738f2adfe7ff8a3}{{Brunner}}{B\bibinitperiod}{R.\bibnamedelimi J.}{R\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=a1992a25692cb6e8f26e0209f71652af}{{Carrasco\bibnamedelimb Kind}}{C\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=519eba2b8fbc7d3fa7c22e7c117caac1}{{Castander}}{C\bibinitperiod}{F.\bibnamedelimi J.}{F\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=c8eb9928692d5f57f119ea07cf16ebf5}{{Cunha}}{C\bibinitperiod}{C.\bibnamedelimi E.}{C\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=ad179d88a742a3d43233290c26b5a43e}{{da\bibnamedelimb Costa}}{d\bibinitperiod}{L.\bibnamedelimi N.}{L\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=d13e9f546da899a294c058f9a73d2322}{{Foley}}{F\bibinitperiod}{R.\bibnamedelimi J.}{R\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=faf5130187ba36a3b5849b24a0d04758}{{Gerdes}}{G\bibinitperiod}{D.\bibnamedelimi W.}{D\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=9f8adb0418c0b29d9ad678df509bacb1}{{Glazebrook}}{G\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=3152b5eb558606c2dede831142557ae4}{{Gschwend}}{G\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=a280cded07361e1a9cdecb3abbc6a1d7}{{Hartley}}{H\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=4ffe3294853299345a795fdd628b56c5}{{Kessler}}{K\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=c03099519fb574759e9055a4f3d65a7e}{{Lagattuta}}{L\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=59bbd57b5e11d2cb1910289d65970aff}{{Lewis}}{L\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=5cffbcd09ac612f97325bf5054760553}{{Maia}}{M\bibinitperiod}{M.\bibnamedelimi A.\bibnamedelimi G.}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=7e60ca2d1b8c757dbf0fd6f95f6d0a8a}{{Makler}}{M\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=c49466e7be5fb1335b17e0e6787a48af}{{Menanteau}}{M\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=cf96eddb44e4fa10d3a0f63deef51a29}{{Niernberg}}{N\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=1935594edc028e7eb4e5308fddc63195}{{Scolnic}}{S\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=e6125468a284e99b58fb3e3292d20519}{{Vieira}}{V\bibinitperiod}{J.\bibnamedelimi D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=407a5e98c102f8e18ea8d55335aa54ad}{{Gramillano}}{G\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=a573d0dbe90e93fd0423cf84d5903ab7}{{Abbott}}{A\bibinitperiod}{T.\bibnamedelimi M.\bibnamedelimi C.}{T\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=c69202d5249ecfe86d671bf591a93df4}{{Banerji}}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=34ebded3f3e4d78862a8b9b24d586caf}{{Benoit-Lévy}}{B\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=6e104710dc73cfde51947ae30fffab51}{{Brooks}}{B\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=c944d80c020c01443350579fd425b42b}{{Burke}}{B\bibinitperiod}{D.\bibnamedelimi L.}{D\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=8b85996fc6b9bbb79834c18ef40be91f}{{Capozzi}}{C\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=66ec4694cbd49bdc7ecb00b1e8e6c3cb}{{Carnero\bibnamedelimb Rosell}}{C\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=a430adfc354943dc57c8b257b29bc4ae}{{Carretero}}{C\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=9f8f03506fd2c95548d617377aa4c3c5}{{D'Andrea}}{D\bibinitperiod}{C.\bibnamedelimi B.}{C\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=502268ce4ef8644f40fedb3494999b54}{{Dietrich}}{D\bibinitperiod}{J.\bibnamedelimi P.}{J\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{hash=b407393c7b707237fb96cc5af38e4dfa}{{Doel}}{D\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=02b8764a8f258dd745773f772762c98d}{{Evrard}}{E\bibinitperiod}{A.\bibnamedelimi E.}{A\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=f23df0d61248d9f1d86e1a2f7664ff64}{{Frieman}}{F\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=802053fa24f7c4d235c30e28a129c2d1}{{Gaztanaga}}{G\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=9b6b88e06f65d392c8e92fe35df12790}{{Gruen}}{G\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=717016eabf747916e2f974df16467337}{{Honscheid}}{H\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=998df2dfbeb5e302eaf9812557ecd793}{{James}}{J\bibinitperiod}{D.\bibnamedelimi J.}{D\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=f592ee342ecbda9a75d722eb1bafe13c}{{Kuehn}}{K\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=b698a61e0eba7dcee84022ea48668372}{{Li}}{L\bibinitperiod}{T.\bibnamedelimi S.}{T\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=217d6ba566cda94ef0599fe77f0aecb1}{{Lima}}{L\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=3e505a28aae97283a9d12d6c680f7831}{{Marshall}}{M\bibinitperiod}{J.\bibnamedelimi L.}{J\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=652f76bf990dc8dad7df16afe38401dc}{{Martini}}{M\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=6b8fcdfcaf06addce0e020af5d02461e}{{Melchior}}{M\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=d9c0419ce5bc9db9919d411f5ef2d8bc}{{Miquel}}{M\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=f85ddb82a3f410c4d52f476edfac97a6}{{Neilsen}}{N\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=d71e40d6fc65785a8ad809148dfafb18}{{Nichol}}{N\bibinitperiod}{R.\bibnamedelimi C.}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=187716810a2c9e10c7dfddc0d918661a}{{Ogando}}{O\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=dd9b4bf93947bf31862f8b5d870ff0a9}{{Plazas}}{P\bibinitperiod}{A.\bibnamedelimi A.}{A\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=e5877d30dc028821ab3dbf121843392c}{{Romer}}{R\bibinitperiod}{A.\bibnamedelimi K.}{A\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+        {{hash=8f3e34a142e7f8aae181640e3654fc9b}{{Sako}}{S\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=75bbcc4f3fc9045a45201f830610ef4b}{{Sanchez}}{S\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=b8c416d32302328e5ce4c34639280b54}{{Scarpine}}{S\bibinitperiod}{V.}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=ba1544f10e487eff668c7013f8059221}{{Schubnell}}{S\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=86335c3855ddd4f88a9f3c08cc910ed6}{{Sevilla-Noarbe}}{S\bibinitperiod}{I.}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=d507e2b6d1a9eba5ccd522600a9c65b8}{{Smith}}{S\bibinitperiod}{R.\bibnamedelimi C.}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=83d298f7788bd86f78a54ffe40b57172}{{Soares-Santos}}{S\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=dd5f9fee08a1328734e9e195752dd041}{{Sobreira}}{S\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=0e671212ca2d55e04053046b6b1a4aec}{{Suchyta}}{S\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=711d406b536999f46b2727c8803d4101}{{Swanson}}{S\bibinitperiod}{M.\bibnamedelimi E.\bibnamedelimi C.}{M\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=57032f5ef523c84558b93b7b4f24549f}{{Tarle}}{T\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=6ef52c4833cee9f156fbc51b737413a2}{{Thaler}}{T\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=3a478ba7e12c53f8e20928073ad61f9b}{{Walker}}{W\bibinitperiod}{A.\bibnamedelimi R.}{A\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{hash=fa038dcfd72f8c8accb29b95f9cfdbc0}{{Wester}}{W\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=95a281ba3b1fbf7b222b10f7711f11b0}{{Zhang}}{Z\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=77915182d1c7153e5372f513fe91557b}{{DES\bibnamedelimb Collaboration}}{D\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{3bff733407de8ca7fed4712096baacf2}
+      \strng{fullhash}{deaf56a7f04a50b938510d10674edeec}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Observation and Confirmation of Six Strong-lensing Systems in the Dark Energy Survey Science Verification Data}}
+      \field{eid}{51}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\apj}
+      \field{month}{08}
+      \field{title}{{Observation and Confirmation of Six Strong-lensing Systems in the Dark Energy Survey Science Verification Data}}
+      \field{volume}{827}
+      \field{year}{2016}
+      \field{pages}{51}
+      \verb{doi}
+      \verb 10.3847/0004-637X/827/1/51
+      \endverb
+      \verb{eprint}
+      \verb 1512.03062
+      \endverb
+      \keyw{cosmology: observations,galaxies: clusters: general,galaxies: distances and redshifts,gravitational lensing: strong,methods: observational,techniques: spectroscopic}
+    \endentry
+    \entry{2017arXiv170402744J}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=340b83ab19ea58d18f11c03df25d1c8d}{{Jacobs}}{J\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=9f8adb0418c0b29d9ad678df509bacb1}{{Glazebrook}}{G\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=6696743d5a33ee8a2d75a62a220e3d80}{{Collett}}{C\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=b00a3056a9e1e057667ef9dea56631fa}{{More}}{M\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=eeb019a993854cefe34a45b66bb913f2}{{McCarthy}}{M\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=340b83ab19ea58d18f11c03df25d1c8d}{{Jacobs}}{J\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=9f8adb0418c0b29d9ad678df509bacb1}{{Glazebrook}}{G\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=6696743d5a33ee8a2d75a62a220e3d80}{{Collett}}{C\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=b00a3056a9e1e057667ef9dea56631fa}{{More}}{M\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=eeb019a993854cefe34a45b66bb913f2}{{McCarthy}}{M\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{36788dfe18c7b32e96f99f39227e847c}
+      \strng{fullhash}{b06c79811bc71541a33e2bbe16235a9f}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Finding strong lenses in CFHTLS using convolutional neural networks}}
+      \field{eprintclass}{astro-ph.IM}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{ArXiv e-prints}
+      \field{month}{04}
+      \field{title}{{Finding strong lenses in CFHTLS using convolutional neural networks}}
+      \field{year}{2017}
+      \verb{eprint}
+      \verb 1704.02744
+      \endverb
+      \keyw{Astrophysics - Instrumentation and Methods for Astrophysics,Astrophysics - Astrophysics of Galaxies}
+    \endentry
     \entry{Weinberg}{book}{}
       \name{labelname}{1}{}{%
         {{hash=15e144c72b0b9d10db00ddc6d37a19e6}{Weinberg}{W\bibinitperiod}{Steven}{S\bibinitperiod}{}{}{}{}}%
@@ -3036,6 +3314,30 @@
       \verb astro-ph/9411033
       \endverb
       \keyw{Relativity and gravitation,Gravitational lenses and luminous arcs,Galaxy clusters}
+    \endentry
+    \entry{2041-8205-780-2-L16}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=3e265e262dbd65f2dcb7a577d7b88f6c}{Huff}{H\bibinitperiod}{Eric\bibnamedelima M.}{E\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=9cc6d0eac50ee4fcba7d9612fe0cfc3f}{Graves}{G\bibinitperiod}{Genevieve\bibnamedelima J.}{G\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=3e265e262dbd65f2dcb7a577d7b88f6c}{Huff}{H\bibinitperiod}{Eric\bibnamedelima M.}{E\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=9cc6d0eac50ee4fcba7d9612fe0cfc3f}{Graves}{G\bibinitperiod}{Genevieve\bibnamedelima J.}{G\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{c4d5abfa5465096c21f248cc72fd720a}
+      \strng{fullhash}{c4d5abfa5465096c21f248cc72fd720a}
+      \field{sortinit}{0}
+      \field{labeltitle}{Magnificent Magnification: Exploiting the Other Half of the Lensing Signal}
+      \field{abstract}{We describe a new method for measuring galaxy magnification due to weak gravitational lensing. Our method makes use of a tight scaling relation between galaxy properties that are modified by gravitational lensing, such as apparent size, and other properties that are not, such as surface brightness. In particular, we use a version of the well-known fundamental plane relation for early-type galaxies. This modified "photometric fundamental plane" uses only photometric galaxy properties, eliminating the need for spectroscopic data. We present the first detection of magnification using this method by applying it to photometric catalogs from the Sloan Digital Sky Survey. This analysis shows that the derived magnification signal is within a factor of three of that available from conventional methods using gravitational shear. We suppress the dominant sources of systematic error and discuss modest improvements that may further enhance the lensing signal-to-noise available with this method. Moreover, some of the dominant sources of systematic error are substantially different from those of shear-based techniques. With this new technique, magnification becomes a useful measurement tool for the coming era of large ground-based surveys intending to measure gravitational lensing.}
+      \field{journaltitle}{The Astrophysical Journal Letters}
+      \field{number}{2}
+      \field{title}{Magnificent Magnification: Exploiting the Other Half of the Lensing Signal}
+      \field{volume}{780}
+      \field{year}{2014}
+      \field{pages}{L16}
+      \verb{url}
+      \verb http://stacks.iop.org/2041-8205/780/i=2/a=L16
+      \endverb
     \endentry
     \entry{2005astro.ph.10346T}{article}{}
       \name{labelname}{1}{}{%
@@ -3682,29 +3984,153 @@
       \endverb
       \keyw{gravitational lensing: strong,galaxies: clusters: general,galaxies: general}
     \endentry
-    \entry{2041-8205-780-2-L16}{article}{}
-      \name{labelname}{2}{}{%
-        {{hash=3e265e262dbd65f2dcb7a577d7b88f6c}{Huff}{H\bibinitperiod}{Eric\bibnamedelima M.}{E\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
-        {{hash=9cc6d0eac50ee4fcba7d9612fe0cfc3f}{Graves}{G\bibinitperiod}{Genevieve\bibnamedelima J.}{G\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+    \entry{2017MNRAS.466.1444C}{article}{}
+      \name{labelname}{62}{}{%
+        {{hash=6c537db3cca6fe52fe66aa9b160df83b}{{Clerkin}}{C\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=dd3f25e81fada6af1e0318ea070a095c}{{Kirk}}{K\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=96a52b96bea6d73d9fe76132816a5255}{{Manera}}{M\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=fff861307e97480541bc640195d0105d}{{Lahav}}{L\bibinitperiod}{O.}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=70adf0af41a1cedc19d5406a127c9d0e}{{Abdalla}}{A\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=aec8948362d43f0bb347d9c393a9aedf}{{Amara}}{A\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=97fec346c6f909009c8d9c9a80a48dbb}{{Bacon}}{B\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=abaccc65869162d69bcbab26dd882299}{{Chang}}{C\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=75e45501d451a1f6985e01431d4eebd7}{{Gaztañaga}}{G\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=6e75cb5a21bcfb191d859e34db62e81b}{{Hawken}}{H\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=fab5a4694c813c41a52ab6d300555a58}{{Jain}}{J\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=e667a73d65eedf06bd3ed7a78bde4b0d}{{Joachimi}}{J\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=44f66cdf9350a557d122c4e54971a447}{{Vikram}}{V\bibinitperiod}{V.}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=5774dd72b0fc8ad4a25915dc3b3559c8}{{Abbott}}{A\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=1f190d9c2878751a74caf76b3a8d28fe}{{Allam}}{A\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=063c0f301dd865031ce685cf818f9da8}{{Armstrong}}{A\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=34ebded3f3e4d78862a8b9b24d586caf}{{Benoit-Lévy}}{B\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=c246c11d6ac3006dc902ca4e34560858}{{Bernstein}}{B\bibinitperiod}{G.\bibnamedelimi M.}{G\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=70a597104c1fa3c3a83638aec722a592}{{Bernstein}}{B\bibinitperiod}{R.\bibnamedelimi A.}{R\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=f197e5a7d566e95ecba11311c48a4961}{{Bertin}}{B\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=6e104710dc73cfde51947ae30fffab51}{{Brooks}}{B\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=c944d80c020c01443350579fd425b42b}{{Burke}}{B\bibinitperiod}{D.\bibnamedelimi L.}{D\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=9e110bc533dfd55ad4031fcde8baeff5}{{Rosell}}{R\bibinitperiod}{A.\bibnamedelimi C.}{A\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=a1992a25692cb6e8f26e0209f71652af}{{Carrasco\bibnamedelimb Kind}}{C\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=bb572b9fe879f732e680427cf4ec85c8}{{Crocce}}{C\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=c8eb9928692d5f57f119ea07cf16ebf5}{{Cunha}}{C\bibinitperiod}{C.\bibnamedelimi E.}{C\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=9f8f03506fd2c95548d617377aa4c3c5}{{D'Andrea}}{D\bibinitperiod}{C.\bibnamedelimi B.}{C\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=ad179d88a742a3d43233290c26b5a43e}{{da\bibnamedelimb Costa}}{d\bibinitperiod}{L.\bibnamedelimi N.}{L\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=399e114b7f90a95d805722167455077f}{{Desai}}{D\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=be4d184c5e1bb16047a5233b7aae9f4f}{{Diehl}}{D\bibinitperiod}{H.\bibnamedelimi T.}{H\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=502268ce4ef8644f40fedb3494999b54}{{Dietrich}}{D\bibinitperiod}{J.\bibnamedelimi P.}{J\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{hash=15889896c13bcda4af46fa394d53223e}{{Eifler}}{E\bibinitperiod}{T.\bibnamedelimi F.}{T\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=02b8764a8f258dd745773f772762c98d}{{Evrard}}{E\bibinitperiod}{A.\bibnamedelimi E.}{A\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=6fffa9802f0fffbbed4d51cf7048976e}{{Flaugher}}{F\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=8c2c591114bbf9aff4edf963896d85e3}{{Fosalba}}{F\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=f23df0d61248d9f1d86e1a2f7664ff64}{{Frieman}}{F\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=faf5130187ba36a3b5849b24a0d04758}{{Gerdes}}{G\bibinitperiod}{D.\bibnamedelimi W.}{D\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=9b6b88e06f65d392c8e92fe35df12790}{{Gruen}}{G\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=c0d308f98ed5bdd036986d67c9052dfa}{{Gruendl}}{G\bibinitperiod}{R.\bibnamedelimi A.}{R\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=efd511ea69091d016fe184425ea2a692}{{Gutierrez}}{G\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=717016eabf747916e2f974df16467337}{{Honscheid}}{H\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=998df2dfbeb5e302eaf9812557ecd793}{{James}}{J\bibinitperiod}{D.\bibnamedelimi J.}{D\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=9f0b389549bf18898d489465f073f872}{{Kent}}{K\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=f592ee342ecbda9a75d722eb1bafe13c}{{Kuehn}}{K\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=79f52d274b4cb58c02416508032f603f}{{Kuropatkin}}{K\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=217d6ba566cda94ef0599fe77f0aecb1}{{Lima}}{L\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=6b8fcdfcaf06addce0e020af5d02461e}{{Melchior}}{M\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=d9c0419ce5bc9db9919d411f5ef2d8bc}{{Miquel}}{M\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=18c6745d159ea896b858e4c46f1da765}{{Nord}}{N\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=dd9b4bf93947bf31862f8b5d870ff0a9}{{Plazas}}{P\bibinitperiod}{A.\bibnamedelimi A.}{A\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=e5877d30dc028821ab3dbf121843392c}{{Romer}}{R\bibinitperiod}{A.\bibnamedelimi K.}{A\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+        {{hash=6d0033227ff73f2578ceb500c7978345}{{Roodman}}{R\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=75bbcc4f3fc9045a45201f830610ef4b}{{Sanchez}}{S\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=ba1544f10e487eff668c7013f8059221}{{Schubnell}}{S\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=86335c3855ddd4f88a9f3c08cc910ed6}{{Sevilla-Noarbe}}{S\bibinitperiod}{I.}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=d507e2b6d1a9eba5ccd522600a9c65b8}{{Smith}}{S\bibinitperiod}{R.\bibnamedelimi C.}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=83d298f7788bd86f78a54ffe40b57172}{{Soares-Santos}}{S\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=dd5f9fee08a1328734e9e195752dd041}{{Sobreira}}{S\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=0e671212ca2d55e04053046b6b1a4aec}{{Suchyta}}{S\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=711d406b536999f46b2727c8803d4101}{{Swanson}}{S\bibinitperiod}{M.\bibnamedelimi E.\bibnamedelimi C.}{M\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=57032f5ef523c84558b93b7b4f24549f}{{Tarle}}{T\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=3a478ba7e12c53f8e20928073ad61f9b}{{Walker}}{W\bibinitperiod}{A.\bibnamedelimi R.}{A\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
       }
-      \name{author}{2}{}{%
-        {{hash=3e265e262dbd65f2dcb7a577d7b88f6c}{Huff}{H\bibinitperiod}{Eric\bibnamedelima M.}{E\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
-        {{hash=9cc6d0eac50ee4fcba7d9612fe0cfc3f}{Graves}{G\bibinitperiod}{Genevieve\bibnamedelima J.}{G\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      \name{author}{62}{}{%
+        {{hash=6c537db3cca6fe52fe66aa9b160df83b}{{Clerkin}}{C\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=dd3f25e81fada6af1e0318ea070a095c}{{Kirk}}{K\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=96a52b96bea6d73d9fe76132816a5255}{{Manera}}{M\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=fff861307e97480541bc640195d0105d}{{Lahav}}{L\bibinitperiod}{O.}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=70adf0af41a1cedc19d5406a127c9d0e}{{Abdalla}}{A\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=aec8948362d43f0bb347d9c393a9aedf}{{Amara}}{A\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=97fec346c6f909009c8d9c9a80a48dbb}{{Bacon}}{B\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=abaccc65869162d69bcbab26dd882299}{{Chang}}{C\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=75e45501d451a1f6985e01431d4eebd7}{{Gaztañaga}}{G\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=6e75cb5a21bcfb191d859e34db62e81b}{{Hawken}}{H\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=fab5a4694c813c41a52ab6d300555a58}{{Jain}}{J\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=e667a73d65eedf06bd3ed7a78bde4b0d}{{Joachimi}}{J\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=44f66cdf9350a557d122c4e54971a447}{{Vikram}}{V\bibinitperiod}{V.}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=5774dd72b0fc8ad4a25915dc3b3559c8}{{Abbott}}{A\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=1f190d9c2878751a74caf76b3a8d28fe}{{Allam}}{A\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=063c0f301dd865031ce685cf818f9da8}{{Armstrong}}{A\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=34ebded3f3e4d78862a8b9b24d586caf}{{Benoit-Lévy}}{B\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=c246c11d6ac3006dc902ca4e34560858}{{Bernstein}}{B\bibinitperiod}{G.\bibnamedelimi M.}{G\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=70a597104c1fa3c3a83638aec722a592}{{Bernstein}}{B\bibinitperiod}{R.\bibnamedelimi A.}{R\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=f197e5a7d566e95ecba11311c48a4961}{{Bertin}}{B\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=6e104710dc73cfde51947ae30fffab51}{{Brooks}}{B\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=c944d80c020c01443350579fd425b42b}{{Burke}}{B\bibinitperiod}{D.\bibnamedelimi L.}{D\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=9e110bc533dfd55ad4031fcde8baeff5}{{Rosell}}{R\bibinitperiod}{A.\bibnamedelimi C.}{A\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=a1992a25692cb6e8f26e0209f71652af}{{Carrasco\bibnamedelimb Kind}}{C\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=bb572b9fe879f732e680427cf4ec85c8}{{Crocce}}{C\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=c8eb9928692d5f57f119ea07cf16ebf5}{{Cunha}}{C\bibinitperiod}{C.\bibnamedelimi E.}{C\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=9f8f03506fd2c95548d617377aa4c3c5}{{D'Andrea}}{D\bibinitperiod}{C.\bibnamedelimi B.}{C\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=ad179d88a742a3d43233290c26b5a43e}{{da\bibnamedelimb Costa}}{d\bibinitperiod}{L.\bibnamedelimi N.}{L\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=399e114b7f90a95d805722167455077f}{{Desai}}{D\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=be4d184c5e1bb16047a5233b7aae9f4f}{{Diehl}}{D\bibinitperiod}{H.\bibnamedelimi T.}{H\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=502268ce4ef8644f40fedb3494999b54}{{Dietrich}}{D\bibinitperiod}{J.\bibnamedelimi P.}{J\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{hash=15889896c13bcda4af46fa394d53223e}{{Eifler}}{E\bibinitperiod}{T.\bibnamedelimi F.}{T\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=02b8764a8f258dd745773f772762c98d}{{Evrard}}{E\bibinitperiod}{A.\bibnamedelimi E.}{A\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=6fffa9802f0fffbbed4d51cf7048976e}{{Flaugher}}{F\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=8c2c591114bbf9aff4edf963896d85e3}{{Fosalba}}{F\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=f23df0d61248d9f1d86e1a2f7664ff64}{{Frieman}}{F\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=faf5130187ba36a3b5849b24a0d04758}{{Gerdes}}{G\bibinitperiod}{D.\bibnamedelimi W.}{D\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=9b6b88e06f65d392c8e92fe35df12790}{{Gruen}}{G\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=c0d308f98ed5bdd036986d67c9052dfa}{{Gruendl}}{G\bibinitperiod}{R.\bibnamedelimi A.}{R\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=efd511ea69091d016fe184425ea2a692}{{Gutierrez}}{G\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=717016eabf747916e2f974df16467337}{{Honscheid}}{H\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=998df2dfbeb5e302eaf9812557ecd793}{{James}}{J\bibinitperiod}{D.\bibnamedelimi J.}{D\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=9f0b389549bf18898d489465f073f872}{{Kent}}{K\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=f592ee342ecbda9a75d722eb1bafe13c}{{Kuehn}}{K\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=79f52d274b4cb58c02416508032f603f}{{Kuropatkin}}{K\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=217d6ba566cda94ef0599fe77f0aecb1}{{Lima}}{L\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=6b8fcdfcaf06addce0e020af5d02461e}{{Melchior}}{M\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=d9c0419ce5bc9db9919d411f5ef2d8bc}{{Miquel}}{M\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=18c6745d159ea896b858e4c46f1da765}{{Nord}}{N\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=dd9b4bf93947bf31862f8b5d870ff0a9}{{Plazas}}{P\bibinitperiod}{A.\bibnamedelimi A.}{A\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=e5877d30dc028821ab3dbf121843392c}{{Romer}}{R\bibinitperiod}{A.\bibnamedelimi K.}{A\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+        {{hash=6d0033227ff73f2578ceb500c7978345}{{Roodman}}{R\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=75bbcc4f3fc9045a45201f830610ef4b}{{Sanchez}}{S\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=ba1544f10e487eff668c7013f8059221}{{Schubnell}}{S\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=86335c3855ddd4f88a9f3c08cc910ed6}{{Sevilla-Noarbe}}{S\bibinitperiod}{I.}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=d507e2b6d1a9eba5ccd522600a9c65b8}{{Smith}}{S\bibinitperiod}{R.\bibnamedelimi C.}{R\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=83d298f7788bd86f78a54ffe40b57172}{{Soares-Santos}}{S\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=dd5f9fee08a1328734e9e195752dd041}{{Sobreira}}{S\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=0e671212ca2d55e04053046b6b1a4aec}{{Suchyta}}{S\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=711d406b536999f46b2727c8803d4101}{{Swanson}}{S\bibinitperiod}{M.\bibnamedelimi E.\bibnamedelimi C.}{M\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=57032f5ef523c84558b93b7b4f24549f}{{Tarle}}{T\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=3a478ba7e12c53f8e20928073ad61f9b}{{Walker}}{W\bibinitperiod}{A.\bibnamedelimi R.}{A\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{c4d5abfa5465096c21f248cc72fd720a}
-      \strng{fullhash}{c4d5abfa5465096c21f248cc72fd720a}
+      \strng{namehash}{cea57bbcf0d895bb0f5077ea08d56cd7}
+      \strng{fullhash}{40d2ce14edcefa6511240bcb798713e3}
       \field{sortinit}{0}
-      \field{labeltitle}{Magnificent Magnification: Exploiting the Other Half of the Lensing Signal}
-      \field{abstract}{We describe a new method for measuring galaxy magnification due to weak gravitational lensing. Our method makes use of a tight scaling relation between galaxy properties that are modified by gravitational lensing, such as apparent size, and other properties that are not, such as surface brightness. In particular, we use a version of the well-known fundamental plane relation for early-type galaxies. This modified "photometric fundamental plane" uses only photometric galaxy properties, eliminating the need for spectroscopic data. We present the first detection of magnification using this method by applying it to photometric catalogs from the Sloan Digital Sky Survey. This analysis shows that the derived magnification signal is within a factor of three of that available from conventional methods using gravitational shear. We suppress the dominant sources of systematic error and discuss modest improvements that may further enhance the lensing signal-to-noise available with this method. Moreover, some of the dominant sources of systematic error are substantially different from those of shear-based techniques. With this new technique, magnification becomes a useful measurement tool for the coming era of large ground-based surveys intending to measure gravitational lensing.}
-      \field{journaltitle}{The Astrophysical Journal Letters}
-      \field{number}{2}
-      \field{title}{Magnificent Magnification: Exploiting the Other Half of the Lensing Signal}
-      \field{volume}{780}
-      \field{year}{2014}
-      \field{pages}{L16}
-      \verb{url}
-      \verb http://stacks.iop.org/2041-8205/780/i=2/a=L16
+      \field{labeltitle}{{Testing the lognormality of the galaxy and weak lensing convergence distributions from Dark Energy Survey maps}}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\mnras}
+      \field{month}{04}
+      \field{title}{{Testing the lognormality of the galaxy and weak lensing convergence distributions from Dark Energy Survey maps}}
+      \field{volume}{466}
+      \field{year}{2017}
+      \field{pages}{1444\bibrangedash 1461}
+      \verb{doi}
+      \verb 10.1093/mnras/stw2106
       \endverb
+      \verb{eprint}
+      \verb 1605.02036
+      \endverb
+      \keyw{gravitational lensing: weak,cosmology: observations,large-scale structure of Universe}
     \endentry
     \entry{2016MNRAS.455.4301C}{article}{}
       \name{labelname}{88}{}{%

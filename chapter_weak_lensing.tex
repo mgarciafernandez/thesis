@@ -1,15 +1,30 @@
 \chapterimage{head2.png} % Chapter heading image
 \chapter{Gravitational Lensing Theory}
 \label{ch:theory}
-As it has been stated on 
-
-One of the most astonishing conclusions of General Relativity is that the presence of masses curl the space-time. This ripples on the 4-dimensional space, force the other bodies within it to move. Thus, a gravitational field is just the expression of a non-uniform local\footnote{Local in the cosmological sense. Here it can mean the scale of the size of a cluster.} curvature. The main consequence of this, is that massless particles are also affected by Gravity.
+As it has been stated on \autoref{ch:introduction}, the charge of the gravitational field is the energy-momentum tensor. Thus, massless particles that are carriers of energy --such as photons-- are also affected by gravity. This means that the trajectory of photons is altered when they pass nearby massive objects, leading to a bending of light rays. The first experimental determination of the gravitational light bending is by Dyson et~al. in 1919 \cite{Dyson291}, four years after the publication of General Relativity. On this work, the observed apparent position of stars nearby the Sun during a solar eclipse were measured and compared with their positions in the absence of the solar eclipse. The positions of the stars where shifted the same amount predicted by General Relativity.
 \newline
 
-As part of the four Fundamental Forces, the specific property of Gravity among the others, is that the charge of the sources of the field is always positive\footnote{There are experiments probing this statement. Until now, no evidence of negative masses.}. The consequence of this, is that the gravitational force is always attractive. Thus, if an stream of photons with parallel trajectories goes through a massive point-particle, all the trajectories will be deflected towards it. This bending of the photons trajectories is produced coherently such that the point-particle can be considered as a convergent optical lens.
+Dyson et~al. measurement of the gravitational deflection of the light emitted by a background object --a.k.a. source--, relied on the fact that the object that is cause of the light deflection --a.k.a. the lens--, can be removed by its own seasonal motion. Nevertheless, this limits the measurement of gravitational light deflection to objects within the Milky Way. The study of the large-scale-structure if the Universe requires the use of extragalactic objects, implying that the object that acts as lens can not be removed, complicating the measurement.
+\newline
+
+One specific case of the gravitational light deflection happens when the observer, lens and source are aligned. This problem has cylindrical symmetry and leads to a very specific solution: the Einstein ring (\autoref{fig:einstein_ring}) \cite{2016ApJ...827...51N}. On this configuration, the image of the background galaxy is distorted forming a ring around the lens galaxy, that its located at its center. The size of the ring is determined only by the mass of the lens and the distances of the lens and the source:
+\begin{equation}
+\theta_E = \sqrt{\frac{4G_NM}{c^2}\frac{d_{LS}}{d_Ld_S}},
+\end{equation}
+where $G_N$ is Newton's gravitational constant, $M$ the mass of the lens, $d_{LS}$ the lens-source angular diameter distance and $d_L,d_S$ are the angular diameter distance to the lens and the source respectively.
+\begin{figure}
+\begin{center}
+\includegraphics[width=\textwidth]{./Pictures/einstein_ring.jpg}
+\caption{Image form the Hubble's Wide Field Camera 3 showing an Einstein ring. Central galaxy is the luminous red galaxy LRG-3-757. The blue annulus is a distant galaxy located behind the LRG. Image credit: NASA.}
+\label{fig:einstein_ring}
+\end{center}
+\end{figure}
+\newline
+
+Finding Einstein rings may be a product of serendipity or digging hard on wide-field images \cite{2017arXiv170402744J}. At any case, the probability of finding a system where observer-lens-source are aligned is very remote and only a small number of Einstein rings are known ($\sim20$ on the Dark Energy Survey Science Verification data	 ). A general solution, where the system is not aligned can be found with the gravitational lens equation.
 
 \section{Lens Equation on Gravitational Fields}
-As stated before, the axis observer-mass constitute an optical system. Thus a lens equation can be deduced following the same approach as Geometrical Optics with the deflection angle ($\hat\alpha$) of a light ray --photon trajectory-- given by General Relativity \cite{Weinberg,2001PhR...340..291B,2006glsw.conf.....M,2008ARNPS..58...99H,2041-8205-723-1-L13,Weinberg201387,2015RPPh...78h6901K}:
+As gravity is only an attractive force, the bending of light rays on an isolated system is only convergent. Since all the photons emitted by the source are bended coherently by the lens, the axis observer-lens constitute an optical convergent system. Thus a lens equation can be deduced following the same approach as Geometrical Optics with the deflection angle ($\hat\alpha$) of a light ray --photon trajectory-- given by General Relativity \cite{Weinberg,2001PhR...340..291B,2006glsw.conf.....M,2008ARNPS..58...99H,2041-8205-723-1-L13,Weinberg201387,2015RPPh...78h6901K}:
 \begin{equation}
 \hat\alpha = \frac{4G_NM}{rc^2}.
 \label{eq:deflection_angle}
@@ -21,9 +36,15 @@ Here $M$ is the mass of the point-particle (lens hereafter), $G_N$ is Newton's c
 \end{equation}
 where $D_{ds},D_s$ and $D_d$ are the source-lens, observer-source and observer-lens comoving distances.
 \begin{figure}
-\includegraphics[width=\textwidth]{optical_system.png}
+\begin{center}
+\includegraphics[width=0.9\textwidth]{optical_system.png}
 \caption{Optical system of the gravitational lensing caused by a point mass. Solid line is the actual photon trajectory. Dashed lines are the apparent trajectories with and without lensing. The distances $D_s,D_d,D_{ds}$ are expressed in comoving coordinates. }
 \label{fig:optical_system}
+\vspace{1cm}
+\includegraphics[width=0.9\textwidth]{./Pictures/distortion.png}
+\caption{Weak-lensing distortion of an extended spherical object. Convergence leads to an isotropic enlargement, whereas shear produces an elongation/shrink along one axis.}
+\label{fig:wl_distortion}
+\end{center}
 \end{figure}
 \newline
 
@@ -31,7 +52,7 @@ Considering now an extended matter distribution, with density $\rho(\vec r)$, wh
 \begin{equation}
 \vec r = r_\parallel \hat r_\parallel + \vec r_\perp,
 \end{equation}
-where $r_\parallel\hat r_\parallel$ denotes the position on the direction defined by the axis observer-lens (line-of-sight or LoS hereafter) and $\vec r_\perp$ denotes a 2D vector on the plane transverse to the line-of-sight.Thus, the total matter distribution that the photon goes trough from the source to the observer is given by
+where $r_\parallel\hat r_\parallel$ denotes the position on the direction defined by the axis observer-lens (line-of-sight or LoS hereafter) and $\vec r_\perp$ denotes a 2D vector on the plane transverse to the line-of-sight. Thus, the total matter distribution that the photon goes trough from the source to the observer is given by
 \begin{equation}
 \Sigma(\vec r_\perp,r_\parallel^S) = \int\limits_0^{r_\parallel^S} dr_\parallel\rho(r_\parallel,\vec r_\perp),
 \label{eq:surface_density}
@@ -103,11 +124,6 @@ resulting finally
 \label{eq:jacobian}
 \end{equation}
 Here $\kappa$ is the convergence, an isotropic shape distortion and $\gamma_1,\gamma_2$ is the shear, an elongation/shrink on the shape along one of the axis (\autoref{fig:wl_distortion}).
-\begin{figure}
-\includegraphics[width=\textwidth]{./Pictures/distortion.png}
-\caption{Weak-lensing distortion of an extended spherical object. Convergence leads to an isotropic enlargement, whereas shear produces an elongation/shrink along one axis.}
-\label{fig:wl_distortion}
-\end{figure}
 
 Taking into account the Born approximation --that is, the light rays of a source galaxy are deflected by only one lens--, the derivatives of the previous equation can be evaluated on the unlensed coordinates.
 
@@ -143,15 +159,15 @@ and the matter density contrast ($\delta_M$). The lensing kernel only contains o
 
 The convergence of the foreground sample can be probed tracing the three effects that it produces on the background sample:
 \begin{itemize}
-\item {\bf Change of the observed density:} The increase of the observed luminosity of the galaxies, allows to see sources that if there were no lensing, would be below our observational threshold nearby the location of the lenses. At the same time, an stretching of the solid angle behind the lenses causes a drop in the number density. This two effect compete between them and who is over the other depends on the slope of the number counts of the sources. Thus, at the neighborhood of the lenses, a change of the number density respect to the average is produced. This is known as number-counts magnification.
+\item {\bf Change of the observed density:} The increase of the observed luminosity of the galaxies, allows to see sources that if there were no lensing, would be below our observational threshold nearby the location of the lenses. At the same time, an stretching of the solid angle behind the lenses causes a drop in the number density. This two effect compete between them and who is over the other depends on the slope of the number counts of the sources. Thus, at the neighbourhood of the lenses, a change of the number density respect to the average is produced. This is known as number-counts magnification.
 \item {\bf Shift on the observed magnitude:} Since the increase of luminosity due to gravitational lensing, is a short range effect, a shift on the observed magnitudes may be detected nearby the positions of the lenses. This requires, in principle, the knowledge of the unlensed magnitude of the sources. Nevertheless, although galaxies have a large variety of magnitudes, it can be assumed that, they are randomly distributed. Thus shifts on the magnitudes respect to the average can be detected.
-\item {\bf Size enlargement:} All the effects above are a consequence that the meanwhile surface brightness is conserved, a size enlargement is produced. This effect can be statistically measured despite the fact that the unlensed size is not known. Nevertheless, since galaxies have a large variety of shape and size that is strongly related to its evolution and age, no homogeneity assumption can be made and require the definition of the {\it fundamental plane}. That kind of work is beyond the scope of this Thesis and further information can be found at Huff\& Graves.
+\item {\bf Size enlargement:} All the effects above are a consequence that the meanwhile surface brightness is conserved, a size enlargement is produced. This effect can be statistically measured despite the fact that the unlensed size is not known. Nevertheless, since galaxies have a large variety of shape and size that is strongly related to its evolution and age, no homogeneity assumption can be made and require the definition of the {\it fundamental plane}. That kind of work is beyond the scope of this Thesis and further information can be found at Huff \& Graves 2014 \cite{2041-8205-780-2-L16}.
 \end{itemize}
 
-Traditionally all this probes has been used independently, but the ideal would be a three-way combination since each method is sensitive to a different kind of systematic.
+Traditionally all this probes has been used independently, but the ideal scenario would be a three-way combination that may lead to a cancellation or better estimation of systematic errors.
 \newline
 
-As it has been mentioned before, the knowledge of the unlensed properties of the sources is physically impossible. Thus all the observable quantities must be formulated in terms of changes of its variation respect the ensemble average with the distance to the lenses. The statistical way to do this is the two-point angular correlation-function (2pacf hereafter). This method, provides a measurement of the average convergence profile of the lenses ($\kappa(\theta)$) as a function of its angular distance $\theta$ of a point to the lens .
+As it has been mentioned before, the knowledge of the unlensed properties of the sources is physically impossible. Thus, all the observable quantities must be formulated in terms of changes of its variation respect the ensemble average with the distance to the lenses. The statistical way to do this is the two-point angular correlation-function (2pacf hereafter). This method, provides a measurement of the average convergence profile of the lenses ($\kappa(\theta)$) as a function of its angular distance $\theta$ of a point to the lens.
 
 \subsubsection{Estimation of $\kappa(\theta)$ with the number counts technique}
 The 2pacf between the lens ($L$) and the source ($S$) is defined as
@@ -197,6 +213,7 @@ Taking into account $\mu\simeq 1+2\kappa$ along with \autoref{eq:mu_definition} 
 with
 \begin{equation}
 \alpha(m) = 2.5\frac{d}{dm}\left[\log N_\mu(m)\right].
+\label{eq:alpha}
 \end{equation}
 Thus \autoref{eq:2pacfmagnification} becomes
 \begin{equation}
@@ -205,6 +222,7 @@ Thus \autoref{eq:2pacfmagnification} becomes
 Using the definition of  convergence as a function of the galaxy density contrast given at \autoref{eq:kappadeltam} and assuming a constant redshift-independent galaxy-bias, $\delta_g(\hat n,z_L) = b_L\delta_M(\hat n,z_L)$, this leads finally to
 \begin{equation}
 \omega_{LS}(\theta) = b_L[\alpha(m)-1]\omega_0(\theta),
+\label{eq:numbercounttheo}
 \end{equation}
 where $b_L$ is the galaxy-bias of the lens sample and
 \begin{equation}

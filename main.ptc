@@ -31,21 +31,21 @@
 \ttl@stoptoc {default@1}
 \ttl@starttoc {default@2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Lens Equation on Gravitational Fields}{17}{section.2.1}
+\contentsline {section}{\numberline {2.1}Lens Equation on Gravitational Fields}{18}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Weak Gravitational Lensing}{19}{section.2.2}
+\contentsline {section}{\numberline {2.2}Weak Gravitational Lensing}{21}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Magnification}{21}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.1}Magnification}{22}{subsection.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Estimation of $\kappa (\theta )$ with the number counts technique}{22}{section*.6}
+\contentsline {subsubsection}{Estimation of $\kappa (\theta )$ with the number counts technique}{24}{section*.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Estimation of $\kappa (\theta )$ with magnitude-shift magnification technique}{24}{section*.7}
+\contentsline {subsubsection}{Estimation of $\kappa (\theta )$ with magnitude-shift magnification technique}{25}{section*.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Shear}{25}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}Shear}{26}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{The gg-lensing.}{26}{section*.8}
+\contentsline {subsubsection}{The gg-lensing.}{27}{section*.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}The Kaiser-Squires inversion.}{27}{section.2.3}
+\contentsline {section}{\numberline {2.3}The Kaiser-Squires inversion.}{28}{section.2.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}The Dark Energy Survey}{29}{chapter.3}
 \ttl@stoptoc {default@2}
@@ -79,13 +79,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.2}Detection of the weak-lensing magnification signal}{39}{subsection.4.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}Systematic error analysis}{48}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.3}Systematic error analysis}{47}{subsection.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Number count slope $\alpha $}{48}{section*.11}
+\contentsline {subsubsection}{Number count slope $\alpha $}{47}{section*.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Object obscuration}{48}{section*.12}
+\contentsline {subsubsection}{Object obscuration}{47}{section*.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Stellar contamination}{48}{section*.13}
+\contentsline {subsubsection}{Stellar contamination}{50}{section*.13}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Survey observing conditions}{50}{section*.14}
 \defcounter {refsection}{0}\relax 

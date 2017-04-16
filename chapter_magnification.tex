@@ -5,7 +5,10 @@
 Extensive wide-field programs have allowed accurate measurements of weak lensing effects. Previous magnification measurements involve the use of very massive objects as lenses, such as luminous red galaxies (LRGs) and clusters \cite{1995AIPC..336..320B,2014MNRAS.440.3701B,2014MNRAS.439.3755F,2016MNRAS.457.3050C}, or high redshift objects as sources, such as Lyman break galaxies (LBGs) \cite{2009A&A...507..683H,2012MNRAS.426.2489M}, quasars \cite{1979ApJ...227...30S,1989Natur.339..106H,1990A&A...240...11F,1993A&A...268....1B,2002A&A...386..784M,0004-637X-633-2-589} and sub-mm sources  \cite{2011MNRAS.414..596W} to improve signal-to-noise ratio. In addition to the number count technique used in this paper, other observational effects produced by magnification have been measured as well: the shift in magnitude \cite{2010MNRAS.405.1025M}, flux \cite{2011MNRAS.411.2113J} and size \cite{2041-8205-780-2-L16}.
 \newline
 
-On this chapter, first the methodology to measure magnification is tested with simulations. Then, the methodology is used to measure the magnification signal at the Dark Energy Survey Science Verification data (SV). Finally, the methodology used at the DES-SV data is employed to measure the convergence profile of voids and troughs
+On this chapter, first the methodology to measure magnification is tested with simulations. Then, the methodology is used to measure the magnification signal at the Dark Energy Survey Science Verification data (SV). Finally, the methodology used at the DES-SV data is employed to measure the convergence profile of voids and troughs.
+\newline
+
+It is worth to remark that, as it has been defined at \autoref{ch:theory}, given both the redshift of the lens and the sources, the convergence is a two-dimensional scalar field that is independent on the selected lens or source sample. Nevertheless, by choosing the suitable lens sample, different parts of the log-normal distribution of the convergence field \cite{2017MNRAS.466.1444C} can be probed.
 
 \section{Magnification in the MICE-GC simulation}
 \label{sec:mice}
@@ -21,6 +24,7 @@ As of January 2014 --when I started my PhD--, the only data available at DES was
 In order to be capable to reach a detection of the magnification signal with the DES-SV data, the general population of galaxies was selected both as lens and source sample. This leads to technical difficulties, since DES has a low precision on the redshift determination and the general population of galaxies is mainly located at low redshift, complicating the possibility to reach a clean redshift separation. 
 
 \subsection{Data sample}
+\label{sec:data_sample_SV}
 The sample used in this analysis corresponds to the Science Verification (DES-SV) data, which contains several disconnected fields. From the DES SVA1-Gold\footnote{des.ncsa.illinois.edu/releases/SVA1} main galaxy catalog \citep{2016MNRAS.455.4301C}, the largest contiguous field is selected, the SPT-E. Regions with declination $ < -61^{\circ}$ are removed in order to avoid the Large Magellanic Cloud. {\scshape Modest\_class} is employed as star-galaxy classifier \citep{0004-637X-801-2-73}.
 \newline
 
@@ -109,7 +113,7 @@ where $D_{\rm L}D_{\rm S_j}(\theta)$ is the number of pairs from the lens data s
 
 Catalogs produced with {\scshape Balrog}\footnote{github.com/emhuff/Balrog} \cite{2016MNRAS.457..786S} are used as random samples. The {\scshape Balrog} catalogs are DES-like catalogs, where
 no intrinsic magnification signal has been included. The {\scshape Balrog} software generates images of fake objects, all with zero convergence $\kappa$, that are embedded into the DES-SV coadd images
-(convolving the objects with the measured point spread function, and applying the measured photometric calibration). Then {\scshape SExtractor} was run on them, using the same DES Data Management configuration parameters used for the image processing. The positions for the simulated objects were generated randomly over the celestial sphere, meaning that these positions are intrinsically unclustered. Hence, the detected {\scshape Balrog} objects amount to a set of random points, which sample the survey detection probability. For a full description and an application to the same measurement as in \cite{2016MNRAS.455.4301C} see \cite{2016MNRAS.457..786S}. This is the first time that this extensive simulation is used to correct for systematics. The same cuts and masking of the data sample (\autoref{sec:data_sample}) are also applied to the the {\scshape Balrog} sample. A re-weighting following a nearest-neighbours approach was applied to {\scshape Balrog} objects in order to follow the same magnitude distribution of the DES-SV data on both lens and sources.
+(convolving the objects with the measured point spread function, and applying the measured photometric calibration). Then {\scshape SExtractor} was run on them, using the same DES Data Management configuration parameters used for the image processing. The positions for the simulated objects were generated randomly over the celestial sphere, meaning that these positions are intrinsically unclustered. Hence, the detected {\scshape Balrog} objects amount to a set of random points, which sample the survey detection probability. For a full description and an application to the same measurement as in \cite{2016MNRAS.455.4301C} see \cite{2016MNRAS.457..786S}. This is the first time that this extensive simulation is used to correct for systematics. The same cuts and masking of the data sample (\autoref{sec:data_sample_SV}) are also applied to the the {\scshape Balrog} sample. A re-weighting following a nearest-neighbours approach was applied to {\scshape Balrog} objects in order to follow the same magnitude distribution of the DES-SV data on both lens and sources.
 \newline
 
 A covariance matrix is computed for each band by jack-knife re-sampling the data taking into account the correlations between the different magnitude cut within each band
@@ -125,22 +129,25 @@ where $\omega^k_{\rm LS_j}$ stands for the cross-correlation of the $k$-th jack-
 \end{figure}
 \newline
 
-Measured two-point angular cross-correlation functions and $\Lambda$CDM weak lensing theoretical predictions can be found in \autoref{fig:resultSV}. Measured correlation functions are found to be non-zero, compatible with $\Lambda$CDM and its amplitude evolves with the magnitude cut. The magnitude cuts imposed to guarantee uniform depth make that, for this data, no negative amplitudes are expected.
+Measured two-point angular cross-correlation functions and $\Lambda$CDM weak lensing theoretical predictions can be found in \autoref{fig:resultsSV_r}, \autoref{fig:resultsSV_i} and \autoref{fig:resultsSV_z}. Measured correlation functions are found to be non-zero, compatible with $\Lambda$CDM and its amplitude evolves with the magnitude cut. The magnitude cuts imposed to guarantee uniform depth make that, for this data, no negative amplitudes are expected.
 \begin{sidewaysfigure}
 \includegraphics[width=\textwidth,trim={0 2.3cm 0 3.5cm},clip]{./figures/mag_r.pdf}
+\label{fig:resultsSV_r}
 \caption{Magnification signal for the DES-SV {\it r}-band sample.}
 \end{sidewaysfigure}
 \begin{sidewaysfigure}
 \includegraphics[width=\textwidth,trim={0 2.3cm 0 3.5cm},clip]{./figures/mag_i.pdf}
+\label{fig:resultsSV_i}
 \caption{Magnification signal for the DES-SV {\it i}-band sample.}
 \end{sidewaysfigure}
 \begin{sidewaysfigure}
 \includegraphics[width=\textwidth,trim={0 2.3cm 0 3.5cm},clip]{./figures/mag_z.pdf}
+\label{fig:resultsSV_z}
 \caption{Magnification signal for the DES-SV {\it z}-band sample.	}
 \end{sidewaysfigure}
 \newline
 
-To compare with the expected theory, \autoref{eq:4b} has been used assuming \cite{2016A&A...594A..13P} cosmological parameters. The bias of the lens sample has already been measured independently with different techniques: clustering \cite{2016MNRAS.455.4301C}, gg-lensing \cite{2016arXiv160908167P}, shear \cite{2016MNRAS.459.3203C} and CMB-lensing \cite{2016MNRAS.456.3213G}. From these values the most precise, from \cite{2016MNRAS.455.4301C}, is selected ($b_{\rm L}=1.07\pm0.08$) and is assumed to be a constant scale-independent parameter. The number count slope parameter $\alpha_{\rm S}$ is computed by fitting the cumulative number count of the sample S to a Schechter function \cite{1976ApJ...203..297S} on the range of interest
+To compare with the expected theory, \autoref{eq:numbercounttheo} has been used assuming Planck 2015 \cite{2016A&A...594A..13P} cosmological parameters. The bias of the lens sample has already been measured independently with different techniques: clustering \cite{2016MNRAS.455.4301C}, gg-lensing \cite{2016arXiv160908167P}, shear \cite{2016MNRAS.459.3203C} and CMB-lensing \cite{2016MNRAS.456.3213G}. From these values the most precise, from \cite{2016MNRAS.455.4301C}, is selected ($b_{\rm L}=1.07\pm0.08$) and is assumed to be a constant scale-independent parameter. The number count slope parameter $\alpha_{\rm S}$ is computed by fitting the cumulative number count of the sample S to a Schechter function \cite{1976ApJ...203..297S} on the range of interest
 \begin{equation}
 N_\mu(m) = A\left[10^{0.4(m-m_*)}\right]^\beta\times\exp\left[-10^{0.4(m-m*)}\right],
 \label{eq:sch}
@@ -181,7 +188,7 @@ where $\tilde\omega,\omega$ are the measured and theoretical cross-correlation f
 &\chi^2_{\rm zero}=\\
 &\sum\limits_{\eta\nu ij}\tilde\omega_{\rm LS_i}(\theta_\eta)C^{-1}(\omega_{\rm LS_i}(\theta_\eta);\omega_{\rm LS_j}(\theta_\nu))\tilde\omega_{\rm LS_j}(\theta_\nu)\nonumber.
 \end{eqnarray}
-The $\chi^2$ values can be seen in \autoref{tab:significance} showing good agreement with the theoretical predictions described in \autoref{sec:mag_theory}. To test which hypothesis is favored, the Bayes factor is used:
+The $\chi^2$ values can be seen in \autoref{tab:significance} showing good agreement with the theoretical predictions described in \autoref{ch:theory}. To test which hypothesis is favored, the Bayes factor is used:
 \begin{equation}
 \mathcal{B} = \frac{P(M|\Theta)}{P(Z|\Theta)} = \frac{P(\Theta |M)}{P(\Theta|Z)}\frac{P(M)}{P(Z)},
 \end{equation}
