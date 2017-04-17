@@ -67,49 +67,51 @@
 \ttl@stoptoc {default@3}
 \ttl@starttoc {default@4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Magnification in the MICE-GC simulation}{35}{section.4.1}
+\contentsline {section}{\numberline {4.1}Measuring Magnification through Number Count}{35}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Magnification in DES Science Verification data}{35}{section.4.2}
+\contentsline {section}{\numberline {4.2}Magnification in the MICE-GC simulation}{37}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Data sample}{36}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}Magnification in DES Science Verification data}{39}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Lens sample}{37}{section*.9}
+\contentsline {subsection}{\numberline {4.3.1}Data sample}{40}{subsection.4.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Source sample}{37}{section*.10}
+\contentsline {subsubsection}{Lens sample}{42}{section*.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Detection of the weak-lensing magnification signal}{39}{subsection.4.2.2}
+\contentsline {subsubsection}{Source sample}{42}{section*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}Systematic error analysis}{47}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.3.2}Detection of the weak-lensing magnification signal}{42}{subsection.4.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Number count slope $\alpha $}{47}{section*.11}
+\contentsline {subsection}{\numberline {4.3.3}Systematic error analysis}{52}{subsection.4.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Object obscuration}{47}{section*.12}
+\contentsline {subsubsection}{Number count slope $\alpha $}{52}{section*.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Stellar contamination}{50}{section*.13}
+\contentsline {subsubsection}{Object obscuration}{52}{section*.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Survey observing conditions}{50}{section*.14}
+\contentsline {subsubsection}{Stellar contamination}{52}{section*.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Dust extinction}{52}{section*.15}
+\contentsline {subsubsection}{Survey observing conditions}{54}{section*.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Photometric redshifts}{55}{section*.16}
+\contentsline {subsubsection}{Dust extinction}{56}{section*.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Magnification in DES Year 1 data}{58}{section.4.3}
+\contentsline {subsubsection}{Photometric redshifts}{59}{section*.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Data sample}{58}{subsection.4.3.1}
+\contentsline {section}{\numberline {4.4}Magnification in DES Year 1 data}{63}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Lens sample}{58}{section*.17}
+\contentsline {subsection}{\numberline {4.4.1}Data sample}{63}{subsection.4.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Lens sample}{58}{section*.18}
+\contentsline {subsubsection}{Lens sample}{63}{section*.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Determination of matter profile: voids \& troughs}{58}{subsection.4.3.2}
+\contentsline {subsubsection}{Lens sample}{63}{section*.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusions}{61}{chapter.5}
+\contentsline {subsection}{\numberline {4.4.2}Determination of matter profile: voids \& troughs}{63}{subsection.4.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Conclusions}{65}{chapter.5}
 \ttl@stoptoc {default@4}
 \ttl@starttoc {default@5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix \numberline {A}My test appendix}{63}{Appendix.1.A}
+\contentsline {chapter}{Appendix \numberline {A}My test appendix}{67}{Appendix.1.A}
 \ttl@stoptoc {default@5}
 \ttl@starttoc {default@6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{65}{chapter*.19}
+\contentsline {chapter}{References}{69}{chapter*.19}
 \contentsfinish 

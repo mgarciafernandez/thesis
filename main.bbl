@@ -4132,6 +4132,175 @@
       \endverb
       \keyw{gravitational lensing: weak,cosmology: observations,large-scale structure of Universe}
     \endentry
+    \entry{1992ARA&A..30..311B}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=05c6607136efda9cf2c021f1a3fb0e84}{{Blandford}}{B\bibinitperiod}{R.\bibnamedelimi D.}{R\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=8a6770d4310746d4612868b52b4aa481}{{Narayan}}{N\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=05c6607136efda9cf2c021f1a3fb0e84}{{Blandford}}{B\bibinitperiod}{R.\bibnamedelimi D.}{R\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=8a6770d4310746d4612868b52b4aa481}{{Narayan}}{N\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{a33b491afd7004ac1845fd445514732b}
+      \strng{fullhash}{a33b491afd7004ac1845fd445514732b}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Cosmological applications of gravitational lensing}}
+      \field{journaltitle}{\araa}
+      \field{title}{{Cosmological applications of gravitational lensing}}
+      \field{volume}{30}
+      \field{year}{1992}
+      \field{pages}{311\bibrangedash 358}
+      \verb{doi}
+      \verb 10.1146/annurev.aa.30.090192.001523
+      \endverb
+      \keyw{Cosmology,Dark Matter,Galactic Clusters,Gravitational Lenses,Hubble Constant,Quasars,Hubble Space Telescope,Red Shift,Sky Surveys (Astronomy),Very Long Base Interferometry}
+    \endentry
+    \entry{1976ApJ...203..297S}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=ee75c38ff90bf08e62928816544a7378}{{Schechter}}{S\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=ee75c38ff90bf08e62928816544a7378}{{Schechter}}{S\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ee75c38ff90bf08e62928816544a7378}
+      \strng{fullhash}{ee75c38ff90bf08e62928816544a7378}
+      \field{sortinit}{0}
+      \field{labeltitle}{{An analytic expression for the luminosity function for galaxies.}}
+      \field{journaltitle}{\apj}
+      \field{month}{01}
+      \field{title}{{An analytic expression for the luminosity function for galaxies.}}
+      \field{volume}{203}
+      \field{year}{1976}
+      \field{pages}{297\bibrangedash 306}
+      \verb{doi}
+      \verb 10.1086/154079
+      \endverb
+    \endentry
+    \entry{1998MNRAS.294L..18M}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=2a54d3a6bc3b5b5f237c3d79bfa1f41b}{{Moessner}}{M\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=fab5a4694c813c41a52ab6d300555a58}{{Jain}}{J\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=2a54d3a6bc3b5b5f237c3d79bfa1f41b}{{Moessner}}{M\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=fab5a4694c813c41a52ab6d300555a58}{{Jain}}{J\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{f03948f7786559fc7e6bbb8d7e86b5b8}
+      \strng{fullhash}{f03948f7786559fc7e6bbb8d7e86b5b8}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Angular cross-correlation of galaxies - A probe of gravitational lensing by large-scale structure}}
+      \field{journaltitle}{\mnras}
+      \field{month}{02}
+      \field{title}{{Angular cross-correlation of galaxies - A probe of gravitational lensing by large-scale structure}}
+      \field{volume}{294}
+      \field{year}{1998}
+      \field{pages}{L18\bibrangedash L24}
+      \verb{doi}
+      \verb 10.1046/j.1365-8711.1998.01378.x
+      \endverb
+      \verb{eprint}
+      \verb astro-ph/9709159
+      \endverb
+      \keyw{Cross Correlation,Gravitational Lenses,Galactic Clusters,Cosmology,Power Spectra,Error Analysis}
+    \endentry
+    \entry{2015MNRAS.447.1319F}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=8c2c591114bbf9aff4edf963896d85e3}{{Fosalba}}{F\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=75e45501d451a1f6985e01431d4eebd7}{{Gaztañaga}}{G\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=519eba2b8fbc7d3fa7c22e7c117caac1}{{Castander}}{C\bibinitperiod}{F.\bibnamedelimi J.}{F\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=bb572b9fe879f732e680427cf4ec85c8}{{Crocce}}{C\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=8c2c591114bbf9aff4edf963896d85e3}{{Fosalba}}{F\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=75e45501d451a1f6985e01431d4eebd7}{{Gaztañaga}}{G\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=519eba2b8fbc7d3fa7c22e7c117caac1}{{Castander}}{C\bibinitperiod}{F.\bibnamedelimi J.}{F\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=bb572b9fe879f732e680427cf4ec85c8}{{Crocce}}{C\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{6591eb9883e89a5b507c408e80774b25}
+      \strng{fullhash}{b7b05221d013270e045e690c38f3da3c}
+      \field{sortinit}{0}
+      \field{labeltitle}{{The MICE Grand Challenge light-cone simulation - III. Galaxy lensing mocks from all-sky lensing maps}}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\mnras}
+      \field{month}{02}
+      \field{title}{{The MICE Grand Challenge light-cone simulation - III. Galaxy lensing mocks from all-sky lensing maps}}
+      \field{volume}{447}
+      \field{year}{2015}
+      \field{pages}{1319\bibrangedash 1332}
+      \verb{doi}
+      \verb 10.1093/mnras/stu2464
+      \endverb
+      \verb{eprint}
+      \verb 1312.2947
+      \endverb
+      \keyw{gravitational lensing: weak,methods: analytical,methods: numerical,galaxies: general,cosmology: theory,large-scale structure of Universe}
+    \endentry
+    \entry{2015.2987F}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=8c2c591114bbf9aff4edf963896d85e3}{{Fosalba}}{F\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=bb572b9fe879f732e680427cf4ec85c8}{{Crocce}}{C\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=75e45501d451a1f6985e01431d4eebd7}{{Gaztañaga}}{G\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=519eba2b8fbc7d3fa7c22e7c117caac1}{{Castander}}{C\bibinitperiod}{F.\bibnamedelimi J.}{F\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=8c2c591114bbf9aff4edf963896d85e3}{{Fosalba}}{F\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=bb572b9fe879f732e680427cf4ec85c8}{{Crocce}}{C\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=75e45501d451a1f6985e01431d4eebd7}{{Gaztañaga}}{G\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=519eba2b8fbc7d3fa7c22e7c117caac1}{{Castander}}{C\bibinitperiod}{F.\bibnamedelimi J.}{F\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{6591eb9883e89a5b507c408e80774b25}
+      \strng{fullhash}{eca50d45707bcb9670a19516c6f96b7d}
+      \field{sortinit}{0}
+      \field{labeltitle}{{The MICE grand challenge lightcone simulation - I. Dark matter clustering}}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\mnras}
+      \field{month}{04}
+      \field{title}{{The MICE grand challenge lightcone simulation - I. Dark matter clustering}}
+      \field{volume}{448}
+      \field{year}{2015}
+      \field{pages}{2987\bibrangedash 3000}
+      \verb{doi}
+      \verb 10.1093/mnras/stv138
+      \endverb
+      \verb{eprint}
+      \verb 1312.1707
+      \endverb
+      \keyw{methods: numerical,galaxies: statistics,dark matter,large-scale structure of Universe}
+    \endentry
+    \entry{2015MNRAS.453.1513C}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=bb572b9fe879f732e680427cf4ec85c8}{{Crocce}}{C\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=519eba2b8fbc7d3fa7c22e7c117caac1}{{Castander}}{C\bibinitperiod}{F.\bibnamedelimi J.}{F\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=75e45501d451a1f6985e01431d4eebd7}{{Gaztañaga}}{G\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=8c2c591114bbf9aff4edf963896d85e3}{{Fosalba}}{F\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=a430adfc354943dc57c8b257b29bc4ae}{{Carretero}}{C\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=bb572b9fe879f732e680427cf4ec85c8}{{Crocce}}{C\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=519eba2b8fbc7d3fa7c22e7c117caac1}{{Castander}}{C\bibinitperiod}{F.\bibnamedelimi J.}{F\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=75e45501d451a1f6985e01431d4eebd7}{{Gaztañaga}}{G\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=8c2c591114bbf9aff4edf963896d85e3}{{Fosalba}}{F\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=a430adfc354943dc57c8b257b29bc4ae}{{Carretero}}{C\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{f0482ec4764d991cea36da00767311ca}
+      \strng{fullhash}{4e55d248b58364d109744ff78c881c2c}
+      \field{sortinit}{0}
+      \field{labeltitle}{{The MICE Grand Challenge lightcone simulation - II. Halo and galaxy catalogues}}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\mnras}
+      \field{month}{10}
+      \field{title}{{The MICE Grand Challenge lightcone simulation - II. Halo and galaxy catalogues}}
+      \field{volume}{453}
+      \field{year}{2015}
+      \field{pages}{1513\bibrangedash 1530}
+      \verb{doi}
+      \verb 10.1093/mnras/stv1708
+      \endverb
+      \verb{eprint}
+      \verb 1312.2013
+      \endverb
+      \keyw{methods: numerical,cosmology: observations,dark energy,distance scale,large-scale structure of Universe}
+    \endentry
     \entry{2016MNRAS.455.4301C}{article}{}
       \name{labelname}{88}{}{%
         {{hash=bb572b9fe879f732e680427cf4ec85c8}{{Crocce}}{C\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
@@ -5881,27 +6050,6 @@
       \verb 1507.05551
       \endverb
       \keyw{cosmic background radiation,gravitational lensing: weak,large-scale structure of Universe}
-    \endentry
-    \entry{1976ApJ...203..297S}{article}{}
-      \name{labelname}{1}{}{%
-        {{hash=ee75c38ff90bf08e62928816544a7378}{{Schechter}}{S\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=ee75c38ff90bf08e62928816544a7378}{{Schechter}}{S\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{ee75c38ff90bf08e62928816544a7378}
-      \strng{fullhash}{ee75c38ff90bf08e62928816544a7378}
-      \field{sortinit}{0}
-      \field{labeltitle}{{An analytic expression for the luminosity function for galaxies.}}
-      \field{journaltitle}{\apj}
-      \field{month}{01}
-      \field{title}{{An analytic expression for the luminosity function for galaxies.}}
-      \field{volume}{203}
-      \field{year}{1976}
-      \field{pages}{297\bibrangedash 306}
-      \verb{doi}
-      \verb 10.1086/154079
-      \endverb
     \endentry
     \entry{10.2307/2291091}{article}{}
       \name{labelname}{2}{}{%

@@ -10,8 +10,70 @@ On this chapter, first the methodology to measure magnification is tested with s
 
 It is worth to remark that, as it has been defined at \autoref{ch:theory}, given both the redshift of the lens and the sources, the convergence is a two-dimensional scalar field that is independent on the selected lens or source sample. Nevertheless, by choosing the suitable lens sample, different parts of the log-normal distribution of the convergence field \cite{2017MNRAS.466.1444C} can be probed.
 
+\section{Measuring Magnification through Number Count}
+\label{sec:method}
+By inspection of Equations \ref{eq:alpha} and \ref{eq:shorthand} and the gravitational lens equation \cite{1992ARA&A..30..311B}, three key properties can be deduced that are intrinsic to magnification:
+
+\begin{itemize}
+  \item A non-zero two-point angular cross-correlation $\omega_{LS_j}$ appears between two galaxy samples at redshifts $z_{S_j} > z_L$ for those cases in which the slope $\alpha_S(m_j) \neq 1$ (magnification signal hereafter).
+  \item The amplitude of the magnification signal evolves with the slope of the faint end of the number count distribution of the source sample and, assuming a \cite{1976ApJ...203..297S} luminosity function, eventually it reaches zero and becomes negative.
+  \item For a given value of the number count slope, the signal strength is independent of the photometric band used (i.e. it is achromatic).
+\end{itemize}
+
+The steps towards a measurement of magnification via the number count technique in a photometric survey can be summarized as follows:
+\begin{enumerate}
+	\item Split the data sample into two well-separated photo-z bins, termed lens and source.
+	Splitting must be done minimizing the overlap between the true redshift distributions of the samples. Otherwise, by \autoref{eq:4a}, an additive signal is introduced.
+	\item For each photometric band, define several subsamples from the source sample using different values for the maximum (threshold) magnitude. This is made in order to trace the evolution of the amplitude of the magnification signal with the number count slope (see \autoref{eq:alpha}).
+	\item Compute the two-point angular cross-correlation function between the unique common lens sample and each source subsample for each band.
+\end{enumerate}
+Once the two-point angular correlation function has been measured, it can be compared with theoretical predictions as described in \autoref{ch:theory} allowing the desired parameter constraints or the determination of the galaxy-bias of the lenses.
+\newline
+
+As has been stated previously, the amplitude of the measured cross-correlation function depends on the shape of the galaxy number count distribution. Nevertheless, due to this shape --for a fixed footprint, population of galaxies and redshift distribution--, the brighter is the magnitude limit of the sample, the bigger is the amplitude of the two point angular cross correlation function. However, the number of bright galaxies is lower than the number of faint galaxies \cite{1976ApJ...203..297S}, so shot noise is bigger at brighter magnitude cuts, increasing their measurement uncertainties. For this reason, there exists a magnitude cut that is a trade-off between amplitude and shot noise, maximizing the signal-to-noise ratio.  In  order to find the optimum magnitude cut for a given sample, define the signal-to-noise ratio for a given angular range  and magnitude cut $m'<m$ as \cite{1998MNRAS.294L..18M}:
+\begin{equation}
+\frac{S}{N}(m) = \frac{\langle \omega_{LS}(\theta;m)\rangle}{\langle s(\omega_{LS}(\theta;m))\rangle},
+\label{eq:sn}
+\end{equation}
+where $\langle s(\omega_{LS}(\theta;m))\rangle$ is the average shot noise of the two point angular cross correlation functions and the averages are extended to the angular range considered in the analysis. The shot noise for a given angular aperture is given by the number of pairs inside each angular bin as
+\begin{equation}
+\sigma(\omega_{LS}(\theta;m)) = \frac{1}{\sqrt{P_{LS}(\theta;m)}},
+\end{equation}
+where $P_{LS}(\theta;m)$ is the number of pairs from the lens-source samples separated by an angular distance $\theta$ for a magnitude cut $m '<m$. The number of pairs per angular bin is given by the product of the number of source galaxies that fall inside a given annulus times the number of sources inside that annulus. Considering, as a first order approach, that the samples are uniform, the number of lens-source pair-counts of galaxies for a bin centred at $\theta$ with solid angle $\Delta_\Omega$ is given by
+\begin{equation}
+P_{LS}(\theta;m) = \left[\frac{N_L}{A}\Delta_\Omega(\theta)\right]\left[\frac{N_S(m)}{A}\Delta_\Omega(\theta)\right].
+\label{eq:PLS}
+\end{equation}
+Here $A$ is the solid angle subtended by the dataset, $N_L$ is the number of objects at the lens sample and $N_S(m)$ the number of objects on the source sample with magnitude limit $m$. Combining Equations \ref{eq:shorthand}, \ref{eq:sn} and \ref{eq:PLS}, results finally in
+\begin{equation}
+\frac{S}{N}(m) = \langle\omega_0\rangle[\alpha(m)-1]b_L\frac{\Omega}{A}\sqrt{N_LN_S(m)},
+\label{eq:snfinal}
+\end{equation}
+where $\Omega$ is the solid angle subtended by an annulus with edges the maximum and minimum scales considered. Thus, for a sample, given size, magnitude and redshift distributions --assuming a cosmology-- the signal-to-noise ratio can be estimated. Nevertheless, \autoref{eq:snfinal} assumes that the angular bins are uncorrelated and should be taken as an upper bound to the signal-to-noise. Although this expression does not take into account the full covariance, the behavior
+\begin{equation}
+\frac{S}{N} \sim [\alpha(m)-1]\sqrt{N_S(m)},
+\end{equation}
+is independent of cosmological and covariance assumptions up to a constant factor, allowing us to use this expression for finding the optimal cut that maximizes the signal-to-noise ratio.
+
+
 \section{Magnification in the MICE-GC simulation}
 \label{sec:mice}
+\begin{sidewaysfigure}
+\includegraphics[width=\textwidth,trim={0 2.3cm 0 3.5cm},clip]{./figures/mag_i_MICE.pdf}
+\caption{Two-point angular cross-correlation functions for the MICE simulation (sample $i < 21.5$): measured, both with magnification (blue dots) and without (grey shade), versus that expected from the MICE cosmological parameters, both with magnification (green solid line) and without (red dashed line), the latter being zero.}
+\label{fig:MICE}
+\end{sidewaysfigure}
+In order to test the methodology described above in a controlled environment, isolated from any source of systematic error, it is applied to a simulated galaxy sample, in particular {\scshape MICECAT v1.0}.
+This mock is the first catalog release of the N-body simulation MICE-GC\footnote{www.ice.cat/mice} \cite{2015MNRAS.447.1319F,2015.2987F,2015MNRAS.453.1513C}. It assumes a flat $\Lambda$CDM Universe with cosmological parameters $\Omega_M=0.25, \Omega_b=0.044, h=0.7$ and $\sigma_8 = 0.8$, using a light-cone that spans one eighth of the celestial sphere. Another advantage of using these simulations is the possibility of studying specific systematic effects, as described in \autoref{sec:sys}.
+
+Among other properties, MICE-GC provides lensed and unlensed coordinates, true redshift (including redshift space distortions) and DES-$griz$ unlensed magnitudes for the simulated galaxies, along with convergence and shear.
+Conversion from unlensed magnitudes to lensed magnitudes can be done by applying $m_\mu = m_0-2.5\log_{10}(1+2\kappa)$.
+
+Having two sets of coordinates and magnitudes, one in a `universe' with magnification and another without magnification, allows us to follow the methodology described in \autoref{sec:method} for both cases,
+serving as a test-bench to measure the sensitivity of the method to the magnification effect. In order to have a fiducial function with as little statistical uncertainty as possible, the full 5000 deg$^2$ of the MICE simulation are used. To match as much as possible the conditions of the DES-SV data, the magnitude cuts described in \autoref{sec:data_sample} are applied to the lens and source samples. The covariance matrices of data (see \autoref{sec:data}) are used, in order to match the errors in the DES-SV sample.
+
+In \autoref{fig:MICE}, the results of the magnification analysis in the MICE simulation for the cases with and without magnification can be seen compared with the theoretical expectations. The methodology used in this work clearly allows us to distinguish both cases for a data-set similar to that of the DES-SV data. Nevertheless, results obtained with the MICE simulation can not be directly extrapolated to SV data to estimate the expected significance because the density of galaxies on the simulation is a factor $\sim3$ smaller than on the SV data. Also, the luminosity function of the simulation is slightly different from the DES data, which has a direct impact on the number count slope and, consequently, on the amplitude of the measured signal.
+
 
 \section{Magnification in DES Science Verification data}
 \label{sec:svdata}
@@ -25,7 +87,7 @@ In order to be capable to reach a detection of the magnification signal with the
 
 \subsection{Data sample}
 \label{sec:data_sample_SV}
-The sample used in this analysis corresponds to the Science Verification (DES-SV) data, which contains several disconnected fields. From the DES SVA1-Gold\footnote{des.ncsa.illinois.edu/releases/SVA1} main galaxy catalog \citep{2016MNRAS.455.4301C}, the largest contiguous field is selected, the SPT-E. Regions with declination $ < -61^{\circ}$ are removed in order to avoid the Large Magellanic Cloud. {\scshape Modest\_class} is employed as star-galaxy classifier \citep{0004-637X-801-2-73}.
+The sample used in this analysis corresponds to the Science Verification (DES-SV) data, which contains several disconnected fields. From the DES SVA1-Gold\footnote{des.ncsa.illinois.edu/releases/SVA1} main galaxy catalog \cite{2016MNRAS.455.4301C}, the largest contiguous field is selected, the SPT-E. Regions with declination $ < -61^{\circ}$ are removed in order to avoid the Large Magellanic Cloud. {\scshape Modest\_class} is employed as star-galaxy classifier \cite{0004-637X-801-2-73}.
 \newline
 
 The following colour cuts are made in order to remove outliers in colour space:
@@ -34,10 +96,10 @@ The following colour cuts are made in order to remove outliers in colour space:
 	\item $-1 < r-i < 2$,
 	\item $-1 < i-z < 2$;
 \end{itemize}
-where {\it g}, {\it r}, {\it i}, {\it z} stand for the corresponding {\scshape mag\_auto} magnitude measured by {\scshape SExtractor} \citep{1996A&AS..117..393B}.
+where {\it g}, {\it r}, {\it i}, {\it z} stand for the corresponding {\scshape mag\_auto} magnitude measured by {\scshape SExtractor} \cite{1996A&AS..117..393B}.
 \newline
 
-Regions of the sky that are tagged as bad, amounting to four per cent of the total area, are removed. An area of radius 2 arcminutes around each 2MASS star is masked to avoid stellar halos (\cite{2005MNRAS.361.1287M}; \cite{0004-637X-633-2-589}).
+Regions of the sky that are tagged as bad, amounting to four per cent of the total area, are removed. An area of radius 2 arcminutes around each 2MASS star is masked to avoid stellar halos \cite{2005MNRAS.361.1287M,0004-637X-633-2-589}.
 \newline
 
 The DES Data Management \cite{2011arXiv1109.6741S,2012ApJ...757...83D,2012SPIE.8451E..0DM} produces a {\scshape mangle}\footnote{http://space.mit.edu/$\sim$molly/mangle/} \cite{2008MNRAS.387.1391S}  magnitude limit mask that is later translated to a $N_{\rm side}=4096$ {\scshape HEALPix}\footnote{healpix.jpl.nasa.gov} \cite{2005ApJ...622..759G} mask. Since the {\scshape HEALPix} mask is a division of the celestial sphere with romboid-like shaped pixels with the same area, to avoid boundary effects due to the possible mismatch between the {\scshape mangle} and {\scshape HEALPix} masks, each pixel is required to be totally inside the observed footprint as determined by {\scshape mangle}, by demanding
@@ -73,7 +135,7 @@ where $r_{\rm lim}, i_{\rm lim},z_{\rm lim}$ stand for the magnitude limit in th
 \end{figure}
 \newline
 
-Photometric redshifts (photo-z) have been estimated using different techniques. In particular, the fiducial code used in this work employs a machine-learning algorithm (random forests) as implemented by TPZ \cite{2013MNRAS.432.1483C}, which was shown to perform well on SV data \cite{2014MNRAS.445.1482S}. The redshifts of the galaxies are defined according to the mean of the probability density functions given by TPZ ($z_{\rm ph}$). Other methods are also employed to demonstrate that the measured two-point angular cross-correlation are not a feature induced by TPZ).
+Photometric redshifts (photo-z) have been estimated using different techniques. In particular, the fiducial code used in this work employs a machine-learning algorithm (random forests) as implemented by TPZ \cite{2013MNRAS.432.1483C}, which was shown to perform well on SV data \cite{2014MNRAS.445.1482S}. The redshifts of the galaxies are defined according to the mean of the probability density functions given by TPZ ($z_{\rm ph}$). Other methods are also employed to demonstrate that the measured two-point angular cross-correlation are not a feature induced by TPZ.
 
 \subsubsection{Lens sample}
 A unique lens sample is defined by the additional photo-z and magnitude cuts:
@@ -206,7 +268,7 @@ The assumed prior sets detection and non-detection of magnification to be equall
 The significance for each individual correlation function has a strong dependence on the considered magnitude limit of the sub-sample. At the bright cuts, shot-noise prevents the identification of a non-zero magnification signal. At the faint end, although the sub-samples are much more populated, the strength of the magnification signal is compatible with zero. This behaviour has been compared with the predictions (see \autoref{sec:method}). Predicted and measured values are plotted together in \autoref{fig:significance}. It can be seen that the prediction of the location of the maximum signal-to-noise can only be used as a first approach.
 \newline
 
-To compute the significance of the detection for each band, the full covariance is used. One covariance matrix (see \autoref{fig:cov_matrix} for the {\itshape i}-band matrix) per each band is computed taking into account the correlations between each magnitude cut. The logarithm of the Bayes factor can be found in \autoref{tab:significance}, being all above 2, allowing to claim that magnification has been detected \citep{10.2307/2291091}.
+To compute the significance of the detection for each band, the full covariance is used. One covariance matrix (see \autoref{fig:cov_matrix} for the {\itshape i}-band matrix) per each band is computed taking into account the correlations between each magnitude cut. The logarithm of the Bayes factor can be found in \autoref{tab:significance}, being all above 2, allowing to claim that magnification has been detected \cite{10.2307/2291091}.
 \newline
  
  A usual approach to enhance the signal-to-noise ratio, is to define a unique source sample and weight each source galaxy with its corresponding $\alpha_S(m)-1$ value \cite{2003A&A...403..817M} and compute the two-point angular cross-correlation function. This weighting procedure is used at the samples $r < 23.0$, $i < 22.5$ and $z < 22.0$. These correlation functions can be seen in \autoref{fig:reweight} with a comparison with the theoretical prediction and the correlation functions of the same sample computed without weighting. Significances of these measurement can be found in \autoref{tab:significance} with a marginal difference respect to the one computed without weighting using the five subsamples.
@@ -302,7 +364,7 @@ Chang \cite{0004-637X-801-2-73} studied whether moderately bright objects in cro
 \caption{Impact of dust on the number count from MICE (case $i<21.5$). Shade is the $1\sigma$ confidence interval. Blue dots are the number count differences between the case with and the case without the simulated dust profile. Red dashed line is an eye-guide for zero.}
 \label{fig:micedust}
 \end{sidewaysfigure}
-The possible presence of dust in the lenses may modify the observed magnitude in addition to the magnitude shift due to magnification \citep{2010MNRAS.405.1025M}. The change in magnitude ($\delta m$) on the $p$-band may be written as
+The possible presence of dust in the lenses may modify the observed magnitude in addition to the magnitude shift due to magnification \cite{2010MNRAS.405.1025M}. The change in magnitude ($\delta m$) on the $p$-band may be written as
 \begin{equation}
 \delta m_p = -2.5\log\mu+\frac{2.5}{\ln10}\tau_p,
 \end{equation}
