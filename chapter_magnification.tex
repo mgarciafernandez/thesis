@@ -2,7 +2,7 @@
 \chapter{Magnification in DES}
 \label{ch:magnification}
 
-Extensive wide-field programs have allowed accurate measurements of weak lensing effects. Previous magnification measurements involve the use of very massive objects as lenses, such as luminous red galaxies (LRGs) and clusters \cite{1995AIPC..336..320B,2014MNRAS.440.3701B,2014MNRAS.439.3755F,2016MNRAS.457.3050C}, or high redshift objects as sources, such as Lyman break galaxies (LBGs) \cite{2009A&A...507..683H,2012MNRAS.426.2489M}, quasars \cite{1979ApJ...227...30S,1989Natur.339..106H,1990A&A...240...11F,1993A&A...268....1B,2002A&A...386..784M,0004-637X-633-2-589} and sub-mm sources  \cite{2011MNRAS.414..596W} to improve signal-to-noise ratio. In addition to the number count technique used in this paper, other observational effects produced by magnification have been measured as well: the shift in magnitude \cite{2010MNRAS.405.1025M}, flux \cite{2011MNRAS.411.2113J} and size \cite{2041-8205-780-2-L16}.
+Extensive wide-field programs have allowed accurate measurements of weak lensing effects. Previous magnification measurements involve the use of very massive objects as lenses, such as luminous red galaxies (LRGs) and clusters \cite{1995AIPC..336..320B,2014MNRAS.440.3701B,2014MNRAS.439.3755F,2016MNRAS.457.3050C}, or high redshift objects as sources, such as Lyman break galaxies (LBGs) \cite{2009A&A...507..683H,2012MNRAS.426.2489M}, quasars \cite{1979ApJ...227...30S,1989Natur.339..106H,1990A&A...240...11F,1993A&A...268....1B,2002A&A...386..784M,0004-637X-633-2-589} and sub-mm sources  \cite{2011MNRAS.414..596W} to improve signal-to-noise ratio. In addition to the number count technique used on this Thesis, other observational effects produced by magnification have been measured as well: the shift in magnitude \cite{2010MNRAS.405.1025M}, flux \cite{2011MNRAS.411.2113J} and size \cite{2041-8205-780-2-L16}.
 \newline
 
 On this chapter, first the methodology to measure magnification is tested with simulations. Then, the methodology is used to measure the magnification signal at the Dark Energy Survey Science Verification data (SV). Finally, the methodology used at the DES-SV data is employed to measure the convergence profile of voids and troughs.
@@ -16,7 +16,7 @@ By inspection of Equations \ref{eq:alpha} and \ref{eq:shorthand} and the gravita
 
 \begin{itemize}
   \item A non-zero two-point angular cross-correlation $\omega_{LS_j}$ appears between two galaxy samples at redshifts $z_{S_j} > z_L$ for those cases in which the slope $\alpha_S(m_j) \neq 1$ (magnification signal hereafter).
-  \item The amplitude of the magnification signal evolves with the slope of the faint end of the number count distribution of the source sample and, assuming a \cite{1976ApJ...203..297S} luminosity function, eventually it reaches zero and becomes negative.
+  \item The amplitude of the magnification signal evolves with the slope of the faint end of the number count distribution of the source sample and, assuming a Schechter \cite{1976ApJ...203..297S} luminosity function, eventually it reaches zero and becomes negative.
   \item For a given value of the number count slope, the signal strength is independent of the photometric band used (i.e. it is achromatic).
 \end{itemize}
 
@@ -39,7 +39,7 @@ where $\langle s(\omega_{LS}(\theta;m))\rangle$ is the average shot noise of the
 \begin{equation}
 \sigma(\omega_{LS}(\theta;m)) = \frac{1}{\sqrt{P_{LS}(\theta;m)}},
 \end{equation}
-where $P_{LS}(\theta;m)$ is the number of pairs from the lens-source samples separated by an angular distance $\theta$ for a magnitude cut $m '<m$. The number of pairs per angular bin is given by the product of the number of source galaxies that fall inside a given annulus times the number of sources inside that annulus. Considering, as a first order approach, that the samples are uniform, the number of lens-source pair-counts of galaxies for a bin centred at $\theta$ with solid angle $\Delta_\Omega$ is given by
+where $P_{LS}(\theta;m)$ is the number of pairs from the lens-source samples separated by an angular distance $\theta$ for a magnitude cut $m '<m$. The number of pairs per angular bin is given by the product of the number of source galaxies that fall inside a given annulus times the number of sources inside that annulus. Considering, as a first order approach, that the samples are uniform, the number of lens-source pair-counts of galaxies for a bin centerd at $\theta$ with solid angle $\Delta_\Omega$ is given by
 \begin{equation}
 P_{LS}(\theta;m) = \left[\frac{N_L}{A}\Delta_\Omega(\theta)\right]\left[\frac{N_S(m)}{A}\Delta_\Omega(\theta)\right].
 \label{eq:PLS}
@@ -80,7 +80,7 @@ In \autoref{fig:MICE}, the results of the magnification analysis in the MICE sim
 As it has been described at the gravitational lensing theory section, the amplitude of the magnification signal is dependent on two factors: the number-count slope parameter ($\alpha-1$) and the lensing kernel, that for a given lens sample, depends on the redshift of the source sample. LBGs has been traditionally used on magnification studies since they have an steep magnitude distribution, leading to a high value of $\alpha-1$. In addition, this population of galaxies is located at very high redshift ($2\lesssim z\lesssim 4$), leading to a high lensing efficiency. Nevertheless, this population of galaxies has much less density than the general population of galaxies, feature that can prevent the measurement of a magnification signal for low-area surveys. In addition, the selection of a population of LBGs involve the known as {\it dropout} technique, that requiere the development of a custom data-reduction pipeline just to select this specific population of galaxies. For large-area surveys such as DES, the amount of computing time to run the data-reduction pipeline is enormous ($\sim 1$ year), reaching manpower and infrastructure difficulties. On the other side, although LRGs do not require a custom pipeline and a template-based approach to select them from the galaxy-catalogs provided by DES standard pipeline, its density is also very low.
 \newline
 
-As of January 2014 --when I started my PhD--, the only data available at DES was the Science Verification data. The first data-release from DES. This data where taking just for testing purposes and in order to explore the capabilities of the experiment. Thus, although the nominal depth of the survey was reached, only $\sim 150$ deg$^2$ where taken. Taking this into account, only $10^4$ LBGs are expected at the full DES-SV data, preventing the measurement of magnification.
+As of January 2014 --when I started my PhD--, the only data available at DES was the Science Verification data. The first data-release from DES. This data were taken just for testing purposes and in order to explore the capabilities of the experiment. Thus, although the nominal depth of the survey was reached, only $\sim 150$ deg$^2$ where taken. Taking this into account, only $10^4$ LBGs are expected at the full DES-SV data, preventing the measurement of magnification.
 \newline
 
 In order to be capable to reach a detection of the magnification signal with the DES-SV data, the general population of galaxies was selected both as lens and source sample. This leads to technical difficulties, since DES has a low precision on the redshift determination and the general population of galaxies is mainly located at low redshift, complicating the possibility to reach a clean redshift separation. 
@@ -90,7 +90,7 @@ In order to be capable to reach a detection of the magnification signal with the
 The sample used in this analysis corresponds to the Science Verification (DES-SV) data, which contains several disconnected fields. From the DES SVA1-Gold\footnote{des.ncsa.illinois.edu/releases/SVA1} main galaxy catalog \cite{2016MNRAS.455.4301C}, the largest contiguous field is selected, the SPT-E. Regions with declination $ < -61^{\circ}$ are removed in order to avoid the Large Magellanic Cloud. {\scshape Modest\_class} is employed as star-galaxy classifier \cite{0004-637X-801-2-73}.
 \newline
 
-The following colour cuts are made in order to remove outliers in colour space:
+The following color cuts are made in order to remove outliers in color space:
 \begin{itemize}
 	\item $-1 < g-r < 3$,
 	\item $-1 < r-i < 2$,
@@ -183,7 +183,7 @@ A covariance matrix is computed for each band by jack-knife re-sampling the data
 C_{\rm S}(\omega_{\rm LS_i}(\theta_\eta);\omega_{\rm LS_j}(\theta_\nu)) = \frac{N_{\rm JK}}{N_{\rm JK}-1}\\
 \times \sum\limits_k^{N_{\rm JK}}[\omega_{\rm LS_i}^k(\theta_\eta)-\omega_{\rm LS_i}(\theta_\eta)][\omega_{\rm LS_j}^k(\theta_\nu)-\omega_{\rm LS_j}(\theta_\nu)]\nonumber,
 \end{eqnarray}
-where $\omega^k_{\rm LS_j}$ stands for the cross-correlation of the $k$-th jack-knife re-sample and $\omega_{\rm LS_j}$ is the cross-correlation of the full sample. The $N_{\rm JK}= 120$ jack-knife regions are defined by a $k$-means algorithm \cite{macqueen1967some} using Python's machine learning library {\scshape scikit-learn}\footnote{scikit-learn.org} \cite{scikit-learn}. In order to get $N_{\rm JK}$ regions with equal area, the algorithm is trained on a uniform random sample following the footprint of the data demanding $N_{\rm JK}$ centres. The regions used on the re-sampling are composed by the Voronoi tessellation defined by these centres. These matrices trace the angular covariance as well as the covariances between functions within each band. No covariance between bands is considered, since each band is treated independently on this work. The reduced covariance matrix of the {\itshape i}-band is displayed at \autoref{fig:cov_matrix}. The behavior is similar for the other bands.
+where $\omega^k_{\rm LS_j}$ stands for the cross-correlation of the $k$-th jack-knife re-sample and $\omega_{\rm LS_j}$ is the cross-correlation of the full sample. The $N_{\rm JK}= 120$ jack-knife regions are defined by a $k$-means algorithm \cite{macqueen1967some} using Python's machine learning library {\scshape scikit-learn}\footnote{scikit-learn.org} \cite{scikit-learn}. In order to get $N_{\rm JK}$ regions with equal area, the algorithm is trained on a uniform random sample following the footprint of the data demanding $N_{\rm JK}$ centers. The regions used on the re-sampling are composed by the Voronoi tessellation defined by these centers. These matrices trace the angular covariance as well as the covariances between functions within each band. No covariance between bands is considered, since each band is treated independently on this work. The reduced covariance matrix of the {\itshape i}-band is displayed at \autoref{fig:cov_matrix}. The behavior is similar for the other bands.
 \begin{figure}
 \includegraphics[width=\textwidth,trim={0 0 0 2cm},clip]{./figures/cov_matrix_mag_auto_i.pdf}
 \caption{Covariance matrix of the {\it i}-band rescaled by the value of the diagonal ($C_{ij}/\sqrt{C_{ii}C_{jj}}$). Each box is the part of the matrix corresponding to the samples labeled at the axis whereas the bins within each box stand for the angular values of the correlation function.}
@@ -304,7 +304,7 @@ Here, the impact of potential sources of systematic errors on the measured two-p
 	When comparing the measured two point angular cross-correlation functions with the theoretical prediction via \autoref{eq:shorthand} for a given set of cosmological parameters, $\alpha(m)$ is determined by fitting the cumulative number count distribution to \autoref{eq:sch} and then using \autoref{eq:alpha}. To compute the possible impact of the uncertainty of this fit on the comparison with theory, a marginalisation over all the parameters of fit ($A,m_*,\beta$) is made.
 \newline
 	
-Parameters are randomly sampled with a Gaussian distribution centred on the value given by the fit to the cumulative number count and with a standard deviation equal to the $1\sigma$ errors of the fit. The value of $\alpha$ is recalculated with these randomly sampled parameters. The impact of the dispersion of the $\alpha$ values obtained is negligible compared to the size of the jackknife errors, so they are not taken into account.
+Parameters are randomly sampled with a Gaussian distribution centerd on the value given by the fit to the cumulative number count and with a standard deviation equal to the $1\sigma$ errors of the fit. The value of $\alpha$ is recalculated with these randomly sampled parameters. The impact of the dispersion of the $\alpha$ values obtained is negligible compared to the size of the jackknife errors, so they are not taken into account.
 \newline
 
 In addition to the parameter determination, a possible non-completeness on the SPT-E field can modify the magnitude distribution altering the cumulative number count slope parameter \cite{2016MNRAS.455.3943H}. To estimate the possible impact of non-completeness, the measured magnitude distributions of the SPT-E field are compared with those of deeper fields measured by DES, such as the COSMOS field. Both distributions are found to be equal at the range of magnitudes considered on this analysis (see \autoref{fig:ndmSN} for an example in the $i$-band).
@@ -355,7 +355,7 @@ Chang \cite{0004-637X-801-2-73} studied whether moderately bright objects in cro
 
 \begin{sidewaysfigure}
 \includegraphics[width=\textwidth,trim={0 2.3cm 0 3.5cm},clip]{./figures/mag_i_ri.pdf}
-\caption{Blue dots: colour-density cross-correlation functions measured on SV data for the {\it r} and {\it i} bands (sample $i<21.5$). Green solid line is the expected value from \autoref{eq:colorexcess}. Red dashed line is an eye-guide for zero.}
+\caption{Blue dots: color-density cross-correlation functions measured on SV data for the {\it r} and {\it i} bands (sample $i<21.5$). Green solid line is the expected value from \autoref{eq:colorexcess}. Red dashed line is an eye-guide for zero.}
 \label{fig:colorexcess}
 \end{sidewaysfigure}
 
@@ -368,20 +368,20 @@ The possible presence of dust in the lenses may modify the observed magnitude in
 \begin{equation}
 \delta m_p = -2.5\log\mu+\frac{2.5}{\ln10}\tau_p,
 \end{equation}
-where  $\mu\simeq1+2\kappa$ is the change in magnitude due to magnification and $\tau_k$ is the optical depth due to dust extinction. Whereas magnification is achromatic, dust extinction induces a band-dependent magnitude change. Taking this into account, the colour-excess for bands $p,q$\footnote{In this section $p,q$ stand for a generic index label while $V$ stands for the $V$ band of the $UBV$ system.} is defined as
+where  $\mu\simeq1+2\kappa$ is the change in magnitude due to magnification and $\tau_k$ is the optical depth due to dust extinction. Whereas magnification is achromatic, dust extinction induces a band-dependent magnitude change. Taking this into account, the color-excess for bands $p,q$\footnote{In this section $p,q$ stand for a generic index label while $V$ stands for the $V$ band of the $UBV$ system.} is defined as
 \begin{equation}
 E_{pq} = \delta m_p-\delta m_q=1.08[\tau_p-\tau_q].
 \end{equation}
-Define the colour-density cross-correlation as \cite{2010MNRAS.405.1025M}
+Define the color-density cross-correlation as \cite{2010MNRAS.405.1025M}
 \begin{equation}
 \langle \delta_{\rm g}E_{pq}\rangle(\theta) = 1.09[\tau_p(\theta)-\tau_q(\theta)],
 \end{equation}
-where $\delta_{\rm g}$ is the density contrast of the lenses and $E_{pq}$ is the colour-excess of the sources; from the measurements by \cite{2010MNRAS.405.1025M} it can be parametrized as
+where $\delta_{\rm g}$ is the density contrast of the lenses and $E_{pq}$ is the color-excess of the sources; from the measurements by \cite{2010MNRAS.405.1025M} it can be parametrized as
 \begin{equation}
 \langle\delta_{\rm g}E_{pq}\rangle(\theta) = 1.09\tau_V\left[\frac{\lambda_V}{\lambda_p}-\frac{\lambda_V}{\lambda_q}\right]\left(\frac{\theta}{1'}\right)^{-0.8},
 \label{eq:colorexcess}
 \end{equation}
-with $\tau_V=2.3\times10^{-3}$ the optical depth at the {\it V}-band  and $\lambda_V,\lambda_p,\lambda_q$ the average wavelengths of the $V$, $p$ and $q$ bands respectively. With this parametrization, the impact of dust extinction is negligible at the scales considered on this analysis. As it can be seen in \autoref{fig:colorexcess}, colour-density cross-correlation functions are compatible with \autoref{eq:colorexcess} as well as with zero.
+with $\tau_V=2.3\times10^{-3}$ the optical depth at the {\it V}-band  and $\lambda_V,\lambda_p,\lambda_q$ the average wavelengths of the $V$, $p$ and $q$ bands respectively. With this parametrization, the impact of dust extinction is negligible at the scales considered on this analysis. As it can be seen in \autoref{fig:colorexcess}, color-density cross-correlation functions are compatible with \autoref{eq:colorexcess} as well as with zero.
 \newline
 
 In addition, the impact of a dust profile has been simulated as described in \autoref{eq:colorexcess} with the MICE simulation (\autoref{sec:simulation}). To do so, for each galaxy belonging to the source sample a magnitude shift is induced
