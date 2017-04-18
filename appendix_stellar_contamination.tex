@@ -1,0 +1,27 @@
+\chapter{Stellar contamination equation}
+\label{sec:starscorrection}
+The observed density contrast of objects is given by
+\begin{equation}
+\delta_{\rm O}(\boldsymbol{\hat n},z_i) = \frac{N_{\rm g}(z_i)+N_*(z_i)}{\bar N_{\rm g}(z_i)+\bar N_*(z_i)}-1,
+\end{equation}
+where $N_{\rm g}, N_*$ are the number of galaxies on direction $\boldsymbol{\hat n}$ and redshift $z_i$ and stars respectively and $\bar N_{\rm g}, \bar N_*$ the average number of galaxies and stars over the footprint. The previous equation can be expressed as
+\begin{equation}
+\delta_{\rm O}(\boldsymbol{\hat n},z_i) = \frac{N_{\rm g}(z_i)+N_*(z_i)}{\bar N_{\rm g}(z_i)\left[1+\frac{\bar N_*(z_i)}{\bar N_{\rm g}(z_i)}\right]}-1.
+\end{equation}
+Taylor expanding the brackets one has,
+\begin{equation}
+\delta_{\rm O}(\boldsymbol{\hat n},z_i) = \frac{N_{\rm g}(z_i)+N_*(z_i)}{\bar N_{\rm g}(z_i)}\left[1-\frac{\bar N_*(z_i)}{\bar N_{\rm g}(z_i)}\right]-1
+\end{equation}
+and taking common factor $\bar N_*(z_i)/\bar N_{\rm g}(z_i)$,
+\begin{eqnarray}
+ &\delta_{\rm O}(z_i) = \left[\frac{N_{\rm g}(z_i)}{\bar N_{\rm g}(z_i)}-1\right]+\\
+ &\frac{\bar N_*(z_i)}{\bar N_{\rm g}(z_i)}\left[\frac{N_*(z_i)}{\bar N_*(z_i)}-\frac{N_{\rm g}(z_i)}{\bar N_{\rm g}(z_i)}\right]-\frac{N_*(z_i)}{\bar N_{\rm g}(z_i)}.\nonumber
+\end{eqnarray}
+Assuming that $\bar N_* \ll \bar N_g$, the last term can be neglected and defining $\lambda_i = \bar N_*(z_i)/\bar N_{\rm g}(z_i)$ as the fraction of stars on the $i$-th sample,
+\begin{equation}
+\delta_{\rm O}(\boldsymbol{\hat n},z_i) = \delta_{\rm g}(\boldsymbol{\hat n},z_i)+\lambda_i[\delta_*(\boldsymbol{\hat n},z_i)-\delta_{\rm g}(\boldsymbol{\hat n},z_i)].
+\end{equation}
+Calculating the two point angular cross-correlation results finally in
+\begin{equation}
+\omega_{\rm O} = (1-\lambda_i-\lambda_j)\omega_{\rm gg}+\lambda_j\omega_{\rm g*}+\lambda_i\omega_{\rm *g}+\lambda_i\lambda_j\omega_{**}.
+\end{equation}

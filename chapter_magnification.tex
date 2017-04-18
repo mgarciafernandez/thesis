@@ -12,7 +12,7 @@ It is worth to remark that, as it has been defined at \autoref{ch:theory}, given
 
 \section{Measuring Magnification through Number Count}
 \label{sec:method}
-By inspection of Equations \ref{eq:alpha} and \ref{eq:shorthand} and the gravitational lens equation \cite{1992ARA&A..30..311B}, three key properties can be deduced that are intrinsic to magnification:
+By inspection of Equations \ref{eq:alpha} and \ref{eq:numbercountstheo} and the gravitational lens equation \cite{1992ARA&A..30..311B}, three key properties can be deduced that are intrinsic to magnification:
 
 \begin{itemize}
   \item A non-zero two-point angular cross-correlation $\omega_{LS_j}$ appears between two galaxy samples at redshifts $z_{S_j} > z_L$ for those cases in which the slope $\alpha_S(m_j) \neq 1$ (magnification signal hereafter).
@@ -23,7 +23,7 @@ By inspection of Equations \ref{eq:alpha} and \ref{eq:shorthand} and the gravita
 The steps towards a measurement of magnification via the number count technique in a photometric survey can be summarized as follows:
 \begin{enumerate}
 	\item Split the data sample into two well-separated photo-z bins, termed lens and source.
-	Splitting must be done minimizing the overlap between the true redshift distributions of the samples. Otherwise, by \autoref{eq:4a}, an additive signal is introduced.
+	Splitting must be done minimizing the overlap between the true redshift distributions of the samples. Otherwise, by \autoref{eq:4t}, an additive signal is introduced.
 	\item For each photometric band, define several subsamples from the source sample using different values for the maximum (threshold) magnitude. This is made in order to trace the evolution of the amplitude of the magnification signal with the number count slope (see \autoref{eq:alpha}).
 	\item Compute the two-point angular cross-correlation function between the unique common lens sample and each source subsample for each band.
 \end{enumerate}
@@ -44,7 +44,7 @@ where $P_{LS}(\theta;m)$ is the number of pairs from the lens-source samples sep
 P_{LS}(\theta;m) = \left[\frac{N_L}{A}\Delta_\Omega(\theta)\right]\left[\frac{N_S(m)}{A}\Delta_\Omega(\theta)\right].
 \label{eq:PLS}
 \end{equation}
-Here $A$ is the solid angle subtended by the dataset, $N_L$ is the number of objects at the lens sample and $N_S(m)$ the number of objects on the source sample with magnitude limit $m$. Combining Equations \ref{eq:shorthand}, \ref{eq:sn} and \ref{eq:PLS}, results finally in
+Here $A$ is the solid angle subtended by the dataset, $N_L$ is the number of objects at the lens sample and $N_S(m)$ the number of objects on the source sample with magnitude limit $m$. Combining Equations \ref{eq:numbercountstheo}, \ref{eq:sn} and \ref{eq:PLS}, results finally in
 \begin{equation}
 \frac{S}{N}(m) = \langle\omega_0\rangle[\alpha(m)-1]b_L\frac{\Omega}{A}\sqrt{N_LN_S(m)},
 \label{eq:snfinal}
@@ -70,7 +70,7 @@ Among other properties, MICE-GC provides lensed and unlensed coordinates, true r
 Conversion from unlensed magnitudes to lensed magnitudes can be done by applying $m_\mu = m_0-2.5\log_{10}(1+2\kappa)$.
 
 Having two sets of coordinates and magnitudes, one in a `universe' with magnification and another without magnification, allows us to follow the methodology described in \autoref{sec:method} for both cases,
-serving as a test-bench to measure the sensitivity of the method to the magnification effect. In order to have a fiducial function with as little statistical uncertainty as possible, the full 5000 deg$^2$ of the MICE simulation are used. To match as much as possible the conditions of the DES-SV data, the magnitude cuts described in \autoref{sec:data_sample} are applied to the lens and source samples. The covariance matrices of data (see \autoref{sec:data}) are used, in order to match the errors in the DES-SV sample.
+serving as a test-bench to measure the sensitivity of the method to the magnification effect. In order to have a fiducial function with as little statistical uncertainty as possible, the full 5000 deg$^2$ of the MICE simulation are used. To match as much as possible the conditions of the DES-SV data, the magnitude cuts described in \autoref{sec:data_sample_SV} are applied to the lens and source samples. The covariance matrices of data (see \autoref{sec:svdata}) are used, in order to match the errors in the DES-SV sample.
 
 In \autoref{fig:MICE}, the results of the magnification analysis in the MICE simulation for the cases with and without magnification can be seen compared with the theoretical expectations. The methodology used in this work clearly allows us to distinguish both cases for a data-set similar to that of the DES-SV data. Nevertheless, results obtained with the MICE simulation can not be directly extrapolated to SV data to estimate the expected significance because the density of galaxies on the simulation is a factor $\sim3$ smaller than on the SV data. Also, the luminosity function of the simulation is slightly different from the DES data, which has a direct impact on the number count slope and, consequently, on the amplitude of the measured signal.
 
@@ -183,7 +183,7 @@ A covariance matrix is computed for each band by jack-knife re-sampling the data
 C_{\rm S}(\omega_{\rm LS_i}(\theta_\eta);\omega_{\rm LS_j}(\theta_\nu)) = \frac{N_{\rm JK}}{N_{\rm JK}-1}\\
 \times \sum\limits_k^{N_{\rm JK}}[\omega_{\rm LS_i}^k(\theta_\eta)-\omega_{\rm LS_i}(\theta_\eta)][\omega_{\rm LS_j}^k(\theta_\nu)-\omega_{\rm LS_j}(\theta_\nu)]\nonumber,
 \end{eqnarray}
-where $\omega^k_{\rm LS_j}$ stands for the cross-correlation of the $k$-th jack-knife re-sample and $\omega_{\rm LS_j}$ is the cross-correlation of the full sample. The $N_{\rm JK}= 120$ jack-knife regions are defined by a $k$-means algorithm \cite{macqueen1967some} using Python's machine learning library {\scshape scikit-learn}\footnote{scikit-learn.org} \cite{scikit-learn}. In order to get $N_{\rm JK}$ regions with equal area, the algorithm is trained on a uniform random sample following the footprint of the data demanding $N_{\rm JK}$ centers. The regions used on the re-sampling are composed by the Voronoi tessellation defined by these centers. These matrices trace the angular covariance as well as the covariances between functions within each band. No covariance between bands is considered, since each band is treated independently on this work. The reduced covariance matrix of the {\itshape i}-band is displayed at \autoref{fig:cov_matrix}. The behavior is similar for the other bands.
+where $\omega^k_{\rm LS_j}$ stands for the cross-correlation of the $k$-th jack-knife re-sample and $\omega_{\rm LS_j}$ is the cross-correlation of the full sample. The $N_{\rm JK}= 120$ jack-knife regions are defined by a $k$-means algorithm \cite{macqueen1967some} using Python's machine learning library {\scshape scikit-learn}\footnote{scikit-learn.org} \cite{scikit-learn}. In order to get $N_{\rm JK}$ regions with equal area, the algorithm is trained on a uniform random sample following the footprint of the data demanding $N_{\rm JK}$ centers. The regions used on the re-sampling are composed by the Voronoi tessellation defined by these centers. These matrices trace the angular covariance as well as the covariances between functions within each band. No covariance between bands is considered, since each band is treated independently on this work. The reduced covariance matrix of the {\itshape i}-band is displayed at \autoref{fig:cov_matrix}. The behaviour is similar for the other bands.
 \begin{figure}
 \includegraphics[width=\textwidth,trim={0 0 0 2cm},clip]{./figures/cov_matrix_mag_auto_i.pdf}
 \caption{Covariance matrix of the {\it i}-band rescaled by the value of the diagonal ($C_{ij}/\sqrt{C_{ii}C_{jj}}$). Each box is the part of the matrix corresponding to the samples labeled at the axis whereas the bins within each box stand for the angular values of the correlation function.}
@@ -287,6 +287,7 @@ To compute the significance of the detection for each band, the full covariance 
  Finally, in order to test that the signal is achromatic, the measured two-point angular cross-correlation functions for each band, normalized by its $\alpha_S(m)-1$ are compared. All cross-correlation functions fluctuate within $1\sigma$ errors (see \autoref{fig:achrom} for an example) demonstrating that the measured convergence field does not depend on the considered band.
 
 \subsection{Systematic error analysis}
+\label{sec:sys}
 Here, the impact of potential sources of systematic errors on the measured two-point angular cross-correlation function is investigated and how they are taken into account in the measurement is described.
 
 \subsubsection{Number count slope $\alpha$}
@@ -301,7 +302,7 @@ Here, the impact of potential sources of systematic errors on the measured two-p
     \label{fig:purity}
     \end{center}
 \end{figure}
-	When comparing the measured two point angular cross-correlation functions with the theoretical prediction via \autoref{eq:shorthand} for a given set of cosmological parameters, $\alpha(m)$ is determined by fitting the cumulative number count distribution to \autoref{eq:sch} and then using \autoref{eq:alpha}. To compute the possible impact of the uncertainty of this fit on the comparison with theory, a marginalisation over all the parameters of fit ($A,m_*,\beta$) is made.
+	When comparing the measured two point angular cross-correlation functions with the theoretical prediction via \autoref{eq:numbercountstheo} for a given set of cosmological parameters, $\alpha(m)$ is determined by fitting the cumulative number count distribution to \autoref{eq:sch} and then using \autoref{eq:alpha}. To compute the possible impact of the uncertainty of this fit on the comparison with theory, a marginalisation over all the parameters of fit ($A,m_*,\beta$) is made.
 \newline
 	
 Parameters are randomly sampled with a Gaussian distribution centerd on the value given by the fit to the cumulative number count and with a standard deviation equal to the $1\sigma$ errors of the fit. The value of $\alpha$ is recalculated with these randomly sampled parameters. The impact of the dispersion of the $\alpha$ values obtained is negligible compared to the size of the jackknife errors, so they are not taken into account.
@@ -361,7 +362,7 @@ Chang \cite{0004-637X-801-2-73} studied whether moderately bright objects in cro
 
 \begin{sidewaysfigure}
 \includegraphics[width=\textwidth,trim={0 2.3cm 0 3.5cm},clip]{./figures/mag_idust.pdf}
-\caption{Impact of dust on the number count from MICE (case $i<21.5$). Shade is the $1\sigma$ confidence interval. Blue dots are the number count differences between the case with and the case without the simulated dust profile. Red dashed line is an eye-guide for zero.}
+\caption{Impact of dust on the number count from MICE (sample $I$). Shade is the $1\sigma$ confidence interval. Blue dots are the number count differences between the case with and the case without the simulated dust profile. Red dashed line is an eye-guide for zero.}
 \label{fig:micedust}
 \end{sidewaysfigure}
 The possible presence of dust in the lenses may modify the observed magnitude in addition to the magnitude shift due to magnification \cite{2010MNRAS.405.1025M}. The change in magnitude ($\delta m$) on the $p$-band may be written as
@@ -384,7 +385,7 @@ where $\delta_{\rm g}$ is the density contrast of the lenses and $E_{pq}$ is the
 with $\tau_V=2.3\times10^{-3}$ the optical depth at the {\it V}-band  and $\lambda_V,\lambda_p,\lambda_q$ the average wavelengths of the $V$, $p$ and $q$ bands respectively. With this parametrization, the impact of dust extinction is negligible at the scales considered on this analysis. As it can be seen in \autoref{fig:colorexcess}, color-density cross-correlation functions are compatible with \autoref{eq:colorexcess} as well as with zero.
 \newline
 
-In addition, the impact of a dust profile has been simulated as described in \autoref{eq:colorexcess} with the MICE simulation (\autoref{sec:simulation}). To do so, for each galaxy belonging to the source sample a magnitude shift is induced
+In addition, the impact of a dust profile has been simulated as described in \autoref{eq:colorexcess} with the MICE simulation (\autoref{sec:mice}). To do so, for each galaxy belonging to the source sample a magnitude shift is induced
 \begin{equation}
 m_d = m_\mu +1.09\tau_V\frac{\lambda_V}{\lambda}\sum\limits_{l}\left(\frac{\theta_l}{1'}\right)^{-0.8}.
 \end{equation}
@@ -397,7 +398,7 @@ Since the parametrization used here only applies to a sample similar to the one 
 
 \begin{figure}
 %\includegraphics[width=0.5\textwidth]{./figures/mag_itheo_photoz_short.pdf}
-\caption{Comparison of $1\sigma$ jackknife errors of the measured correlation function (grey shade) with the expected signal induced by the photo-z migration between the lens and the source sample (case $i<22.5$) computed theoretically with the stacking of the pdfs for the $i$-band (blue line).}
+\caption{Comparison of $1\sigma$ jackknife errors of the measured correlation function (grey shade) with the expected signal induced by the photo-z migration between the lens and the source sample (sample $I$) computed theoretically with the stacking of the pdfs for the $i$-band (blue line).}
 \label{fig:theophotoz}
 \end{figure}
 
@@ -405,7 +406,7 @@ A general study of photo-z performance in DES-SV can be found in \cite{2014MNRAS
 \newline
 	Conservative photo-z cuts are made in order to minimize migration between lens and source samples. Nevertheless, catastrophic outliers in the photo-z determination can bias the measurement of  $\kappa$ \cite{2010MNRAS.401.1399B}. Thus, the tails of the probability density functions (pdfs) of the photo-z code are a crucial systematic to test.
 	\newline
-	As mentioned in \autoref{sec:mag_theory}, in addition to the magnification signal, galaxy migration due to a wrong photo-z assignment between lens and source samples may induce a non-zero cross-correlation signal due to the physical signal coming from the clustering of objects in the same redshift bin. As a first approach, estimation of the expected signal induced by photo-z migration ($\omega^{ph}$) is computed with \autoref{eq:4a}:
+	As mentioned in \autoref{ch:theory}, in addition to the magnification signal, galaxy migration due to a wrong photo-z assignment between lens and source samples may induce a non-zero cross-correlation signal due to the physical signal coming from the clustering of objects in the same redshift bin. As a first approach, estimation of the expected signal induced by photo-z migration ($\omega^{ph}$) is computed with \autoref{eq:4t}:
 \begin{equation}
 \omega_{\rm LS_j}^{\rm ph}(\theta) = \int\limits_0^\infty dz\int\limits_0^\infty dz' \phi_{\rm L}(z)\phi_{\rm S_j}(z')\xi(\theta;z,z'),
 \label{eq:phth}
@@ -420,10 +421,10 @@ o = \int\limits_0^\infty dz\phi_L(z)\phi_S(z),
 where $\phi_L,\phi_S$ are the stacked pdfs of the lens and source sample respectively. Since TPZ provides an individual pdf for each galaxy, the stacked pdf of a given sample is computed by adding all the individual pdfs of the galaxies that belong to that sample (see \cite{2016MNRAS.459.1293A} for a study of clustering with stacked pdfs).
 \newline
 
-To estimate the maximum photo-z migration allowed between the lens and the source sample, the MICE simulation (\autoref{sec:simulation}) with the un-lensed coordinates and magnitudes is used. Galaxies are randomly sampled on the lens redshift bin and then placed on the source redshift bin. Conversely, galaxies on the source redshift bin are randomly sampled and placed on the lens redshift bin. For a given lens or source sample, the number of galaxies introduced from the other redshift bin is chosen to be 0.1, 0.3, 0.5, 0.7, 0.9 and 2 per cent of the galaxies. Then, the two-point angular cross-correlation is computed for each case. The difference of the correlation functions measured at the simulation with induced migration between lens and source sample and the original used in \autoref{sec:simulation} is the signal induced by photo-z migration. The signal induced by photo-z for the cases with 0.9 and 2 per cent computed with this method can be seen at \autoref{fig:photozcontamination}. It is found that  at 0.9 per cent of contamination, the induced signal due to photo-z migration is comparable to the error in the correlation functions. This upper limit is greater than the estimated photo-z migration, demonstrating that the effect of photo-z migration is negligible. Photo-z migration has a larger impact on the brightest samples. Nevertheless, since the errors of the correlation functions of these samples are shot-noise dominated, the tightest constrains on photo-z migration are imposed by the faintest samples. With a larger data sample this statement will no longer be true.
+To estimate the maximum photo-z migration allowed between the lens and the source sample, the MICE simulation (\autoref{sec:mice}) with the un-lensed coordinates and magnitudes is used. Galaxies are randomly sampled on the lens redshift bin and then placed on the source redshift bin. Conversely, galaxies on the source redshift bin are randomly sampled and placed on the lens redshift bin. For a given lens or source sample, the number of galaxies introduced from the other redshift bin is chosen to be 0.1, 0.3, 0.5, 0.7, 0.9 and 2 per cent of the galaxies. Then, the two-point angular cross-correlation is computed for each case. The difference of the correlation functions measured at the simulation with induced migration between lens and source sample and the original used in \autoref{sec:mice} is the signal induced by photo-z migration. The signal induced by photo-z for the cases with 0.9 and 2 per cent computed with this method can be seen at \autoref{fig:photozcontamination}. It is found that  at 0.9 per cent of contamination, the induced signal due to photo-z migration is comparable to the error in the correlation functions. This upper limit is greater than the estimated photo-z migration, demonstrating that the effect of photo-z migration is negligible. Photo-z migration has a larger impact on the brightest samples. Nevertheless, since the errors of the correlation functions of these samples are shot-noise dominated, the tightest constrains on photo-z migration are imposed by the faintest samples. With a larger data sample this statement will no longer be true.
 \begin{sidewaysfigure}
 \includegraphics[width=\textwidth,trim={0 2.3cm 0 3.5cm},clip]{./figures/mag_i_mix.pdf}
-\caption{Estimation of the signal induced by migration of selected fractions of MICE un-lensed galaxies between the lens and the source sample (case $i<22.5$). Shaded area is the $1\sigma$ confidence interval for the measured number count cross-correlations. Dark blue dots correspond to a contamination fraction of 0.9 per cent. Violet squares correspond to a 2 per cent. Squares are displaced at the X axis for clarity. Red dashed line is an eye-guide for zero.}
+\caption{Estimation of the signal induced by migration of selected fractions of MICE un-lensed galaxies between the lens and the source sample (sample $I$). Shaded area is the $1\sigma$ confidence interval for the measured number count cross-correlations. Dark blue dots correspond to a contamination fraction of 0.9 per cent. Violet squares correspond to a 2 per cent. Squares are displaced at the X axis for clarity. Red dashed line is an eye-guide for zero.}
 \label{fig:photozcontamination}
 \end{sidewaysfigure}
 \newline
@@ -443,7 +444,7 @@ P(\Theta|Ph) = e^{-\chi^2_{\rm Ph}/2}.
 To compute $\chi^2_{\rm Planck+Ph}$ and $\chi^2_{\rm Ph}$ it has been assumed that the expected theory is given by $\omega_{\rm LS_j}(\theta)+\omega_{\rm LS_j}^{\rm ph}(\theta)$ and $\omega_{\rm LS_j}^{\rm ph}$ respectively, where $\omega_{\rm LS_j}^{\rm ph}$ is the expected signal induced by photo-z computed using \autoref{eq:phth}. The significances recomputed using these two new hypothesis for the {\it r}, {\it i} and {\it z} bands are $\log_{10}\mathcal{B}=2.5, 4.0, 3.5$ respectively. Thus, it can be concluded that photo-z migration has a limited impact on the measured significances.
 \newline
 
-All previous calculations were based on the assumption that the pdfs are a reliable description of the true redshift distribution. This statement can be partially validated comparing the pdfs with the spectroscopic redshift distribution for the same sample (see \autoref{fig:specphotoz} for an example).  Redshift distributions predicted by TPZ are found to be representative of those given by the spectroscopic sample. Nevertheless, this statement has limitations --but is good enough for SV data-- and a more accurate description of the real redshift distribution of the full sample will be measured with methodologies involving clustering-based estimators \cite{2008ApJ...684...88N,2010ApJ...721..456M,2013arXiv1303.4722M,2016MNRAS.462.1683S} when the size of the data sample grows. This type of estimators involve the use of two-point angular cross-correlations between different redshift bins, whose measurement may be biassed by number count magnification itself. Nevertheless, as it has been stated in \autoref{sec:mag_theory}, depending on the value of the number count slope, the amplitude induced by magnification on the correlation-function may be zero. Thus, when employing this kind of estimators, samples should be carefully chosen so that $\alpha_S-1=0$. This can be done by measuring the number count slope at the cumulative magnitude distribution with methods such that used in this work.
+All previous calculations were based on the assumption that the pdfs are a reliable description of the true redshift distribution. This statement can be partially validated comparing the pdfs with the spectroscopic redshift distribution for the same sample (see \autoref{fig:specphotoz} for an example).  Redshift distributions predicted by TPZ are found to be representative of those given by the spectroscopic sample. Nevertheless, this statement has limitations --but is good enough for SV data-- and a more accurate description of the real redshift distribution of the full sample will be measured with methodologies involving clustering-based estimators \cite{2008ApJ...684...88N,2010ApJ...721..456M,2013arXiv1303.4722M,2016MNRAS.462.1683S} when the size of the data sample grows. This type of estimators involve the use of two-point angular cross-correlations between different redshift bins, whose measurement may be biassed by number count magnification itself. Nevertheless, as it has been stated in \autoref{ch:theory}, depending on the value of the number count slope, the amplitude induced by magnification on the correlation-function may be zero. Thus, when employing this kind of estimators, samples should be carefully chosen so that $\alpha_S-1=0$. This can be done by measuring the number count slope at the cumulative magnitude distribution with methods such that used in this work.
 \begin{figure}
 \includegraphics[width=\textwidth]{./figures/spec_photoz_cmp.pdf}
 \caption{Comparison of the redshift distribution computed by the stacking of the pdfs given by TPZ ( solid lines) with the ones computed with the spectroscopic sample of the lens (black dots) and the source sample $i<22.5$ (blue squares).}

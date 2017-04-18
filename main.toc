@@ -6,7 +6,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Res\'umen}{ix}{section*.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Conclusiones}{ix}{section*.4}
+\contentsline {section}{Conclusiones}{x}{section*.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\color {ocre}Summary}{xi}{chapter*.5}
 \defcounter {refsection}{0}\relax 
@@ -14,7 +14,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}The expanding Universe}{3}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Dark Energy Models}{4}{section.1.2}
+\contentsline {section}{\numberline {1.2}Theories for Dark Energy}{4}{section.1.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2.1}The Cosmological Constant}{4}{subsection.1.2.1}
 \defcounter {refsection}{0}\relax 
@@ -22,9 +22,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2.3}Modified Gravity}{9}{subsection.1.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Current status of Dark Energy constrains}{12}{section.1.3}
+\contentsline {section}{\numberline {1.3}Observations of Dark Energy}{12}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Alternative probes for Dark Energy: Voids \& Troughs}{15}{section.1.4}
+\contentsline {section}{\numberline {1.4}Current status of Dark Energy constrains}{12}{section.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.5}Alternative probes for Dark Energy: Voids \& Troughs}{15}{section.1.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Gravitational Lensing Theory}{17}{chapter.2}
 \defcounter {refsection}{0}\relax 
@@ -100,7 +102,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Conclusions}{65}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix \numberline {A}My test appendix}{67}{Appendix.1.A}
+\contentsline {chapter}{Appendix \numberline {A}Stellar contamination equation}{69}{Appendix.1.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{69}{chapter*.19}
+\contentsline {chapter}{References}{71}{chapter*.19}
 \contentsfinish 

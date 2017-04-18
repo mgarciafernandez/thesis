@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.7.5)  17 APR 2017 16:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.7.5)  18 APR 2017 16:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1616,13 +1616,13 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<Pictures/ds9.png, id=159, 716.6775pt x 478.78876pt>
+<Pictures/ds9.png, id=163, 716.6775pt x 478.78876pt>
 File: Pictures/ds9.png Graphic file (type png)
  <use Pictures/ds9.png>
 Package pdftex.def Info: Pictures/ds9.png used on input line 158.
 (pdftex.def)             Requested size: 935.16016pt x 654.41338pt.
 
-<Pictures/MDM_Banner.jpg, id=161, 3848.706pt x 400.77pt>
+<Pictures/MDM_Banner.jpg, id=165, 3848.706pt x 400.77pt>
 File: Pictures/MDM_Banner.jpg Graphic file (type jpg)
 
 <use Pictures/MDM_Banner.jpg>
@@ -1638,7 +1638,7 @@ File: Pictures/MDM_Banner.jpg Graphic file (type jpg)
 Package pdftex.def Info: Pictures/MDM_Banner.jpg used on input line 5.
 (pdftex.def)             Requested size: 394.63864pt x 41.08836pt.
 
-<Pictures/LOGO_UAM_NEG.JPG, id=175, 426.79134pt x 142.26378pt>
+<Pictures/LOGO_UAM_NEG.JPG, id=179, 426.79134pt x 142.26378pt>
 File: Pictures/LOGO_UAM_NEG.JPG Graphic file (type jpg)
 
 <use Pictures/LOGO_UAM_NEG.JPG>
@@ -1654,20 +1654,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 165--168
 
 [4] [5] [6
 
-] <Pictures/head1.png, id=196, 1027.6794pt x 514.0806pt>
+] <Pictures/head1.png, id=200, 1027.6794pt x 514.0806pt>
 File: Pictures/head1.png Graphic file (type png)
 
 <use Pictures/head1.png>
 Package pdftex.def Info: Pictures/head1.png used on input line 220.
 (pdftex.def)             Requested size: 597.50787pt x 298.90431pt.
- (./main.toc
-Underfull \vbox (badness 1033) has occurred while \output is active []
-
- [7 <./Pictures/head1.png>])
+ (./main.toc [7 <./Pictures/head1.png>])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- (./appendix_spanish.tex [8]
+
+(./appendix_spanish.tex [8]
 File: Pictures/head1.png Graphic file (type png)
  <use Pictures/head1.png>
 Package pdftex.def Info: Pictures/head1.png used on input line 1.
@@ -1677,11 +1675,49 @@ Package pdftex.def Info: Pictures/head1.png used on input line 1.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\@ifnextchar' on input line 2.
 
-) (./summary.tex [9
 
-] [10
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--16
+
+ []
+
+[9
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--25
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--31
+
+ []
+
+) (./summary.tex [10]
 File: Pictures/head1.png Graphic file (type png)
  <use Pictures/head1.png>
 Package pdftex.def Info: Pictures/head1.png used on input line 1.
@@ -1691,12 +1727,41 @@ Package pdftex.def Info: Pictures/head1.png used on input line 1.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\@ifnextchar' on input line 2.
 
-) [11] [12
 
-] (./chapter_introduction.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--17
+
+ []
+
+
+Underfull \vbox (badness 2582) has occurred while \output is active []
+
+ [11
+
+])
+[12] (./chapter_introduction.tex
 Chapter 1.
 \c@ttl@toc@default=\count370
-<Pictures/head2.png, id=302, 1027.6794pt x 514.0806pt>
+<Pictures/head2.png, id=308, 1027.6794pt x 514.0806pt>
 File: Pictures/head2.png Graphic file (type png)
 
 <use Pictures/head2.png>
@@ -1752,13 +1817,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--17
 
  []
 
-<./Pictures/rho_a.png, id=309, 578.16pt x 433.62pt>
+<./Pictures/rho_a.png, id=315, 578.16pt x 433.62pt>
 File: ./Pictures/rho_a.png Graphic file (type png)
  <use ./Pictures/rho_a.png>
 Package pdftex.def Info: ./Pictures/rho_a.png used on input line 28.
 (pdftex.def)             Requested size: 311.55782pt x 233.6683pt.
 
-<./Pictures/scale_factor.png, id=311, 578.16pt x 433.62pt>
+<./Pictures/scale_factor.png, id=317, 578.16pt x 433.62pt>
 File: ./Pictures/scale_factor.png Graphic file (type png)
 
 <use ./Pictures/scale_factor.png>
@@ -1770,6 +1835,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--38
  []
 
 [1
+
 
  <./Pictures/head2.png>] [2 <./Pictures/rho_a.png> <./Pictures/scale_factor.png
 >]
@@ -1801,14 +1867,14 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 79.
 
-<./Pictures/omega_K_sdss.png, id=367, 882.29625pt x 870.25125pt>
+<./Pictures/omega_K_sdss.png, id=373, 882.29625pt x 870.25125pt>
 File: ./Pictures/omega_K_sdss.png Graphic file (type png)
 
 <use ./Pictures/omega_K_sdss.png>
 Package pdftex.def Info: ./Pictures/omega_K_sdss.png used on input line 87.
 (pdftex.def)             Requested size: 290.78603pt x 286.81198pt.
 
-<./Pictures/sarkar_acceleration.png, id=374, 1048.91875pt x 817.0525pt>
+<./Pictures/sarkar_acceleration.png, id=380, 1048.91875pt x 817.0525pt>
 File: ./Pictures/sarkar_acceleration.png Graphic file (type png)
 
 <use ./Pictures/sarkar_acceleration.png>
@@ -1855,12 +1921,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 189--192
 
  []
 
-[8]
+
 Underfull \hbox (badness 10000) in paragraph at lines 196--199
 
  []
 
-
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 214--216
 
  []
@@ -1870,7 +1936,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 217--219
 
  []
 
-<./Pictures/bullet_cluster.png, id=466, 557.08125pt x 374.39874pt>
+<./Pictures/bullet_cluster.png, id=472, 557.08125pt x 374.39874pt>
 File: ./Pictures/bullet_cluster.png Graphic file (type png)
 
 <use ./Pictures/bullet_cluster.png>
@@ -1887,80 +1953,80 @@ Underfull \hbox (badness 10000) in paragraph at lines 236--239
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--258
+Underfull \hbox (badness 10000) in paragraph at lines 258--260
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 259--261
+Underfull \hbox (badness 10000) in paragraph at lines 261--263
 
  []
 
-<./Pictures/w0wa_planck2015.png, id=530, 1138.2525pt x 893.3375pt>
+<./Pictures/w0wa_planck2015.png, id=536, 1138.2525pt x 893.3375pt>
 File: ./Pictures/w0wa_planck2015.png Graphic file (type png)
 
 <use ./Pictures/w0wa_planck2015.png>
-Package pdftex.def Info: ./Pictures/w0wa_planck2015.png used on input line 264.
+Package pdftex.def Info: ./Pictures/w0wa_planck2015.png used on input line 266.
 
 (pdftex.def)             Requested size: 332.3296pt x 258.32755pt.
 
-<./Pictures/equationofstate_planck2015.png, id=534, 948.54375pt x 739.76375pt>
+<./Pictures/equationofstate_planck2015.png, id=540, 948.54375pt x 739.76375pt>
 File: ./Pictures/equationofstate_planck2015.png Graphic file (type png)
 
 <use ./Pictures/equationofstate_planck2015.png>
 Package pdftex.def Info: ./Pictures/equationofstate_planck2015.png used on inpu
-t line 267.
+t line 269.
 (pdftex.def)             Requested size: 332.3296pt x 259.1808pt.
 
-<./Pictures/mg_planck2015.png, id=537, 1098.1025pt x 853.1875pt>
+<./Pictures/mg_planck2015.png, id=543, 1098.1025pt x 853.1875pt>
 File: ./Pictures/mg_planck2015.png Graphic file (type png)
 
 <use ./Pictures/mg_planck2015.png>
-Package pdftex.def Info: ./Pictures/mg_planck2015.png used on input line 275.
+Package pdftex.def Info: ./Pictures/mg_planck2015.png used on input line 277.
 (pdftex.def)             Requested size: 332.3296pt x 258.19742pt.
 
-<./Pictures/munu_planck2015.png, id=540, 1159.33125pt x 863.225pt>
+<./Pictures/munu_planck2015.png, id=546, 1159.33125pt x 863.225pt>
 File: ./Pictures/munu_planck2015.png Graphic file (type png)
 
 <use ./Pictures/munu_planck2015.png>
-Package pdftex.def Info: ./Pictures/munu_planck2015.png used on input line 279.
+Package pdftex.def Info: ./Pictures/munu_planck2015.png used on input line 281.
 
 (pdftex.def)             Requested size: 332.3296pt x 247.44423pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--287
+Underfull \hbox (badness 10000) in paragraph at lines 287--289
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--290
+Underfull \hbox (badness 10000) in paragraph at lines 290--292
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--293
+Underfull \hbox (badness 10000) in paragraph at lines 293--295
 
  []
 
 [12] [13 <./Pictures/w0wa_planck2015.png> <./Pictures/equationofstate_planck201
 5.png>] [14 <./Pictures/mg_planck2015.png> <./Pictures/munu_planck2015.png>]
-<./Pictures/2df.jpg, id=585, 557.08125pt x 331.2375pt>
+<./Pictures/2df.jpg, id=591, 557.08125pt x 331.2375pt>
 File: ./Pictures/2df.jpg Graphic file (type jpg)
 
 <use ./Pictures/2df.jpg>
-Package pdftex.def Info: ./Pictures/2df.jpg used on input line 300.
+Package pdftex.def Info: ./Pictures/2df.jpg used on input line 302.
 (pdftex.def)             Requested size: 415.41043pt x 247.00725pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--305
+Underfull \hbox (badness 10000) in paragraph at lines 300--307
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--309
+Underfull \hbox (badness 10000) in paragraph at lines 308--311
 
  []
 
 [15 <./Pictures/2df.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 311--314
+Underfull \hbox (badness 10000) in paragraph at lines 313--316
 
  []
 
@@ -1980,7 +2046,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--9
 
  []
 
-<./Pictures/einstein_ring.jpg, id=617, 903.375pt x 652.4375pt>
+<./Pictures/einstein_ring.jpg, id=623, 903.375pt x 652.4375pt>
 File: ./Pictures/einstein_ring.jpg Graphic file (type jpg)
 
 <use ./Pictures/einstein_ring.jpg>
@@ -1994,14 +2060,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--23
 [17
 
 ] [18 <./Pictures/einstein_ring.jpg>]
-<Pictures/optical_system.png, id=638, 555.07375pt x 261.97874pt>
+<Pictures/optical_system.png, id=644, 555.07375pt x 261.97874pt>
 File: Pictures/optical_system.png Graphic file (type png)
 
 <use Pictures/optical_system.png>
 Package pdftex.def Info: Pictures/optical_system.png used on input line 40.
 (pdftex.def)             Requested size: 373.86685pt x 176.45625pt.
 
-<./Pictures/distortion.png, id=639, 504.88625pt x 315.1775pt>
+<./Pictures/distortion.png, id=645, 504.88625pt x 315.1775pt>
 File: ./Pictures/distortion.png Graphic file (type png)
 
 <use ./Pictures/distortion.png>
@@ -2035,12 +2101,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [23]
 [24]
-Underfull \hbox (badness 10000) in paragraph at lines 255--258
+Underfull \hbox (badness 10000) in paragraph at lines 256--259
 
  []
 
 [25] [26]
-Underfull \hbox (badness 10000) in paragraph at lines 345--347
+Underfull \hbox (badness 10000) in paragraph at lines 346--348
 
  []
 
@@ -2070,7 +2136,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--30
 
  []
 
-<./Pictures/telescope_DES_mine.jpg, id=800, 3468.96pt x 4625.28pt>
+<./Pictures/telescope_DES_mine.jpg, id=806, 3468.96pt x 4625.28pt>
 File: ./Pictures/telescope_DES_mine.jpg Graphic file (type jpg)
 
 <use ./Pictures/telescope_DES_mine.jpg>
@@ -2078,7 +2144,7 @@ Package pdftex.def Info: ./Pictures/telescope_DES_mine.jpg used on input line 3
 4.
 (pdftex.def)             Requested size: 373.86685pt x 498.47829pt.
 
-<./Pictures/cerrotololo_mine.jpg, id=802, 4625.28pt x 3468.96pt>
+<./Pictures/cerrotololo_mine.jpg, id=808, 4625.28pt x 3468.96pt>
 File: ./Pictures/cerrotololo_mine.jpg Graphic file (type jpg)
 
 <use ./Pictures/cerrotololo_mine.jpg>
@@ -2086,7 +2152,7 @@ Package pdftex.def Info: ./Pictures/cerrotololo_mine.jpg used on input line 50.
 
 (pdftex.def)             Requested size: 415.41043pt x 311.55775pt.
 
-<Pictures/des_footprint.png, id=803, 936.49875pt x 423.5825pt>
+<Pictures/des_footprint.png, id=809, 936.49875pt x 423.5825pt>
 File: Pictures/des_footprint.png Graphic file (type png)
 
 <use Pictures/des_footprint.png>
@@ -2102,35 +2168,35 @@ Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
 
-<./Pictures/destile_g.png, id=820, 716.6775pt x 499.8675pt>
+<./Pictures/destile_g.png, id=826, 716.6775pt x 499.8675pt>
 File: ./Pictures/destile_g.png Graphic file (type png)
 
 <use ./Pictures/destile_g.png>
 Package pdftex.def Info: ./Pictures/destile_g.png used on input line 76.
 (pdftex.def)             Requested size: 166.16164pt x 102.69696pt.
 
-<./Pictures/destile_r.png, id=822, 716.6775pt x 499.8675pt>
+<./Pictures/destile_r.png, id=828, 716.6775pt x 499.8675pt>
 File: ./Pictures/destile_r.png Graphic file (type png)
 
 <use ./Pictures/destile_r.png>
 Package pdftex.def Info: ./Pictures/destile_r.png used on input line 78.
 (pdftex.def)             Requested size: 166.16164pt x 102.69696pt.
 
-<./Pictures/destile_i.png, id=824, 716.6775pt x 499.8675pt>
+<./Pictures/destile_i.png, id=830, 716.6775pt x 499.8675pt>
 File: ./Pictures/destile_i.png Graphic file (type png)
 
 <use ./Pictures/destile_i.png>
 Package pdftex.def Info: ./Pictures/destile_i.png used on input line 81.
 (pdftex.def)             Requested size: 166.16164pt x 102.69696pt.
 
-<./Pictures/destile_z.png, id=826, 716.6775pt x 499.8675pt>
+<./Pictures/destile_z.png, id=832, 716.6775pt x 499.8675pt>
 File: ./Pictures/destile_z.png Graphic file (type png)
 
 <use ./Pictures/destile_z.png>
 Package pdftex.def Info: ./Pictures/destile_z.png used on input line 83.
 (pdftex.def)             Requested size: 166.16164pt x 102.69696pt.
 
-<./Pictures/destile_det.png, id=828, 716.6775pt x 499.8675pt>
+<./Pictures/destile_det.png, id=834, 716.6775pt x 499.8675pt>
 File: ./Pictures/destile_det.png Graphic file (type png)
 
 <use ./Pictures/destile_det.png>
@@ -2154,42 +2220,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--10
 
  []
 
-
-LaTeX Warning: Reference `eq:shorthand' on page 35 undefined on input line 15.
-
 [35
 
 ]
-
-LaTeX Warning: Reference `eq:4a' on page 36 undefined on input line 26.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 30--32
 
  []
 
-[36]
-
-LaTeX Warning: Reference `eq:shorthand' on page 37 undefined on input line 47.
-
-<./figures/mag_i_MICE.pdf, id=899, 569.12625pt x 385.44pt>
+[36] <./figures/mag_i_MICE.pdf, id=908, 569.12625pt x 385.44pt>
 File: ./figures/mag_i_MICE.pdf Graphic file (type pdf)
 
 <use ./figures/mag_i_MICE.pdf>
 Package pdftex.def Info: ./figures/mag_i_MICE.pdf used on input line 62.
 (pdftex.def)             Requested size: 674.33032pt x 261.18602pt.
-
-
-LaTeX Warning: Reference `sec:sys' on page 37 undefined on input line 67.
-
-
-LaTeX Warning: Reference `sec:data_sample' on page 37 undefined on input line 7
-3.
-
-
-LaTeX Warning: Reference `sec:data' on page 37 undefined on input line 73.
-
-[37] [38 <./figures/mag_i_MICE.pdf, page is rotated 90 degrees>]
+ [37] [38 <./figures/mag_i_MICE.pdf, page is rotated 90 degrees>]
 Underfull \hbox (badness 10000) in paragraph at lines 80--82
 
  []
@@ -2219,14 +2263,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--113
 
  []
 
-<./figures/footprint.pdf, id=984, 453.695pt x 401.5pt>
+<./figures/footprint.pdf, id=996, 453.695pt x 401.5pt>
 File: ./figures/footprint.pdf Graphic file (type pdf)
 
 <use ./figures/footprint.pdf>
 Package pdftex.def Info: ./figures/footprint.pdf used on input line 124.
 (pdftex.def)             Requested size: 353.1014pt x 312.48257pt.
 
-<./figures/TPZ_phis_i.pdf, id=985, 569.12625pt x 385.44pt>
+<./figures/TPZ_phis_i.pdf, id=997, 569.12625pt x 385.44pt>
 File: ./figures/TPZ_phis_i.pdf Graphic file (type pdf)
 
 <use ./figures/TPZ_phis_i.pdf>
@@ -2252,7 +2296,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 176--180
 
  []
 
-<./figures/cov_matrix_mag_auto_i.pdf, id=1049, 569.12625pt x 550.055pt>
+<./figures/cov_matrix_mag_auto_i.pdf, id=1061, 569.12625pt x 550.055pt>
 File: ./figures/cov_matrix_mag_auto_i.pdf Graphic file (type pdf)
 
 <use ./figures/cov_matrix_mag_auto_i.pdf>
@@ -2264,21 +2308,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 185--193
 
  []
 
-<./figures/mag_r.pdf, id=1054, 569.12625pt x 385.44pt>
+<./figures/mag_r.pdf, id=1066, 569.12625pt x 385.44pt>
 File: ./figures/mag_r.pdf Graphic file (type pdf)
 
 <use ./figures/mag_r.pdf>
 Package pdftex.def Info: ./figures/mag_r.pdf used on input line 196.
 (pdftex.def)             Requested size: 674.33032pt x 261.18602pt.
 
-<./figures/mag_i.pdf, id=1056, 569.12625pt x 385.44pt>
+<./figures/mag_i.pdf, id=1068, 569.12625pt x 385.44pt>
 File: ./figures/mag_i.pdf Graphic file (type pdf)
 
 <use ./figures/mag_i.pdf>
 Package pdftex.def Info: ./figures/mag_i.pdf used on input line 201.
 (pdftex.def)             Requested size: 674.33032pt x 261.18602pt.
 
-<./figures/mag_z.pdf, id=1058, 569.12625pt x 385.44pt>
+<./figures/mag_z.pdf, id=1070, 569.12625pt x 385.44pt>
 File: ./figures/mag_z.pdf Graphic file (type pdf)
 
 <use ./figures/mag_z.pdf>
@@ -2290,14 +2334,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 194--211
  []
 
 [43] [44 <./figures/cov_matrix_mag_auto_i.pdf>]
-<./figures/alphai.pdf, id=1096, 569.12625pt x 385.44pt>
+
+LaTeX Warning: Reference `eq:numbercounttheo' on page 45 undefined on input lin
+e 212.
+
+<./figures/alphai.pdf, id=1108, 569.12625pt x 385.44pt>
 File: ./figures/alphai.pdf Graphic file (type pdf)
 
 <use ./figures/alphai.pdf>
 Package pdftex.def Info: ./figures/alphai.pdf used on input line 219.
 (pdftex.def)             Requested size: 353.1014pt x 239.14676pt.
 
-<./figures/predicted_sig.pdf, id=1097, 569.12625pt x 385.44pt>
+<./figures/predicted_sig.pdf, id=1109, 569.12625pt x 385.44pt>
 File: ./figures/predicted_sig.pdf Graphic file (type pdf)
 
 <use ./figures/predicted_sig.pdf>
@@ -2324,14 +2372,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 271--273
 
  []
 
-<./figures/weighted_w.pdf, id=1191, 569.12625pt x 385.44pt>
+<./figures/weighted_w.pdf, id=1202, 569.12625pt x 385.44pt>
 File: ./figures/weighted_w.pdf Graphic file (type pdf)
 
 <use ./figures/weighted_w.pdf>
 Package pdftex.def Info: ./figures/weighted_w.pdf used on input line 277.
 (pdftex.def)             Requested size: 353.1014pt x 239.14676pt.
 
-<./figures/acromatic_short.pdf, id=1194, 569.12625pt x 385.44pt>
+<./figures/acromatic_short.pdf, id=1205, 569.12625pt x 385.44pt>
 File: ./figures/acromatic_short.pdf Graphic file (type pdf)
 
 <use ./figures/acromatic_short.pdf>
@@ -2343,156 +2391,124 @@ Underfull \hbox (badness 10000) in paragraph at lines 274--286
  []
 
 [50] [51 <./figures/weighted_w.pdf> <./figures/acromatic_short.pdf>]
-<./figures/SPTE_SNe.pdf, id=1231, 569.12625pt x 385.44pt>
+<./figures/SPTE_SNe.pdf, id=1242, 569.12625pt x 385.44pt>
 File: ./figures/SPTE_SNe.pdf Graphic file (type pdf)
 
 <use ./figures/SPTE_SNe.pdf>
-Package pdftex.def Info: ./figures/SPTE_SNe.pdf used on input line 296.
+Package pdftex.def Info: ./figures/SPTE_SNe.pdf used on input line 297.
 (pdftex.def)             Requested size: 353.1014pt x 239.14676pt.
 
-<./figures/purity_lens.pdf, id=1232, 569.12625pt x 385.44pt>
+<./figures/purity_lens.pdf, id=1243, 569.12625pt x 385.44pt>
 File: ./figures/purity_lens.pdf Graphic file (type pdf)
 
 <use ./figures/purity_lens.pdf>
-Package pdftex.def Info: ./figures/purity_lens.pdf used on input line 299.
+Package pdftex.def Info: ./figures/purity_lens.pdf used on input line 300.
 (pdftex.def)             Requested size: 353.1014pt x 239.14676pt.
 
 
-LaTeX Warning: Float too large for page by 2.12982pt on input line 303.
+LaTeX Warning: Float too large for page by 2.12982pt on input line 304.
 
 
-LaTeX Warning: Reference `eq:shorthand' on page 52 undefined on input line 304.
-
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 304--306
+Underfull \hbox (badness 10000) in paragraph at lines 305--307
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--309
+Underfull \hbox (badness 10000) in paragraph at lines 308--310
 
  []
 
-
-LaTeX Warning: Reference `sec:starscorrection' on page 1 undefined on input lin
-e 318.
-
-<./figures/mag_istars.pdf, id=1238, 569.12625pt x 385.44pt>
+<./figures/mag_istars.pdf, id=1251, 569.12625pt x 385.44pt>
 File: ./figures/mag_istars.pdf Graphic file (type pdf)
 
 <use ./figures/mag_istars.pdf>
-Package pdftex.def Info: ./figures/mag_istars.pdf used on input line 326.
+Package pdftex.def Info: ./figures/mag_istars.pdf used on input line 327.
 (pdftex.def)             Requested size: 674.33032pt x 261.18602pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--331
+Underfull \hbox (badness 10000) in paragraph at lines 323--332
 
  []
 
 [52] [53 <./figures/SPTE_SNe.pdf, page is rotated 90 degrees> <./figures/purity
 _lens.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 340--343
+Underfull \hbox (badness 10000) in paragraph at lines 341--344
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 348--350
+Underfull \hbox (badness 10000) in paragraph at lines 349--351
 
  []
 
 [54] [55 <./figures/mag_istars.pdf, page is rotated 90 degrees>]
-<./figures/mag_i_ri.pdf, id=1376, 569.12625pt x 385.44pt>
+<./figures/mag_i_ri.pdf, id=1389, 569.12625pt x 385.44pt>
 File: ./figures/mag_i_ri.pdf Graphic file (type pdf)
 
 <use ./figures/mag_i_ri.pdf>
-Package pdftex.def Info: ./figures/mag_i_ri.pdf used on input line 357.
+Package pdftex.def Info: ./figures/mag_i_ri.pdf used on input line 358.
 (pdftex.def)             Requested size: 674.33032pt x 261.18602pt.
 
-<./figures/mag_idust.pdf, id=1380, 569.12625pt x 385.44pt>
+<./figures/mag_idust.pdf, id=1393, 569.12625pt x 385.44pt>
 File: ./figures/mag_idust.pdf Graphic file (type pdf)
 
 <use ./figures/mag_idust.pdf>
-Package pdftex.def Info: ./figures/mag_idust.pdf used on input line 363.
+Package pdftex.def Info: ./figures/mag_idust.pdf used on input line 364.
 (pdftex.def)             Requested size: 674.33032pt x 261.18602pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 383--386
+Underfull \hbox (badness 10000) in paragraph at lines 384--387
 
  []
 
 
-LaTeX Warning: Reference `sec:simulation' on page 56 undefined on input line 38
-7.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 390--393
+Underfull \hbox (badness 10000) in paragraph at lines 391--394
 
  []
 
 [56] [57 <./figures/mag_i_ri.pdf>] [58 <./figures/mag_idust.pdf, page is rotate
 d 90 degrees>]
-
-LaTeX Warning: Reference `sec:mag_theory' on page 59 undefined on input line 40
-8.
-
-
-LaTeX Warning: Reference `eq:4a' on page 59 undefined on input line 408.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 412--415
+Underfull \hbox (badness 10000) in paragraph at lines 413--416
 
  []
 
 [59]
-Underfull \hbox (badness 10000) in paragraph at lines 419--422
+Underfull \hbox (badness 10000) in paragraph at lines 420--423
 
  []
 
-
-LaTeX Warning: Reference `sec:simulation' on page 60 undefined on input line 42
-3.
-
-
-LaTeX Warning: Reference `sec:simulation' on page 60 undefined on input line 42
-3.
-
-<./figures/mag_i_mix.pdf, id=1482, 569.12625pt x 385.44pt>
+<./figures/mag_i_mix.pdf, id=1500, 569.12625pt x 385.44pt>
 File: ./figures/mag_i_mix.pdf Graphic file (type pdf)
 
 <use ./figures/mag_i_mix.pdf>
-Package pdftex.def Info: ./figures/mag_i_mix.pdf used on input line 425.
+Package pdftex.def Info: ./figures/mag_i_mix.pdf used on input line 426.
 (pdftex.def)             Requested size: 674.33032pt x 261.18602pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 423--430
+Underfull \hbox (badness 10000) in paragraph at lines 424--431
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 442--445
+Underfull \hbox (badness 10000) in paragraph at lines 443--446
 
  []
 
 [60] [61 <./figures/mag_i_mix.pdf, page is rotated 90 degrees>]
-
-LaTeX Warning: Reference `sec:mag_theory' on page 62 undefined on input line 44
-6.
-
-<./figures/spec_photoz_cmp.pdf, id=1546, 569.12625pt x 385.44pt>
+<./figures/spec_photoz_cmp.pdf, id=1565, 569.12625pt x 385.44pt>
 File: ./figures/spec_photoz_cmp.pdf Graphic file (type pdf)
 
 <use ./figures/spec_photoz_cmp.pdf>
-Package pdftex.def Info: ./figures/spec_photoz_cmp.pdf used on input line 448.
+Package pdftex.def Info: ./figures/spec_photoz_cmp.pdf used on input line 449.
 (pdftex.def)             Requested size: 415.41043pt x 281.35121pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 446--453
+Underfull \hbox (badness 10000) in paragraph at lines 447--454
 
  []
 
-<./figures/mag_i_photoz_comparison.pdf, id=1551, 569.12625pt x 385.44pt>
+<./figures/mag_i_photoz_comparison.pdf, id=1570, 569.12625pt x 385.44pt>
 File: ./figures/mag_i_photoz_comparison.pdf Graphic file (type pdf)
 
 <use ./figures/mag_i_photoz_comparison.pdf>
 Package pdftex.def Info: ./figures/mag_i_photoz_comparison.pdf used on input li
-ne 456.
+ne 457.
 (pdftex.def)             Requested size: 674.33032pt x 261.18602pt.
 ) (./chapter_conclusions.tex
 [62] [63 <./figures/spec_photoz_cmp.pdf>] [64 <./figures/mag_i_photoz_compariso
@@ -2500,71 +2516,81 @@ n.pdf>]
 Chapter 5.
 File: Pictures/head2.png Graphic file (type png)
 <use Pictures/head2.png>
-Package pdftex.def Info: Pictures/head2.png used on input line 3.
+Package pdftex.def Info: Pictures/head2.png used on input line 2.
 (pdftex.def)             Requested size: 597.50787pt x 298.90431pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--7
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--10
+Underfull \hbox (badness 10000) in paragraph at lines 7--9
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--13
+Underfull \hbox (badness 10000) in paragraph at lines 10--12
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--16
+Underfull \hbox (badness 10000) in paragraph at lines 13--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--19
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--22
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
 
  []
 
 [65
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 23--25
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--28
+Underfull \hbox (badness 10000) in paragraph at lines 25--27
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--31
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
 
  []
 
-) [66]
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--38
+
+ []
+
+[66]) (./appendix_stellar_contamination.tex [67] [68
+
+]
 Appendix A.
 File: Pictures/head2.png Graphic file (type png)
 <use Pictures/head2.png>
-Package pdftex.def Info: Pictures/head2.png used on input line 244.
+Package pdftex.def Info: Pictures/head2.png used on input line 1.
 (pdftex.def)             Requested size: 597.50787pt x 298.90431pt.
- [67
-
-] [68
+) [69] [70
 
 ]
 File: Pictures/head2.png Graphic file (type png)
  <use Pictures/head2.png>
-Package pdftex.def Info: Pictures/head2.png used on input line 247.
+Package pdftex.def Info: Pictures/head2.png used on input line 248.
 (pdftex.def)             Requested size: 597.50787pt x 298.90431pt.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 247.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 248.
 
 
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
@@ -2574,43 +2600,43 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [69]
-Overfull \hbox (0.78236pt too wide) in paragraph at lines 247--247
+ [71]
+Overfull \hbox (0.78236pt too wide) in paragraph at lines 248--248
 \T1/lmr/m/it/12 (-20) nalen der Physik \T1/lmr/m/n/12 (-20) 354 (1916), pp. 769
 ^^U822. \T1/lmr/m/sc/12 (-20) doi\T1/lmr/m/n/12 (-20) : []$\T1/lmtt/m/n/12 10 .
  1002 / andp . 19163540702$[]\T1/lmr/m/n/12 (-20) . 
  []
 
-[70]
-Overfull \hbox (8.514pt too wide) in paragraph at lines 247--247
+[72]
+Overfull \hbox (8.514pt too wide) in paragraph at lines 248--248
 []\T1/lmr/m/n/12 (-20) P. Binétruy. ``Mod-els of dy-nam-i-cal su-per-sym-me-try
  break-ing and quintessence''.
  []
 
-[71] [72]
-Overfull \hbox (0.52493pt too wide) in paragraph at lines 247--247
+[73] [74]
+Overfull \hbox (0.52493pt too wide) in paragraph at lines 248--248
 []\T1/lmr/m/n/12 (-20) T. Baker, P. G. Fer-reira, and C. Sko-rdis. ``The pa-ram
 -e-ter-ized post-Friedmann
  []
 
-[73] [74]
-Overfull \hbox (2.57446pt too wide) in paragraph at lines 247--247
+[75] [76]
+Overfull \hbox (2.57446pt too wide) in paragraph at lines 248--248
 []\T1/lmr/m/n/12 (-20) M. Bartel-mann and P. Schnei-der. ``Weak grav-i-ta-tiona
 l lens-ing''. In: \T1/lmr/m/it/12 (-20) Phys. Rep.
  []
 
-[75] [76] [77] [78] [79] [80]
+[77] [78] [79] [80] [81] [82]
 \tf@ptc=\write7
 \openout7 = `main.ptc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 249.
- [81]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 249.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 250.
+ [83]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 250.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 249.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 249.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 250.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 250.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A33E5A8199F685E8AA9CC4CC0FE6E484;2700.
+(rerunfilecheck)             Checksum: 918C254EB18ADCD656371899C18C1F35;2794.
 
 
 LaTeX Warning: There were undefined references.
@@ -2620,11 +2646,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32917 strings out of 494985
- 599602 string characters out of 6180357
- 1335630 words of memory out of 5000000
- 34714 multiletter control sequences out of 15000+600000
- 119852 words of font info for 211 fonts, out of 8000000 for 9000
+ 32955 strings out of 494985
+ 600229 string characters out of 6180357
+ 1335753 words of memory out of 5000000
+ 34731 multiletter control sequences out of 15000+600000
+ 130783 words of font info for 221 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  56i,14n,59p,10532b,2387s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
@@ -2635,22 +2661,22 @@ f/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lme
 x10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fo
 nts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pf
 b></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/typ
-e1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/
-share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/publi
-c/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/tex
-mf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.
-pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/
-type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb><
-/usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/typ
-e1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr
-/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/sym
-bols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symb
-ols/msbm10.pfb>
-Output written on main.pdf (93 pages, 21154976 bytes).
+e1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmib10.pfb></us
+r/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/pub
+lic/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/
+texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lm
+r7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts
+/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb>
+</usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type
+1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (95 pages, 21171913 bytes).
 PDF statistics:
- 2201 PDF objects out of 2487 (max. 8388607)
- 1784 compressed objects within 18 object streams
- 490 named destinations out of 1000 (max. 500000)
- 37008 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 2243 PDF objects out of 2487 (max. 8388607)
+ 1821 compressed objects within 19 object streams
+ 499 named destinations out of 1000 (max. 500000)
+ 38552 words of extra memory for PDF output out of 42996 (max. 10000000)
 
