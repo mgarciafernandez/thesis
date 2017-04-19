@@ -29,7 +29,7 @@ where $T_{\mu\nu}$ is total energy-momentum tensor, that is the source of gravit
 \caption{Critical energy density for different types of matter species as function of the scale parameter of the Universe: relativistic (cold matter), non-relativistic (radiation), and cosmological constant. It can be seen that at present (black-dashed line), cosmological constant has just started to be dominant over the other species.}
 \label{fig:rho_de}
 \includegraphics[width=0.75\textwidth]{./Pictures/scale_factor.png}
-\caption{Expansion rate as function of the scale parameter of the Universe for different geometries (assume $\Omega_M=1$). The flat geometry expansion rate decreases until at infinity reaches zero. Open geometries show a constant expansion rate leading to an exponential growth of the scale factor. Closed geometries drops to zero very fast an eventually becomes negative leading to a re-collapse of the Universe.}
+\caption{Expansion rate as function of the scale parameter of the Universe for different geometries (assume $\Omega_M=0.3$ and $\Omega_\Lambda=0.7$). The presence of dark energy on open and flat geometries show a constant expansion rate at late-time cosmic history leading to an exponential growth of the scale factor. Closed geometries drops to zero very fast an eventually becomes negative leading to a re-collapse of the Universe.}
 \label{fig:scale_geometry}
 \end{center}
 \end{figure}
@@ -85,7 +85,7 @@ Thus, the curvature of the Universe is the critical parameter to determine its t
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.7\textwidth]{./Pictures/omega_K_sdss.png}
-\caption{Latest constrains on the curvature of the Universe measured by the combination of baryon acoustic oscillations (BAO) and supernovas (SN) \cite{2017arXiv170200176B}. Curvature can be obtained with \autoref{eq:conservationenergy}. Black-solid dot is Planck 2015 best-fit result \cite{2015arXiv150201589P}. Flat Universe is the dash-dotted line.}
+\caption{Latest constrains on the curvature of the Universe measured by the combination of baryon acoustic oscillations (BAO) and supernovae (SN) \cite{2017arXiv170200176B}. Curvature can be obtained with \autoref{eq:conservationenergy}. Black-solid dot is Planck 2015 best-fit result \cite{2015arXiv150201589P}. Flat Universe is the dash-dotted line.}
 \label{fig:sdss_flatness}
 \vspace*{0.3cm}
 \includegraphics[width=0.7\textwidth]{./Pictures/sarkar_acceleration.png}
@@ -101,7 +101,7 @@ Two independent experiments of different properties of the Universe show contrad
 Among all the possible explanations, the cosmological constant is considered the fiducial explanation for dark energy.
 
 \subsection{The Cosmological Constant}
-The Cosmological Constant was initially proposed by Einstein himself \cite{1917SPAW.......142E} to avoid the solutions of the General Relativity where the Universe was not static and later discarded, when the expansion of the Universe was discovered by Hubble. Nevertheless, on the light of the recent events of accelerated expansion, the Cosmological Constant was soon recovered. The approach followed by this model consist on the addition of an additional covariant term to the Einstein field equations, a term proportional to the metric tensor ($\Lambda g_{\mu\nu}$), resulting \cite{2001LRR.....4....1C}:
+The Cosmological Constant \cite{1917SPAW.......142E} consist on the addition of an additional covariant term to the Einstein field equations, a term proportional to the metric tensor ($\Lambda g_{\mu\nu}$), resulting \cite{2001LRR.....4....1C}:
 \begin{equation}
 R_{\mu\nu}-\frac{1}{2}Rg_{\mu\nu}+\Lambda g_{\mu\nu} = \frac{8\pi G_N}{c^4}T_{\mu\nu}.
 \end{equation}
@@ -118,32 +118,23 @@ This new term may be regarded as a new matter specie such that
 \end{equation}
 Taking into account \autoref{eq:conservationenergy}, an upper bound on the dark energy density can be established
 \begin{equation}
-\rho_v \leq \frac{3H_0^2}{8\pi G_N} \sim 10 ^{-47} \mbox{ GeV}^4.
+\rho_\Lambda \leq \frac{3H_0^2}{8\pi G_N} \sim 10 ^{-47} \mbox{ GeV}^4.
+\label{eq:cosmologicalconstant}
 \end{equation}
 \newline
 
-Since this energy density is fills the whole Universe and is an inherent property of the geometry of the Universe and hence of the Universe itself, from a physical point of view it can be identified as the energy of the vacuum \cite{RevModPhys.61.1,2003PhR...380..235P}. Quantum Field Theory (QFT) states that the quantum vacuum is not empty and static but it actually is a dynamical entity where particle and antiparticles are constantly produced and annihilated as it has been demonstrated by the Casimir effect. Energy density of the vacuum can be estimated
+Since this energy density is fills the whole Universe and is an inherent property of the geometry of the Universe and hence of the Universe itself, from a physical point of view it can be identified as the energy of the vacuum \cite{RevModPhys.61.1,2003PhR...380..235P}. Quantum Field Theory (QFT) states that the quantum vacuum is not empty and static but it actually is a dynamical entity. Energy density of the vacuum can be estimated
 \begin{equation}
 \rho_{QFT} = \int\limits_0^{1/L_P} dk \sqrt{k^2+m^2}\frac{4\pi k^2}{(2\pi)^4}\sim 10^{71}\mbox{ GeV}^4,
 \end{equation}
-where $L_P$ is Planck's length. Thus, there's a miss-match between the amount of dark energy measured and that predicted by QFT of several orders of magnitude. It can be argued that although it is known that Planck's energy scale is the upper range of validity of Standard Model physics, nothing prevents that it starts to fail at lower scales. A lower bound on this point can be established as the Quantum Cromodynamics (QCD) cutoff scale ($\sim 200$ MeV), leading to a vacuum energy density of
+where $L_P$ is Planck's length. Thus, there's a miss-match between the amount of dark energy measured and that predicted by QFT of many orders of magnitude. It can be argued that although it is known that Planck's energy scale is the upper range of validity of Standard Model physics, nothing prevents that it starts to fail at lower scales. A lower bound on this point can be established as the Quantum Cromodynamics (QCD) cutoff scale ($\sim 200$ MeV), leading to a vacuum energy density of
 \begin{equation}
 \rho_{QCD} = \int\limits_0^{1/L_{QCD}} dk \sqrt{k^2+m^2}\frac{4\pi k^2}{(2\pi)^4}\sim 10^{-3}\mbox{ GeV}^4,
 \end{equation}
-reducing the tension between theory and experiment, but still being catastrophic. Some theories claim that a cancellation of modes may arise at super-symmetry models. Nevertheless, latests LHC results excluded most of the phase-space of supersymmetric models \cite{2015arXiv150603091B}.
-\newline
+reducing the tension between theory and experiment, but still being catastrophic. It is worth to remark that establishing the range of validity of the Standard Model at the QCD cutoff scale is an optimistic scenario for the cosmological constant, since latest LHC results have demonstrated its validity of the Standard Model up to 1 TeV.
 
-Several discrepancies indicate that either something is missing on the High Energy Physics side or on the Cosmology side. Nevertheless, it can be argued that no connection between the cosmological constant and quantum theory exists and define the cosmological constant as a free parameter of the theory. Despite this, a fine tune problem arises: the coincidence problem. As it has been observed by many experiments, the present day dark energy and matter density are very close, allowing the formation of structure. The redshift at which matter and dark energy densities are equal is given by
-\begin{equation}
-z_{eq} = \sqrt[3]{\frac{\Omega_\Lambda^0}{1-\Omega_\Lambda^0}}-1
-\label{eq:equality}
-\end{equation}
-with $\Omega_\Lambda^0\in(0,1)$. Current measurements indicate that $\Omega_\Lambda^0\sim0.7$, demanding that $z_{eq}\sim0.3$. Those redshifts such that $z<z_{eq}$ are dominated by dark energy, inhibiting structure formation. The variation of \autoref{eq:equality} with dark energy density is not smooth and variations on this parameter lead to completely different results. An  increase of the 20\% on the dark energy density leads to a value of $z_{eq}=2.7$, preventing structure formation, whereas a decrease of the 20\% leads to $z_{eq}=-0.1$, indicating the universe is still matter dominated, preventing the detection of cosmic expansion. This fine tuning issue indicates that there must be some mechanism that couples dark energy and matter. Anthropic arguments can be made, stating that the value of the dark energy density has the value we measure since it is the only possible compatible with the detection of cosmic acceleration and structure formation.
 \subsection{Exotic matter fields}
-Since no satisfactory explanation has been found on the vacuum to explain dark energy, the presence on new quantum fields that, on the simplest case, interact only trough gravity, but on more complicated scenarios may also couple arbitrarily with the other matter fields can be considered.
-\newline
-
-The simplest case is known as quintessence and is defined as a scalar field that is added to the Lagrangian defined at \autoref{eq:einsteinbare} such that such that
+An explanation to the accelerated expansion of the Universe can be found on the presence on new quantum fields. The simplest case is known as quintessence and is defined as a scalar field that is added to the Lagrangian defined at \autoref{eq:einsteinbare} such that such that
 \begin{equation}
 \mathcal{L}[g_{\mu\nu}] = \sqrt{g}\left(g^{\mu\nu}R_{\mu\nu}(g)+\mathcal{L}_\phi\right)\ \ \mbox{ with }\ \ \mathcal{L}_\phi = -\frac{1}{2}g^{\mu\nu}\partial_\mu\phi\partial_\nu\phi-V(\phi),
 \end{equation}
@@ -169,35 +160,17 @@ with $\mu_H$ the mass term, $\lambda_H$ the self-interaction of the field and $\
 \begin{equation}
 w_{DE} = \frac{-2V(\phi)}{2V(\phi)} = -1,
 \end{equation}
-recovering the cosmological constant solution. Thus, cosmological constant can be interpreted as the expected value of Higgs field at vacuum
+recovering the cosmological constant solution. Thus, the cosmological constant is interpreted as the expected value of Higgs field at vacuum
 \begin{equation}
-\langle 0|\phi_0|0\rangle = \frac{|\mu_H|}{\sqrt{\lambda_H}}= \sqrt{\frac{1}{\sqrt{2}G_F}}= 246\mbox{ GeV},
+\langle 0|\phi_0|0\rangle = \frac{|\mu_H|}{\sqrt{\lambda_H}}= \sqrt{\frac{1}{\sqrt{2}G_F}}= 246\mbox{ GeV}^4,
 \end{equation}
-where $G_F$ is the Fermi constant, that can be computed from the decay of the muon. The connection between the decay of the muon and the Higgs field comes from the fact that the decay is mediated by vector bosons, whose mass is given by the Higgs field:
+not solving the discrepancy of several orders of magnitude with the cosmological constant energy density as given by \autoref{eq:cosmologicalconstant}. Here $G_F$ is the Fermi constant, that can be computed from the decay of the muon. The connection between the decay of the muon and the Higgs field comes from the fact that the decay is mediated by vector bosons, whose mass is given by the Higgs field:
 \begin{equation}
 \mu^- \rightarrow W^- + \nu_\mu \mbox{ and }W^-\rightarrow e^-+\bar\nu_e.
 \end{equation}
 \newline
 
-Other High Energy Physics scalar potentials can be built from physics beyond the Standard Model, such us supergravity \cite{1999PhLB..468...40B,1999astro.ph.12005B,2000PhRvD..61j3502B}, where a scalar potential can be found such that
-\begin{equation}
-V(\phi) = M^{4+n}\phi^{-n},\exp(\alpha\phi^2/m^3_P),
-\end{equation}
-which has a minimum with $w_{DE}\simeq -0.8$, close to the cosmological constant value. Within a supersymmetry breaking framework, a field with potential 
-\begin{equation}
-V(\phi) = M^{4+n}\phi^{-n}
-\end{equation}
-can be introduced \cite{1999PhRvD..60f3502B}. Nevertheless most of the phase space of supersymmetry and supergravity has been excluded by latest LHC results.
-\newline
-
-The existence of an ultra-light Pseudo-Nambu-Goldstone Boson may be postulated with an associated field with potential \cite{PhysRevLett.75.2077,1992PhRvD..45.2674F}
-\begin{equation}
-V(\phi) = M^4\cos^2(\phi/f).
-\end{equation}
-Light-massive Pseudo-Nambu-Goldstone Bosons can be found as exotic forms of matter such as axions and schizons, whose existence is far from being probed.
-\newline
-
-More complicated field models can be considered increasing the number of fields and letting them interact and will not be considered here since they are beyond the scope of this Thesis. A detailed description of all the models can be found at \cite{2010deto.book.....A}. Nevertheless, a general phenomenological description can be made in terms of the equation of state of dark energy,
+Other High Energy Physics potentials can be built from physics beyond the Standard Model, such us supergravity and supersymmetry \cite{1999PhLB..468...40B,1999astro.ph.12005B,2000PhRvD..61j3502B,1999PhRvD..60f3502B}, where different scalar potential can be found. Even more complicated theories with more fields that may interact between can be postulated and will not be considered here since they are beyond the scope of this Thesis. A detailed description of all the models can be found at \cite{2010deto.book.....A}. Nevertheless, a general phenomenological description can be made in terms of the equation of state of dark energy,
 \begin{equation}
 P_{DE} = w_{DE}\rho_{DE}
 \end{equation}
@@ -209,6 +182,7 @@ where $w_0$ denotes the value of the equation of state parameter at present and 
 \begin{equation}
 w_0=-1\ \ \mbox{ and }\ \ w_a=0.
 \end{equation}
+The key difference between the cosmological constant and exotic forms of matter is that the latter theories provide a dark energy density that evolves trough the cosmic history.
 
 \subsection{Modified Gravity}
 Attempts to explain the existence of a cosmological constant from High Energy Physics side, leads to a tension between General Relativity and the Standard Model. Possible new exotic fields that may explain late-time cosmic acceleration are walking a tightrope due to latest LHC results from physics beyond the Standard Model.
@@ -297,7 +271,7 @@ As it has been described, current individual constrains on dark energy are not p
 
 
 \section{Alternative probes for Dark Energy: Voids \& Troughs}
-Previous cosmological probes were based on the same physical quantity: the anisotropies of the matter density-field although at different moments of the Cosmic History. Whereas CMB measures anisotropies at decoupling, lensing and clustering measure them at present. This anisotropies where originated on primordial density fluctuations\footnote{The current hypothesis suggests that this fluctuations are due to inflation.} that, when matter and radiation decoupled, froze. Then, the over-dense regions of the mater field started to grow by gravitational collapse of the matter, leading the the accretion of the matter contained at the under-dense regions, forming the cosmic  web (see \autoref{fig:2df}). This large under-dense regions of the Universe surrounded by over-dense regions are known as voids.
+Previous cosmological probes were based on the same physical quantity: the anisotropies of the matter density-field although at different moments of the Cosmic History. Whereas CMB measures anisotropies at decoupling, lensing and clustering measure them at present. This anisotropies where originated on primordial density fluctuations\footnote{The current hypothesis suggests that this fluctuations are due to inflation.}. Then, the over-dense regions of the mater field started to grow by gravitational collapse of the matter, leading to the accretion of the matter contained at the under-dense regions, forming the cosmic  web (see \autoref{fig:2df}). This large under-dense regions of the Universe surrounded by over-dense regions are known as voids.
 \begin{figure}
 \includegraphics[width=\textwidth]{./Pictures/2df.jpg}
 \caption{Large-scale-structure of the Universe. Each dot represents the position of a galaxy. Image credit: 2 Degree Field Survey.}
@@ -305,13 +279,13 @@ Previous cosmological probes were based on the same physical quantity: the aniso
 \end{figure}
 \newline
 
-Since voids have a lower matter content than the average Universe, their gravitational evolution is dominated by dark energy. Thus, void properties are different depending on the dark energy theory that rules the Cosmos. If the abundance of large voids on the Universe is considered, it has been reported that its number increases in $f(R)$ gravity models \cite{2012MNRAS.421.3481L} since the abundance of dark matter halos is altered \cite{2017JCAP...03..012V}. Nevertheless, if the shape of the void is measured, its ellipticity can be used as a probe for the parameters of the equation of state of dark energy \cite{2010MNRAS.403.1392L,0004-637X-754-2-109,PhysRevLett.98.081301,2013PhRvL.111x1103S}, since the structure growth-factor on the line-of-sight has a variation due to
+Since voids have a lower matter content than the average Universe, their gravitational evolution is more dominated by dark energy. Thus, void properties are different depending on the dark energy properties. If the abundance of large voids on the Universe is considered, it has been reported that its number increases in $f(R)$ gravity models \cite{2012MNRAS.421.3481L} since the abundance of dark matter halos is altered \cite{2017JCAP...03..012V}. Nevertheless, if the shape of the void is measured, its ellipticity can be used as a probe for the parameters of the equation of state of dark energy \cite{2010MNRAS.403.1392L,0004-637X-754-2-109,PhysRevLett.98.081301,2013PhRvL.111x1103S}, since the structure growth-factor on the line-of-sight has a variation due to
 the dark energy content, whereas on the transverse plane, growth-factor is constant. Finally, the radial distribution of matter around the center of a void --known as void profile-- has demonstrated to be different on $f(R)$ theories and General Relativity \cite{2014APh....54...44A,2014arXiv1410.8355C,2015MNRAS.451.4215Z,2015JCAP...08..028B,2016PhRvD..93j3522A,2016PhRvD..94j3524A}. Thus, by simply measuring the void matter profile, constrains on dark energy can be made.
 \newline
 
-Nevertheless, the total matter budget of the Universe is composed by both baryonic and dark matter, being the presence of the latter only accessible indirectly trough its gravitational effects. As galaxies --mainly composed by baryonic matter-- are biased tracers of the underlying dark matter field, its spatial distribution requires a model of assembly of galaxies within dark matter, introducing uncertainties and nuisance parameters on the model. Gravitational light deflection is only sensitive to the total matter field, not needing additional modeling on how baryonic and dark matter relate. Thus, gravitational light deflection made by voids constitutes a promising new probe on dark energy.
+Nevertheless, the total matter budget of the Universe is composed by both baryonic and dark matter, being the presence of the latter only accessible trough its gravitational effects. As galaxies --composed by baryonic matter-- are biased tracers of the underlying dark matter field, its spatial distribution requires a model of assembly of galaxies within dark matter, introducing uncertainties and nuisance parameters on the model. Gravitational light deflection is only sensitive to the total matter field, not needing additional modeling on how baryonic and dark matter relate. Thus, gravitational light deflection made by voids constitutes a promising new probe on dark energy.
 $$\S\qquad \S\qquad \S$$
-This Thesis is devoted to the analysis of weak-lensing magnification as part of the Dark Energy Survey Collaboration. Data analysis is carried out on two different data-sets of the mentioned experiment with two different goals each. The first analysis is carried out on the Science Verification data-set, aiming the detection of the magnification signal and the development of new techniques of systematic error mitigation. Once the magnification signal has been detected, a new analysis on the Year 1 data-release is made on the Year 1 data-release with the methodology that has been established previously. Year 1 analysis is qualitatively different since its goal is to measure the convergence profile of voids allowing on the future to use it as a probe for dark energy.
+This Thesis is devoted to the analysis of weak-lensing magnification as part of the Dark Energy Survey Collaboration. Data analysis is carried out on two different data-sets of the mentioned experiment with two different goals each. The first analysis is carried out on the Science Verification data-set, aiming the detection of the magnification signal and the development of new techniques of systematic error mitigation. Once the magnification signal has been detected, a new analysis on the Year 1 data-release is made with the methodology that has been established previously. Year 1 analysis is qualitatively different since its goal is to measure the convergence profile of voids to use it as a probe for dark energy.
 \newline
 
-The next chapter (\autoref{ch:theory}), describes the general weak-lensing formalism and explains the magnification theory and its observational effects. The experiment where this Thesis has been developed --the Dark Energy Survey-- is briefly described on \autoref{ch:DES}. The core of my work is found on \autoref{ch:magnification}, where the analysis of the Science Verification data and the Year 1 data are described extensively, concluding on \autoref{ch:conclusions}
+The next chapter (\autoref{ch:theory}), describes the general weak-lensing formalism and explains the magnification theory and its observational effects. The experiment where this Thesis has been developed --the Dark Energy Survey-- is briefly described on \autoref{ch:DES}. The core of this work is found on \autoref{ch:magnification}, where the analysis of the Science Verification data and the Year 1 data are described extensively, concluding on \autoref{ch:conclusions}

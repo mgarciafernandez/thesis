@@ -762,32 +762,6 @@
       \verb hep-th/0212290
       \endverb
     \endentry
-    \entry{2015arXiv150603091B}{article}{}
-      \name{labelname}{3}{}{%
-        {{hash=245966b49b87432e92dbc92bd09ba2bd}{{Bechtle}}{B\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
-        {{hash=288ffc8aa2b6e2437d238482639b49dd}{{Plehn}}{P\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
-        {{hash=53e798dd53f759de0ddca5f21c98915f}{{Sander}}{S\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{3}{}{%
-        {{hash=245966b49b87432e92dbc92bd09ba2bd}{{Bechtle}}{B\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
-        {{hash=288ffc8aa2b6e2437d238482639b49dd}{{Plehn}}{P\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
-        {{hash=53e798dd53f759de0ddca5f21c98915f}{{Sander}}{S\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{d82e70ce36d91d562eac004d03e38dc3}
-      \strng{fullhash}{d82e70ce36d91d562eac004d03e38dc3}
-      \field{sortinit}{0}
-      \field{labeltitle}{{The Status of Supersymmetry after the LHC Run 1}}
-      \field{eprintclass}{hep-ex}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{ArXiv e-prints}
-      \field{month}{06}
-      \field{title}{{The Status of Supersymmetry after the LHC Run 1}}
-      \field{year}{2015}
-      \verb{eprint}
-      \verb 1506.03091
-      \endverb
-      \keyw{High Energy Physics - Experiment,High Energy Physics - Phenomenology}
-    \endentry
     \entry{1999PhLB..468...40B}{article}{}
       \name{labelname}{2}{}{%
         {{hash=5f40330d7ebbafccbc718b1a5e5e0c2f}{{Brax}}{B\bibinitperiod}{P.\bibnamedelimi H.}{P\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
@@ -891,64 +865,6 @@
       \verb hep-ph/9810553
       \endverb
       \keyw{Particle-theory and field-theory models of the early Universe,Nonlinear and dynamical symmetries,Supersymmetric models,Background radiations}
-    \endentry
-    \entry{PhysRevLett.75.2077}{article}{}
-      \name{labelname}{4}{}{%
-        {{hash=d846a20add2b932b2114d113a301aa66}{Frieman}{F\bibinitperiod}{Joshua\bibnamedelima A.}{J\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=093e998aeb1b82765d9d13468e794087}{Hill}{H\bibinitperiod}{Christopher\bibnamedelima T.}{C\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
-        {{hash=a5f2dc57e79f9ba6f7ee190ab32069b5}{Stebbins}{S\bibinitperiod}{Albert}{A\bibinitperiod}{}{}{}{}}%
-        {{hash=cf4b355cc00204df20c3fe77c8b80105}{Waga}{W\bibinitperiod}{Ioav}{I\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{4}{}{%
-        {{hash=d846a20add2b932b2114d113a301aa66}{Frieman}{F\bibinitperiod}{Joshua\bibnamedelima A.}{J\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=093e998aeb1b82765d9d13468e794087}{Hill}{H\bibinitperiod}{Christopher\bibnamedelima T.}{C\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
-        {{hash=a5f2dc57e79f9ba6f7ee190ab32069b5}{Stebbins}{S\bibinitperiod}{Albert}{A\bibinitperiod}{}{}{}{}}%
-        {{hash=cf4b355cc00204df20c3fe77c8b80105}{Waga}{W\bibinitperiod}{Ioav}{I\bibinitperiod}{}{}{}{}}%
-      }
-      \list{publisher}{1}{%
-        {American Physical Society}%
-      }
-      \strng{namehash}{52a23a17fae4525dbfe296d1dde5e143}
-      \strng{fullhash}{970598698fc2cc0e0c9ee33e610256bf}
-      \field{sortinit}{0}
-      \field{labeltitle}{Cosmology with Ultralight Pseudo Nambu-Goldstone Bosons}
-      \field{issue}{11}
-      \field{journaltitle}{Phys. Rev. Lett.}
-      \field{month}{09}
-      \field{title}{Cosmology with Ultralight Pseudo Nambu-Goldstone Bosons}
-      \field{volume}{75}
-      \field{year}{1995}
-      \field{pages}{2077\bibrangedash 2080}
-      \verb{doi}
-      \verb 10.1103/PhysRevLett.75.2077
-      \endverb
-      \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevLett.75.2077
-      \endverb
-    \endentry
-    \entry{1992PhRvD..45.2674F}{article}{}
-      \name{labelname}{2}{}{%
-        {{hash=2b3baaa4fd2aa9bc6e8bd7c36009944e}{{Frieman}}{F\bibinitperiod}{J.\bibnamedelimi A.}{J\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=87e95d0e9e2c9f9199324f997b860bf2}{{Jaffe}}{J\bibinitperiod}{A.\bibnamedelimi H.}{A\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{2}{}{%
-        {{hash=2b3baaa4fd2aa9bc6e8bd7c36009944e}{{Frieman}}{F\bibinitperiod}{J.\bibnamedelimi A.}{J\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=87e95d0e9e2c9f9199324f997b860bf2}{{Jaffe}}{J\bibinitperiod}{A.\bibnamedelimi H.}{A\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{67cf13e7ec8f24ff1203297713be6760}
-      \strng{fullhash}{67cf13e7ec8f24ff1203297713be6760}
-      \field{sortinit}{0}
-      \field{labeltitle}{{Cosmological constraints on pseudo Nambu-Goldstone bosons}}
-      \field{journaltitle}{\prd}
-      \field{month}{04}
-      \field{title}{{Cosmological constraints on pseudo Nambu-Goldstone bosons}}
-      \field{volume}{45}
-      \field{year}{1992}
-      \field{pages}{2674\bibrangedash 2684}
-      \verb{doi}
-      \verb 10.1103/PhysRevD.45.2674
-      \endverb
-      \keyw{Particle-theory and field-theory models of the early Universe,Miscellaneous theoretical ideas and models,Stellar structure interiors evolution nucleosynthesis ages}
     \endentry
     \entry{2010deto.book.....A}{book}{}
       \name{labelname}{2}{}{%
