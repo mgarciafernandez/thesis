@@ -5367,50 +5367,6 @@
       \endverb
       \keyw{Astrophysics}
     \endentry
-    \entry{2006astro.ph..9591A}{article}{}
-      \name{labelname}{13}{}{%
-        {{hash=8e6d925db02a6db13a462de71f02cb12}{{Albrecht}}{A\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
-        {{hash=9057ddfbec03cc37c4b5d0f9fe4cd87b}{{Bernstein}}{B\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
-        {{hash=93ccb088e104a14b74a3688d9dd98cfe}{{Cahn}}{C\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
-        {{hash=458cd657bcf7aa63b32b1f623badbe1a}{{Freedman}}{F\bibinitperiod}{W.\bibnamedelimi L.}{W\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
-        {{hash=92bc10d853476bd48a7310660eb62056}{{Hewitt}}{H\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
-        {{hash=07d4503831e29b92ff9a4181a6707afb}{{Hu}}{H\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
-        {{hash=1591a6cef39efbc2e7030d72a4ee9572}{{Huth}}{H\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
-        {{hash=daf3fe3c8c412fddee0198f950fa0ee9}{{Kamionkowski}}{K\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=afbd8e92f771fc2ffa89bb4039045d8c}{{Kolb}}{K\bibinitperiod}{E.\bibnamedelimi W.}{E\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=2aecbe8a2f7dd36c2929235d6a4a5e2d}{{Knox}}{K\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
-        {{hash=2d7b280aaed90743be40cc2e5d85ab12}{{Mather}}{M\bibinitperiod}{J.\bibnamedelimi C.}{J\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
-        {{hash=a17cc7177db29606766281670e77194f}{{Staggs}}{S\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=77293198a36cfa573e11b1780fcf14ba}{{Suntzeff}}{S\bibinitperiod}{N.\bibnamedelimi B.}{N\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{13}{}{%
-        {{hash=8e6d925db02a6db13a462de71f02cb12}{{Albrecht}}{A\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
-        {{hash=9057ddfbec03cc37c4b5d0f9fe4cd87b}{{Bernstein}}{B\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
-        {{hash=93ccb088e104a14b74a3688d9dd98cfe}{{Cahn}}{C\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
-        {{hash=458cd657bcf7aa63b32b1f623badbe1a}{{Freedman}}{F\bibinitperiod}{W.\bibnamedelimi L.}{W\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
-        {{hash=92bc10d853476bd48a7310660eb62056}{{Hewitt}}{H\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
-        {{hash=07d4503831e29b92ff9a4181a6707afb}{{Hu}}{H\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
-        {{hash=1591a6cef39efbc2e7030d72a4ee9572}{{Huth}}{H\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
-        {{hash=daf3fe3c8c412fddee0198f950fa0ee9}{{Kamionkowski}}{K\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=afbd8e92f771fc2ffa89bb4039045d8c}{{Kolb}}{K\bibinitperiod}{E.\bibnamedelimi W.}{E\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
-        {{hash=2aecbe8a2f7dd36c2929235d6a4a5e2d}{{Knox}}{K\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
-        {{hash=2d7b280aaed90743be40cc2e5d85ab12}{{Mather}}{M\bibinitperiod}{J.\bibnamedelimi C.}{J\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
-        {{hash=a17cc7177db29606766281670e77194f}{{Staggs}}{S\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
-        {{hash=77293198a36cfa573e11b1780fcf14ba}{{Suntzeff}}{S\bibinitperiod}{N.\bibnamedelimi B.}{N\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{56a6866986baebbac4d46f15a18c7e7b}
-      \strng{fullhash}{15fa03c890e992d41ab8ad46a5a3ad79}
-      \field{sortinit}{0}
-      \field{labeltitle}{{Report of the Dark Energy Task Force}}
-      \field{journaltitle}{ArXiv Astrophysics e-prints}
-      \field{month}{09}
-      \field{title}{{Report of the Dark Energy Task Force}}
-      \field{year}{2006}
-      \verb{eprint}
-      \verb astro-ph/0609591
-      \endverb
-      \keyw{Astrophysics}
-    \endentry
     \entry{1995AIPC..336..320B}{inproceedings}{}
       \name{labelname}{1}{}{%
         {{hash=59cb59dccad54bdb3b7cc328b05854c0}{{Broadhurst}}{B\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%

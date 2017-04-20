@@ -1,19 +1,19 @@
 [0] Config.pm:318> INFO - This is Biber 1.8
 [0] Config.pm:321> INFO - Logfile is 'main.blg'
-[49] biber:275> INFO - === miÃ© abr 19, 2017, 17:12:16
+[49] biber:275> INFO - === jue abr 20, 2017, 11:20:39
 [49] Biber.pm:333> INFO - Reading 'main.bcf'
-[101] Biber.pm:630> INFO - Found 152 citekeys in bib section 0
-[112] Biber.pm:3053> INFO - Processing section 0
-[125] Biber.pm:3190> INFO - Looking for bibtex format file 'thesis_bibliography.bib' for section 0
-[157] bibtex.pm:933> INFO - Decoding LaTeX character macros into UTF-8
-[202] bibtex.pm:808> INFO - Found BibTeX data source 'thesis_bibliography.bib'
-[211] Utils.pm:169> WARN - Duplicate entry key: '1998MNRAS.294..291M' in file 'thesis_bibliography.bib', skipping ...
-[211] Utils.pm:169> WARN - Duplicate entry key: '2014A&A...571A..16P' in file 'thesis_bibliography.bib', skipping ...
-[217] Utils.pm:169> WARN - Duplicate entry key: '2010ApJ...721..456M' in file 'thesis_bibliography.bib', skipping ...
-[792] Utils.pm:169> WARN - BibTeX subsystem: /tmp/Yo46OArMNA/thesis_bibliography.bib_6526.utf8, line 2841, warning: 92 characters of junk seen at toplevel
-[953] Biber.pm:2939> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
-[953] Biber.pm:2945> INFO - Sorting 'entry' list 'none' keys
-[953] Biber.pm:2949> INFO - No sort tailoring available for locale 'en_US.UTF-8'
-[1221] bbl.pm:482> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1286] bbl.pm:555> INFO - Output to main.bbl
-[1286] Biber.pm:105> INFO - WARNINGS: 4
+[100] Biber.pm:630> INFO - Found 151 citekeys in bib section 0
+[114] Biber.pm:3053> INFO - Processing section 0
+[127] Biber.pm:3190> INFO - Looking for bibtex format file 'thesis_bibliography.bib' for section 0
+[158] bibtex.pm:933> INFO - Decoding LaTeX character macros into UTF-8
+[204] bibtex.pm:808> INFO - Found BibTeX data source 'thesis_bibliography.bib'
+[213] Utils.pm:169> WARN - Duplicate entry key: '1998MNRAS.294..291M' in file 'thesis_bibliography.bib', skipping ...
+[214] Utils.pm:169> WARN - Duplicate entry key: '2014A&A...571A..16P' in file 'thesis_bibliography.bib', skipping ...
+[219] Utils.pm:169> WARN - Duplicate entry key: '2010ApJ...721..456M' in file 'thesis_bibliography.bib', skipping ...
+[832] Utils.pm:169> WARN - BibTeX subsystem: /tmp/_4t2_NPuow/thesis_bibliography.bib_3511.utf8, line 2841, warning: 92 characters of junk seen at toplevel
+[999] Biber.pm:2939> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[999] Biber.pm:2945> INFO - Sorting 'entry' list 'none' keys
+[999] Biber.pm:2949> INFO - No sort tailoring available for locale 'en_US.UTF-8'
+[1273] bbl.pm:482> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1341] bbl.pm:555> INFO - Output to main.bbl
+[1342] Biber.pm:105> INFO - WARNINGS: 4
