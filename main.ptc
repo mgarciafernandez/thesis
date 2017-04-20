@@ -65,7 +65,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.3}The data reduction pipeline}{33}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Current status of the experiment}{35}{section.3.4}
+\contentsline {section}{\numberline {3.4}Current status and latest results}{35}{section.3.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Magnification in DES}{37}{chapter.4}
 \ttl@stoptoc {default@3}
@@ -117,5 +117,9 @@
 \ttl@stoptoc {default@5}
 \ttl@starttoc {default@6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{73}{chapter*.19}
+\contentsline {chapter}{Appendix \numberline {B}Additional SV plots}{73}{Appendix.1.B}
+\ttl@stoptoc {default@6}
+\ttl@starttoc {default@7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{References}{75}{chapter*.19}
 \contentsfinish 

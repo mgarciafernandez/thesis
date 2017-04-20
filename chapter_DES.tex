@@ -84,10 +84,37 @@ The data reduction that goes from images to science-ready catalogs of galaxies i
 \vspace*{0.2cm}
 \begin{overpic}[width=0.4\textwidth,trim=0 2cm 0 0,clip]{./Pictures/destile_det.png}\put(5,5){\colorbox{white}{\Large coadd}}
 \put(47,10){\begin{tikzpicture}\draw[red,thick] (0,0) circle (0.2cm);\end{tikzpicture}}\end{overpic}
-\caption{Comparison of the multi-epoch image for the {\it griz} bands with the detection coadd. Images are taken from DES-database for a region of the tile DES0419-4914 after the Y1 epoch. Red circle denotes an object that is detected at the coadd image but at the individual image is not.}
+\caption{Comparison of the multi-epoch image for the {\it griz} bands with the detection coadd. Images are taken from DES-database for a region of the tile DES0419-4914 after the Y1 epoch. Red circle denotes an object that is detected at the coadd image but at the individual image is not. Image credit: M. Garcia-Fernandez \& The DES Collaboration.}
 \label{fig:coadd}
 \end{center}
 \end{figure}
 
-\section{Current status of the experiment}
-The Dark Energy Survey started its journey on 2005, starting the data acquisition on 2013, the Science Verification data.
+\section{Current status and latest results}
+The Dark Energy Survey started its journey on 2005, starting the data acquisition on 2013, the Science Verification data. As of March 2017, the Year 4 observation campaign has ended (\autoref{fig:des_coverage}). The Year 3 reduction pipeline from images to galaxy-catalogs has just finished and is still under inspection, so the most recent data-set that is being used for Cosmology analysis, is the Year 1 release (\autoref{fig:des_y1_coverage} and \autoref{fig:des_y1_mag_auto_i}) 
+\newline
+
+Currently, no constrains on dark energy has been made. Nevertheless several other works on Cosmology has been provided, such as strong-lensing \cite{2015MNRAS.454.1260A,2016ApJ...827...51N,2017ApJ...838L..15L}, Sunyaev-Zel'dovich \cite{2016arXiv160508770S}, voids and troughs \cite{2016MNRAS.455.3367G,2017MNRAS.465..746S}, tests of log-normality \cite{2017MNRAS.466.1444C}, clusters \cite{2017MNRAS.467.4015H}, weak-lensing \cite{2015PhRvD..92b2006V,2016PhRvD..94b2002B,2016MNRAS.459...21K,2016MNRAS.461.3172S,2016MNRAS.461.4099B,2016arXiv160908167P,2017MNRAS.465.4204C} and large-scale-structure correlations with CMB \cite{2016MNRAS.456.3213G,2016MNRAS.459...21K,2017MNRAS.465.4166K}.
+\newline
+
+The Cosmology studies provided by DES are based on the Science Verification data shear analysis \cite{2016PhRvD..94b2001A,2016MNRAS.463.3653K}. Nevertheless, the most powerful measurement is produced by the combination of clustering with gg-lensing \cite{2017MNRAS.464.4045K} to do constrains on the $\sigma_8-\Omega_M$ plane. Although results provided are still not sensitive to decide whether CFHTLens or Planck 2015 is right, it is a remarkable milestone for DES to provide such a competitive results with just the 3\% of the planed total area.
+\begin{figure}
+\begin{center}
+\includegraphics[width=\textwidth]{./Pictures/des_tiles.png}
+\caption{DES coverage at the end of Year 4 for the {\it grizY} photometric bands. All the area has at least 6 tiles out of 10. It can be also seen that there's plenty of area with 7 tiles. Image credit: The DES Collaboration.}
+\label{fig:des_coverage}
+\end{center}
+\end{figure}
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.9\textwidth]{./Pictures/des_y1_coverage.png}
+\caption{DES Year 1 spatial distribution of objects on equatorial coordinates. Image credit: The DES Collaboration.}
+\label{fig:des_y1_coverage}
+
+\includegraphics[width=0.9\textwidth]{./Pictures/des_y1_mag_auto_i.png}
+\caption{DES Year 1 magnitude distribution of objects on the $i$-band (arbitrary normalization). Image credit: The DES Collaboration.}
+\label{fig:des_y1_mag_auto_i}
+\end{center}
+\end{figure}
+\newline
+
+But not everything is about dark energy at DES, several other stellar, Milky-Way and planetary results has been provided: searches for trans-neptunian objects (TNOs) and main belt asteroids, characterization of variable stars, detection and characterization of Milky-Way satellite galaxies and gravitational-wave follow-up. A detailed review can be found here \cite{2016MNRAS.460.1270D}.
