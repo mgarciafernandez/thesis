@@ -62,51 +62,51 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.4}Current status and latest results}{35}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Magnification in DES}{37}{chapter.4}
+\contentsline {chapter}{\numberline {4}Magnification in DES}{39}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Measuring Magnification through Number Count}{37}{section.4.1}
+\contentsline {section}{\numberline {4.1}Measuring Magnification through Number Count}{39}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Magnification in the MICE-GC simulation}{39}{section.4.2}
+\contentsline {section}{\numberline {4.2}Magnification in the MICE-GC simulation}{41}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Magnification in DES Science Verification data}{41}{section.4.3}
+\contentsline {section}{\numberline {4.3}Magnification in DES Science Verification data}{43}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Data sample}{42}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.1}Data sample}{44}{subsection.4.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Lens sample}{44}{section*.9}
+\contentsline {subsubsection}{Lens sample}{46}{section*.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Source sample}{44}{section*.10}
+\contentsline {subsubsection}{Source sample}{46}{section*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Detection of the weak-lensing magnification signal}{44}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.2}Detection of the weak-lensing magnification signal}{46}{subsection.4.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.3}Systematic error analysis}{54}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.3}Systematic error analysis}{56}{subsection.4.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Number count slope $\alpha $}{54}{section*.11}
+\contentsline {subsubsection}{Number count slope $\alpha $}{56}{section*.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Object obscuration}{54}{section*.12}
+\contentsline {subsubsection}{Object obscuration}{56}{section*.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Stellar contamination}{54}{section*.13}
+\contentsline {subsubsection}{Stellar contamination}{56}{section*.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Survey observing conditions}{56}{section*.14}
+\contentsline {subsubsection}{Survey observing conditions}{58}{section*.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Dust extinction}{58}{section*.15}
+\contentsline {subsubsection}{Dust extinction}{60}{section*.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Photometric redshifts}{61}{section*.16}
+\contentsline {subsubsection}{Photometric redshifts}{63}{section*.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Magnification in DES Year 1 data}{64}{section.4.4}
+\contentsline {section}{\numberline {4.4}Magnification in DES Year 1 data}{66}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}Data sample}{64}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.1}Data sample}{66}{subsection.4.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Lens sample}{64}{section*.17}
+\contentsline {subsubsection}{Lens sample}{66}{section*.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Lens sample}{64}{section*.18}
+\contentsline {subsubsection}{Lens sample}{66}{section*.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}Determination of matter profile: voids \& troughs}{64}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.2}Determination of matter profile: voids \& troughs}{66}{subsection.4.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusions}{67}{chapter.5}
+\contentsline {chapter}{\numberline {5}Conclusions}{69}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix \numberline {A}Stellar contamination equation}{71}{Appendix.1.A}
+\contentsline {chapter}{Appendix \numberline {A}Stellar contamination equation}{73}{Appendix.1.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix \numberline {B}Additional SV plots}{73}{Appendix.1.B}
+\contentsline {chapter}{Appendix \numberline {B}Additional SV plots}{75}{Appendix.1.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{75}{chapter*.19}
+\contentsline {chapter}{References}{77}{chapter*.19}
 \contentsfinish 

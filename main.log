@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.7.5)  20 APR 2017 18:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.7.5)  21 APR 2017 10:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2228,7 +2228,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--119
  []
 
 ) (./chapter_magnification.tex [35 <./Pictures/des_tiles.png>] [36 <./Pictures/
-des_y1_coverage.png> <./Pictures/des_y1_mag_auto_i.png>]
+des_y1_coverage.png> <./Pictures/des_y1_mag_auto_i.png>] [37] [38
+
+]
 Chapter 4.
 File: Pictures/head2.png Graphic file (type png)
 <use Pictures/head2.png>
@@ -2244,20 +2246,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--10
 
  []
 
-[37
-
-]
+[39]
 Underfull \hbox (badness 10000) in paragraph at lines 30--32
 
  []
 
-[38] <./figures/mag_i_MICE.pdf, id=959, 569.12625pt x 385.44pt>
+[40] <./figures/mag_i_MICE.pdf, id=967, 569.12625pt x 385.44pt>
 File: ./figures/mag_i_MICE.pdf Graphic file (type pdf)
 
 <use ./figures/mag_i_MICE.pdf>
 Package pdftex.def Info: ./figures/mag_i_MICE.pdf used on input line 62.
 (pdftex.def)             Requested size: 674.33032pt x 261.18602pt.
- [39] [40 <./figures/mag_i_MICE.pdf, page is rotated 90 degrees>]
+ [41] [42 <./figures/mag_i_MICE.pdf, page is rotated 90 degrees>]
 Underfull \hbox (badness 10000) in paragraph at lines 80--82
 
  []
@@ -2267,7 +2267,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--85
 
  []
 
-[41]
+[43]
 Underfull \hbox (badness 10000) in paragraph at lines 90--92
 
  []
@@ -2287,14 +2287,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--113
 
  []
 
-<./figures/footprint.pdf, id=1045, 453.695pt x 401.5pt>
+<./figures/footprint.pdf, id=1054, 453.695pt x 401.5pt>
 File: ./figures/footprint.pdf Graphic file (type pdf)
 
 <use ./figures/footprint.pdf>
 Package pdftex.def Info: ./figures/footprint.pdf used on input line 124.
 (pdftex.def)             Requested size: 353.1014pt x 312.48257pt.
 
-<./figures/TPZ_phis_i.pdf, id=1046, 569.12625pt x 385.44pt>
+<./figures/TPZ_phis_i.pdf, id=1055, 569.12625pt x 385.44pt>
 File: ./figures/TPZ_phis_i.pdf Graphic file (type pdf)
 
 <use ./figures/TPZ_phis_i.pdf>
@@ -2305,7 +2305,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--137
 
  []
 
-[42] [43 <./figures/footprint.pdf> <./figures/TPZ_phis_i.pdf>]
+[44] [45 <./figures/footprint.pdf> <./figures/TPZ_phis_i.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 162--164
 
  []
@@ -2315,12 +2315,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 172--175
 
  []
 
-[44]
+[46]
 Underfull \hbox (badness 10000) in paragraph at lines 176--180
 
  []
 
-<./figures/cov_matrix_mag_auto_i.pdf, id=1112, 569.12625pt x 550.055pt>
+<./figures/cov_matrix_mag_auto_i.pdf, id=1120, 569.12625pt x 550.055pt>
 File: ./figures/cov_matrix_mag_auto_i.pdf Graphic file (type pdf)
 
 <use ./figures/cov_matrix_mag_auto_i.pdf>
@@ -2332,21 +2332,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 185--193
 
  []
 
-<./figures/mag_r.pdf, id=1117, 569.12625pt x 385.44pt>
+<./figures/mag_r.pdf, id=1125, 569.12625pt x 385.44pt>
 File: ./figures/mag_r.pdf Graphic file (type pdf)
 
 <use ./figures/mag_r.pdf>
 Package pdftex.def Info: ./figures/mag_r.pdf used on input line 196.
 (pdftex.def)             Requested size: 674.33032pt x 261.18602pt.
 
-<./figures/mag_i.pdf, id=1119, 569.12625pt x 385.44pt>
+<./figures/mag_i.pdf, id=1127, 569.12625pt x 385.44pt>
 File: ./figures/mag_i.pdf Graphic file (type pdf)
 
 <use ./figures/mag_i.pdf>
 Package pdftex.def Info: ./figures/mag_i.pdf used on input line 201.
 (pdftex.def)             Requested size: 674.33032pt x 261.18602pt.
 
-<./figures/mag_z.pdf, id=1121, 569.12625pt x 385.44pt>
+<./figures/mag_z.pdf, id=1129, 569.12625pt x 385.44pt>
 File: ./figures/mag_z.pdf Graphic file (type pdf)
 
 <use ./figures/mag_z.pdf>
@@ -2357,19 +2357,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 194--211
 
  []
 
-[45] [46 <./figures/cov_matrix_mag_auto_i.pdf>]
+[47] [48 <./figures/cov_matrix_mag_auto_i.pdf>]
 
-LaTeX Warning: Reference `eq:numbercounttheo' on page 47 undefined on input lin
+LaTeX Warning: Reference `eq:numbercounttheo' on page 49 undefined on input lin
 e 212.
 
-<./figures/alphai.pdf, id=1157, 569.12625pt x 385.44pt>
+<./figures/alphai.pdf, id=1165, 569.12625pt x 385.44pt>
 File: ./figures/alphai.pdf Graphic file (type pdf)
 
 <use ./figures/alphai.pdf>
 Package pdftex.def Info: ./figures/alphai.pdf used on input line 219.
 (pdftex.def)             Requested size: 353.1014pt x 239.14676pt.
 
-<./figures/predicted_sig.pdf, id=1158, 569.12625pt x 385.44pt>
+<./figures/predicted_sig.pdf, id=1166, 569.12625pt x 385.44pt>
 File: ./figures/predicted_sig.pdf Graphic file (type pdf)
 
 <use ./figures/predicted_sig.pdf>
@@ -2380,8 +2380,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 216--242
 
  []
 
-[47] [48 <./figures/mag_r.pdf>] [49 <./figures/mag_i.pdf>] [50 <./figures/mag_z
-.pdf>] [51 <./figures/predicted_sig.pdf> <./figures/alphai.pdf>]
+[49] [50 <./figures/mag_r.pdf>] [51 <./figures/mag_i.pdf>] [52 <./figures/mag_z
+.pdf>] [53 <./figures/predicted_sig.pdf> <./figures/alphai.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 264--267
 
  []
@@ -2396,14 +2396,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 271--273
 
  []
 
-<./figures/weighted_w.pdf, id=1251, 569.12625pt x 385.44pt>
+<./figures/weighted_w.pdf, id=1259, 569.12625pt x 385.44pt>
 File: ./figures/weighted_w.pdf Graphic file (type pdf)
 
 <use ./figures/weighted_w.pdf>
 Package pdftex.def Info: ./figures/weighted_w.pdf used on input line 277.
 (pdftex.def)             Requested size: 353.1014pt x 239.14676pt.
 
-<./figures/acromatic_short.pdf, id=1254, 569.12625pt x 385.44pt>
+<./figures/acromatic_short.pdf, id=1262, 569.12625pt x 385.44pt>
 File: ./figures/acromatic_short.pdf Graphic file (type pdf)
 
 <use ./figures/acromatic_short.pdf>
@@ -2414,15 +2414,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 274--286
 
  []
 
-[52] [53 <./figures/weighted_w.pdf> <./figures/acromatic_short.pdf>]
-<./figures/SPTE_SNe.pdf, id=1290, 569.12625pt x 385.44pt>
+[54] [55 <./figures/weighted_w.pdf> <./figures/acromatic_short.pdf>]
+<./figures/SPTE_SNe.pdf, id=1299, 569.12625pt x 385.44pt>
 File: ./figures/SPTE_SNe.pdf Graphic file (type pdf)
 
 <use ./figures/SPTE_SNe.pdf>
 Package pdftex.def Info: ./figures/SPTE_SNe.pdf used on input line 297.
 (pdftex.def)             Requested size: 353.1014pt x 239.14676pt.
 
-<./figures/purity_lens.pdf, id=1291, 569.12625pt x 385.44pt>
+<./figures/purity_lens.pdf, id=1300, 569.12625pt x 385.44pt>
 File: ./figures/purity_lens.pdf Graphic file (type pdf)
 
 <use ./figures/purity_lens.pdf>
@@ -2442,7 +2442,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 308--310
 
  []
 
-<./figures/mag_istars.pdf, id=1299, 569.12625pt x 385.44pt>
+<./figures/mag_istars.pdf, id=1308, 569.12625pt x 385.44pt>
 File: ./figures/mag_istars.pdf Graphic file (type pdf)
 
 <use ./figures/mag_istars.pdf>
@@ -2453,7 +2453,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 323--332
 
  []
 
-[54] [55 <./figures/SPTE_SNe.pdf, page is rotated 90 degrees> <./figures/purity
+[56] [57 <./figures/SPTE_SNe.pdf, page is rotated 90 degrees> <./figures/purity
 _lens.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 341--344
 
@@ -2464,15 +2464,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 349--351
 
  []
 
-[56] [57 <./figures/mag_istars.pdf, page is rotated 90 degrees>]
-<./figures/mag_i_ri.pdf, id=1438, 569.12625pt x 385.44pt>
+[58] [59 <./figures/mag_istars.pdf, page is rotated 90 degrees>]
+<./figures/mag_i_ri.pdf, id=1446, 569.12625pt x 385.44pt>
 File: ./figures/mag_i_ri.pdf Graphic file (type pdf)
 
 <use ./figures/mag_i_ri.pdf>
 Package pdftex.def Info: ./figures/mag_i_ri.pdf used on input line 358.
 (pdftex.def)             Requested size: 674.33032pt x 261.18602pt.
 
-<./figures/mag_idust.pdf, id=1442, 569.12625pt x 385.44pt>
+<./figures/mag_idust.pdf, id=1450, 569.12625pt x 385.44pt>
 File: ./figures/mag_idust.pdf Graphic file (type pdf)
 
 <use ./figures/mag_idust.pdf>
@@ -2488,18 +2488,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 391--394
 
  []
 
-[58] [59 <./figures/mag_i_ri.pdf>] [60 <./figures/mag_idust.pdf, page is rotate
+[60] [61 <./figures/mag_i_ri.pdf>] [62 <./figures/mag_idust.pdf, page is rotate
 d 90 degrees>]
 Underfull \hbox (badness 10000) in paragraph at lines 413--416
 
  []
 
-[61]
+[63]
 Underfull \hbox (badness 10000) in paragraph at lines 420--423
 
  []
 
-<./figures/mag_i_mix.pdf, id=1549, 569.12625pt x 385.44pt>
+<./figures/mag_i_mix.pdf, id=1557, 569.12625pt x 385.44pt>
 File: ./figures/mag_i_mix.pdf Graphic file (type pdf)
 
 <use ./figures/mag_i_mix.pdf>
@@ -2515,8 +2515,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 443--446
 
  []
 
-[62] [63 <./figures/mag_i_mix.pdf, page is rotated 90 degrees>]
-<./figures/spec_photoz_cmp.pdf, id=1614, 569.12625pt x 385.44pt>
+[64] [65 <./figures/mag_i_mix.pdf, page is rotated 90 degrees>]
+<./figures/spec_photoz_cmp.pdf, id=1622, 569.12625pt x 385.44pt>
 File: ./figures/spec_photoz_cmp.pdf Graphic file (type pdf)
 
 <use ./figures/spec_photoz_cmp.pdf>
@@ -2527,7 +2527,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 447--454
 
  []
 
-<./figures/mag_i_photoz_comparison.pdf, id=1619, 569.12625pt x 385.44pt>
+<./figures/mag_i_photoz_comparison.pdf, id=1627, 569.12625pt x 385.44pt>
 File: ./figures/mag_i_photoz_comparison.pdf Graphic file (type pdf)
 
 <use ./figures/mag_i_photoz_comparison.pdf>
@@ -2535,7 +2535,7 @@ Package pdftex.def Info: ./figures/mag_i_photoz_comparison.pdf used on input li
 ne 457.
 (pdftex.def)             Requested size: 674.33032pt x 261.18602pt.
 ) (./chapter_conclusions.tex
-[64] [65 <./figures/spec_photoz_cmp.pdf>] [66 <./figures/mag_i_photoz_compariso
+[66] [67 <./figures/spec_photoz_cmp.pdf>] [68 <./figures/mag_i_photoz_compariso
 n.pdf>]
 Chapter 5.
 File: Pictures/head2.png Graphic file (type png)
@@ -2572,7 +2572,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--21
 
  []
 
-[67
+[69
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 22--24
@@ -2599,7 +2599,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--38
 
  []
 
-[68]) (./appendix_stellar_contamination.tex [69] [70
+[70]) (./appendix_stellar_contamination.tex [71] [72
 
 ]
 Appendix A.
@@ -2607,7 +2607,7 @@ File: Pictures/head2.png Graphic file (type png)
 <use Pictures/head2.png>
 Package pdftex.def Info: Pictures/head2.png used on input line 1.
 (pdftex.def)             Requested size: 597.50787pt x 298.90431pt.
-) (./appendix_plots.tex [71] [72
+) (./appendix_plots.tex [73] [74
 
 ]
 Appendix B.
@@ -2615,7 +2615,7 @@ File: Pictures/head2.png Graphic file (type png)
 <use Pictures/head2.png>
 Package pdftex.def Info: Pictures/head2.png used on input line 1.
 (pdftex.def)             Requested size: 597.50787pt x 298.90431pt.
-) [73] [74
+) [75] [76
 
 ]
 File: Pictures/head2.png Graphic file (type png)
@@ -2632,37 +2632,37 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [75]
+ [77]
 Overfull \hbox (0.78236pt too wide) in paragraph at lines 248--248
 \T1/lmr/m/it/12 (-20) nalen der Physik \T1/lmr/m/n/12 (-20) 354 (1916), pp. 769
 ^^U822. \T1/lmr/m/sc/12 (-20) doi\T1/lmr/m/n/12 (-20) : []$\T1/lmtt/m/n/12 10 .
  1002 / andp . 19163540702$[]\T1/lmr/m/n/12 (-20) . 
  []
 
-[76]
+[78]
 Overfull \hbox (8.514pt too wide) in paragraph at lines 248--248
 []\T1/lmr/m/n/12 (-20) P. Binétruy. ``Mod-els of dy-nam-i-cal su-per-sym-me-try
  break-ing and quintessence''.
  []
 
-[77]
+[79]
 Overfull \hbox (0.52493pt too wide) in paragraph at lines 248--248
 []\T1/lmr/m/n/12 (-20) T. Baker, P. G. Fer-reira, and C. Sko-rdis. ``The pa-ram
 -e-ter-ized post-Friedmann
  []
 
-[78] [79] [80]
+[80] [81] [82]
 Overfull \hbox (2.57446pt too wide) in paragraph at lines 248--248
 []\T1/lmr/m/n/12 (-20) M. Bartel-mann and P. Schnei-der. ``Weak grav-i-ta-tiona
 l lens-ing''. In: \T1/lmr/m/it/12 (-20) Phys. Rep.
  []
 
-[81] [82] [83] [84] [85] [86] [87]
+[83] [84] [85] [86] [87] [88] [89]
 \tf@ptc=\write7
 \openout7 = `main.ptc'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 250.
- [88]
+ [90]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 250.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 250.
@@ -2678,11 +2678,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33023 strings out of 494985
- 601571 string characters out of 6180357
- 1977649 words of memory out of 5000000
+ 33027 strings out of 494985
+ 601607 string characters out of 6180357
+ 1977711 words of memory out of 5000000
  34764 multiletter control sequences out of 15000+600000
- 131431 words of font info for 227 fonts, out of 8000000 for 9000
+ 131476 words of font info for 228 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  56i,14n,59p,10532b,2387s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
@@ -2705,10 +2705,10 @@ sr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/pu
 blic/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (100 pages, 21506554 bytes).
+Output written on main.pdf (102 pages, 21507546 bytes).
 PDF statistics:
- 2328 PDF objects out of 2487 (max. 8388607)
- 1895 compressed objects within 19 object streams
- 516 named destinations out of 1000 (max. 500000)
+ 2338 PDF objects out of 2487 (max. 8388607)
+ 1902 compressed objects within 20 object streams
+ 518 named destinations out of 1000 (max. 500000)
  38583 words of extra memory for PDF output out of 42996 (max. 10000000)
 
