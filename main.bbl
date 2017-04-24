@@ -601,6 +601,34 @@
       \verb hep-th/0212290
       \endverb
     \endentry
+    \entry{PhysRevD.72.021301}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=76b5a6c643572668931448ab7eecbae0}{Jaffe}{J\bibinitperiod}{R.\bibnamedelimi L.}{R\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=76b5a6c643572668931448ab7eecbae0}{Jaffe}{J\bibinitperiod}{R.\bibnamedelimi L.}{R\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{76b5a6c643572668931448ab7eecbae0}
+      \strng{fullhash}{76b5a6c643572668931448ab7eecbae0}
+      \field{sortinit}{0}
+      \field{labeltitle}{Casimir effect and the quantum vacuum}
+      \field{issue}{2}
+      \field{journaltitle}{Phys. Rev. D}
+      \field{month}{07}
+      \field{title}{Casimir effect and the quantum vacuum}
+      \field{volume}{72}
+      \field{year}{2005}
+      \field{pages}{021301}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.72.021301
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevD.72.021301
+      \endverb
+    \endentry
     \entry{1999PhLB..468...40B}{article}{}
       \name{labelname}{2}{}{%
         {{hash=5f40330d7ebbafccbc718b1a5e5e0c2f}{{Brax}}{B\bibinitperiod}{P.\bibnamedelimi H.}{P\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
