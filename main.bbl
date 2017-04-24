@@ -1110,6 +1110,611 @@
       \endverb
       \keyw{Modified theories of gravity,Post-Newtonian approximation,perturbation theory,related approximations,Relativity and gravitation,Mathematical and relativistic aspects of cosmology}
     \endentry
+    \entry{Weinberg201387}{article}{}
+      \name{labelname}{6}{}{%
+        {{hash=a71e65ddc04e9650894a8aeb73c38c02}{Weinberg}{W\bibinitperiod}{David\bibnamedelima H.}{D\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=ace51064a610f472f352d1be48df8a67}{Mortonson}{M\bibinitperiod}{Michael\bibnamedelima J.}{M\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=5fee025cc1cf2380631e1d95c8563c1f}{Eisenstein}{E\bibinitperiod}{Daniel\bibnamedelima J.}{D\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=b3b0bbbb0d2f791c3b47bd3d3054b265}{Hirata}{H\bibinitperiod}{Christopher}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=d80cb852e8ebc32a388db7a53872579b}{Riess}{R\bibinitperiod}{Adam\bibnamedelima G.}{A\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{hash=57ae1eb6c7b48ea87a880efc7c8370bd}{Rozo}{R\bibinitperiod}{Eduardo}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=a71e65ddc04e9650894a8aeb73c38c02}{Weinberg}{W\bibinitperiod}{David\bibnamedelima H.}{D\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=ace51064a610f472f352d1be48df8a67}{Mortonson}{M\bibinitperiod}{Michael\bibnamedelima J.}{M\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=5fee025cc1cf2380631e1d95c8563c1f}{Eisenstein}{E\bibinitperiod}{Daniel\bibnamedelima J.}{D\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=b3b0bbbb0d2f791c3b47bd3d3054b265}{Hirata}{H\bibinitperiod}{Christopher}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=d80cb852e8ebc32a388db7a53872579b}{Riess}{R\bibinitperiod}{Adam\bibnamedelima G.}{A\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{hash=57ae1eb6c7b48ea87a880efc7c8370bd}{Rozo}{R\bibinitperiod}{Eduardo}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{b69b359111ec3a0b17bc86fcc76fb27a}
+      \strng{fullhash}{0c34bfc46f4794f268049cb81cef4e09}
+      \field{sortinit}{0}
+      \field{labeltitle}{Observational probes of cosmic acceleration}
+      \field{abstract}{Abstract The accelerating expansion of the universe is the most surprising cosmological discovery in many decades, implying that the universe is dominated by some form of “dark energy” with exotic physical properties, or that Einstein’s theory of gravity breaks down on cosmological scales. The profound implications of cosmic acceleration have inspired ambitious efforts to understand its origin, with experiments that aim to measure the history of expansion and growth of structure with percent-level precision or higher. We review in detail the four most well established methods for making such measurements: Type Ia supernovae, baryon acoustic oscillations (BAO), weak gravitational lensing, and the abundance of galaxy clusters. We pay particular attention to the systematic uncertainties in these techniques and to strategies for controlling them at the level needed to exploit “Stage IV” dark energy facilities such as BigBOSS, LSST, Euclid, and WFIRST. We briefly review a number of other approaches including redshift-space distortions, the Alcock–Paczynski effect, and direct measurements of the Hubble constant H 0 . We present extensive forecasts for constraints on the dark energy equation of state and parameterized deviations from General Relativity, achievable with Stage \{III\} and Stage \{IV\} experimental programs that incorporate supernovae, BAO, weak lensing, and cosmic microwave background data. We also show the level of precision required for clusters or other methods to provide constraints competitive with those of these fiducial programs. We emphasize the value of a balanced program that employs several of the most powerful methods in combination, both to cross-check systematic uncertainties and to take advantage of complementary information. Surveys to probe cosmic acceleration produce data sets that support a wide range of scientific investigations, and they continue the longstanding astronomical tradition of mapping the universe in ever greater detail over ever larger scales.}
+      \field{issn}{0370-1573}
+      \field{journaltitle}{Physics Reports}
+      \field{note}{Observational Probes of Cosmic Acceleration}
+      \field{number}{2}
+      \field{title}{Observational probes of cosmic acceleration}
+      \field{volume}{530}
+      \field{year}{2013}
+      \field{pages}{87\bibrangedash 255}
+      \verb{doi}
+      \verb http://dx.doi.org/10.1016/j.physrep.2013.05.001
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0370157313001592
+      \endverb
+    \endentry
+    \entry{1979Natur.281..358A}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=802ac9f479fc382658abe691e64d74ae}{{Alcock}}{A\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=1c4028bbdf2141d774e1184509775705}{{Paczynski}}{P\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=802ac9f479fc382658abe691e64d74ae}{{Alcock}}{A\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=1c4028bbdf2141d774e1184509775705}{{Paczynski}}{P\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{066879241b512b8df356267d8cc7f4f3}
+      \strng{fullhash}{066879241b512b8df356267d8cc7f4f3}
+      \field{sortinit}{0}
+      \field{labeltitle}{{An evolution free test for non-zero cosmological constant}}
+      \field{journaltitle}{\nat}
+      \field{month}{10}
+      \field{title}{{An evolution free test for non-zero cosmological constant}}
+      \field{volume}{281}
+      \field{year}{1979}
+      \field{pages}{358}
+      \verb{doi}
+      \verb 10.1038/281358a0
+      \endverb
+    \endentry
+    \entry{2006A&A...448..831Y}{article}{}
+      \name{labelname}{7}{}{%
+        {{hash=06b140709ca18d645f71ae9f14c91745}{{Yèche}}{Y\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=f2e20a2088264a8cdb7fd00e38164f9c}{{Ealet}}{E\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=5e057e5dd65de1501755f1503400488a}{{Réfrégier}}{R\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=cd33a3076207a6ebb5e882f881f64b66}{{Tao}}{T\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=3f6cc6eb2a53324a8d5b7260866f4340}{{Tilquin}}{T\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=85721106ee3a182ecae09789a4ed63b3}{{Virey}}{V\bibinitperiod}{J.-M.}{J\bibinithyphendelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=c259099db356458d1011cff0c57b3feb}{{Yvon}}{Y\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{7}{}{%
+        {{hash=06b140709ca18d645f71ae9f14c91745}{{Yèche}}{Y\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=f2e20a2088264a8cdb7fd00e38164f9c}{{Ealet}}{E\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=5e057e5dd65de1501755f1503400488a}{{Réfrégier}}{R\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=cd33a3076207a6ebb5e882f881f64b66}{{Tao}}{T\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=3f6cc6eb2a53324a8d5b7260866f4340}{{Tilquin}}{T\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=85721106ee3a182ecae09789a4ed63b3}{{Virey}}{V\bibinitperiod}{J.-M.}{J\bibinithyphendelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=c259099db356458d1011cff0c57b3feb}{{Yvon}}{Y\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{0900bce1207f5b5ddf64f2339de4aca3}
+      \strng{fullhash}{b78c4b4409e951ae5c1ebd5695a294f0}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Prospects for dark energy evolution: a frequentist multi-probe approach}}
+      \field{journaltitle}{\aap}
+      \field{month}{03}
+      \field{title}{{Prospects for dark energy evolution: a frequentist multi-probe approach}}
+      \field{volume}{448}
+      \field{year}{2006}
+      \field{pages}{831\bibrangedash 842}
+      \verb{doi}
+      \verb 10.1051/0004-6361:20053786
+      \endverb
+      \verb{eprint}
+      \verb astro-ph/0507170
+      \endverb
+      \keyw{cosmological parameters,cosmic microwave background,large-scale structure of universe,dark matter,equation of state}
+    \endentry
+    \entry{2016arXiv160105779K}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=4341348dfa798f33c31f6bbf591090f6}{{Krause}}{K\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=fb0fbc68ea2e3b467f3c727b18dea574}{{Eifler}}{E\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=4341348dfa798f33c31f6bbf591090f6}{{Krause}}{K\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=fb0fbc68ea2e3b467f3c727b18dea574}{{Eifler}}{E\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{393764d84e752a2efce347808ce32edb}
+      \strng{fullhash}{393764d84e752a2efce347808ce32edb}
+      \field{sortinit}{0}
+      \field{labeltitle}{{CosmoLike - Cosmological Likelihood Analyses for Photometric Galaxy Surveys}}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{ArXiv e-prints}
+      \field{month}{01}
+      \field{title}{{CosmoLike - Cosmological Likelihood Analyses for Photometric Galaxy Surveys}}
+      \field{year}{2016}
+      \verb{eprint}
+      \verb 1601.05779
+      \endverb
+      \keyw{Astrophysics - Cosmology and Nongalactic Astrophysics}
+    \endentry
+    \entry{2016arXiv160701761S}{article}{}
+      \name{labelname}{7}{}{%
+        {{hash=18db6bf2a3933c05dcda7b1f1b8fa862}{{Schaan}}{S\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=4341348dfa798f33c31f6bbf591090f6}{{Krause}}{K\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=fb0fbc68ea2e3b467f3c727b18dea574}{{Eifler}}{E\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=d30743dcccf0be1004e6a4a1c0b9dad1}{{Doré}}{D\bibinitperiod}{O.}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=a1226dbbd0e33d5e37d86c7e50555488}{{Miyatake}}{M\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=f3ce01434f8e4065ae208e66018a0179}{{Rhodes}}{R\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=812a508994bce34e17030cb620acf117}{{Spergel}}{S\bibinitperiod}{D.\bibnamedelimi N.}{D\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{7}{}{%
+        {{hash=18db6bf2a3933c05dcda7b1f1b8fa862}{{Schaan}}{S\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=4341348dfa798f33c31f6bbf591090f6}{{Krause}}{K\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=fb0fbc68ea2e3b467f3c727b18dea574}{{Eifler}}{E\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=d30743dcccf0be1004e6a4a1c0b9dad1}{{Doré}}{D\bibinitperiod}{O.}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=a1226dbbd0e33d5e37d86c7e50555488}{{Miyatake}}{M\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=f3ce01434f8e4065ae208e66018a0179}{{Rhodes}}{R\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=812a508994bce34e17030cb620acf117}{{Spergel}}{S\bibinitperiod}{D.\bibnamedelimi N.}{D\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{dedcf9193721a163a3a33839139fa38f}
+      \strng{fullhash}{a44b1b7b04478591c01e80a16582550f}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Looking through the same lens: shear calibration for LSST, Euclid, WFIRST with stage 4 CMB lensing}}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{ArXiv e-prints}
+      \field{month}{07}
+      \field{title}{{Looking through the same lens: shear calibration for LSST, Euclid, WFIRST with stage 4 CMB lensing}}
+      \field{year}{2016}
+      \verb{eprint}
+      \verb 1607.01761
+      \endverb
+      \keyw{Astrophysics - Cosmology and Nongalactic Astrophysics}
+    \endentry
+    \entry{2017MNRAS.465L..20S}{article}{}
+      \name{labelname}{8}{}{%
+        {{hash=24383f55b3463e0c65bae319905ae035}{{Samuroff}}{S\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=0f1696582a0c9873e4b195f07c498576}{{Troxel}}{T\bibinitperiod}{M.\bibnamedelimi A.}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=3a5803cb35569a9f90a0d46211c2c545}{{Bridle}}{B\bibinitperiod}{S.\bibnamedelimi L.}{S\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=0c6085d97dc932cc4e059dbdc0cb4d51}{{Zuntz}}{Z\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=6ffc6bfc09405dd7552fd6d059306245}{{MacCrann}}{M\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=4341348dfa798f33c31f6bbf591090f6}{{Krause}}{K\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=fb0fbc68ea2e3b467f3c727b18dea574}{{Eifler}}{E\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=dd3f25e81fada6af1e0318ea070a095c}{{Kirk}}{K\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{8}{}{%
+        {{hash=24383f55b3463e0c65bae319905ae035}{{Samuroff}}{S\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=0f1696582a0c9873e4b195f07c498576}{{Troxel}}{T\bibinitperiod}{M.\bibnamedelimi A.}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=3a5803cb35569a9f90a0d46211c2c545}{{Bridle}}{B\bibinitperiod}{S.\bibnamedelimi L.}{S\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=0c6085d97dc932cc4e059dbdc0cb4d51}{{Zuntz}}{Z\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=6ffc6bfc09405dd7552fd6d059306245}{{MacCrann}}{M\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=4341348dfa798f33c31f6bbf591090f6}{{Krause}}{K\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=fb0fbc68ea2e3b467f3c727b18dea574}{{Eifler}}{E\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=dd3f25e81fada6af1e0318ea070a095c}{{Kirk}}{K\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{2b63175694e1b9eead6ff77f4e2310e6}
+      \strng{fullhash}{8d5a4827ce5340cae87bedfdfb4fbda8}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Simultaneous constraints on cosmology and photometric redshift bias from weak lensing and galaxy clustering}}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\mnras}
+      \field{month}{02}
+      \field{title}{{Simultaneous constraints on cosmology and photometric redshift bias from weak lensing and galaxy clustering}}
+      \field{volume}{465}
+      \field{year}{2017}
+      \field{pages}{L20\bibrangedash L24}
+      \verb{doi}
+      \verb 10.1093/mnrasl/slw201
+      \endverb
+      \verb{eprint}
+      \verb 1607.07910
+      \endverb
+      \keyw{gravitational lensing: weak,galaxies: statistics,cosmology: observations,dark energy,dark matter,large-scale structure of Universe}
+    \endentry
+    \entry{2017arXiv170307786F}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=f09ed9791c5653053a7061c4df43325b}{{Friedrich}}{F\bibinitperiod}{O.}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=fb0fbc68ea2e3b467f3c727b18dea574}{{Eifler}}{E\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=f09ed9791c5653053a7061c4df43325b}{{Friedrich}}{F\bibinitperiod}{O.}{O\bibinitperiod}{}{}{}{}}%
+        {{hash=fb0fbc68ea2e3b467f3c727b18dea574}{{Eifler}}{E\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{dbc035c91c27a575193b2802d3d0e9a9}
+      \strng{fullhash}{dbc035c91c27a575193b2802d3d0e9a9}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Precision matrix expansion - efficient use of numerical simulations in estimating errors on cosmological parameters}}
+      \field{eprintclass}{astro-ph.IM}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{ArXiv e-prints}
+      \field{month}{03}
+      \field{title}{{Precision matrix expansion - efficient use of numerical simulations in estimating errors on cosmological parameters}}
+      \field{year}{2017}
+      \verb{eprint}
+      \verb 1703.07786
+      \endverb
+      \keyw{Astrophysics - Instrumentation and Methods for Astrophysics}
+    \endentry
+    \entry{2016MNRAS.455.3943H}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=c78a96562145cc3b98652070cf33ea8a}{{Hildebrandt}}{H\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=c78a96562145cc3b98652070cf33ea8a}{{Hildebrandt}}{H\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{c78a96562145cc3b98652070cf33ea8a}
+      \strng{fullhash}{c78a96562145cc3b98652070cf33ea8a}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Observational biases in flux magnification measurements}}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\mnras}
+      \field{month}{02}
+      \field{title}{{Observational biases in flux magnification measurements}}
+      \field{volume}{455}
+      \field{year}{2016}
+      \field{pages}{3943\bibrangedash 3951}
+      \verb{doi}
+      \verb 10.1093/mnras/stv2575
+      \endverb
+      \verb{eprint}
+      \verb 1511.01352
+      \endverb
+      \keyw{gravitational lensing: weak,methods: numerical,galaxies: photometry}
+    \endentry
+    \entry{2012MNRAS.421.3481L}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=0b2b8f1e39d74f84b7aabd0bb5dd0a86}{{Li}}{L\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=3ab245920c88dbece3733019e8bfddc7}{{Zhao}}{Z\bibinitperiod}{G.-B.}{G\bibinithyphendelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=9e5e3a306e7e170632f8f8fe87d384bd}{{Koyama}}{K\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=0b2b8f1e39d74f84b7aabd0bb5dd0a86}{{Li}}{L\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=3ab245920c88dbece3733019e8bfddc7}{{Zhao}}{Z\bibinitperiod}{G.-B.}{G\bibinithyphendelim B\bibinitperiod}{}{}{}{}}%
+        {{hash=9e5e3a306e7e170632f8f8fe87d384bd}{{Koyama}}{K\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{76578caa31e9ccd572ac5e12d8d890ea}
+      \strng{fullhash}{76578caa31e9ccd572ac5e12d8d890ea}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Haloes and voids in f(R) gravity}}
+      \field{eprintclass}{astro-ph.CO}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\mnras}
+      \field{month}{04}
+      \field{title}{{Haloes and voids in f(R) gravity}}
+      \field{volume}{421}
+      \field{year}{2012}
+      \field{pages}{3481\bibrangedash 3487}
+      \verb{doi}
+      \verb 10.1111/j.1365-2966.2012.20573.x
+      \endverb
+      \verb{eprint}
+      \verb 1111.2602
+      \endverb
+      \keyw{methods: analytical,methods: numerical,cosmology: theory,dark energy,large-scale structure of Universe}
+    \endentry
+    \entry{2017JCAP...03..012V}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=2a24b85c7fc0892a62e8d8cd5fb7a0ac}{{von\bibnamedelimb Braun-Bates}}{v\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=39b490f19bf7ff64eb19a5ad64127d25}{{Winther}}{W\bibinitperiod}{H.\bibnamedelimi A.}{H\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=869db495cbe29fbd9375accc6b1ef8e9}{{Alonso}}{A\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=d62406d7b399873402f729f6f3e18bed}{{Devriendt}}{D\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=2a24b85c7fc0892a62e8d8cd5fb7a0ac}{{von\bibnamedelimb Braun-Bates}}{v\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=39b490f19bf7ff64eb19a5ad64127d25}{{Winther}}{W\bibinitperiod}{H.\bibnamedelimi A.}{H\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=869db495cbe29fbd9375accc6b1ef8e9}{{Alonso}}{A\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=d62406d7b399873402f729f6f3e18bed}{{Devriendt}}{D\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{db174ceb319c972dfe6f8fea1b6229df}
+      \strng{fullhash}{2aea3c5d0ddc34d2752b833edf720129}
+      \field{sortinit}{0}
+      \field{labeltitle}{{The f(Script R) halo mass function in the cosmic web}}
+      \field{eid}{012}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\jcap}
+      \field{month}{03}
+      \field{title}{{The f(Script R) halo mass function in the cosmic web}}
+      \field{volume}{3}
+      \field{year}{2017}
+      \field{pages}{012}
+      \verb{doi}
+      \verb 10.1088/1475-7516/2017/03/012
+      \endverb
+      \verb{eprint}
+      \verb 1702.06817
+      \endverb
+    \endentry
+    \entry{2010MNRAS.403.1392L}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=ff67a38ad2adaa01e1f918f3905737f4}{{Lavaux}}{L\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=703624cd8ba627a1c408705274c3989b}{{Wandelt}}{W\bibinitperiod}{B.\bibnamedelimi D.}{B\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=ff67a38ad2adaa01e1f918f3905737f4}{{Lavaux}}{L\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=703624cd8ba627a1c408705274c3989b}{{Wandelt}}{W\bibinitperiod}{B.\bibnamedelimi D.}{B\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{3313f96e73b7bca69bee67e7dc4747dc}
+      \strng{fullhash}{3313f96e73b7bca69bee67e7dc4747dc}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Precision cosmology with voids: definition, methods, dynamics}}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\mnras}
+      \field{month}{04}
+      \field{title}{{Precision cosmology with voids: definition, methods, dynamics}}
+      \field{volume}{403}
+      \field{year}{2010}
+      \field{pages}{1392\bibrangedash 1408}
+      \verb{doi}
+      \verb 10.1111/j.1365-2966.2010.16197.x
+      \endverb
+      \verb{eprint}
+      \verb 0906.4101
+      \endverb
+      \keyw{methods: N-body simulations,methods: statistical,cosmological parameters,dark matter,large-scale structure of Universe}
+    \endentry
+    \entry{0004-637X-754-2-109}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=f5e164b186ec223d9c0def3f1b600d18}{Lavaux}{L\bibinitperiod}{Guilhem}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=6fbcd63c5081d811c1a2b8cc096dc21c}{Wandelt}{W\bibinitperiod}{Benjamin\bibnamedelima D.}{B\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=f5e164b186ec223d9c0def3f1b600d18}{Lavaux}{L\bibinitperiod}{Guilhem}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=6fbcd63c5081d811c1a2b8cc096dc21c}{Wandelt}{W\bibinitperiod}{Benjamin\bibnamedelima D.}{B\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{8ec0acf1972fdd6916c290a5e7e54327}
+      \strng{fullhash}{8ec0acf1972fdd6916c290a5e7e54327}
+      \field{sortinit}{0}
+      \field{labeltitle}{Precision Cosmography with Stacked Voids}
+      \field{abstract}{We present a purely geometrical method for probing the expansion history of the universe from the observation of the shape of stacked voids in spectroscopic redshift surveys. Our method is an Alcock-Paczyński (AP) test based on the average sphericity of voids posited on the local isotropy of the universe. It works by comparing the temporal extent of cosmic voids along the line of sight with their angular, spatial extent. We describe the algorithm that we use to detect and stack voids in redshift shells on the light cone and test it on mock light cones produced from N -body simulations. We establish a robust statistical model for estimating the average stretching of voids in redshift space and quantify the contamination by peculiar velocities. Finally, assuming that the void statistics that we derive from N -body simulations is preserved when considering galaxy surveys, we assess the capability of this approach to constrain dark energy parameters. We report this assessment in terms of the figure of merit (FoM) of the dark energy task force and in particular of the proposed Euclid mission which is particularly suited for this technique since it is a spectroscopic survey. The FoM due to stacked voids from the Euclid wide survey may double that of all other dark energy probes derived from Euclid data alone (combined with Planck priors). In particular, voids seem to outperform baryon acoustic oscillations by an order of magnitude. This result is consistent with simple estimates based on mode counting. The AP test based on stacked voids may be a significant addition to the portfolio of major dark energy probes and its potentialities must be studied in detail.}
+      \field{journaltitle}{The Astrophysical Journal}
+      \field{number}{2}
+      \field{title}{Precision Cosmography with Stacked Voids}
+      \field{volume}{754}
+      \field{year}{2012}
+      \field{pages}{109}
+      \verb{url}
+      \verb http://stacks.iop.org/0004-637X/754/i=2/a=109
+      \endverb
+    \endentry
+    \entry{PhysRevLett.98.081301}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=6cabdc23c2cde79d86a20a933d94d278}{Park}{P\bibinitperiod}{Daeseong}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=18b5400711f24f80f26ed4d69858deb9}{Lee}{L\bibinitperiod}{Jounghun}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=6cabdc23c2cde79d86a20a933d94d278}{Park}{P\bibinitperiod}{Daeseong}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=18b5400711f24f80f26ed4d69858deb9}{Lee}{L\bibinitperiod}{Jounghun}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{b65a983a513e1c57e1672a08e9bed571}
+      \strng{fullhash}{b65a983a513e1c57e1672a08e9bed571}
+      \field{sortinit}{0}
+      \field{labeltitle}{Void Ellipticity Distribution as a Probe of Cosmology}
+      \field{issue}{8}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{02}
+      \field{title}{Void Ellipticity Distribution as a Probe of Cosmology}
+      \field{volume}{98}
+      \field{year}{2007}
+      \field{pages}{081301}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.98.081301
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.98.081301
+      \endverb
+    \endentry
+    \entry{2013PhRvL.111x1103S}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=c0342e61d214c894315f8b82ccc1dfb2}{{Spolyar}}{S\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=fd619589f3fa6bca63d2ffa12bbb314d}{{Sahlén}}{S\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=254fcf82bfbbc054f4f610a6357c4adb}{{Silk}}{S\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=c0342e61d214c894315f8b82ccc1dfb2}{{Spolyar}}{S\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=fd619589f3fa6bca63d2ffa12bbb314d}{{Sahlén}}{S\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=254fcf82bfbbc054f4f610a6357c4adb}{{Silk}}{S\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{b4628a227e468315d9c25acc18a256f1}
+      \strng{fullhash}{b4628a227e468315d9c25acc18a256f1}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Topology and Dark Energy: Testing Gravity in Voids}}
+      \field{eid}{241103}
+      \field{eprintclass}{astro-ph.CO}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Physical Review Letters}
+      \field{month}{12}
+      \field{number}{24}
+      \field{title}{{Topology and Dark Energy: Testing Gravity in Voids}}
+      \field{volume}{111}
+      \field{year}{2013}
+      \field{pages}{241103}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.111.241103
+      \endverb
+      \verb{eprint}
+      \verb 1304.5239
+      \endverb
+      \keyw{Modified theories of gravity,Dark energy,Gravitational lenses and luminous arcs,Superclusters,large-scale structure of the Universe}
+    \endentry
+    \entry{2014APh....54...44A}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=e6f6e20cf9c61edbe8bd470a240cef28}{{Arbuzova}}{A\bibinitperiod}{E.\bibnamedelimi V.}{E\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{hash=0e7731cb3c96f533bb6db0d43db3e078}{{Dolgov}}{D\bibinitperiod}{A.\bibnamedelimi D.}{A\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=a80d1608a71e6af0d2bb7615d11eb746}{{Reverberi}}{R\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=e6f6e20cf9c61edbe8bd470a240cef28}{{Arbuzova}}{A\bibinitperiod}{E.\bibnamedelimi V.}{E\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{hash=0e7731cb3c96f533bb6db0d43db3e078}{{Dolgov}}{D\bibinitperiod}{A.\bibnamedelimi D.}{A\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=a80d1608a71e6af0d2bb7615d11eb746}{{Reverberi}}{R\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{f38b34b0f43da7adc34f37887feeef99}
+      \strng{fullhash}{f38b34b0f43da7adc34f37887feeef99}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Spherically symmetric solutions in F (R) gravity and gravitational repulsion}}
+      \field{eprintclass}{gr-qc}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Astroparticle Physics}
+      \field{month}{02}
+      \field{title}{{Spherically symmetric solutions in F (R) gravity and gravitational repulsion}}
+      \field{volume}{54}
+      \field{year}{2014}
+      \field{pages}{44\bibrangedash 47}
+      \verb{doi}
+      \verb 10.1016/j.astropartphys.2013.11.008
+      \endverb
+      \verb{eprint}
+      \verb 1306.5694
+      \endverb
+      \keyw{Modified gravity,Gravitational repulsion}
+    \endentry
+    \entry{2014arXiv1410.8355C}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=5cc8516bd99d2e08cb70e22e42c15e8f}{{Cai}}{C\bibinitperiod}{Y.-C.}{Y\bibinithyphendelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=c0a287af1d5ba498e36a8acb748dcb3b}{{Padilla}}{P\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=0b2b8f1e39d74f84b7aabd0bb5dd0a86}{{Li}}{L\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=5cc8516bd99d2e08cb70e22e42c15e8f}{{Cai}}{C\bibinitperiod}{Y.-C.}{Y\bibinithyphendelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=c0a287af1d5ba498e36a8acb748dcb3b}{{Padilla}}{P\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=0b2b8f1e39d74f84b7aabd0bb5dd0a86}{{Li}}{L\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{b7695890793301287260a715e610e5ac}
+      \strng{fullhash}{b7695890793301287260a715e610e5ac}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Testing Gravity using Void Profiles}}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{ArXiv e-prints}
+      \field{month}{10}
+      \field{title}{{Testing Gravity using Void Profiles}}
+      \field{year}{2014}
+      \verb{eprint}
+      \verb 1410.8355
+      \endverb
+      \keyw{Astrophysics - Cosmology and Nongalactic Astrophysics}
+    \endentry
+    \entry{2015MNRAS.451.4215Z}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=8769f514ea4c6106a385fb82eb7521e5}{{Zivick}}{Z\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=d9455ba1d05f42a30f7f665bc32132af}{{Sutter}}{S\bibinitperiod}{P.\bibnamedelimi M.}{P\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=703624cd8ba627a1c408705274c3989b}{{Wandelt}}{W\bibinitperiod}{B.\bibnamedelimi D.}{B\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=0b2b8f1e39d74f84b7aabd0bb5dd0a86}{{Li}}{L\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=55884956744eb8881c6120d7b0ee53ac}{{Lam}}{L\bibinitperiod}{T.\bibnamedelimi Y.}{T\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=8769f514ea4c6106a385fb82eb7521e5}{{Zivick}}{Z\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=d9455ba1d05f42a30f7f665bc32132af}{{Sutter}}{S\bibinitperiod}{P.\bibnamedelimi M.}{P\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=703624cd8ba627a1c408705274c3989b}{{Wandelt}}{W\bibinitperiod}{B.\bibnamedelimi D.}{B\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=0b2b8f1e39d74f84b7aabd0bb5dd0a86}{{Li}}{L\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=55884956744eb8881c6120d7b0ee53ac}{{Lam}}{L\bibinitperiod}{T.\bibnamedelimi Y.}{T\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{739f06a90a3f4ff3cb19f026f1408eae}
+      \strng{fullhash}{bbefa4efb02892d45269461e6788f086}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Using cosmic voids to distinguish f(R) gravity in future galaxy surveys}}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\mnras}
+      \field{month}{08}
+      \field{title}{{Using cosmic voids to distinguish f(R) gravity in future galaxy surveys}}
+      \field{volume}{451}
+      \field{year}{2015}
+      \field{pages}{4215\bibrangedash 4222}
+      \verb{doi}
+      \verb 10.1093/mnras/stv1209
+      \endverb
+      \verb{eprint}
+      \verb 1411.5694
+      \endverb
+      \keyw{large-scale structure of Universe}
+    \endentry
+    \entry{2015JCAP...08..028B}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=2f519e8e3ad7a8cdfbbe662d361823a8}{{Barreira}}{B\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=1e7c813c9086abd9b7068421252fb4f1}{{Cautun}}{C\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=0b2b8f1e39d74f84b7aabd0bb5dd0a86}{{Li}}{L\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=0e750dc01231679bfd64431cd3b28e48}{{Baugh}}{B\bibinitperiod}{C.\bibnamedelimi M.}{C\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=255fe67a14557d1abd135577a71054a9}{{Pascoli}}{P\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=2f519e8e3ad7a8cdfbbe662d361823a8}{{Barreira}}{B\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=1e7c813c9086abd9b7068421252fb4f1}{{Cautun}}{C\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=0b2b8f1e39d74f84b7aabd0bb5dd0a86}{{Li}}{L\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=0e750dc01231679bfd64431cd3b28e48}{{Baugh}}{B\bibinitperiod}{C.\bibnamedelimi M.}{C\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=255fe67a14557d1abd135577a71054a9}{{Pascoli}}{P\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{52e96aac40e05412d1020a081f15e3e8}
+      \strng{fullhash}{afc3d3ee9f13427b77911e8fc715a471}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Weak lensing by voids in modified lensing potentials}}
+      \field{eid}{028}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\jcap}
+      \field{month}{08}
+      \field{title}{{Weak lensing by voids in modified lensing potentials}}
+      \field{volume}{8}
+      \field{year}{2015}
+      \field{pages}{028}
+      \verb{doi}
+      \verb 10.1088/1475-7516/2015/08/028
+      \endverb
+      \verb{eprint}
+      \verb 1505.05809
+      \endverb
+    \endentry
+    \entry{2016PhRvD..93j3522A}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=02972e355abe477621e3621d08b0ce63}{{Achitouv}}{A\bibinitperiod}{I.}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=0e0adf8b73604bc689e20fd81bbcce9a}{{Baldi}}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=dba344d4fbc495e8ccfe77bc9ec7d85c}{{Puchwein}}{P\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=7a99381a9752092cac0d7167b1a6a12b}{{Weller}}{W\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=02972e355abe477621e3621d08b0ce63}{{Achitouv}}{A\bibinitperiod}{I.}{I\bibinitperiod}{}{}{}{}}%
+        {{hash=0e0adf8b73604bc689e20fd81bbcce9a}{{Baldi}}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=dba344d4fbc495e8ccfe77bc9ec7d85c}{{Puchwein}}{P\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=7a99381a9752092cac0d7167b1a6a12b}{{Weller}}{W\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{9c7a16a33e49cbc40a4b604a365da0d8}
+      \strng{fullhash}{9eb42ea7b849ad630a2454d2ea60d620}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Imprint of f (R ) gravity on nonlinear structure formation}}
+      \field{eid}{103522}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\prd}
+      \field{month}{05}
+      \field{number}{10}
+      \field{title}{{Imprint of f (R ) gravity on nonlinear structure formation}}
+      \field{volume}{93}
+      \field{year}{2016}
+      \field{pages}{103522}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.93.103522
+      \endverb
+      \verb{eprint}
+      \verb 1511.01494
+      \endverb
+    \endentry
+    \entry{2016PhRvD..94j3524A}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=02972e355abe477621e3621d08b0ce63}{{Achitouv}}{A\bibinitperiod}{I.}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=02972e355abe477621e3621d08b0ce63}{{Achitouv}}{A\bibinitperiod}{I.}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{02972e355abe477621e3621d08b0ce63}
+      \strng{fullhash}{02972e355abe477621e3621d08b0ce63}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Testing the imprint of nonstandard cosmologies on void profiles using Monte Carlo random walks}}
+      \field{eid}{103524}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\prd}
+      \field{month}{11}
+      \field{number}{10}
+      \field{title}{{Testing the imprint of nonstandard cosmologies on void profiles using Monte Carlo random walks}}
+      \field{volume}{94}
+      \field{year}{2016}
+      \field{pages}{103524}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.94.103524
+      \endverb
+      \verb{eprint}
+      \verb 1609.01284
+      \endverb
+    \endentry
     \entry{2016A&A...594A..14P}{article}{}
       \name{labelname}{11}{}{%
         {{hash=94c122bef4a4d18cc4b21919b02952ac}{{Planck\bibnamedelimb Collaboration}}{P\bibinitperiod}{}{}{}{}{}{}}%
@@ -4134,368 +4739,6 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevLett.116.061102
       \endverb
     \endentry
-    \entry{2012MNRAS.421.3481L}{article}{}
-      \name{labelname}{3}{}{%
-        {{hash=0b2b8f1e39d74f84b7aabd0bb5dd0a86}{{Li}}{L\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
-        {{hash=3ab245920c88dbece3733019e8bfddc7}{{Zhao}}{Z\bibinitperiod}{G.-B.}{G\bibinithyphendelim B\bibinitperiod}{}{}{}{}}%
-        {{hash=9e5e3a306e7e170632f8f8fe87d384bd}{{Koyama}}{K\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{3}{}{%
-        {{hash=0b2b8f1e39d74f84b7aabd0bb5dd0a86}{{Li}}{L\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
-        {{hash=3ab245920c88dbece3733019e8bfddc7}{{Zhao}}{Z\bibinitperiod}{G.-B.}{G\bibinithyphendelim B\bibinitperiod}{}{}{}{}}%
-        {{hash=9e5e3a306e7e170632f8f8fe87d384bd}{{Koyama}}{K\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{76578caa31e9ccd572ac5e12d8d890ea}
-      \strng{fullhash}{76578caa31e9ccd572ac5e12d8d890ea}
-      \field{sortinit}{0}
-      \field{labeltitle}{{Haloes and voids in f(R) gravity}}
-      \field{eprintclass}{astro-ph.CO}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{\mnras}
-      \field{month}{04}
-      \field{title}{{Haloes and voids in f(R) gravity}}
-      \field{volume}{421}
-      \field{year}{2012}
-      \field{pages}{3481\bibrangedash 3487}
-      \verb{doi}
-      \verb 10.1111/j.1365-2966.2012.20573.x
-      \endverb
-      \verb{eprint}
-      \verb 1111.2602
-      \endverb
-      \keyw{methods: analytical,methods: numerical,cosmology: theory,dark energy,large-scale structure of Universe}
-    \endentry
-    \entry{2017JCAP...03..012V}{article}{}
-      \name{labelname}{4}{}{%
-        {{hash=2a24b85c7fc0892a62e8d8cd5fb7a0ac}{{von\bibnamedelimb Braun-Bates}}{v\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
-        {{hash=39b490f19bf7ff64eb19a5ad64127d25}{{Winther}}{W\bibinitperiod}{H.\bibnamedelimi A.}{H\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=869db495cbe29fbd9375accc6b1ef8e9}{{Alonso}}{A\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
-        {{hash=d62406d7b399873402f729f6f3e18bed}{{Devriendt}}{D\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{4}{}{%
-        {{hash=2a24b85c7fc0892a62e8d8cd5fb7a0ac}{{von\bibnamedelimb Braun-Bates}}{v\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
-        {{hash=39b490f19bf7ff64eb19a5ad64127d25}{{Winther}}{W\bibinitperiod}{H.\bibnamedelimi A.}{H\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
-        {{hash=869db495cbe29fbd9375accc6b1ef8e9}{{Alonso}}{A\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
-        {{hash=d62406d7b399873402f729f6f3e18bed}{{Devriendt}}{D\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{db174ceb319c972dfe6f8fea1b6229df}
-      \strng{fullhash}{2aea3c5d0ddc34d2752b833edf720129}
-      \field{sortinit}{0}
-      \field{labeltitle}{{The f(Script R) halo mass function in the cosmic web}}
-      \field{eid}{012}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{\jcap}
-      \field{month}{03}
-      \field{title}{{The f(Script R) halo mass function in the cosmic web}}
-      \field{volume}{3}
-      \field{year}{2017}
-      \field{pages}{012}
-      \verb{doi}
-      \verb 10.1088/1475-7516/2017/03/012
-      \endverb
-      \verb{eprint}
-      \verb 1702.06817
-      \endverb
-    \endentry
-    \entry{2010MNRAS.403.1392L}{article}{}
-      \name{labelname}{2}{}{%
-        {{hash=ff67a38ad2adaa01e1f918f3905737f4}{{Lavaux}}{L\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
-        {{hash=703624cd8ba627a1c408705274c3989b}{{Wandelt}}{W\bibinitperiod}{B.\bibnamedelimi D.}{B\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{2}{}{%
-        {{hash=ff67a38ad2adaa01e1f918f3905737f4}{{Lavaux}}{L\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
-        {{hash=703624cd8ba627a1c408705274c3989b}{{Wandelt}}{W\bibinitperiod}{B.\bibnamedelimi D.}{B\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{3313f96e73b7bca69bee67e7dc4747dc}
-      \strng{fullhash}{3313f96e73b7bca69bee67e7dc4747dc}
-      \field{sortinit}{0}
-      \field{labeltitle}{{Precision cosmology with voids: definition, methods, dynamics}}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{\mnras}
-      \field{month}{04}
-      \field{title}{{Precision cosmology with voids: definition, methods, dynamics}}
-      \field{volume}{403}
-      \field{year}{2010}
-      \field{pages}{1392\bibrangedash 1408}
-      \verb{doi}
-      \verb 10.1111/j.1365-2966.2010.16197.x
-      \endverb
-      \verb{eprint}
-      \verb 0906.4101
-      \endverb
-      \keyw{methods: N-body simulations,methods: statistical,cosmological parameters,dark matter,large-scale structure of Universe}
-    \endentry
-    \entry{0004-637X-754-2-109}{article}{}
-      \name{labelname}{2}{}{%
-        {{hash=f5e164b186ec223d9c0def3f1b600d18}{Lavaux}{L\bibinitperiod}{Guilhem}{G\bibinitperiod}{}{}{}{}}%
-        {{hash=6fbcd63c5081d811c1a2b8cc096dc21c}{Wandelt}{W\bibinitperiod}{Benjamin\bibnamedelima D.}{B\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{2}{}{%
-        {{hash=f5e164b186ec223d9c0def3f1b600d18}{Lavaux}{L\bibinitperiod}{Guilhem}{G\bibinitperiod}{}{}{}{}}%
-        {{hash=6fbcd63c5081d811c1a2b8cc096dc21c}{Wandelt}{W\bibinitperiod}{Benjamin\bibnamedelima D.}{B\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{8ec0acf1972fdd6916c290a5e7e54327}
-      \strng{fullhash}{8ec0acf1972fdd6916c290a5e7e54327}
-      \field{sortinit}{0}
-      \field{labeltitle}{Precision Cosmography with Stacked Voids}
-      \field{abstract}{We present a purely geometrical method for probing the expansion history of the universe from the observation of the shape of stacked voids in spectroscopic redshift surveys. Our method is an Alcock-Paczyński (AP) test based on the average sphericity of voids posited on the local isotropy of the universe. It works by comparing the temporal extent of cosmic voids along the line of sight with their angular, spatial extent. We describe the algorithm that we use to detect and stack voids in redshift shells on the light cone and test it on mock light cones produced from N -body simulations. We establish a robust statistical model for estimating the average stretching of voids in redshift space and quantify the contamination by peculiar velocities. Finally, assuming that the void statistics that we derive from N -body simulations is preserved when considering galaxy surveys, we assess the capability of this approach to constrain dark energy parameters. We report this assessment in terms of the figure of merit (FoM) of the dark energy task force and in particular of the proposed Euclid mission which is particularly suited for this technique since it is a spectroscopic survey. The FoM due to stacked voids from the Euclid wide survey may double that of all other dark energy probes derived from Euclid data alone (combined with Planck priors). In particular, voids seem to outperform baryon acoustic oscillations by an order of magnitude. This result is consistent with simple estimates based on mode counting. The AP test based on stacked voids may be a significant addition to the portfolio of major dark energy probes and its potentialities must be studied in detail.}
-      \field{journaltitle}{The Astrophysical Journal}
-      \field{number}{2}
-      \field{title}{Precision Cosmography with Stacked Voids}
-      \field{volume}{754}
-      \field{year}{2012}
-      \field{pages}{109}
-      \verb{url}
-      \verb http://stacks.iop.org/0004-637X/754/i=2/a=109
-      \endverb
-    \endentry
-    \entry{PhysRevLett.98.081301}{article}{}
-      \name{labelname}{2}{}{%
-        {{hash=6cabdc23c2cde79d86a20a933d94d278}{Park}{P\bibinitperiod}{Daeseong}{D\bibinitperiod}{}{}{}{}}%
-        {{hash=18b5400711f24f80f26ed4d69858deb9}{Lee}{L\bibinitperiod}{Jounghun}{J\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{2}{}{%
-        {{hash=6cabdc23c2cde79d86a20a933d94d278}{Park}{P\bibinitperiod}{Daeseong}{D\bibinitperiod}{}{}{}{}}%
-        {{hash=18b5400711f24f80f26ed4d69858deb9}{Lee}{L\bibinitperiod}{Jounghun}{J\bibinitperiod}{}{}{}{}}%
-      }
-      \list{publisher}{1}{%
-        {American Physical Society}%
-      }
-      \strng{namehash}{b65a983a513e1c57e1672a08e9bed571}
-      \strng{fullhash}{b65a983a513e1c57e1672a08e9bed571}
-      \field{sortinit}{0}
-      \field{labeltitle}{Void Ellipticity Distribution as a Probe of Cosmology}
-      \field{issue}{8}
-      \field{journaltitle}{Phys. Rev. Lett.}
-      \field{month}{02}
-      \field{title}{Void Ellipticity Distribution as a Probe of Cosmology}
-      \field{volume}{98}
-      \field{year}{2007}
-      \field{pages}{081301}
-      \verb{doi}
-      \verb 10.1103/PhysRevLett.98.081301
-      \endverb
-      \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevLett.98.081301
-      \endverb
-    \endentry
-    \entry{2013PhRvL.111x1103S}{article}{}
-      \name{labelname}{3}{}{%
-        {{hash=c0342e61d214c894315f8b82ccc1dfb2}{{Spolyar}}{S\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
-        {{hash=fd619589f3fa6bca63d2ffa12bbb314d}{{Sahlén}}{S\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=254fcf82bfbbc054f4f610a6357c4adb}{{Silk}}{S\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{3}{}{%
-        {{hash=c0342e61d214c894315f8b82ccc1dfb2}{{Spolyar}}{S\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
-        {{hash=fd619589f3fa6bca63d2ffa12bbb314d}{{Sahlén}}{S\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=254fcf82bfbbc054f4f610a6357c4adb}{{Silk}}{S\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{b4628a227e468315d9c25acc18a256f1}
-      \strng{fullhash}{b4628a227e468315d9c25acc18a256f1}
-      \field{sortinit}{0}
-      \field{labeltitle}{{Topology and Dark Energy: Testing Gravity in Voids}}
-      \field{eid}{241103}
-      \field{eprintclass}{astro-ph.CO}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{Physical Review Letters}
-      \field{month}{12}
-      \field{number}{24}
-      \field{title}{{Topology and Dark Energy: Testing Gravity in Voids}}
-      \field{volume}{111}
-      \field{year}{2013}
-      \field{pages}{241103}
-      \verb{doi}
-      \verb 10.1103/PhysRevLett.111.241103
-      \endverb
-      \verb{eprint}
-      \verb 1304.5239
-      \endverb
-      \keyw{Modified theories of gravity,Dark energy,Gravitational lenses and luminous arcs,Superclusters,large-scale structure of the Universe}
-    \endentry
-    \entry{2014APh....54...44A}{article}{}
-      \name{labelname}{3}{}{%
-        {{hash=e6f6e20cf9c61edbe8bd470a240cef28}{{Arbuzova}}{A\bibinitperiod}{E.\bibnamedelimi V.}{E\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
-        {{hash=0e7731cb3c96f533bb6db0d43db3e078}{{Dolgov}}{D\bibinitperiod}{A.\bibnamedelimi D.}{A\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=a80d1608a71e6af0d2bb7615d11eb746}{{Reverberi}}{R\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{3}{}{%
-        {{hash=e6f6e20cf9c61edbe8bd470a240cef28}{{Arbuzova}}{A\bibinitperiod}{E.\bibnamedelimi V.}{E\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
-        {{hash=0e7731cb3c96f533bb6db0d43db3e078}{{Dolgov}}{D\bibinitperiod}{A.\bibnamedelimi D.}{A\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=a80d1608a71e6af0d2bb7615d11eb746}{{Reverberi}}{R\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{f38b34b0f43da7adc34f37887feeef99}
-      \strng{fullhash}{f38b34b0f43da7adc34f37887feeef99}
-      \field{sortinit}{0}
-      \field{labeltitle}{{Spherically symmetric solutions in F (R) gravity and gravitational repulsion}}
-      \field{eprintclass}{gr-qc}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{Astroparticle Physics}
-      \field{month}{02}
-      \field{title}{{Spherically symmetric solutions in F (R) gravity and gravitational repulsion}}
-      \field{volume}{54}
-      \field{year}{2014}
-      \field{pages}{44\bibrangedash 47}
-      \verb{doi}
-      \verb 10.1016/j.astropartphys.2013.11.008
-      \endverb
-      \verb{eprint}
-      \verb 1306.5694
-      \endverb
-      \keyw{Modified gravity,Gravitational repulsion}
-    \endentry
-    \entry{2014arXiv1410.8355C}{article}{}
-      \name{labelname}{3}{}{%
-        {{hash=5cc8516bd99d2e08cb70e22e42c15e8f}{{Cai}}{C\bibinitperiod}{Y.-C.}{Y\bibinithyphendelim C\bibinitperiod}{}{}{}{}}%
-        {{hash=c0a287af1d5ba498e36a8acb748dcb3b}{{Padilla}}{P\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
-        {{hash=0b2b8f1e39d74f84b7aabd0bb5dd0a86}{{Li}}{L\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{3}{}{%
-        {{hash=5cc8516bd99d2e08cb70e22e42c15e8f}{{Cai}}{C\bibinitperiod}{Y.-C.}{Y\bibinithyphendelim C\bibinitperiod}{}{}{}{}}%
-        {{hash=c0a287af1d5ba498e36a8acb748dcb3b}{{Padilla}}{P\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
-        {{hash=0b2b8f1e39d74f84b7aabd0bb5dd0a86}{{Li}}{L\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{b7695890793301287260a715e610e5ac}
-      \strng{fullhash}{b7695890793301287260a715e610e5ac}
-      \field{sortinit}{0}
-      \field{labeltitle}{{Testing Gravity using Void Profiles}}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{ArXiv e-prints}
-      \field{month}{10}
-      \field{title}{{Testing Gravity using Void Profiles}}
-      \field{year}{2014}
-      \verb{eprint}
-      \verb 1410.8355
-      \endverb
-      \keyw{Astrophysics - Cosmology and Nongalactic Astrophysics}
-    \endentry
-    \entry{2015MNRAS.451.4215Z}{article}{}
-      \name{labelname}{5}{}{%
-        {{hash=8769f514ea4c6106a385fb82eb7521e5}{{Zivick}}{Z\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
-        {{hash=d9455ba1d05f42a30f7f665bc32132af}{{Sutter}}{S\bibinitperiod}{P.\bibnamedelimi M.}{P\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
-        {{hash=703624cd8ba627a1c408705274c3989b}{{Wandelt}}{W\bibinitperiod}{B.\bibnamedelimi D.}{B\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=0b2b8f1e39d74f84b7aabd0bb5dd0a86}{{Li}}{L\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
-        {{hash=55884956744eb8881c6120d7b0ee53ac}{{Lam}}{L\bibinitperiod}{T.\bibnamedelimi Y.}{T\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{5}{}{%
-        {{hash=8769f514ea4c6106a385fb82eb7521e5}{{Zivick}}{Z\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
-        {{hash=d9455ba1d05f42a30f7f665bc32132af}{{Sutter}}{S\bibinitperiod}{P.\bibnamedelimi M.}{P\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
-        {{hash=703624cd8ba627a1c408705274c3989b}{{Wandelt}}{W\bibinitperiod}{B.\bibnamedelimi D.}{B\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=0b2b8f1e39d74f84b7aabd0bb5dd0a86}{{Li}}{L\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
-        {{hash=55884956744eb8881c6120d7b0ee53ac}{{Lam}}{L\bibinitperiod}{T.\bibnamedelimi Y.}{T\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{739f06a90a3f4ff3cb19f026f1408eae}
-      \strng{fullhash}{bbefa4efb02892d45269461e6788f086}
-      \field{sortinit}{0}
-      \field{labeltitle}{{Using cosmic voids to distinguish f(R) gravity in future galaxy surveys}}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{\mnras}
-      \field{month}{08}
-      \field{title}{{Using cosmic voids to distinguish f(R) gravity in future galaxy surveys}}
-      \field{volume}{451}
-      \field{year}{2015}
-      \field{pages}{4215\bibrangedash 4222}
-      \verb{doi}
-      \verb 10.1093/mnras/stv1209
-      \endverb
-      \verb{eprint}
-      \verb 1411.5694
-      \endverb
-      \keyw{large-scale structure of Universe}
-    \endentry
-    \entry{2015JCAP...08..028B}{article}{}
-      \name{labelname}{5}{}{%
-        {{hash=2f519e8e3ad7a8cdfbbe662d361823a8}{{Barreira}}{B\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
-        {{hash=1e7c813c9086abd9b7068421252fb4f1}{{Cautun}}{C\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=0b2b8f1e39d74f84b7aabd0bb5dd0a86}{{Li}}{L\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
-        {{hash=0e750dc01231679bfd64431cd3b28e48}{{Baugh}}{B\bibinitperiod}{C.\bibnamedelimi M.}{C\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
-        {{hash=255fe67a14557d1abd135577a71054a9}{{Pascoli}}{P\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{5}{}{%
-        {{hash=2f519e8e3ad7a8cdfbbe662d361823a8}{{Barreira}}{B\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
-        {{hash=1e7c813c9086abd9b7068421252fb4f1}{{Cautun}}{C\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=0b2b8f1e39d74f84b7aabd0bb5dd0a86}{{Li}}{L\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
-        {{hash=0e750dc01231679bfd64431cd3b28e48}{{Baugh}}{B\bibinitperiod}{C.\bibnamedelimi M.}{C\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
-        {{hash=255fe67a14557d1abd135577a71054a9}{{Pascoli}}{P\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{52e96aac40e05412d1020a081f15e3e8}
-      \strng{fullhash}{afc3d3ee9f13427b77911e8fc715a471}
-      \field{sortinit}{0}
-      \field{labeltitle}{{Weak lensing by voids in modified lensing potentials}}
-      \field{eid}{028}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{\jcap}
-      \field{month}{08}
-      \field{title}{{Weak lensing by voids in modified lensing potentials}}
-      \field{volume}{8}
-      \field{year}{2015}
-      \field{pages}{028}
-      \verb{doi}
-      \verb 10.1088/1475-7516/2015/08/028
-      \endverb
-      \verb{eprint}
-      \verb 1505.05809
-      \endverb
-    \endentry
-    \entry{2016PhRvD..93j3522A}{article}{}
-      \name{labelname}{4}{}{%
-        {{hash=02972e355abe477621e3621d08b0ce63}{{Achitouv}}{A\bibinitperiod}{I.}{I\bibinitperiod}{}{}{}{}}%
-        {{hash=0e0adf8b73604bc689e20fd81bbcce9a}{{Baldi}}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=dba344d4fbc495e8ccfe77bc9ec7d85c}{{Puchwein}}{P\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
-        {{hash=7a99381a9752092cac0d7167b1a6a12b}{{Weller}}{W\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{4}{}{%
-        {{hash=02972e355abe477621e3621d08b0ce63}{{Achitouv}}{A\bibinitperiod}{I.}{I\bibinitperiod}{}{}{}{}}%
-        {{hash=0e0adf8b73604bc689e20fd81bbcce9a}{{Baldi}}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=dba344d4fbc495e8ccfe77bc9ec7d85c}{{Puchwein}}{P\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
-        {{hash=7a99381a9752092cac0d7167b1a6a12b}{{Weller}}{W\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{9c7a16a33e49cbc40a4b604a365da0d8}
-      \strng{fullhash}{9eb42ea7b849ad630a2454d2ea60d620}
-      \field{sortinit}{0}
-      \field{labeltitle}{{Imprint of f (R ) gravity on nonlinear structure formation}}
-      \field{eid}{103522}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{\prd}
-      \field{month}{05}
-      \field{number}{10}
-      \field{title}{{Imprint of f (R ) gravity on nonlinear structure formation}}
-      \field{volume}{93}
-      \field{year}{2016}
-      \field{pages}{103522}
-      \verb{doi}
-      \verb 10.1103/PhysRevD.93.103522
-      \endverb
-      \verb{eprint}
-      \verb 1511.01494
-      \endverb
-    \endentry
-    \entry{2016PhRvD..94j3524A}{article}{}
-      \name{labelname}{1}{}{%
-        {{hash=02972e355abe477621e3621d08b0ce63}{{Achitouv}}{A\bibinitperiod}{I.}{I\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=02972e355abe477621e3621d08b0ce63}{{Achitouv}}{A\bibinitperiod}{I.}{I\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{02972e355abe477621e3621d08b0ce63}
-      \strng{fullhash}{02972e355abe477621e3621d08b0ce63}
-      \field{sortinit}{0}
-      \field{labeltitle}{{Testing the imprint of nonstandard cosmologies on void profiles using Monte Carlo random walks}}
-      \field{eid}{103524}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{\prd}
-      \field{month}{11}
-      \field{number}{10}
-      \field{title}{{Testing the imprint of nonstandard cosmologies on void profiles using Monte Carlo random walks}}
-      \field{volume}{94}
-      \field{year}{2016}
-      \field{pages}{103524}
-      \verb{doi}
-      \verb 10.1103/PhysRevD.94.103524
-      \endverb
-      \verb{eprint}
-      \verb 1609.01284
-      \endverb
-    \endentry
     \entry{Dyson291}{article}{}
       \name{labelname}{3}{}{%
         {{hash=39d4fde165df11359e43d888f2ad7c72}{Dyson}{D\bibinitperiod}{F.\bibnamedelimi W.}{F\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
@@ -4905,43 +5148,6 @@
       \field{pages}{L13}
       \verb{url}
       \verb http://stacks.iop.org/2041-8205/723/i=1/a=L13
-      \endverb
-    \endentry
-    \entry{Weinberg201387}{article}{}
-      \name{labelname}{6}{}{%
-        {{hash=a71e65ddc04e9650894a8aeb73c38c02}{Weinberg}{W\bibinitperiod}{David\bibnamedelima H.}{D\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
-        {{hash=ace51064a610f472f352d1be48df8a67}{Mortonson}{M\bibinitperiod}{Michael\bibnamedelima J.}{M\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
-        {{hash=5fee025cc1cf2380631e1d95c8563c1f}{Eisenstein}{E\bibinitperiod}{Daniel\bibnamedelima J.}{D\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
-        {{hash=b3b0bbbb0d2f791c3b47bd3d3054b265}{Hirata}{H\bibinitperiod}{Christopher}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=d80cb852e8ebc32a388db7a53872579b}{Riess}{R\bibinitperiod}{Adam\bibnamedelima G.}{A\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
-        {{hash=57ae1eb6c7b48ea87a880efc7c8370bd}{Rozo}{R\bibinitperiod}{Eduardo}{E\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{6}{}{%
-        {{hash=a71e65ddc04e9650894a8aeb73c38c02}{Weinberg}{W\bibinitperiod}{David\bibnamedelima H.}{D\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
-        {{hash=ace51064a610f472f352d1be48df8a67}{Mortonson}{M\bibinitperiod}{Michael\bibnamedelima J.}{M\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
-        {{hash=5fee025cc1cf2380631e1d95c8563c1f}{Eisenstein}{E\bibinitperiod}{Daniel\bibnamedelima J.}{D\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
-        {{hash=b3b0bbbb0d2f791c3b47bd3d3054b265}{Hirata}{H\bibinitperiod}{Christopher}{C\bibinitperiod}{}{}{}{}}%
-        {{hash=d80cb852e8ebc32a388db7a53872579b}{Riess}{R\bibinitperiod}{Adam\bibnamedelima G.}{A\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
-        {{hash=57ae1eb6c7b48ea87a880efc7c8370bd}{Rozo}{R\bibinitperiod}{Eduardo}{E\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{b69b359111ec3a0b17bc86fcc76fb27a}
-      \strng{fullhash}{0c34bfc46f4794f268049cb81cef4e09}
-      \field{sortinit}{0}
-      \field{labeltitle}{Observational probes of cosmic acceleration}
-      \field{abstract}{Abstract The accelerating expansion of the universe is the most surprising cosmological discovery in many decades, implying that the universe is dominated by some form of “dark energy” with exotic physical properties, or that Einstein’s theory of gravity breaks down on cosmological scales. The profound implications of cosmic acceleration have inspired ambitious efforts to understand its origin, with experiments that aim to measure the history of expansion and growth of structure with percent-level precision or higher. We review in detail the four most well established methods for making such measurements: Type Ia supernovae, baryon acoustic oscillations (BAO), weak gravitational lensing, and the abundance of galaxy clusters. We pay particular attention to the systematic uncertainties in these techniques and to strategies for controlling them at the level needed to exploit “Stage IV” dark energy facilities such as BigBOSS, LSST, Euclid, and WFIRST. We briefly review a number of other approaches including redshift-space distortions, the Alcock–Paczynski effect, and direct measurements of the Hubble constant H 0 . We present extensive forecasts for constraints on the dark energy equation of state and parameterized deviations from General Relativity, achievable with Stage \{III\} and Stage \{IV\} experimental programs that incorporate supernovae, BAO, weak lensing, and cosmic microwave background data. We also show the level of precision required for clusters or other methods to provide constraints competitive with those of these fiducial programs. We emphasize the value of a balanced program that employs several of the most powerful methods in combination, both to cross-check systematic uncertainties and to take advantage of complementary information. Surveys to probe cosmic acceleration produce data sets that support a wide range of scientific investigations, and they continue the longstanding astronomical tradition of mapping the universe in ever greater detail over ever larger scales.}
-      \field{issn}{0370-1573}
-      \field{journaltitle}{Physics Reports}
-      \field{note}{Observational Probes of Cosmic Acceleration}
-      \field{number}{2}
-      \field{title}{Observational probes of cosmic acceleration}
-      \field{volume}{530}
-      \field{year}{2013}
-      \field{pages}{87\bibrangedash 255}
-      \verb{doi}
-      \verb http://dx.doi.org/10.1016/j.physrep.2013.05.001
-      \endverb
-      \verb{url}
-      \verb http://www.sciencedirect.com/science/article/pii/S0370157313001592
       \endverb
     \endentry
     \entry{2015RPPh...78h6901K}{article}{}
@@ -11272,32 +11478,6 @@
       \verb astro-ph/0210112
       \endverb
       \keyw{cosmology: gravitational lensing,cosmology: large-scale structure of Universe}
-    \endentry
-    \entry{2016MNRAS.455.3943H}{article}{}
-      \name{labelname}{1}{}{%
-        {{hash=c78a96562145cc3b98652070cf33ea8a}{{Hildebrandt}}{H\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=c78a96562145cc3b98652070cf33ea8a}{{Hildebrandt}}{H\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{c78a96562145cc3b98652070cf33ea8a}
-      \strng{fullhash}{c78a96562145cc3b98652070cf33ea8a}
-      \field{sortinit}{0}
-      \field{labeltitle}{{Observational biases in flux magnification measurements}}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{\mnras}
-      \field{month}{02}
-      \field{title}{{Observational biases in flux magnification measurements}}
-      \field{volume}{455}
-      \field{year}{2016}
-      \field{pages}{3943\bibrangedash 3951}
-      \verb{doi}
-      \verb 10.1093/mnras/stv2575
-      \endverb
-      \verb{eprint}
-      \verb 1511.01352
-      \endverb
-      \keyw{gravitational lensing: weak,methods: numerical,galaxies: photometry}
     \endentry
     \entry{2012MNRAS.424..564R}{article}{}
       \name{labelname}{42}{}{%

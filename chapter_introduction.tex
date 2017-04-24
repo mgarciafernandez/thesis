@@ -27,7 +27,7 @@ Assuming that the Universe is homogeneous and isotropic \citep{2014MNRAS.440...1
 \begin{equation}
 ds^2 = -dt^2+a^2(t)\left[\frac{dr^2}{1-Kr^2}+r^2(d\theta^2+\sin^2\theta d\phi^2)\right],
 \end{equation}
-where $a(t)$ is a function of time know as scale factor, $K=-1,0,1$ is the curvature of the universe and $r,\theta,\phi$ are spatial 3D spherical coordinates.
+where $a(t)$ is a function of time know as scale factor, $K=-1,0,1$ is the curvature of the universe and $r,\theta,\phi$ are the spatial 3D spherical coordinates.
 \newline
 
 Solving Einstein's equation for this metric, an expression for the evolution of the scale factor with time can be obtained
@@ -44,7 +44,7 @@ H^2(t) = H_0^2\left[\sum_i\Omega_i(t)-\Omega_K\right]
 \end{equation}
 with
 \begin{equation}
-\Omega_K\equiv\frac{K}{[a(t)H_0]^2}\ \ \mbox{ and }\ \ \Omega_i(t)\equiv \frac{8\pi\rho_i(t)}{3H_0^2}.
+\Omega_K\equiv\frac{K}{[a(t)H_0]^2}\ \ \mbox{ and }\ \ \Omega_i(t)\equiv \frac{8\pi G_N\rho_i(t)}{3H_0^2}.
 \end{equation}
 The parameter $\Omega_i$ is the density of the $i$-th matter/energy specie whose evolution with time can be computed using Thermodynamics. For non-relativistic matter --that is, matter with velocity $v\ll c$--, 
 \begin{equation}
@@ -87,7 +87,7 @@ $0.315\pm 0.013$ & $0.685\pm 0.013$ & $0.04904\pm 0.00051$ & $-0.0001\pm 0.0052$
 \end{table}
 \begin{figure}
 \includegraphics[width=\textwidth]{./Pictures/bullet_cluster.png}
-\caption{Bullet cluster. Colors indicate the baryonic mass measured with gamma-rays, whereas the solid lines indicate the mass reconstructed with gravitational lensing. This result is considered the clearest evidence that baryonic- and dark-matter are decoupled . Image taken from \cite{2008PhRvD..78j4004D}.}
+\caption{Bullet cluster. Colors indicate the baryonic mass measured with gamma-rays, whereas the solid lines indicate the mass reconstructed with gravitational lensing. This result is considered the clearest evidence that baryonic- and dark-matter are decoupled. Image taken from \cite{2008PhRvD..78j4004D}.}
 \label{fig:bullet}
 \end{figure}
 
@@ -98,9 +98,9 @@ R_{\mu\nu}-\frac{1}{2}Rg_{\mu\nu} = \frac{8\pi G_N}{c^4}T_{\mu\nu}-\Lambda g_{\m
 \end{equation}
 With this matter term, assuming $\Omega_K=0$, \autoref{eq:flrw} transforms into
 \begin{equation}
-H^2(t) = H_0^2\left[\sum_i\Omega_i(t) +\Omega_\Lambda\right],
+H^2(t) = H_0^2\left[\sum_i\Omega_i(t) +\Omega_\Lambda(t)\right],
 \end{equation}
-where $\Omega_\Lambda$ is the dark energy density. This new term is a time-independent constant that has the same value on every location of the Universe. Thus, as the other matter species has a density that decreases with time, the dark energy density has only impact at late cosmic times.
+where $\Omega_\Lambda(t)=\Omega_\Lambda^0$ is the dark energy density. This new term is a time-independent constant that has the same value on every location of the Universe. Thus, as the other matter species has a density that decreases with time, the dark energy density has only impact at late cosmic times.
 \newline
 
 This new term may be regarded as a new matter specie such that
@@ -115,7 +115,7 @@ Taking into account \autoref{eq:conservationenergy} and \autoref{eq:rho_lambda},
 \end{equation}
 \newline
 
-Since this energy density is fills the whole Universe and is an inherent property of the geometry of the Universe and hence of the Universe itself, from a physical point of view it can be identified as the energy of the vacuum \cite{RevModPhys.61.1,2003PhR...380..235P}. Quantum Field Theory (QFT) states that the quantum vacuum is not empty and static but it actually is a dynamical entity. Assuming that the Standard Model is valid up to the Planck scale, the energy density of the vacuum can be estimated to be
+Since this energy density fills the whole Universe and is an inherent property of the geometry of the Universe and hence of the Universe itself, from a physical point of view it can be identified as the energy of the vacuum \cite{RevModPhys.61.1,2003PhR...380..235P}. Quantum Field Theory (QFT) states that the quantum vacuum is not empty and static but it actually is a dynamical entity. Assuming that the Standard Model is valid up to the Planck scale, the energy density of the vacuum can be estimated to be
 \begin{equation}
 \rho_{QFT} = \int\limits_0^{1/L_P} dk \sqrt{k^2+m^2}\frac{4\pi k^2}{(2\pi)^4}\sim 10^{71}\mbox{ GeV}^4,
 \end{equation}
@@ -130,10 +130,10 @@ It can be argued that the cosmological constant is not connected to High Energy 
 
 
 \section{Theories for Dark Energy}
-As it has been stated previously, the small value of the cosmological constant can not be explained. Thus, one can force it to be $\Lambda=0$ and try to explain accelerated expansion of the Universe with other class of theories. The simplest approach is to postulate the existence of new exotic matter that has a negative pressure that drives the accelerated expansion. The other approach consist on postulating a new gravitational field equation by modifying Einstein's equation or starting from scratch.
+As it has been stated previously, the small value of the cosmological constant can not be explained with the Standard Model of High Energy Physics. Thus, one can force the cosmological constant to be $\Lambda=0$ and try to explain accelerated expansion of the Universe with other class of theories. The simplest approach is to postulate the existence of new exotic matter that has a negative pressure that drives the accelerated expansion. The other approach consist on postulating a new gravitational field equation by modifying Einstein's equation or starting from scratch.
 
 \subsection{Exotic matter fields}
-An explanation to the accelerated expansion of the Universe can be found on the presence on new quantum fields. The simplest case is known as quintessence and is defined as a scalar field that is added to the action defined at \autoref{eq:ehaction} such that
+An explanation to the accelerated expansion of the Universe can be found on the presence on new quantum fields. The simplest case is known as quintessence and is defined as a scalar field  ($\phi$) that is added to the action defined at \autoref{eq:ehaction} such that
 \begin{equation}
 S = \frac{c^4}{16\pi G_N}\int d^4x\sqrt{-g}R+S_\phi+S_M
 \end{equation}
@@ -217,8 +217,32 @@ where $\bar \rho_M$ is the average matter density, $\delta_M$ its fluctuations a
 
 It is important to remark that the zoo of all the departures from General Relativity plus cosmological constant --including the addition of new fields--, may be unified into a single parametrization known as Parametrized Post-Friedmann Framework \cite{2013PhRvD..87b4015B}.
 
-\section{Observations of Dark Energy}
-Dark energy can be probed by several methodologies.
+\section{Probes for Dark Energy}
+The nature of Dark energy can be constrained using different cosmological probes \cite{Weinberg201387} by measuring the $w_0,w_a$ parameters of its equation of state or, conversely for modified gravity, the potentials $\Sigma,\gamma$. The determination of these parameters can be split in two classes of probes: geometrical and large-scale-structure tests.
+\newline
+
+Geometrical measurements exploit the fact that the distances measured on cosmological scales depend on the metric tensor of the Universe, that is affected by the energy content of the Universe and the gravitational theory used. These measurements include: the barion acoustic oscillation peak-scale (BAO), the SNIa distance-ladder, Alcock-Paczynski \cite{1979Natur.281..358A} tests and integrated Sachs-Wolfe (ISW) effect. On the other side, large-scale-structure probes are based on the measurement of the inhomogeneities of the matter density field at different moments of the cosmic history, which depend on the matter/dark-energy ration and gravitational theory used. They include: the cluster-count evolution with redshift, redshift-space-distortions (RSD), clustering, lensing and the cosmic microwave background (CMB).
+\newline
+
+The combination of different cosmological probes leads to more accurate measurements at the same time it breaks degeneracies on the determination of the cosmological parameters \cite{2006A&A...448..831Y,Weinberg201387}. Nevertheless, multiprobe cosmology suffer from the correlation of the different methodologies. In addition, if the different probes are provided by the same experiment, they must also take into account the correlation of the different sources of systematic errors \cite{2016arXiv160105779K,2016arXiv160701761S,2017MNRAS.465L..20S,2017arXiv170307786F}.  Thus, the inclusion of an specific measurement on a multiprobe analysis, that is highly correlated with other probes or is very noisy, this may no lead to a significant improvement of the cosmological constrain.
+\newline
+
+Weak-lensing magnification is a low signal-to-noise measurement with many sources of systematic errors \cite{2016MNRAS.455.3943H} that is produced by the same physical entity as the gg-lensing, which has higher signal-to-noise (see \autoref{ch:theory} also for a full explanation of magnification and gg-lensing). Thus, the inclusion of magnification on a multiprobe analysis does not lead to an effective improvement of the measurement. This requires the use of magnification on environments and regimes that other probes can not reach.
+\newline
+
+The strength of magnification is that it allows to measure directly the matter profile of the large-scale-structures that conform the Universe. The full matter structures of the Universe are only accessible trough gravitational lensing due to the presence of dark matter. Since dark matter is not visible and interacts only trough gravity, assumptions on how the visible- --baryonic- -- and dark- matter assemble together must be made on measurements other than gravitational lensing, introducing nuisances on the measurement. One of those structures are known as voids, which are the emptiest regions of the cosmic web (see \autoref{fig:2df}).
+\begin{figure}
+\includegraphics[width=\textwidth]{./Pictures/2df.jpg}
+\caption{Large-scale-structure of the Universe. Each dot represents the position of a galaxy. Image credit: 2 Degree Field Survey.}
+\label{fig:2df}
+\end{figure}
+\newline
+
+Since voids have a lower matter content than the average Universe, their gravitational evolution is more dominated by dark energy. Thus, void properties are different depending on the dark energy properties. If the abundance of large voids on the Universe is considered, it has been reported that its number increases in $f(R)$ gravity models \cite{2012MNRAS.421.3481L} since the abundance of dark matter halos is altered \cite{2017JCAP...03..012V}. Nevertheless, if the shape of the void is measured, its ellipticity can be used as a probe for the parameters of the equation of state of dark energy \cite{2010MNRAS.403.1392L,0004-637X-754-2-109,PhysRevLett.98.081301,2013PhRvL.111x1103S}, since the structure growth-factor on the line-of-sight has a variation due to
+the dark energy content, whereas on the transverse plane, growth-factor is constant. Finally, the radial distribution of matter around the center of a void --known as void profile-- has demonstrated to be different on $f(R)$ theories and General Relativity \cite{2014APh....54...44A,2014arXiv1410.8355C,2015MNRAS.451.4215Z,2015JCAP...08..028B,2016PhRvD..93j3522A,2016PhRvD..94j3524A}. Thus, by simply measuring the void matter profile, constrains on dark energy can be made.
+\newline
+
+Thus, the direct determination of the matter profile of voids by weak-lensing magnification, constitutes a promising and independent new probe on dark energy, alternative to multiprobe constrains.
 
 \section{Current status of Dark Energy constrains}
 The latest and more precise results constraining dark energy are provided by the Planck Collaboration 2015 results from the analysis of the Cosmic Microwave Background (CMB) \cite{2016A&A...594A..14P}.
@@ -267,23 +291,7 @@ A weak-lensing analysis by Leauthaud et~al. \cite{2017MNRAS.467.3024L} of CFHTLe
 Recently, a dynamical dark energy scenario has shown to solve these tensions when combining severeal cosmological probes (weak-lensing, SNIa, BAO, and CMB) \cite{2017arXiv170108165Z}. An independent work has also shown that dynamical dark energy can solve these tensions combining Planck Collaboration 2015 with Riess et~al., SDSS BAO and CFHTLens measurements \cite{2017arXiv170400762D}. Nevertheless, constrains are still limited.
 \newline
 
-As it has been described, current individual constrains on dark energy are not precise enough to determine which model is the correct explanation of the accelerated expansion of the Universe. Nevertheless, current cosmological model --General Relativity with flat geometry plus cosmological constant (flat-$\Lambda$CDM)--, has demonstrated to be a solid theory that explains a wide range of physical effects and has passed the most stringent including gravitational waves \cite{1982ApJ...253..908T,PhysRevLett.116.061102}. Although a tension exists between different probes that may be alleviated in a  non-cosmological constant scenario, caution is needed and special attention is needed to do a proper systematic error estimation. This requires additional probes and redundant measurements of the same physical observable but with different sources of systematic errors. We have entered in the precision cosmology era.
-
-
-\section{Alternative probes for Dark Energy: Voids \& Troughs}
-Previous cosmological probes were based on the same physical quantity: the anisotropies of the matter density-field although at different moments of the Cosmic History. Whereas CMB measures anisotropies at decoupling, lensing and clustering measure them at present. This anisotropies where originated on primordial density fluctuations\footnote{The current hypothesis suggests that this fluctuations are due to inflation.}. Then, the over-dense regions of the mater field started to grow by gravitational collapse of the matter, leading to the accretion of the matter contained at the under-dense regions, forming the cosmic  web (see \autoref{fig:2df}). This large under-dense regions of the Universe surrounded by over-dense regions are known as voids.
-\begin{figure}
-\includegraphics[width=\textwidth]{./Pictures/2df.jpg}
-\caption{Large-scale-structure of the Universe. Each dot represents the position of a galaxy. Image credit: 2 Degree Field Survey.}
-\label{fig:2df}
-\end{figure}
-\newline
-
-Since voids have a lower matter content than the average Universe, their gravitational evolution is more dominated by dark energy. Thus, void properties are different depending on the dark energy properties. If the abundance of large voids on the Universe is considered, it has been reported that its number increases in $f(R)$ gravity models \cite{2012MNRAS.421.3481L} since the abundance of dark matter halos is altered \cite{2017JCAP...03..012V}. Nevertheless, if the shape of the void is measured, its ellipticity can be used as a probe for the parameters of the equation of state of dark energy \cite{2010MNRAS.403.1392L,0004-637X-754-2-109,PhysRevLett.98.081301,2013PhRvL.111x1103S}, since the structure growth-factor on the line-of-sight has a variation due to
-the dark energy content, whereas on the transverse plane, growth-factor is constant. Finally, the radial distribution of matter around the center of a void --known as void profile-- has demonstrated to be different on $f(R)$ theories and General Relativity \cite{2014APh....54...44A,2014arXiv1410.8355C,2015MNRAS.451.4215Z,2015JCAP...08..028B,2016PhRvD..93j3522A,2016PhRvD..94j3524A}. Thus, by simply measuring the void matter profile, constrains on dark energy can be made.
-\newline
-
-Nevertheless, the total matter budget of the Universe is composed by both baryonic and dark matter, being the presence of the latter only accessible trough its gravitational effects. As galaxies --composed by baryonic matter-- are biased tracers of the underlying dark matter field, its spatial distribution requires a model of assembly of galaxies within dark matter, introducing uncertainties and nuisance parameters on the model. Gravitational light deflection is only sensitive to the total matter field, not needing additional modeling on how baryonic and dark matter relate. Thus, gravitational light deflection made by voids constitutes a promising new probe on dark energy.
+As it has been described, current individual constrains on dark energy are not precise enough to determine which model is the correct explanation of the accelerated expansion of the Universe. Nevertheless, current cosmological model --$\Lambda$CDM--, has demonstrated to be a solid theory that explains a wide range of physical effects and has passed the most stringent tests including gravitational waves \cite{1982ApJ...253..908T,PhysRevLett.116.061102}. Although a tension exists between different probes that may be alleviated in a  non-cosmological constant scenario, caution is needed and special attention is required to do a proper systematic error estimation. This requires additional probes and redundant measurements of the same physical observable but with different sources of systematic errors. We have entered in the precision cosmology era.
 $$\S\qquad \S\qquad \S$$
 This Thesis is devoted to the analysis of weak-lensing magnification as part of the Dark Energy Survey Collaboration. Data analysis is carried out on two different data-sets of the mentioned experiment with two different goals each. The first analysis is carried out on the Science Verification data-set, aiming the detection of the magnification signal and the development of new techniques of systematic error mitigation. Once the magnification signal has been detected, a new analysis on the Year 1 data-release is made with the methodology that has been established previously. Year 1 analysis is qualitatively different since its goal is to measure the convergence profile of voids to use it as a probe for dark energy.
 \newline
