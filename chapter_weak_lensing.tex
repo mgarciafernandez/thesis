@@ -1,10 +1,10 @@
 \chapterimage{head2.png} % Chapter heading image
 \chapter{Gravitational Lensing Theory}
 \label{ch:theory}
-As it has been stated on \autoref{ch:introduction}, the charge of the gravitational field is the energy-momentum tensor. Thus, massless particles that are carriers of energy --such as photons-- are also affected by gravity. This means that the trajectory of photons is altered when they pass nearby massive objects, leading to a bending of light rays. The first experimental determination of the gravitational light bending is by Dyson et~al. in 1919 \cite{Dyson291}, four years after the publication of General Relativity. On this work, the observed apparent position of stars nearby the Sun during a solar eclipse were measured and compared with their positions in the absence of the solar eclipse. The positions of the stars where shifted the same amount predicted by General Relativity.
+As it has been stated on \autoref{ch:introduction}, the gravitational fields acts on the energy-momentum tensor. Thus, massless particles that are carriers of energy --such as photons-- are also affected by gravity, leading to a bending of light rays. The first experimental determination of the gravitational light bending is by Dyson et~al. in 1919 \cite{Dyson291}, four years after the publication of General Relativity. On this work, the observed apparent position of stars close to the Sun during a solar eclipse were measured and compared with their positions when the Sun is not in front of them. The positions of the stars where shifted as predicted by General Relativity.
 \newline
 
-Dyson et~al. measurement of the gravitational deflection of the light emitted by a background object --a.k.a. source--, relied on the fact that the object that is cause of the light deflection --a.k.a. the lens--, can be removed by its own seasonal motion. Nevertheless, this limits the measurement of gravitational light deflection to objects within the Milky Way. The study of the large-scale-structure if the Universe requires the use of extragalactic objects, implying that the object that acts as lens can not be removed, complicating the measurement.
+Dyson et~al. measurement of the gravitational deflection of the light emitted by a background object --a.k.a. source--, relied on the fact that the object that causes of the light deflection --a.k.a. the lens--, can be removed by its own seasonal motion. Nevertheless, this limits the measurement of gravitational light deflection to objects within the Milky Way. The study of the large-scale-structure of the Universe requires the use of extragalactic objects, implying that the object that acts as lens can not be removed, complicating the measurement.
 \newline
 
 One specific case of the gravitational light deflection happens when the observer, lens and source are aligned. This problem has cylindrical symmetry and leads to a very specific solution: the Einstein ring (\autoref{fig:einstein_ring}) \cite{2016ApJ...827...51N}. On this configuration, the image of the background galaxy is distorted forming a ring around the lens galaxy, that its located at its center. The size of the ring is determined only by the mass of the lens and the distances of the lens and the source:
@@ -21,15 +21,15 @@ where $G_N$ is Newton's gravitational constant, $M$ the mass of the lens, $d_{LS
 \end{figure}
 \newline
 
-Finding Einstein rings may be a product of serendipity or digging hard on wide-field images \cite{2017arXiv170402744J}. At any case, the probability of finding a system where observer-lens-source are aligned is very remote and only a small number of Einstein rings are known ($\sim20$ on the Dark Energy Survey Science Verification data	 ). A general solution, where the system is not aligned can be found with the gravitational lens equation.
+Finding Einstein rings may be a product of serendipity or digging hard on wide-field images \cite{2017arXiv170402744J}. Nevertheless, the probability of finding a system where observer-lens-source are aligned is very remote and only a small number of Einstein rings are known ($\sim20$ on the Dark Energy Survey Science Verification data). A general solution, where the system is not aligned can be found with the gravitational lens equation.
 
 \section{Lens Equation on Gravitational Fields}
-As gravity is only an attractive force, the bending of light rays on an isolated system is only convergent. Since all the photons emitted by the source are bended coherently by the lens, the axis observer-lens constitute an optical convergent system. Thus a lens equation can be deduced following the same approach as Geometrical Optics with the deflection angle ($\hat\alpha$) of a light ray --photon trajectory-- given by General Relativity \cite{Weinberg,2001PhR...340..291B,2006glsw.conf.....M,2008ARNPS..58...99H,2041-8205-723-1-L13,Weinberg201387,2015RPPh...78h6901K}:
+As gravity is always an attractive force, the bending of light rays on an isolated system is only convergent. Since all the photons emitted by the source are bended coherently by the lens, the axis observer-lens constitute an optical convergent system. Thus a lens equation can be deduced using Geometrical Optics with the deflection angle ($\hat\alpha$) of a light ray --photon trajectory-- given by General Relativity \cite{Weinberg,2001PhR...340..291B,2006glsw.conf.....M,2008ARNPS..58...99H,2041-8205-723-1-L13,Weinberg201387,2015RPPh...78h6901K}:
 \begin{equation}
-\hat\alpha = \frac{4G_NM}{rc^2}.
+\hat\alpha = \frac{4G_NM}{\xi c^2}.
 \label{eq:deflection_angle}
 \end{equation}
-Here $M$ is the mass of the point-particle (lens hereafter), $G_N$ is Newton's constant, $c$ the speed of light and $r$ the closest encounter distance (a.k.a. impact paramenter). Using \autoref{fig:optical_system} as reference and defining $\theta$ as the observed and $\beta$ the real lens-source angle, it can be deduced that
+Here $M$ is the mass of the point-particle (lens hereafter), $G_N$ is Newton's constant, $c$ the speed of light and $\xi$ the closest encounter distance (a.k.a. impact paramenter). Using \autoref{fig:optical_system} as reference and defining $\theta$ as the observed and $\beta$ the real lens-source angle, it can be deduced that
 \begin{equation}
 \beta = \theta - \frac{D_{ds}}{D_s}\hat\alpha(D_d\theta)=\theta-\alpha(\theta),
 \label{eq:lens_equation}
@@ -70,7 +70,7 @@ where the convergence ($\kappa$) and critical density ($\Sigma_c$) has been defi
 \kappa(\vec r_\perp,r_\parallel^S) = \frac{\Sigma(\vec r_\perp,r_\parallel^S)}{\Sigma_c} \mbox{ with } \Sigma_c = \frac{c^2}{4\pi G_N}\frac{D_s}{D_dD_{ds}}.
 \label{eq:kappa_definition}
 \end{equation}
-Defining the lensing potential as
+As weak-lensing wide-field surveys start to proliferate, the limit of validity of the flat-sky approximation is being reached \cite{2016arXiv161104954K,2017arXiv170205301K,2017arXiv170401054L}. Defining the lensing potential as
 \begin{equation}
 \psi(\vec r_\perp,r_\parallel^S) = \frac1{\pi}\int d^2\vec r_\perp\kappa(\vec r_\perp,r_\parallel^S)\ln|\vec r^S_\perp-\vec r_\perp|,
 \end{equation}

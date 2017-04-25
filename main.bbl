@@ -5272,6 +5272,105 @@
       \verb 1411.0115
       \endverb
     \endentry
+    \entry{2016arXiv161104954K}{article}{}
+      \name{labelname}{6}{}{%
+        {{hash=6d917cb172a64c8e11a5963380db7ee9}{{Kitching}}{K\bibinitperiod}{T.\bibnamedelimi D.}{T\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=e68a01513877100a7e01af3e510e183f}{{Alsing}}{A\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=6d849e7630da68ce7e465ba67b97431d}{{Heavens}}{H\bibinitperiod}{A.\bibnamedelimi F.}{A\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=c83458f2faa6757161c3c6e06018120a}{{Jimenez}}{J\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=0bd0350878346ee08b4b80dc5bfff620}{{McEwen}}{M\bibinitperiod}{J.\bibnamedelimi D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=6629eb5d6bdf35a2edfd838cbfcdc4ab}{{Verde}}{V\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=6d917cb172a64c8e11a5963380db7ee9}{{Kitching}}{K\bibinitperiod}{T.\bibnamedelimi D.}{T\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=e68a01513877100a7e01af3e510e183f}{{Alsing}}{A\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=6d849e7630da68ce7e465ba67b97431d}{{Heavens}}{H\bibinitperiod}{A.\bibnamedelimi F.}{A\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=c83458f2faa6757161c3c6e06018120a}{{Jimenez}}{J\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=0bd0350878346ee08b4b80dc5bfff620}{{McEwen}}{M\bibinitperiod}{J.\bibnamedelimi D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=6629eb5d6bdf35a2edfd838cbfcdc4ab}{{Verde}}{V\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{588b2dc43fe82b66b489725e974e7d0a}
+      \strng{fullhash}{95eb7f9d112b50441f5fe860852caa5f}
+      \field{sortinit}{0}
+      \field{labeltitle}{{The Limits of Cosmic Shear}}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{ArXiv e-prints}
+      \field{month}{11}
+      \field{title}{{The Limits of Cosmic Shear}}
+      \field{year}{2016}
+      \verb{eprint}
+      \verb 1611.04954
+      \endverb
+      \keyw{Astrophysics - Cosmology and Nongalactic Astrophysics}
+    \endentry
+    \entry{2017arXiv170205301K}{article}{}
+      \name{labelname}{12}{}{%
+        {{hash=a37d49e378d43d5370494f6bc4268006}{{Kilbinger}}{K\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=40479e9253f3fce3d1c0dfdd228938f4}{{Heymans}}{H\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=77545be1842ca0b7c48066e32b0d3bb8}{{Asgari}}{A\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=d508af2147c00285ec884ba21efa2af0}{{Joudaki}}{J\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=e1efe9f9e6d2d0dc77c9903e0599bb92}{{Schneider}}{S\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=503c94470a19c4191443102efb3fffcd}{{Simon}}{S\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=052f926f514896edb2a917b61313c168}{{Van\bibnamedelimb Waerbeke}}{V\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=b4577b003bf60701fffa7d219f0652db}{{Harnois-Déraps}}{H\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=c78a96562145cc3b98652070cf33ea8a}{{Hildebrandt}}{H\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=6f07ed51a59141ce83827251515aee2c}{{Köhlinger}}{K\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=422c14c900d86a76a52f4f16986ec79d}{{Kuijken}}{K\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=d1a17cceae65c6276373dd8daf74f486}{{Viola}}{V\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{12}{}{%
+        {{hash=a37d49e378d43d5370494f6bc4268006}{{Kilbinger}}{K\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=40479e9253f3fce3d1c0dfdd228938f4}{{Heymans}}{H\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=77545be1842ca0b7c48066e32b0d3bb8}{{Asgari}}{A\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=d508af2147c00285ec884ba21efa2af0}{{Joudaki}}{J\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=e1efe9f9e6d2d0dc77c9903e0599bb92}{{Schneider}}{S\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=503c94470a19c4191443102efb3fffcd}{{Simon}}{S\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=052f926f514896edb2a917b61313c168}{{Van\bibnamedelimb Waerbeke}}{V\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=b4577b003bf60701fffa7d219f0652db}{{Harnois-Déraps}}{H\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=c78a96562145cc3b98652070cf33ea8a}{{Hildebrandt}}{H\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=6f07ed51a59141ce83827251515aee2c}{{Köhlinger}}{K\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=422c14c900d86a76a52f4f16986ec79d}{{Kuijken}}{K\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=d1a17cceae65c6276373dd8daf74f486}{{Viola}}{V\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{298b2640f126d95b52a6674b31f6aa5a}
+      \strng{fullhash}{8e4c72b663d959dfb31e09030c8a7339}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Precision calculations of the cosmic shear power spectrum projection}}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{ArXiv e-prints}
+      \field{month}{02}
+      \field{title}{{Precision calculations of the cosmic shear power spectrum projection}}
+      \field{year}{2017}
+      \verb{eprint}
+      \verb 1702.05301
+      \endverb
+      \keyw{Astrophysics - Cosmology and Nongalactic Astrophysics}
+    \endentry
+    \entry{2017arXiv170401054L}{article}{}
+      \name{labelname}{3}{}{%
+        {{hash=0ab5f415111360f7afd17e322d46e5dd}{{Lemos}}{L\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=0da0b0f2f699e9a9613015c4949938e0}{{Challinor}}{C\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=19bfce67e37e221667b42db98afcb9e3}{{Efstathiou}}{E\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=0ab5f415111360f7afd17e322d46e5dd}{{Lemos}}{L\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=0da0b0f2f699e9a9613015c4949938e0}{{Challinor}}{C\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=19bfce67e37e221667b42db98afcb9e3}{{Efstathiou}}{E\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{451f4b5981c70008bd78d9fd2d1b49c7}
+      \strng{fullhash}{451f4b5981c70008bd78d9fd2d1b49c7}
+      \field{sortinit}{0}
+      \field{labeltitle}{{The effect of Limber and flat-sky approximations on galaxy weak lensing}}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{ArXiv e-prints}
+      \field{month}{04}
+      \field{title}{{The effect of Limber and flat-sky approximations on galaxy weak lensing}}
+      \field{year}{2017}
+      \verb{eprint}
+      \verb 1704.01054
+      \endverb
+      \keyw{Astrophysics - Cosmology and Nongalactic Astrophysics}
+    \endentry
     \entry{1989Sci...245..824B}{article}{}
       \name{labelname}{4}{}{%
         {{hash=05c6607136efda9cf2c021f1a3fb0e84}{{Blandford}}{B\bibinitperiod}{R.\bibnamedelimi D.}{R\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%

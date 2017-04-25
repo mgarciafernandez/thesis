@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.7.5)  25 APR 2017 10:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.7.5)  25 APR 2017 11:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2058,14 +2058,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--23
 [15
 
 ] [16 <./Pictures/einstein_ring.jpg>]
-<Pictures/optical_system.png, id=617, 555.07375pt x 261.97874pt>
+<Pictures/optical_system.png, id=613, 555.07375pt x 261.97874pt>
 File: Pictures/optical_system.png Graphic file (type png)
 
 <use Pictures/optical_system.png>
 Package pdftex.def Info: Pictures/optical_system.png used on input line 40.
 (pdftex.def)             Requested size: 373.86685pt x 176.45625pt.
 
-<./Pictures/distortion.png, id=618, 504.88625pt x 315.1775pt>
+<./Pictures/distortion.png, id=614, 504.88625pt x 315.1775pt>
 File: ./Pictures/distortion.png Graphic file (type png)
 
 <use ./Pictures/distortion.png>
@@ -2077,49 +2077,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--50
  []
 
 [17] [18 <./Pictures/optical_system.png> <./Pictures/distortion.png (PNG copy)>
-]
+] [19]
 Underfull \hbox (badness 10000) in paragraph at lines 113--116
 
  []
 
-[19]
+[20]
 Underfull \hbox (badness 10000) in paragraph at lines 156--159
 
  []
 
-[20]
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 162.
 
- (/usr/share/texmf/tex/latex/lm/omslmr.fd
+(/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 162.
-
+ [21]
 Underfull \hbox (badness 10000) in paragraph at lines 167--169
 
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 172.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [21]
 [22]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 241.
-
+ [23]
 Underfull \hbox (badness 10000) in paragraph at lines 256--259
 
  []
 
-[23] [24]
+[24] [25]
 Underfull \hbox (badness 10000) in paragraph at lines 346--348
 
  []
 
-[25]) (./chapter_DES.tex [26]
+[26]) (./chapter_DES.tex [27] [28
+
+]
 Chapter 3.
 File: Pictures/head2.png Graphic file (type png)
 <use Pictures/head2.png>
@@ -2135,14 +2132,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--10
 
  []
 
-[27
-
-]
+[29]
 Underfull \hbox (badness 10000) in paragraph at lines 28--30
 
  []
 
-<./Pictures/telescope_DES_mine.jpg, id=779, 3468.96pt x 4625.28pt>
+<./Pictures/telescope_DES_mine.jpg, id=791, 3468.96pt x 4625.28pt>
 File: ./Pictures/telescope_DES_mine.jpg Graphic file (type jpg)
 
 <use ./Pictures/telescope_DES_mine.jpg>
@@ -2150,7 +2145,7 @@ Package pdftex.def Info: ./Pictures/telescope_DES_mine.jpg used on input line 3
 4.
 (pdftex.def)             Requested size: 373.86685pt x 498.47829pt.
 
-<./Pictures/cerrotololo_mine.jpg, id=781, 4625.28pt x 3468.96pt>
+<./Pictures/cerrotololo_mine.jpg, id=793, 4625.28pt x 3468.96pt>
 File: ./Pictures/cerrotololo_mine.jpg Graphic file (type jpg)
 
 <use ./Pictures/cerrotololo_mine.jpg>
@@ -2158,7 +2153,7 @@ Package pdftex.def Info: ./Pictures/cerrotololo_mine.jpg used on input line 50.
 
 (pdftex.def)             Requested size: 415.41043pt x 311.55775pt.
 
-<Pictures/des_footprint.png, id=782, 936.49875pt x 423.5825pt>
+<Pictures/des_footprint.png, id=794, 936.49875pt x 423.5825pt>
 File: Pictures/des_footprint.png Graphic file (type png)
 
 <use Pictures/des_footprint.png>
@@ -2168,41 +2163,41 @@ Package pdftex.def Info: Pictures/des_footprint.png used on input line 54.
 
 LaTeX Warning: Float too large for page by 22.19531pt on input line 58.
 
-[28] [29 <./Pictures/telescope_DES_mine.jpg>] [30 <./Pictures/cerrotololo_mine.
+[30] [31 <./Pictures/telescope_DES_mine.jpg>] [32 <./Pictures/cerrotololo_mine.
 jpg> <./Pictures/des_footprint.png>]
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
 
-<./Pictures/destile_g.png, id=801, 716.6775pt x 499.8675pt>
+<./Pictures/destile_g.png, id=813, 716.6775pt x 499.8675pt>
 File: ./Pictures/destile_g.png Graphic file (type png)
 
 <use ./Pictures/destile_g.png>
 Package pdftex.def Info: ./Pictures/destile_g.png used on input line 75.
 (pdftex.def)             Requested size: 166.16164pt x 102.69696pt.
 
-<./Pictures/destile_r.png, id=803, 716.6775pt x 499.8675pt>
+<./Pictures/destile_r.png, id=815, 716.6775pt x 499.8675pt>
 File: ./Pictures/destile_r.png Graphic file (type png)
 
 <use ./Pictures/destile_r.png>
 Package pdftex.def Info: ./Pictures/destile_r.png used on input line 77.
 (pdftex.def)             Requested size: 166.16164pt x 102.69696pt.
 
-<./Pictures/destile_i.png, id=805, 716.6775pt x 499.8675pt>
+<./Pictures/destile_i.png, id=817, 716.6775pt x 499.8675pt>
 File: ./Pictures/destile_i.png Graphic file (type png)
 
 <use ./Pictures/destile_i.png>
 Package pdftex.def Info: ./Pictures/destile_i.png used on input line 80.
 (pdftex.def)             Requested size: 166.16164pt x 102.69696pt.
 
-<./Pictures/destile_z.png, id=807, 716.6775pt x 499.8675pt>
+<./Pictures/destile_z.png, id=819, 716.6775pt x 499.8675pt>
 File: ./Pictures/destile_z.png Graphic file (type png)
 
 <use ./Pictures/destile_z.png>
 Package pdftex.def Info: ./Pictures/destile_z.png used on input line 82.
 (pdftex.def)             Requested size: 166.16164pt x 102.69696pt.
 
-<./Pictures/destile_det.png, id=809, 716.6775pt x 499.8675pt>
+<./Pictures/destile_det.png, id=821, 716.6775pt x 499.8675pt>
 File: ./Pictures/destile_det.png Graphic file (type png)
 
 <use ./Pictures/destile_det.png>
@@ -2213,20 +2208,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 93--95
 
  []
 
-[31] [32 <./Pictures/destile_g.png> <./Pictures/destile_r.png> <./Pictures/dest
+[33] [34 <./Pictures/destile_g.png> <./Pictures/destile_r.png> <./Pictures/dest
 ile_i.png> <./Pictures/destile_z.png> <./Pictures/destile_det.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 96--98
 
  []
 
-<./Pictures/des_tiles.png, id=853, 977.6525pt x 455.7025pt>
+<./Pictures/des_tiles.png, id=864, 977.6525pt x 455.7025pt>
 File: ./Pictures/des_tiles.png Graphic file (type png)
 
 <use ./Pictures/des_tiles.png>
 Package pdftex.def Info: ./Pictures/des_tiles.png used on input line 102.
 (pdftex.def)             Requested size: 415.41043pt x 193.63275pt.
 
-<./Pictures/des_y1_coverage.png, id=854, 697.60625pt x 556.0775pt>
+<./Pictures/des_y1_coverage.png, id=865, 697.60625pt x 556.0775pt>
 File: ./Pictures/des_y1_coverage.png Graphic file (type png)
 
 <use ./Pictures/des_y1_coverage.png>
@@ -2234,7 +2229,7 @@ Package pdftex.def Info: ./Pictures/des_y1_coverage.png used on input line 109.
 
 (pdftex.def)             Requested size: 373.86685pt x 298.02036pt.
 
-<./Pictures/des_y1_mag_auto_i.png, id=855, 433.62pt x 289.08pt>
+<./Pictures/des_y1_mag_auto_i.png, id=866, 433.62pt x 289.08pt>
 File: ./Pictures/des_y1_mag_auto_i.png Graphic file (type png)
 
 <use ./Pictures/des_y1_mag_auto_i.png>
@@ -2246,7 +2241,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--119
 
  []
 
-) (./chapter_magnification.tex [33 <./Pictures/des_tiles.png>] [34 <./Pictures/
+) (./chapter_magnification.tex [35 <./Pictures/des_tiles.png>] [36 <./Pictures/
 des_y1_coverage.png> <./Pictures/des_y1_mag_auto_i.png>]
 Chapter 4.
 File: Pictures/head2.png Graphic file (type png)
@@ -2263,20 +2258,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--10
 
  []
 
-[35
+[37
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 30--32
 
  []
 
-[36] <./figures/mag_i_MICE.pdf, id=935, 569.12625pt x 385.44pt>
+[38] <./figures/mag_i_MICE.pdf, id=948, 569.12625pt x 385.44pt>
 File: ./figures/mag_i_MICE.pdf Graphic file (type pdf)
 
 <use ./figures/mag_i_MICE.pdf>
 Package pdftex.def Info: ./figures/mag_i_MICE.pdf used on input line 62.
 (pdftex.def)             Requested size: 674.33032pt x 261.18602pt.
- [37] [38 <./figures/mag_i_MICE.pdf, page is rotated 90 degrees>]
+ [39] [40 <./figures/mag_i_MICE.pdf, page is rotated 90 degrees>]
 Underfull \hbox (badness 10000) in paragraph at lines 80--82
 
  []
@@ -2286,7 +2281,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--85
 
  []
 
-[39]
+[41]
 Underfull \hbox (badness 10000) in paragraph at lines 90--92
 
  []
@@ -2306,14 +2301,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--113
 
  []
 
-<./figures/footprint.pdf, id=1023, 453.695pt x 401.5pt>
+<./figures/footprint.pdf, id=1034, 453.695pt x 401.5pt>
 File: ./figures/footprint.pdf Graphic file (type pdf)
 
 <use ./figures/footprint.pdf>
 Package pdftex.def Info: ./figures/footprint.pdf used on input line 124.
 (pdftex.def)             Requested size: 353.1014pt x 312.48257pt.
 
-<./figures/TPZ_phis_i.pdf, id=1024, 569.12625pt x 385.44pt>
+<./figures/TPZ_phis_i.pdf, id=1035, 569.12625pt x 385.44pt>
 File: ./figures/TPZ_phis_i.pdf Graphic file (type pdf)
 
 <use ./figures/TPZ_phis_i.pdf>
@@ -2324,7 +2319,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--137
 
  []
 
-[40] [41 <./figures/footprint.pdf> <./figures/TPZ_phis_i.pdf>]
+[42] [43 <./figures/footprint.pdf> <./figures/TPZ_phis_i.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 162--164
 
  []
@@ -2334,12 +2329,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 172--175
 
  []
 
-[42]
+[44]
 Underfull \hbox (badness 10000) in paragraph at lines 176--180
 
  []
 
-<./figures/cov_matrix_mag_auto_i.pdf, id=1088, 569.12625pt x 550.055pt>
+<./figures/cov_matrix_mag_auto_i.pdf, id=1101, 569.12625pt x 550.055pt>
 File: ./figures/cov_matrix_mag_auto_i.pdf Graphic file (type pdf)
 
 <use ./figures/cov_matrix_mag_auto_i.pdf>
@@ -2351,21 +2346,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 185--193
 
  []
 
-<./figures/mag_r.pdf, id=1093, 569.12625pt x 385.44pt>
+<./figures/mag_r.pdf, id=1106, 569.12625pt x 385.44pt>
 File: ./figures/mag_r.pdf Graphic file (type pdf)
 
 <use ./figures/mag_r.pdf>
 Package pdftex.def Info: ./figures/mag_r.pdf used on input line 196.
 (pdftex.def)             Requested size: 674.33032pt x 261.18602pt.
 
-<./figures/mag_i.pdf, id=1095, 569.12625pt x 385.44pt>
+<./figures/mag_i.pdf, id=1108, 569.12625pt x 385.44pt>
 File: ./figures/mag_i.pdf Graphic file (type pdf)
 
 <use ./figures/mag_i.pdf>
 Package pdftex.def Info: ./figures/mag_i.pdf used on input line 201.
 (pdftex.def)             Requested size: 674.33032pt x 261.18602pt.
 
-<./figures/mag_z.pdf, id=1097, 569.12625pt x 385.44pt>
+<./figures/mag_z.pdf, id=1110, 569.12625pt x 385.44pt>
 File: ./figures/mag_z.pdf Graphic file (type pdf)
 
 <use ./figures/mag_z.pdf>
@@ -2376,19 +2371,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 194--211
 
  []
 
-[43] [44 <./figures/cov_matrix_mag_auto_i.pdf>]
+[45] [46 <./figures/cov_matrix_mag_auto_i.pdf>]
 
-LaTeX Warning: Reference `eq:numbercounttheo' on page 45 undefined on input lin
+LaTeX Warning: Reference `eq:numbercounttheo' on page 47 undefined on input lin
 e 212.
 
-<./figures/alphai.pdf, id=1135, 569.12625pt x 385.44pt>
+<./figures/alphai.pdf, id=1146, 569.12625pt x 385.44pt>
 File: ./figures/alphai.pdf Graphic file (type pdf)
 
 <use ./figures/alphai.pdf>
 Package pdftex.def Info: ./figures/alphai.pdf used on input line 219.
 (pdftex.def)             Requested size: 353.1014pt x 239.14676pt.
 
-<./figures/predicted_sig.pdf, id=1136, 569.12625pt x 385.44pt>
+<./figures/predicted_sig.pdf, id=1147, 569.12625pt x 385.44pt>
 File: ./figures/predicted_sig.pdf Graphic file (type pdf)
 
 <use ./figures/predicted_sig.pdf>
@@ -2399,8 +2394,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 216--242
 
  []
 
-[45] [46 <./figures/mag_r.pdf>] [47 <./figures/mag_i.pdf>] [48 <./figures/mag_z
-.pdf>] [49 <./figures/predicted_sig.pdf> <./figures/alphai.pdf>]
+[47] [48 <./figures/mag_r.pdf>] [49 <./figures/mag_i.pdf>] [50 <./figures/mag_z
+.pdf>] [51 <./figures/predicted_sig.pdf> <./figures/alphai.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 264--267
 
  []
@@ -2415,14 +2410,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 271--273
 
  []
 
-<./figures/weighted_w.pdf, id=1228, 569.12625pt x 385.44pt>
+<./figures/weighted_w.pdf, id=1240, 569.12625pt x 385.44pt>
 File: ./figures/weighted_w.pdf Graphic file (type pdf)
 
 <use ./figures/weighted_w.pdf>
 Package pdftex.def Info: ./figures/weighted_w.pdf used on input line 277.
 (pdftex.def)             Requested size: 353.1014pt x 239.14676pt.
 
-<./figures/acromatic_short.pdf, id=1231, 569.12625pt x 385.44pt>
+<./figures/acromatic_short.pdf, id=1243, 569.12625pt x 385.44pt>
 File: ./figures/acromatic_short.pdf Graphic file (type pdf)
 
 <use ./figures/acromatic_short.pdf>
@@ -2433,15 +2428,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 274--286
 
  []
 
-[50] [51 <./figures/weighted_w.pdf> <./figures/acromatic_short.pdf>]
-<./figures/SPTE_SNe.pdf, id=1268, 569.12625pt x 385.44pt>
+[52] [53 <./figures/weighted_w.pdf> <./figures/acromatic_short.pdf>]
+<./figures/SPTE_SNe.pdf, id=1279, 569.12625pt x 385.44pt>
 File: ./figures/SPTE_SNe.pdf Graphic file (type pdf)
 
 <use ./figures/SPTE_SNe.pdf>
 Package pdftex.def Info: ./figures/SPTE_SNe.pdf used on input line 297.
 (pdftex.def)             Requested size: 353.1014pt x 239.14676pt.
 
-<./figures/purity_lens.pdf, id=1269, 569.12625pt x 385.44pt>
+<./figures/purity_lens.pdf, id=1280, 569.12625pt x 385.44pt>
 File: ./figures/purity_lens.pdf Graphic file (type pdf)
 
 <use ./figures/purity_lens.pdf>
@@ -2461,7 +2456,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 308--310
 
  []
 
-<./figures/mag_istars.pdf, id=1277, 569.12625pt x 385.44pt>
+<./figures/mag_istars.pdf, id=1288, 569.12625pt x 385.44pt>
 File: ./figures/mag_istars.pdf Graphic file (type pdf)
 
 <use ./figures/mag_istars.pdf>
@@ -2472,7 +2467,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 323--332
 
  []
 
-[52] [53 <./figures/SPTE_SNe.pdf, page is rotated 90 degrees> <./figures/purity
+[54] [55 <./figures/SPTE_SNe.pdf, page is rotated 90 degrees> <./figures/purity
 _lens.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 341--344
 
@@ -2483,15 +2478,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 349--351
 
  []
 
-[54] [55 <./figures/mag_istars.pdf, page is rotated 90 degrees>]
-<./figures/mag_i_ri.pdf, id=1415, 569.12625pt x 385.44pt>
+[56] [57 <./figures/mag_istars.pdf, page is rotated 90 degrees>]
+<./figures/mag_i_ri.pdf, id=1426, 569.12625pt x 385.44pt>
 File: ./figures/mag_i_ri.pdf Graphic file (type pdf)
 
 <use ./figures/mag_i_ri.pdf>
 Package pdftex.def Info: ./figures/mag_i_ri.pdf used on input line 358.
 (pdftex.def)             Requested size: 674.33032pt x 261.18602pt.
 
-<./figures/mag_idust.pdf, id=1419, 569.12625pt x 385.44pt>
+<./figures/mag_idust.pdf, id=1430, 569.12625pt x 385.44pt>
 File: ./figures/mag_idust.pdf Graphic file (type pdf)
 
 <use ./figures/mag_idust.pdf>
@@ -2507,18 +2502,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 391--394
 
  []
 
-[56] [57 <./figures/mag_i_ri.pdf>] [58 <./figures/mag_idust.pdf, page is rotate
+[58] [59 <./figures/mag_i_ri.pdf>] [60 <./figures/mag_idust.pdf, page is rotate
 d 90 degrees>]
 Underfull \hbox (badness 10000) in paragraph at lines 413--416
 
  []
 
-[59]
+[61]
 Underfull \hbox (badness 10000) in paragraph at lines 420--423
 
  []
 
-<./figures/mag_i_mix.pdf, id=1525, 569.12625pt x 385.44pt>
+<./figures/mag_i_mix.pdf, id=1537, 569.12625pt x 385.44pt>
 File: ./figures/mag_i_mix.pdf Graphic file (type pdf)
 
 <use ./figures/mag_i_mix.pdf>
@@ -2534,8 +2529,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 443--446
 
  []
 
-[60] [61 <./figures/mag_i_mix.pdf, page is rotated 90 degrees>]
-<./figures/spec_photoz_cmp.pdf, id=1591, 569.12625pt x 385.44pt>
+[62] [63 <./figures/mag_i_mix.pdf, page is rotated 90 degrees>]
+<./figures/spec_photoz_cmp.pdf, id=1602, 569.12625pt x 385.44pt>
 File: ./figures/spec_photoz_cmp.pdf Graphic file (type pdf)
 
 <use ./figures/spec_photoz_cmp.pdf>
@@ -2546,7 +2541,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 447--454
 
  []
 
-<./figures/mag_i_photoz_comparison.pdf, id=1596, 569.12625pt x 385.44pt>
+<./figures/mag_i_photoz_comparison.pdf, id=1607, 569.12625pt x 385.44pt>
 File: ./figures/mag_i_photoz_comparison.pdf Graphic file (type pdf)
 
 <use ./figures/mag_i_photoz_comparison.pdf>
@@ -2554,7 +2549,7 @@ Package pdftex.def Info: ./figures/mag_i_photoz_comparison.pdf used on input li
 ne 457.
 (pdftex.def)             Requested size: 674.33032pt x 261.18602pt.
 ) (./chapter_conclusions.tex
-[62] [63 <./figures/spec_photoz_cmp.pdf>] [64 <./figures/mag_i_photoz_compariso
+[64] [65 <./figures/spec_photoz_cmp.pdf>] [66 <./figures/mag_i_photoz_compariso
 n.pdf>]
 Chapter 5.
 File: Pictures/head2.png Graphic file (type png)
@@ -2591,7 +2586,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--21
 
  []
 
-[65
+[67
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 22--24
@@ -2618,7 +2613,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--38
 
  []
 
-[66]) (./appendix_stellar_contamination.tex [67] [68
+[68]) (./appendix_stellar_contamination.tex [69] [70
 
 ]
 Appendix A.
@@ -2626,7 +2621,7 @@ File: Pictures/head2.png Graphic file (type png)
 <use Pictures/head2.png>
 Package pdftex.def Info: Pictures/head2.png used on input line 1.
 (pdftex.def)             Requested size: 597.50787pt x 298.90431pt.
-) (./appendix_plots.tex [69] [70
+) (./appendix_plots.tex [71] [72
 
 ]
 Appendix B.
@@ -2634,7 +2629,7 @@ File: Pictures/head2.png Graphic file (type png)
 <use Pictures/head2.png>
 Package pdftex.def Info: Pictures/head2.png used on input line 1.
 (pdftex.def)             Requested size: 597.50787pt x 298.90431pt.
-) [71] [72
+) [73] [74
 
 ]
 File: Pictures/head2.png Graphic file (type png)
@@ -2658,7 +2653,7 @@ Overfull \hbox (0.78236pt too wide) in paragraph at lines 248--248
  1002 / andp . 19163540702$[]\T1/lmr/m/n/12 (-20) . 
  []
 
-[73] [74]
+[75] [76]
 Overfull \hbox (8.514pt too wide) in paragraph at lines 248--248
 []\T1/lmr/m/n/12 (-20) P. Binétruy. ``Mod-els of dy-nam-i-cal su-per-sym-me-try
  break-ing and quintessence''.
@@ -2670,18 +2665,18 @@ Overfull \hbox (0.52493pt too wide) in paragraph at lines 248--248
 -e-ter-ized post-Friedmann
  []
 
-[75] [76] [77] [78]
+[77] [78] [79] [80]
 Overfull \hbox (2.57446pt too wide) in paragraph at lines 248--248
 []\T1/lmr/m/n/12 (-20) M. Bartel-mann and P. Schnei-der. ``Weak grav-i-ta-tiona
 l lens-ing''. In: \T1/lmr/m/it/12 (-20) Phys. Rep.
  []
 
-[79] [80] [81] [82] [83] [84]
+[81] [82] [83] [84] [85] [86] [87]
 \tf@ptc=\write7
 \openout7 = `main.ptc'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 250.
- [85]
+ [88]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 250.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 250.
@@ -2697,13 +2692,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32998 strings out of 494985
- 600857 string characters out of 6180357
- 1983249 words of memory out of 5000000
- 34751 multiletter control sequences out of 15000+600000
- 135322 words of font info for 232 fonts, out of 8000000 for 9000
+ 33009 strings out of 494985
+ 601068 string characters out of 6180357
+ 1987915 words of memory out of 5000000
+ 34754 multiletter control sequences out of 15000+600000
+ 135451 words of font info for 233 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 56i,14n,59p,10532b,2385s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,14n,59p,10532b,2387s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
 /texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
@@ -2724,10 +2719,10 @@ sr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/pu
 blic/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (97 pages, 21225155 bytes).
+Output written on main.pdf (100 pages, 21220073 bytes).
 PDF statistics:
- 2290 PDF objects out of 2487 (max. 8388607)
- 1868 compressed objects within 19 object streams
- 506 named destinations out of 1000 (max. 500000)
+ 2310 PDF objects out of 2487 (max. 8388607)
+ 1886 compressed objects within 19 object streams
+ 512 named destinations out of 1000 (max. 500000)
  40613 words of extra memory for PDF output out of 42996 (max. 10000000)
 
