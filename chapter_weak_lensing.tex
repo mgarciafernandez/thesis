@@ -63,7 +63,7 @@ where $\vec r^S$ is the position of the source and the quantity $\Sigma$ is call
 \end{equation}
 This leads to a deflection angle
 \begin{equation}
-\vec\alpha(\vec r_\perp,r_\parallel^S) = \frac1{\pi}\int d^2\vec r_\perp\kappa(\vec r_\perp,r_\parallel^S)\frac{\vec r^S_\perp-\vec r_\perp}{|\vec r^S_\perp-\vec r_\perp|^2},
+\hat \vec\alpha(\vec r_\perp,r_\parallel^S) = \frac1{\pi}\int d^2\vec r_\perp\kappa(\vec r_\perp,r_\parallel^S)\frac{\vec r^S_\perp-\vec r_\perp}{|\vec r^S_\perp-\vec r_\perp|^2},
 \end{equation}
 where the convergence ($\kappa$) and critical density ($\Sigma_c$) has been defined such that
 \begin{equation}
@@ -76,7 +76,7 @@ As weak-lensing wide-field surveys start to proliferate, the limit of validity o
 \end{equation}
 the deflection angle can be written as the gradient of the lensing potential on the transverse plane
 \begin{equation}
-\vec\alpha(\vec r_\perp,r_\parallel^S) = \nabla_\perp\psi(\vec r_\perp,r_\parallel^S)
+\hat\vec\alpha(\vec r_\perp,r_\parallel^S) = \nabla_\perp\psi(\vec r_\perp,r_\parallel^S)
 \end{equation}
 and the convergence as its laplacian,
 \begin{equation}
@@ -124,6 +124,7 @@ resulting finally
 \label{eq:jacobian}
 \end{equation}
 Here $\kappa$ is the convergence, an isotropic shape distortion and $\gamma_1,\gamma_2$ is the shear, an elongation/shrink on the shape along one of the axis (\autoref{fig:wl_distortion}).
+\newline
 
 Taking into account the Born approximation --that is, the light rays of a source galaxy are deflected by only one lens--, the derivatives of the previous equation can be evaluated on the unlensed coordinates.
 
@@ -140,37 +141,39 @@ where on the last step it has been used that $1\gg\kappa\gg\gamma$. Taking into 
 Using the definition given at \autoref{eq:surface_density} and the poisson equation for the gravitational field this leads to
 \begin{equation}
 \kappa(\hat n,z) = \int\limits_0^zdz'\frac{r(z')[r(z)-r(z')]}{r(z)}\nabla_\perp\Phi(\hat n,z'),
+\label{eq:kappaphi}
 \end{equation}
 where $r(z)$ is the comoving distance at redshift $z$ and $\Phi$ the gravitational potential. Expressing now the gravitational potential as an homogeneus therm plus a perturbation ($\Phi = \bar\Phi+\delta_\Phi$), the previous equation can be expressed as a funcion of the matter density contrast ($\delta_M$)
 \begin{equation}
 \nabla^2\Phi(\hat n,z) = \nabla^2\delta_\Phi(\hat n,z) = 4\pi Ga^2\bar\rho\delta_M(\hat n,z),
+\label{eq:kappadeltam}
 \end{equation}
-where $a=1/(1+z)$ is the scale factor and $\bar\rho$ is the average density. This leads finally to
+where $a=1/(1+z)$ is the scale factor and $\bar\rho$ is the average density. This leads finally to \cite{PhysRevD.76.103502,PhysRevD.77.063526}
 \begin{equation}
-\kappa(\hat n,z) = \frac{3H_0\Omega_M}{2}\int\limits_0^zdz'\frac{r(z')[r(z)-r(z')]}{(1+z')r(z)}\delta_M(\hat n,z).
+\kappa(\hat n,z) = \frac{3H_0\Omega_M(z)}{2c^2}\int\limits_0^zdz'\frac{r(z')[r(z)-r(z')]}{(1+z')r(z)}\delta_M(\hat n,z).
 \label{eq:kappadeltam}
 \end{equation}
 The convergence, is the physical observable of Magnification and it traces the matter on the direction of line of sight whereas shear proves the matter on the transverse direction. This makes magnification and shear complementary measurements of the same phenomena. The dependence of magnification is usually splitted into two pieces: the lensing kernel,
 \begin{equation}
 \mathcal{K}(z) = \frac{r(z')[r(z)-r(z')]}{(1+z')r(z)}.
 \end{equation}
-and the matter density contrast ($\delta_M$). The lensing kernel only contains only geometrical information and, for a given Cosmology, it is fixed. On the other side, the matter density contrast depends strongly on the population of galaxies selected as lens sample. This dependence on the selected lens sample, has been exploited in the past to measure magnification itself maximizing the signal-to-noise ratio and to trace the matter profiles on a HOD framework.
+and the matter density contrast ($\delta_M$). The lensing kernel contains only geometrical information and, for a given set of cosmological parameters, it is fixed. On the other side, the matter density contrast depends strongly on the population of galaxies selected as lens sample.
 \newline
 
 The convergence of the foreground sample can be probed tracing the three effects that it produces on the background sample:
 \begin{itemize}
-\item {\bf Change of the observed density:} The increase of the observed luminosity of the galaxies, allows to see sources that if there were no lensing, would be below our observational threshold nearby the location of the lenses. At the same time, an stretching of the solid angle behind the lenses causes a drop in the number density. This two effect compete between them and who is over the other depends on the slope of the number counts of the sources. Thus, at the neighbourhood of the lenses, a change of the number density respect to the average is produced. This is known as number-counts magnification.
-\item {\bf Shift on the observed magnitude:} Since the increase of luminosity due to gravitational lensing, is a short range effect, a shift on the observed magnitudes may be detected nearby the positions of the lenses. This requires, in principle, the knowledge of the unlensed magnitude of the sources. Nevertheless, although galaxies have a large variety of magnitudes, it can be assumed that, they are randomly distributed. Thus shifts on the magnitudes respect to the average can be detected.
-\item {\bf Size enlargement:} All the effects above are a consequence that the meanwhile surface brightness is conserved, a size enlargement is produced. This effect can be statistically measured despite the fact that the unlensed size is not known. Nevertheless, since galaxies have a large variety of shape and size that is strongly related to its evolution and age, no homogeneity assumption can be made and require the definition of the {\it fundamental plane}. That kind of work is beyond the scope of this Thesis and further information can be found at Huff \& Graves 2014 \cite{2041-8205-780-2-L16}.
+\item {\bf Change of the observed density:} The increase of the observed luminosity of the galaxies, allows to see sources that if there were no lensing, would be below our observational threshold nearby the location of the lenses. At the same time, an stretching of the solid angle behind the lenses causes a drop in the number density. This two effects compete between them and who is over the other depends on the slope of the number counts of the sources. Thus, at the neighbourhood of the lenses, a change of the number density respect to the average is produced. This is known as number-counts magnification.
+\item {\bf Shift on the observed magnitude:} Since the increase of luminosity due to gravitational lensing is a short range effect, a shift on the observed magnitudes may be detected nearby the positions of the lenses. This requires, in principle, the knowledge of the unlensed magnitude of the sources. Nevertheless, although galaxies have a large variety of magnitudes, it can be assumed that, they are randomly distributed. Thus shifts on the magnitudes respect to the average can be detected.
+\item {\bf Size enlargement:} All the effects above are a consequence that the meanwhile surface brightness is conserved, a size enlargement is produced. This effect can be statistically measured despite the fact that the unlensed size is not known. Nevertheless, since galaxies have a large variety of shape and size that is strongly related to its evolution and age, no homogeneity assumption can be made and require the definition of the {\it fundamental plane} \cite{2003AJ....125.1866B}. That kind of work is beyond the scope of this Thesis and further information can be found at Huff \& Graves 2014 \cite{2041-8205-780-2-L16}.
 \end{itemize}
 
-Traditionally all this probes has been used independently, but the ideal scenario would be a three-way combination that may lead to a cancellation or better estimation of systematic errors.
+Traditionally all these probes have been used independently, but the ideal scenario would be a three-way combination that may lead to a cancellation or better estimation of systematic errors.
 \newline
 
-As it has been mentioned before, the knowledge of the unlensed properties of the sources is physically impossible. Thus, all the observable quantities must be formulated in terms of changes of its variation respect the ensemble average with the distance to the lenses. The statistical way to do this is the two-point angular correlation-function (2pacf hereafter). This method, provides a measurement of the average convergence profile of the lenses ($\kappa(\theta)$) as a function of its angular distance $\theta$ of a point to the lens.
+As it has been mentioned before, the knowledge of the unlensed properties of the sources is physically impossible. Thus, all the observable quantities must be formulated in terms of changes of its variation respect the ensemble average with the distance to the lenses. The statistical way to do this is the two-point angular correlation-function. This method, provides a measurement of the average convergence profile of the lenses ($\kappa(\theta)$) as a function of its angular distance $\theta$ of a point to the lens.
 
 \subsubsection{Estimation of $\kappa(\theta)$ with the number counts technique}
-The 2pacf between the lens ($L$) and the source ($S$) is defined as
+The two-point angular cross-correlation between the lens ($L$) and the source ($S$) is defined as \cite{PhysRevD.77.023512,}
 \begin{equation}
 \omega_{LS}(\theta) = \langle\delta_O(\hat n,z_L,f_\mu)\delta_O(\hat n',z_S,f_\mu)\rangle_{\theta}.
 \label{eq:2pacfmagnification}
@@ -190,16 +193,17 @@ Taking into account that $0<z_L<z_S$, and that the lens and the source sample ar
 \end{equation}
 Let define the magnification density contrast on the sky direction $\hat n$ as 
 \begin{equation}
-\delta_\mu(\hat n,z,f_\mu) = \frac{N_\mu(\hat n,z,f_\mu)}{N_0(\hat n',z,f_0)}-1,
+\delta_\mu(\hat n,z,f_\mu) = \frac{N_\mu(\hat n,z,f_\mu)}{N_0(\hat n,z,f_0)}-1,
 \end{equation}
 where $N_0(\hat n,z,f_0)$ is the un-lensed cumulative number counts of sources located at redshift $z$, that is, the number of sources with observed flux greater than the threshold $f_0$. Conversely, $N_\mu(\hat n,z,f_\mu)$ is the lensed cumulative number counts affected by magnification.
+\newline
 
-Magnification by gravitational lenses increases the observed flux of background objects  allowing to see fainter sources by an amount $f_\mu = f_0/\mu$. At the same time, it stretches the solid angle behind the lenses, reducing the surface density of sources an amount $N_\mu = N_0/\mu$, which translates into the density contrast as a power law:
+Magnification by gravitational lenses increases the observed flux of background objects  allowing to see fainter sources by an amount $f_\mu = f_0/\mu$. At the same time, it stretches the solid angle behind the lenses, reducing the surface density of sources an amount $N_\mu = N_0/\mu$, which translates into the density contrast as:
 \begin{equation}
 \delta_\mu(\hat n,z,f_\mu) = \frac{N_\mu(\hat n,z,f_\mu)}{\mu N_\mu(\hat n,z,\mu f_\mu)}-1.
 \label{eq:magnification_density_contrast}
 \end{equation}
-The cumulative number counts can be locally parametrized as
+The cumulative number counts can be locally parametrized as a power law
 \begin{equation}
 N_\mu(\hat n,z,f_\mu) = A\left(\frac{f_\mu}{f_*}\right)^{\alpha(f_\mu)},
 \end{equation}
@@ -207,7 +211,7 @@ where $A,f_*$ are constant parameters and $\alpha(f_\mu)$ a function of the flux
 \begin{equation}
 \delta_\mu(\hat n,z,f_\mu) = \mu^{\alpha(f_\mu)-1}-1.
 \end{equation}
-Taking into account $\mu\simeq 1+2\kappa$ along with \autoref{eq:mu_definition} and translating from fluxes to magnitudes
+Taking into account the weak-lensing approximation $\mu\simeq 1+2\kappa$ along with \autoref{eq:mu_definition} and translating from fluxes to magnitudes this results
 \begin{equation}
 \delta_\mu(\hat n,z,m) = 2\kappa(\hat n,z)[\alpha(m)-1]
 \end{equation}
@@ -218,19 +222,23 @@ with
 \end{equation}
 Thus \autoref{eq:2pacfmagnification} becomes
 \begin{equation}
-\omega_{LS}(\theta) = 2[\alpha(m)-1]\langle\delta_g(\hat n,z_L)\kappa(\hat n',z_S)\rangle_\theta.
+\omega_{LS}(\theta) = 2[\alpha(m)-1]\langle\delta_g(\hat n,z_L)\kappa(\hat n',z_S)\rangle_\theta = [\alpha(m)-1]2\kappa(\theta),
 \end{equation}
-Using the definition of  convergence as a function of the galaxy density contrast given at \autoref{eq:kappadeltam} and assuming a constant redshift-independent galaxy-bias, $\delta_g(\hat n,z_L) = b_L\delta_M(\hat n,z_L)$, this leads finally to
+where $\kappa(\theta)$ is the convergence profile of the selected lenses.
+\newline
+
+Using the definition of  convergence as a function of the matter density contrast given at \autoref{eq:kappadeltam} and assuming a constant redshift-independent galaxy-bias, $\delta_g(\hat n,z_L) = b_L\delta_M(\hat n,z_L)$, this leads finally to
 \begin{equation}
-\omega_{LS}(\theta) = b_L[\alpha(m)-1]\omega_0(\theta),
+\omega_{LS}(\theta) = b_L[\alpha(m)-1]2\kappa(\theta),
 \label{eq:numbercountstheo}
 \end{equation}
-where $b_L$ is the galaxy-bias of the lens sample and
-\begin{equation}
-\omega_0(\theta) = \frac{3H_0\Omega_M}{2}\int\limits_0^\infty dz'\mathcal{K}(z')\langle\delta_g(\hat n,z_L)\delta_g(\hat n',z')\rangle_\theta.
+where $b_L$ is the galaxy-bias of the lens sample and it has been used that $\kappa(\theta)=\langle\delta_g(\hat n,z_L)\kappa(\hat n',z_S)\rangle_\theta$. That is, the convergence profile is the average convergence field at an angular distance $\theta$ around the selected lenses. It can be expressed as
+\begin{eqnarray}
+&\kappa(\theta)=\frac{3H_0^2\Omega_M^0}{c^2}\int\limits_0^\infty dz'_L\frac{\phi_L(z'_L)}{1+z'_L}\int\limits_i^\infty dz'_S\phi_S(z'_S)\frac{r(z'_L)[r(z'_S)-r(z'_L)]}{r(z'_S)}\times\\
+&\int\limits_0^\infty\frac{dkk}{2\pi}P_M(k,z'_L)J_0[k\theta r(z'_i)],\nonumber
 \label{eq:omega0}
-\end{equation}
-
+\end{eqnarray}
+where $\phi_L,\phi_S$ are the redshift distributions of the lens and source sample respectively, $P_M$ the matter power spectrum of the lens sample and $J_0$ is the zero-th order Bessel function.
 
 \subsubsection{Estimation of $\kappa(\theta)$ with magnitude-shift magnification technique}
 The magnitude-position-angular correlation function (mpac hereafter) between the lens sample ($L$) and the source sample ($S$) is defined as
@@ -379,3 +387,63 @@ with
 \end{equation}
 
 This set of equations allows to relate the convergence and the shear field demonstrating this way that they are two sides of the same coin.
+
+\section{Theoretical expressions for $\kappa(\theta)$}
+As it has been stated on the previous section, the convergence profile  is the physical observable for both magnification and gg-lensing. Thus, in order to connect the measurements with a cosmological model, a theoretical expression for it must be provided. Depending on the nature of the lenses considered --that is, whether the lenses are galaxies, voids, clusters or troughs--, the approach may differ.
+\newline
+
+On this section, are only provided solutions of galaxies and voids. Although troughs will also be considered on the data analysis, it is beyond the scope of this Thesis and it is still part of an ongoing project. A simple solution can be found on Gruen et~al. \cite{2016MNRAS.455.3367G}. Nevertheless, a more general and complete solution is still to be published.
+\newline
+
+The simplest solution for the convergence profile, is for a sample of galaxies. Taking into account the definition of $\kappa$
+\begin{equation}
+\kappa(\theta) = \langle\delta_g(\hat n,z_L)\kappa(\hat n',z_S)\rangle_\theta,
+\end{equation}
+if a linear, constant and redshift-independent galaxy-bias ($b_L$) is considered; a relation between the galaxy density contrast $\delta_g$ and matter density contrast $\delta_M$ can be established:
+\begin{equation}
+\delta_g(\hat n,z_L) = b_L\delta_M(\hat n,z_L).
+\end{equation}
+Thus, the convergence profile is given by
+\begin{equation}
+\kappa(\theta) = b_L\langle\delta_M(\hat n,z_L)\kappa(\hat n',z_S)\rangle_\theta.
+\end{equation}
+If it is considered that the convergence field $\kappa(\hat n)$ can be expressed also as a function of the matter density contrast by \autoref{eq:kappadeltam} and \autoref{eq:kappaphi}:
+\begin{equation}
+\kappa(\theta) = b_L\left\langle\delta_M(\hat n,z_L)\left[\int\limits_0^zdz'\frac{r(z')[r(z)-r(z')]}{r(z)}4\pi Ga^2\bar\rho\delta_M(\hat n,z)\right]\right\rangle.
+\end{equation}
+This leads finally to \cite{2003A&A...403..817M}:
+\begin{eqnarray}
+&\kappa(\theta)=\frac{3H_0^2\Omega_M^0}{c^2}\int\limits_0^\infty dz'_L\frac{\phi_L(z'_L)}{1+z'_L}\int\limits_i^\infty dz'_S\phi_S(z'_S)\frac{r(z'_L)[r(z'_S)-r(z'_L)]}{r(z'_S)}\times\\
+&\int\limits_0^\infty\frac{dkk}{2\pi}P_M(k,z'_L)J_0[k\theta r(z'_i)],\nonumber
+\label{eq:omega0}
+\end{eqnarray}
+where $\phi_L,\phi_S$ are the redshift distributions of the lens and source sample respectively, $P_M$ the matter power spectrum of the lens sample and $J_0$ is the zero-th order Bessel function.
+\newline
+
+The calculation of the convergence profile for a void needs to assume a void profile. A general LTB solution on General Relativity for voids can be found at \cite{2008JCAP...04..003G,2016MNRAS.455.1246F,2016MNRAS.462.1882K}, 
+\begin{equation}
+\delta(r_v) = \delta_0g(a)\left(1-\frac{2}{3}\frac{r_v^2}{r_0^2}\right)\exp\left(-\frac{r_v^2}{r_0^2}\right),
+\end{equation}
+where $r_v$ is the radial comoving distance {\bf on the system of coordinates centered at the void}, $r_0$ the radial size of the void, $\delta_0$ the central underdensity and $g(a)$ the growth factor {\bf not normalized at present}. On the system of coordinates centered on the observer and considering non-spherical voids, this leads to the Kovacs \& Garcia-Bellido void-profile (KGB):
+\begin{equation}
+\delta_{KGB}(\theta,z) = \delta_0g(a)\left[1-\frac{2}{1+2q^2}\left(\frac{r_\parallel^2}{r_0^2}+\frac{q^2r_\perp^2}{r_0^2}\right)\right]\exp\left[-\left(\frac{r_\parallel^2}{q^2r_0^2}+\frac{r_\perp^2}{r_0^2}\right)\right],
+\label{eq:kgb}
+\end{equation}
+where $q^2=1-e^2$ with $e$ the ellipticity of the void and
+\begin{eqnarray}
+&r_\parallel=r(z)\cos\theta -r(z_v)\\
+&r_\perp=r(z)\sin\theta.
+\end{eqnarray}
+Here $r(z)$ is the radial comoving at redshift $z$, whereas $z_v$ is the redshit of the center of the void and $\theta$ the angular separation form the center of the void. From \autoref{eq:kgb} and \autoref{eq:kappa_definition}, the convergence profile around a single void can be obtained:
+\begin{equation}
+\kappa(\theta) = \frac{1}{1}\frac{\Sigma_{KGB}(\theta)}{\Sigma_c},
+\end{equation}
+where the surface density is given by
+\begin{equation}
+\Sigma_{KGB}(\theta) = \int\limits_0^\infty dz'\bar\rho_M(z')[\delta_{KGB}(\theta,z')-1].
+\end{equation}
+Here the $\bar\rho_M(z')$ is the matter average density of the Universe at redshift $z'$, given by
+\begin{equation}
+\bar\rho(z') = \frac{\Omega_M^0\rho_c}{(1+z')^3}
+\end{equation}
+with $\rho_c$ the critical energy density of the Universe.
