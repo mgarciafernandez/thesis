@@ -629,6 +629,73 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevD.72.021301
       \endverb
     \endentry
+    \entry{0038-5670-11-3-A13}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=3aa3f3d9f1244282feba498af34cc64c}{Zel'dovich}{Z\bibinitperiod}{Ya\bibnamedelima B}{Y\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=3aa3f3d9f1244282feba498af34cc64c}{Zel'dovich}{Z\bibinitperiod}{Ya\bibnamedelima B}{Y\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{3aa3f3d9f1244282feba498af34cc64c}
+      \strng{fullhash}{3aa3f3d9f1244282feba498af34cc64c}
+      \field{sortinit}{0}
+      \field{labeltitle}{THE COSMOLOGICAL CONSTANT AND THE THEORY OF ELEMENTARY PARTICLES}
+      \field{journaltitle}{Soviet Physics Uspekhi}
+      \field{number}{3}
+      \field{title}{THE COSMOLOGICAL CONSTANT AND THE THEORY OF ELEMENTARY PARTICLES}
+      \field{volume}{11}
+      \field{year}{1968}
+      \field{pages}{381}
+      \verb{url}
+      \verb http://stacks.iop.org/0038-5670/11/i=3/a=A13
+      \endverb
+    \endentry
+    \entry{1974JETPL..19..183L}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=caa9dd9957dc8a657ba1f323020a9c76}{{Linde}}{L\bibinitperiod}{A.\bibnamedelimi D.}{A\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=caa9dd9957dc8a657ba1f323020a9c76}{{Linde}}{L\bibinitperiod}{A.\bibnamedelimi D.}{A\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{caa9dd9957dc8a657ba1f323020a9c76}
+      \strng{fullhash}{caa9dd9957dc8a657ba1f323020a9c76}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Is the Lee constant a cosmological constant?}}
+      \field{journaltitle}{Soviet Journal of Experimental and Theoretical Physics Letters}
+      \field{month}{03}
+      \field{title}{{Is the Lee constant a cosmological constant?}}
+      \field{volume}{19}
+      \field{year}{1974}
+      \field{pages}{183}
+    \endentry
+    \entry{PhysRevLett.34.777}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=9a9bc387c1e026ebab2914cbd6c4e9d1}{Veltman}{V\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=9a9bc387c1e026ebab2914cbd6c4e9d1}{Veltman}{V\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{9a9bc387c1e026ebab2914cbd6c4e9d1}
+      \strng{fullhash}{9a9bc387c1e026ebab2914cbd6c4e9d1}
+      \field{sortinit}{0}
+      \field{labeltitle}{Cosmology and the Higgs Mass}
+      \field{issue}{12}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{03}
+      \field{title}{Cosmology and the Higgs Mass}
+      \field{volume}{34}
+      \field{year}{1975}
+      \field{pages}{777\bibrangedash 777}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.34.777
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.34.777
+      \endverb
+    \endentry
     \entry{1999PhLB..468...40B}{article}{}
       \name{labelname}{2}{}{%
         {{hash=5f40330d7ebbafccbc718b1a5e5e0c2f}{{Brax}}{B\bibinitperiod}{P.\bibnamedelimi H.}{P\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
