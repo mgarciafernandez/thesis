@@ -225,23 +225,9 @@ Thus \autoref{eq:2pacfmagnification} becomes
 \omega_{LS}(\theta) = 2[\alpha(m)-1]\langle\delta_g(\hat n,z_L)\kappa(\hat n',z_S)\rangle_\theta = [\alpha(m)-1]2\kappa(\theta),
 \end{equation}
 where $\kappa(\theta)$ is the convergence profile of the selected lenses.
-\newline
-
-Using the definition of  convergence as a function of the matter density contrast given at \autoref{eq:kappadeltam} and assuming a constant redshift-independent galaxy-bias, $\delta_g(\hat n,z_L) = b_L\delta_M(\hat n,z_L)$, this leads finally to
-\begin{equation}
-\omega_{LS}(\theta) = b_L[\alpha(m)-1]2\kappa(\theta),
-\label{eq:numbercountstheo}
-\end{equation}
-where $b_L$ is the galaxy-bias of the lens sample and it has been used that $\kappa(\theta)=\langle\delta_g(\hat n,z_L)\kappa(\hat n',z_S)\rangle_\theta$. That is, the convergence profile is the average convergence field at an angular distance $\theta$ around the selected lenses. It can be expressed as
-\begin{eqnarray}
-&\kappa(\theta)=\frac{3H_0^2\Omega_M^0}{c^2}\int\limits_0^\infty dz'_L\frac{\phi_L(z'_L)}{1+z'_L}\int\limits_i^\infty dz'_S\phi_S(z'_S)\frac{r(z'_L)[r(z'_S)-r(z'_L)]}{r(z'_S)}\times\\
-&\int\limits_0^\infty\frac{dkk}{2\pi}P_M(k,z'_L)J_0[k\theta r(z'_i)],\nonumber
-\label{eq:omega0}
-\end{eqnarray}
-where $\phi_L,\phi_S$ are the redshift distributions of the lens and source sample respectively, $P_M$ the matter power spectrum of the lens sample and $J_0$ is the zero-th order Bessel function.
 
 \subsubsection{Estimation of $\kappa(\theta)$ with magnitude-shift magnification technique}
-The magnitude-position-angular correlation function (mpac hereafter) between the lens sample ($L$) and the source sample ($S$) is defined as
+The magnitude-position-angular correlation function between the lens sample ($L$) and the source sample ($S$) is defined as
 \begin{equation}
 \varphi_{LS}(\theta) = \langle\delta_g(z_L,\hat n)\delta_m(z_S,\hat n')\rangle_\theta.
 \label{eq:mpacf}
@@ -260,12 +246,12 @@ where on the last step it has been converted from fluxes to magnitudes. Thus, ta
 \end{equation}
 the \autoref{eq:mpacf} results finally
 \begin{equation}
-\varphi_{LS}(\theta)= -5\langle\delta_g(\hat n,z_L)\kappa(\hat n',z_S)\rangle = -2.5b_L\omega_0(\theta),
+\varphi_{LS}(\theta)= -5\langle\delta_g(\hat n,z_L)\kappa(\hat n',z_S)\rangle = -5\kappa(\theta),
 \end{equation}
-where $\omega_0(\theta)$ is defined at \autoref{eq:omega0}.
+where $\kappa(\theta)$ is the convergence profile of the lenses.
 \newline
 
-Nevertheless, reddening by the inter-galactic medium  can also produce --unlike gravitational lensing-- wavelength-dependent magnitude-shifts such that the lensed-plus-reddened fluxes are
+Nevertheless, reddening by the inter-galactic medium  can also produce --unlike gravitational lensing-- wavelength-dependent magnitude-shifts. Thus, the lensed-plus-reddened fluxes are given by
 \begin{equation}
 f_\mu(\hat n,z,\lambda_\eta) = \mu(\hat n,z)f_0(\hat n,z)e^{-\tau(\lambda_\eta)},
 \end{equation}
@@ -284,7 +270,7 @@ E^{\eta\nu}_{LS}(\theta)=\frac{2.5}{\ln 10}\langle\delta_g(\hat n,z_L)[\tau(\hat
 
 Modeling the wavelength dependence of the optical depth as
 \begin{equation}
-\tau_\eta = \tau(\lambda_\eta) = \tau_V\left(\frac{\lambda_V}{\lambda_\eta}\right),
+\tau_\eta = \tau(\lambda_\eta) = \tau_V\left(\frac{\lambda_V}{\lambda_\eta}\right)^\gamma,
 \end{equation}
 where $\tau_V$ is the optical depth at the $V$-band filter, $\lambda_V$ is the wavelength of the $V$-band filter and $\gamma\sim 1$ is a constant parameter. Thus, the color-excess cross-correlation results finally
 \begin{equation}
