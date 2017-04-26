@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.7.5)  26 APR 2017 14:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.7.5)  26 APR 2017 15:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2766,7 +2766,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  33038 strings out of 494985
  601750 string characters out of 6180357
- 1999906 words of memory out of 5000000
+ 2000906 words of memory out of 5000000
  34768 multiletter control sequences out of 15000+600000
  135625 words of font info for 235 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
@@ -2791,7 +2791,7 @@ sr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/pu
 blic/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (100 pages, 21230214 bytes).
+Output written on main.pdf (100 pages, 21230166 bytes).
 PDF statistics:
  2349 PDF objects out of 2487 (max. 8388607)
  1924 compressed objects within 20 object streams
