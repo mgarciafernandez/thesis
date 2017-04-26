@@ -278,7 +278,6 @@ E^{\eta\nu}_{LS}(\theta)=\lambda_V(\lambda_\eta^{-1}-\lambda_\nu^{-1})\frac{2.5}
 \end{equation}
 At a wide field survey with several broad-band band-pass filters the scale dependence of the optical depth, $\tau_V(\hat n,z_S)$ can be constrained.
 
-
 \subsection{Shear}
 From the Jacobian of the lensing map, it can be deduced that the transformation is not isotropic producing an elongation along one of the axis $(r_1,r_2) = \vec r_\perp$. Thus, an intrinsically round galaxy is seen as elliptical. On the case of elliptical galaxies, statistically they present a global ellipticicity. From the definition of \autoref{eq:jacobian}, the shear components are given by:
 \begin{equation}
@@ -310,6 +309,7 @@ Resulting finally that
 \tilde\gamma_E(\vec k_\perp) = \vec k_\perp^2\tilde\psi(\vec k_\perp)\mbox{ and }\tilde\gamma_B(\tilde k_\perp) = 0
 \end{equation}
 The fact that $\gamma_B$ is zero, constitutes a necessary (but not sufficient) proof for the lack of systematic effects on any shear measurement.
+\newline
 
 Reaching this point, two kinds of two-point statistics can be build: the point-shear\footnote{This is usually called galaxy-galaxy- (or gg-) lensing.} and the shear-shear two-point angular-correlation functions. From this two, we will only focus to gg-lensing due to its direct connection to magnification.
 
@@ -326,53 +326,32 @@ On the new coordinates, this leads to
 \begin{equation}
 \epsilon = \epsilon_i+\gamma_E,
 \end{equation}
-where $\tilde\epsilon,\tilde\epsilon_i$ are the ellipticities on the new coordinates. Let $p(\epsilon)$ the distribution of ellipticites of the sources.  At the small distortion regime, assuming that ellipticities are isotropic, it follows that
+where $\tilde\epsilon,\tilde\epsilon_i$ are the ellipticity on the new coordinates. Let $p(\epsilon)$ the distribution of ellipticity of the sources.  At the small distortion regime, assuming that ellipticity is isotropic, it follows that
 \begin{equation}
 p(\epsilon) = p(\epsilon_i)+\gamma_t\cos2\phi\frac{\partial p(\epsilon)}{\partial \epsilon}.
 \end{equation}
-Here $\phi_{\vec k_\perp}$ is the angle of orientation of the principal axis of the galaxy. Integrating over all the ellipticities, they can be translated to orientation angle,
+Here $\phi_{\vec k_\perp}$ is the angle of orientation of the principal axis of the galaxy. Integrating over all the ellipticity, they can be translated to orientation angle,
 \begin{equation}
 p(\phi) = \frac{2}{\pi}\left[1-\langle\gamma_t\rangle\cos2\phi\left\langle\frac1{\epsilon}\right\rangle\right].
 \end{equation}
-Thus, measuring the ellipticities --or orientation angles--, sear E-modes can be measured, probing directly the underlying lensing potential.
-
-\section{The Kaiser-Squires inversion.}
-As it has been explained during the last sections, magnification traces the convergence field whereas ellipticities of galaxies trace the shear field. Both convergence and shear are produced by the same lensing potential, which is function of the spatial distribution of the matter content and the geometry of the problem --that is, the cosmological distances between the lens, source and observer--.
+Thus, measuring the ellipticity --or orientation angles--, shear E-modes can be measured, probing directly the underlying lensing potential.
 \newline
 
-As it has been mentioned previously convergence and shear can be expressed at the Fourier space 
+Tangential shear can be estimated to be
 \begin{equation}
-\kappa(\vec r_\perp) \rightarrow \tilde\kappa(\vec k_\perp) = (k_1^2+k_2^2)\tilde\psi(\vec k_\perp),
-\end{equation}
-\begin{equation}
-\gamma_1(\vec r_\perp) \rightarrow \tilde\gamma_1(\vec k_\perp) = \frac{1}{2}(k_1^2-k_2^2)\tilde\psi(\vec k_\perp),
-\end{equation}
-\begin{equation}
-\gamma_1(\vec r_\perp) \rightarrow \tilde\gamma_2(\vec k_\perp) = \frac{1}{2}k_1k_2\tilde\psi(\vec k_\perp).
-\end{equation}
-
-Taking into account that $\tilde\psi$ is the same on the three cases and defining the complex-shear as $\gamma = \gamma_1+i\gamma_2$, the following relationship can be established,
-\begin{equation}
-\tilde\kappa(\vec k_\perp) = \tilde\gamma(\vec k_\perp)\mathcal{\tilde D}^*(\vec k_\perp)\mbox{ where }\mathcal{\tilde D}(\vec k_\perp) = \frac{k_1^2-k_2^2+2ik_1k_2}{\vec k_\perp^2}.
-\end{equation}
-Conversely, it may also be obtained
-\begin{equation}
-\tilde\gamma(\vec r_\perp) = \tilde\kappa(\vec k_\perp)\mathcal{\tilde D}(\vec k_\perp).
-\end{equation}
-
-Thus, transforming to the real space one gets finally the following pair of equations, known as the Kaiser-Squires inversion:
-\begin{equation}
-\gamma(\vec r_\perp) = \frac{1}{\pi}\int_{\mathbb{R}^2} d^2\vec r_\perp'\mathcal{D}(\vec r_\perp-\vec r_\perp')\kappa(\vec r_\perp')
-\end{equation}
-\begin{equation}
-\kappa(\vec k_\perp)-\kappa_0 = \frac{1}{\pi}\int_{\mathbb{R}^2} d^2\vec r_\perp'\Re[\mathcal{D}^*(\vec r_\perp-\vec r_\perp')\gamma(\vec r_\perp')]
+\langle\gamma_t\rangle = -\frac{\Delta\Sigma}{\Sigma_c},
 \end{equation}
 with
 \begin{equation}
-\mathcal{D}(\vec r_\perp) = \frac{-1}{(r_1-ir_2)^2}.
+\Delta\Sigma = \bar\Sigma(\theta)-\Sigma(\theta),
 \end{equation}
+where $\bar\Sigma(\theta)$ denotes the average surface density on an disk of angular size $\theta$. Thus the tangential shear can be related to the convergence profile as
+\begin{equation}
+\langle\gamma_t\rangle=-[\bar\kappa(\theta)-\kappa(\theta)].
+\end{equation}
+\newline
 
-This set of equations allows to relate the convergence and the shear field demonstrating this way that they are two sides of the same coin.
+The last equation demonstrates that gg-lensing and magnification are produced by the same physical effect. Nevertheless, they have different systematic effects. This can be exploited in order to produce accurate and reliable magnification measurements. 
 
 \section{Theoretical expressions for $\kappa(\theta)$}
 As it has been stated on the previous section, the convergence profile  is the physical observable for both magnification and gg-lensing. Thus, in order to connect the measurements with a cosmological model, a theoretical expression for it must be provided. Depending on the nature of the lenses considered --that is, whether the lenses are galaxies, voids, clusters or troughs--, the approach may differ.
@@ -399,7 +378,7 @@ If it is considered that the convergence field $\kappa(\hat n)$ can be expressed
 \end{equation}
 This leads finally to \cite{2003A&A...403..817M}:
 \begin{eqnarray}
-&\kappa(\theta)=\frac{3H_0^2\Omega_M^0}{c^2}\int\limits_0^\infty dz'_L\frac{\phi_L(z'_L)}{1+z'_L}\int\limits_i^\infty dz'_S\phi_S(z'_S)\frac{r(z'_L)[r(z'_S)-r(z'_L)]}{r(z'_S)}\times\\
+&\kappa(\theta)=\frac{3H_0^2\Omega_M^0}{c^2}\int\limits_0^\infty dz'_L\frac{\phi_L(z'_L)}{1+z'_L}\int\limits_{z'_L}^\infty dz'_S\phi_S(z'_S)\frac{r(z'_L)[r(z'_S)-r(z'_L)]}{r(z'_S)}\times\\
 &\int\limits_0^\infty\frac{dkk}{2\pi}P_M(k,z'_L)J_0[k\theta r(z'_i)],\nonumber
 \label{eq:omega0}
 \end{eqnarray}
@@ -420,7 +399,7 @@ where $q^2=1-e^2$ with $e$ the ellipticity of the void and
 &r_\parallel=r(z)\cos\theta -r(z_v)\\
 &r_\perp=r(z)\sin\theta.
 \end{eqnarray}
-Here $r(z)$ is the radial comoving at redshift $z$, whereas $z_v$ is the redshit of the center of the void and $\theta$ the angular separation form the center of the void. From \autoref{eq:kgb} and \autoref{eq:kappa_definition}, the convergence profile around a single void can be obtained:
+Here $r(z)$ is the radial comoving distance at redshift $z$, whereas $z_v$ is the redshit of the center of the void and $\theta$ the angular separation form the center of the void. From \autoref{eq:kgb} and \autoref{eq:kappa_definition}, the convergence profile around a single void can be obtained:
 \begin{equation}
 \kappa(\theta) = \frac{1}{1}\frac{\Sigma_{KGB}(\theta)}{\Sigma_c},
 \end{equation}
