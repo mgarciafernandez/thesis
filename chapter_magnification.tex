@@ -18,7 +18,7 @@ As it has been described at \autoref{ch:theory}, the amplitude of the magnificat
 The caveats related to the use of LBGs and QSOs as sources can be avoided by selecting galaxies from the general population of galaxies, that is, not selecting an specific subset of the full sample of galaxies). Then only redshift cuts are imposed in order to separate the lens and source samples. This approach has the advantage that the density of the source sample is more populated, reducing significantly the shot-noise. Nevertheless, the accuracy on the determination of the redshift on broad-band galaxy-surveys --such as DES-- is very limited, introducing an important source of systematic errors that must be avoided and carefully taken into account.
 \newline
 
-In addition to the lens-source redshift overlap, magnification suffers from several systematic errors based on the photometry \cite{2015MNRAS.454.3121M,2016MNRAS.455.3943H} such as: depth-inhomogeneities, patchiness of the zero-point correction and calibration, or shifts on the magnitude determination due to wrong sky-background subtraction. The important reduction of shot-noise on wide-field surveys requires the development of new techniques to estimate these systematic errors.
+In addition to the lens-source redshift overlap, magnification suffers from several systematic errors based on the photometry \cite{2015MNRAS.454.3121M,2016MNRAS.455.3943H}, such as: depth-inhomogeneities, patchiness of the zero-point correction and calibration, or shifts on the magnitude determination due to wrong sky-background subtraction. The important reduction of shot-noise on wide-field surveys requires the development of new techniques to estimate these systematic errors.
 \newline
 
 The use of the general population of galaxies on shallow small-area surveys is mandatory to reach a significance that allows the detection of the magnification signal. On wide-area surveys the use of this population is not necessary although new studies can be made if it is used. Having a very dense population of galaxies as sources allows to use a set of lenses that are less numerous: voids and troughs. This allows to produce new physics analysis.
@@ -34,9 +34,10 @@ The weight of the $i$-th galaxy ($w_i$) is given by:
 \begin{equation}
 w_i = \alpha_S(m_i)-1,
 \end{equation}
-where $\alpha_S(m_i)$ is the number-count slope given by \autoref{eq:alpha} and $m_i$ is the magnitude of the $i$-th galaxy.
+where $\alpha_S(m_i)$ is the number-count slope given by \autoref{eq:alpha} and $m_i$ is the magnitude of the $i$-th galaxy. This procedure allows to obtain the maximum signal-to-noise. Nevertheless, this weighting makes hard to model the impact of the different systematic effects on the measured signal.
+\newline
 
-The steps towards a measurement of magnification via the number count technique in a photometric survey can be summarized as follows:
+As an alternative approach the following procedure is proposed:
 \begin{enumerate}
 	\item Split the data sample into two well-separated photo-z bins, termed lens and source. Splitting must be done minimizing the overlap between the true redshift distributions of the samples. Otherwise, by \autoref{eq:4t}, an additive signal is introduced.
 	\item For each photometric band, define several subsamples from the source sample using different values for the maximum (threshold) magnitude. This is made in order to trace the evolution of the amplitude of the magnification signal with the number count slope (see \autoref{eq:alpha}).
@@ -67,9 +68,12 @@ Here $A$ is the solid angle subtended by the dataset, $N_L$ is the number of obj
 where $\Omega$ is the solid angle subtended by an annulus with edges the maximum and minimum scales considered. Thus, for a sample, given size, magnitude and redshift distributions --assuming a cosmology-- the signal-to-noise ratio can be estimated. Nevertheless, \autoref{eq:snfinal} assumes that the angular bins are uncorrelated and should be taken as an upper bound to the signal-to-noise. Although this expression does not take into account the full covariance, the behavior
 \begin{equation}
 \frac{S}{N} \sim [\alpha(m)-1]\sqrt{N_S(m)},
+\label{eq:maxsn}
 \end{equation}
 is independent of cosmological and covariance assumptions up to a constant factor, allowing us to use this expression for finding the optimal cut that maximizes the signal-to-noise ratio.
 \newline
+
+\autoref{eq:maxsn} finds the magnitude cut with the maximum signal-to-noise for a given source sample. Nevertheless, this requires the use of less data than the {\it optimal weighting } approach, reaching a lower significance since less information is used. To overcome this, all the magnitude cuts --not just the maximum-- are used, tracing the number-count slope evolution.
 
 \section{Magnification in the MICE-GC simulation}
 \label{sec:mice}

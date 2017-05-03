@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.7.5)  3 MAY 2017 12:45
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.7.5)  3 MAY 2017 14:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2340,48 +2340,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--26
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [38]
-Underfull \hbox (badness 10000) in paragraph at lines 45--47
+Underfull \hbox (badness 10000) in paragraph at lines 36--39
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--48
 
  []
 
 [39]
 
 LaTeX Warning: Reference `eq:numbercountstheo' on page 40 undefined on input li
-ne 62.
+ne 63.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--73
+Underfull \hbox (badness 10000) in paragraph at lines 72--75
 
  []
 
-<./figures/mag_i_MICE.pdf, id=981, 569.12625pt x 385.44pt>
+<./figures/mag_i_MICE.pdf, id=982, 569.12625pt x 385.44pt>
 File: ./figures/mag_i_MICE.pdf Graphic file (type pdf)
 
 <use ./figures/mag_i_MICE.pdf>
-Package pdftex.def Info: ./figures/mag_i_MICE.pdf used on input line 77.
+Package pdftex.def Info: ./figures/mag_i_MICE.pdf used on input line 81.
 (pdftex.def)             Requested size: 674.33032pt x 261.18602pt.
  [40] [41 <./figures/mag_i_MICE.pdf, page is rotated 90 degrees>]
-Underfull \hbox (badness 10000) in paragraph at lines 95--97
+Underfull \hbox (badness 10000) in paragraph at lines 99--101
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--104
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--113
+Underfull \hbox (badness 10000) in paragraph at lines 106--108
 
  []
 
 [42]
-Underfull \hbox (badness 10000) in paragraph at lines 114--116
+Underfull \hbox (badness 10000) in paragraph at lines 115--117
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--125
+Underfull \hbox (badness 10000) in paragraph at lines 118--120
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--129
 
  []
 
@@ -2389,179 +2394,179 @@ Underfull \hbox (badness 10000) in paragraph at lines 123--125
 File: ./figures/footprint.pdf Graphic file (type pdf)
 
 <use ./figures/footprint.pdf>
-Package pdftex.def Info: ./figures/footprint.pdf used on input line 136.
+Package pdftex.def Info: ./figures/footprint.pdf used on input line 140.
 (pdftex.def)             Requested size: 353.1014pt x 312.48257pt.
 
 <./figures/TPZ_phis_i.pdf, id=1071, 569.12625pt x 385.44pt>
 File: ./figures/TPZ_phis_i.pdf Graphic file (type pdf)
 
 <use ./figures/TPZ_phis_i.pdf>
-Package pdftex.def Info: ./figures/TPZ_phis_i.pdf used on input line 143.
+Package pdftex.def Info: ./figures/TPZ_phis_i.pdf used on input line 147.
 (pdftex.def)             Requested size: 353.1014pt x 239.14676pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--149
+Underfull \hbox (badness 10000) in paragraph at lines 136--153
 
  []
 
 [43] [44 <./figures/footprint.pdf> <./figures/TPZ_phis_i.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 174--176
+Underfull \hbox (badness 10000) in paragraph at lines 178--180
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--187
+Underfull \hbox (badness 10000) in paragraph at lines 188--191
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--192
+Underfull \hbox (badness 10000) in paragraph at lines 192--196
 
  []
 
-[45] <./figures/cov_matrix_mag_auto_i.pdf, id=1135, 569.12625pt x 550.055pt>
+[45] <./figures/cov_matrix_mag_auto_i.pdf, id=1136, 569.12625pt x 550.055pt>
 File: ./figures/cov_matrix_mag_auto_i.pdf Graphic file (type pdf)
 
 <use ./figures/cov_matrix_mag_auto_i.pdf>
 Package pdftex.def Info: ./figures/cov_matrix_mag_auto_i.pdf used on input line
- 200.
+ 204.
 (pdftex.def)             Requested size: 415.41043pt x 359.97356pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--205
+Underfull \hbox (badness 10000) in paragraph at lines 201--209
 
  []
 
-<./figures/mag_r.pdf, id=1140, 569.12625pt x 385.44pt>
+<./figures/mag_r.pdf, id=1141, 569.12625pt x 385.44pt>
 File: ./figures/mag_r.pdf Graphic file (type pdf)
 
 <use ./figures/mag_r.pdf>
-Package pdftex.def Info: ./figures/mag_r.pdf used on input line 208.
+Package pdftex.def Info: ./figures/mag_r.pdf used on input line 212.
 (pdftex.def)             Requested size: 674.33032pt x 261.18602pt.
 
-<./figures/mag_i.pdf, id=1142, 569.12625pt x 385.44pt>
+<./figures/mag_i.pdf, id=1143, 569.12625pt x 385.44pt>
 File: ./figures/mag_i.pdf Graphic file (type pdf)
 
 <use ./figures/mag_i.pdf>
-Package pdftex.def Info: ./figures/mag_i.pdf used on input line 213.
+Package pdftex.def Info: ./figures/mag_i.pdf used on input line 217.
 (pdftex.def)             Requested size: 674.33032pt x 261.18602pt.
 
-<./figures/mag_z.pdf, id=1144, 569.12625pt x 385.44pt>
+<./figures/mag_z.pdf, id=1145, 569.12625pt x 385.44pt>
 File: ./figures/mag_z.pdf Graphic file (type pdf)
 
 <use ./figures/mag_z.pdf>
-Package pdftex.def Info: ./figures/mag_z.pdf used on input line 218.
+Package pdftex.def Info: ./figures/mag_z.pdf used on input line 222.
 (pdftex.def)             Requested size: 674.33032pt x 261.18602pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--223
+Underfull \hbox (badness 10000) in paragraph at lines 210--227
 
  []
 
 
 LaTeX Warning: Reference `eq:numbercounttheo' on page 46 undefined on input lin
-e 224.
-
-<./figures/alphai.pdf, id=1155, 569.12625pt x 385.44pt>
-File: ./figures/alphai.pdf Graphic file (type pdf)
-
-<use ./figures/alphai.pdf>
-Package pdftex.def Info: ./figures/alphai.pdf used on input line 231.
-(pdftex.def)             Requested size: 353.1014pt x 239.14676pt.
-
-<./figures/predicted_sig.pdf, id=1156, 569.12625pt x 385.44pt>
-File: ./figures/predicted_sig.pdf Graphic file (type pdf)
-
-<use ./figures/predicted_sig.pdf>
-Package pdftex.def Info: ./figures/predicted_sig.pdf used on input line 234.
-(pdftex.def)             Requested size: 353.1014pt x 177.35936pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 228--254
-
- []
+e 228.
 
 [46] [47 <./figures/cov_matrix_mag_auto_i.pdf>] [48 <./figures/mag_r.pdf>]
 [49 <./figures/mag_i.pdf>] [50 <./figures/mag_z.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 276--279
+<./figures/alphai.pdf, id=1228, 569.12625pt x 385.44pt>
+File: ./figures/alphai.pdf Graphic file (type pdf)
+
+<use ./figures/alphai.pdf>
+Package pdftex.def Info: ./figures/alphai.pdf used on input line 235.
+(pdftex.def)             Requested size: 353.1014pt x 239.14676pt.
+
+<./figures/predicted_sig.pdf, id=1229, 569.12625pt x 385.44pt>
+File: ./figures/predicted_sig.pdf Graphic file (type pdf)
+
+<use ./figures/predicted_sig.pdf>
+Package pdftex.def Info: ./figures/predicted_sig.pdf used on input line 238.
+(pdftex.def)             Requested size: 353.1014pt x 177.35936pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 232--258
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 280--282
+Underfull \hbox (badness 10000) in paragraph at lines 280--283
 
  []
 
 [51] [52 <./figures/predicted_sig.pdf> <./figures/alphai.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 283--285
+Underfull \hbox (badness 10000) in paragraph at lines 284--286
 
  []
 
-<./figures/weighted_w.pdf, id=1276, 569.12625pt x 385.44pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--289
+
+ []
+
+<./figures/weighted_w.pdf, id=1277, 569.12625pt x 385.44pt>
 File: ./figures/weighted_w.pdf Graphic file (type pdf)
 
 <use ./figures/weighted_w.pdf>
-Package pdftex.def Info: ./figures/weighted_w.pdf used on input line 289.
+Package pdftex.def Info: ./figures/weighted_w.pdf used on input line 293.
 (pdftex.def)             Requested size: 353.1014pt x 239.14676pt.
 
-<./figures/acromatic_short.pdf, id=1279, 569.12625pt x 385.44pt>
+<./figures/acromatic_short.pdf, id=1280, 569.12625pt x 385.44pt>
 File: ./figures/acromatic_short.pdf Graphic file (type pdf)
 
 <use ./figures/acromatic_short.pdf>
-Package pdftex.def Info: ./figures/acromatic_short.pdf used on input line 292.
+Package pdftex.def Info: ./figures/acromatic_short.pdf used on input line 296.
 (pdftex.def)             Requested size: 353.1014pt x 239.14676pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--298
+Underfull \hbox (badness 10000) in paragraph at lines 290--302
 
  []
 
-<./figures/SPTE_SNe.pdf, id=1281, 569.12625pt x 385.44pt>
+<./figures/SPTE_SNe.pdf, id=1282, 569.12625pt x 385.44pt>
 File: ./figures/SPTE_SNe.pdf Graphic file (type pdf)
 
 <use ./figures/SPTE_SNe.pdf>
-Package pdftex.def Info: ./figures/SPTE_SNe.pdf used on input line 309.
+Package pdftex.def Info: ./figures/SPTE_SNe.pdf used on input line 313.
 (pdftex.def)             Requested size: 353.1014pt x 239.14676pt.
 
-<./figures/purity_lens.pdf, id=1282, 569.12625pt x 385.44pt>
+<./figures/purity_lens.pdf, id=1283, 569.12625pt x 385.44pt>
 File: ./figures/purity_lens.pdf Graphic file (type pdf)
 
 <use ./figures/purity_lens.pdf>
-Package pdftex.def Info: ./figures/purity_lens.pdf used on input line 312.
+Package pdftex.def Info: ./figures/purity_lens.pdf used on input line 316.
 (pdftex.def)             Requested size: 353.1014pt x 239.14676pt.
 
 
-LaTeX Warning: Float too large for page by 2.12982pt on input line 316.
+LaTeX Warning: Float too large for page by 2.12982pt on input line 320.
 
 
 LaTeX Warning: Reference `eq:numbercountstheo' on page 53 undefined on input li
-ne 317.
+ne 321.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--319
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 320--322
+Underfull \hbox (badness 10000) in paragraph at lines 321--323
 
  []
 
 [53] [54 <./figures/weighted_w.pdf> <./figures/acromatic_short.pdf>] [55 <./fig
 ures/SPTE_SNe.pdf, page is rotated 90 degrees> <./figures/purity_lens.pdf>]
-<./figures/mag_istars.pdf, id=1373, 569.12625pt x 385.44pt>
-File: ./figures/mag_istars.pdf Graphic file (type pdf)
-
-<use ./figures/mag_istars.pdf>
-Package pdftex.def Info: ./figures/mag_istars.pdf used on input line 339.
-(pdftex.def)             Requested size: 674.33032pt x 261.18602pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 335--344
+Underfull \hbox (badness 10000) in paragraph at lines 324--326
 
  []
 
+<./figures/mag_istars.pdf, id=1374, 569.12625pt x 385.44pt>
+File: ./figures/mag_istars.pdf Graphic file (type pdf)
 
-Underfull \hbox (badness 10000) in paragraph at lines 353--356
+<use ./figures/mag_istars.pdf>
+Package pdftex.def Info: ./figures/mag_istars.pdf used on input line 343.
+(pdftex.def)             Requested size: 674.33032pt x 261.18602pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 339--348
 
  []
 
 [56] [57 <./figures/mag_istars.pdf, page is rotated 90 degrees>]
-Underfull \hbox (badness 10000) in paragraph at lines 361--363
+Underfull \hbox (badness 10000) in paragraph at lines 357--360
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--367
 
  []
 
@@ -2569,49 +2574,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 361--363
 File: ./figures/mag_i_ri.pdf Graphic file (type pdf)
 
 <use ./figures/mag_i_ri.pdf>
-Package pdftex.def Info: ./figures/mag_i_ri.pdf used on input line 370.
+Package pdftex.def Info: ./figures/mag_i_ri.pdf used on input line 374.
 (pdftex.def)             Requested size: 674.33032pt x 261.18602pt.
 
 <./figures/mag_idust.pdf, id=1452, 569.12625pt x 385.44pt>
 File: ./figures/mag_idust.pdf Graphic file (type pdf)
 
 <use ./figures/mag_idust.pdf>
-Package pdftex.def Info: ./figures/mag_idust.pdf used on input line 376.
+Package pdftex.def Info: ./figures/mag_idust.pdf used on input line 380.
 (pdftex.def)             Requested size: 674.33032pt x 261.18602pt.
  [58] [59 <./figures/mag_i_ri.pdf>] [60 <./figures/mag_idust.pdf, page is rotat
 ed 90 degrees>]
-Underfull \hbox (badness 10000) in paragraph at lines 396--399
+Underfull \hbox (badness 10000) in paragraph at lines 400--403
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 403--406
+Underfull \hbox (badness 10000) in paragraph at lines 407--410
 
  []
 
 [61]
-Underfull \hbox (badness 10000) in paragraph at lines 425--428
+Underfull \hbox (badness 10000) in paragraph at lines 429--432
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 432--435
+Underfull \hbox (badness 10000) in paragraph at lines 436--439
 
  []
 
-<./figures/mag_i_mix.pdf, id=1560, 569.12625pt x 385.44pt>
+[62] <./figures/mag_i_mix.pdf, id=1569, 569.12625pt x 385.44pt>
 File: ./figures/mag_i_mix.pdf Graphic file (type pdf)
 
 <use ./figures/mag_i_mix.pdf>
-Package pdftex.def Info: ./figures/mag_i_mix.pdf used on input line 438.
+Package pdftex.def Info: ./figures/mag_i_mix.pdf used on input line 442.
 (pdftex.def)             Requested size: 674.33032pt x 261.18602pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--443
+Underfull \hbox (badness 10000) in paragraph at lines 440--447
 
  []
 
-[62]
-Underfull \hbox (badness 10000) in paragraph at lines 455--458
+
+Underfull \hbox (badness 10000) in paragraph at lines 459--462
 
  []
 
@@ -2619,24 +2624,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 455--458
 File: ./figures/spec_photoz_cmp.pdf Graphic file (type pdf)
 
 <use ./figures/spec_photoz_cmp.pdf>
-Package pdftex.def Info: ./figures/spec_photoz_cmp.pdf used on input line 461.
+Package pdftex.def Info: ./figures/spec_photoz_cmp.pdf used on input line 465.
 (pdftex.def)             Requested size: 415.41043pt x 281.35121pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 459--466
+Underfull \hbox (badness 10000) in paragraph at lines 463--470
 
  []
 
 [63] [64 <./figures/mag_i_mix.pdf, page is rotated 90 degrees>]
-<./figures/mag_i_photoz_comparison.pdf, id=1639, 569.12625pt x 385.44pt>
+<./figures/mag_i_photoz_comparison.pdf, id=1637, 569.12625pt x 385.44pt>
 File: ./figures/mag_i_photoz_comparison.pdf Graphic file (type pdf)
 
 <use ./figures/mag_i_photoz_comparison.pdf>
 Package pdftex.def Info: ./figures/mag_i_photoz_comparison.pdf used on input li
-ne 469.
+ne 473.
 (pdftex.def)             Requested size: 674.33032pt x 261.18602pt.
-) (./chapter_conclusions.tex
-[65 <./figures/spec_photoz_cmp.pdf>] [66 <./figures/mag_i_photoz_comparison.pdf
->]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [65 <./figures/spec_photoz_cmp.pdf>]) (./chapter_conclusions.tex [66] [67 <./f
+igures/mag_i_photoz_comparison.pdf>] [68
+
+]
 Chapter 5.
 File: Pictures/head2.png Graphic file (type png)
 <use Pictures/head2.png>
@@ -2672,9 +2681,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--21
 
  []
 
-[67
-
-]
+[69]
 Underfull \hbox (badness 10000) in paragraph at lines 22--24
 
  []
@@ -2699,7 +2706,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--38
 
  []
 
-[68]) (./appendix_stellar_contamination.tex [69] [70
+[70]) (./appendix_stellar_contamination.tex [71] [72
 
 ]
 Appendix A.
@@ -2707,7 +2714,7 @@ File: Pictures/head2.png Graphic file (type png)
 <use Pictures/head2.png>
 Package pdftex.def Info: Pictures/head2.png used on input line 1.
 (pdftex.def)             Requested size: 597.50787pt x 298.90431pt.
-) (./appendix_plots.tex [71] [72
+) (./appendix_plots.tex [73] [74
 
 ]
 Appendix B.
@@ -2715,7 +2722,7 @@ File: Pictures/head2.png Graphic file (type png)
 <use Pictures/head2.png>
 Package pdftex.def Info: Pictures/head2.png used on input line 1.
 (pdftex.def)             Requested size: 597.50787pt x 298.90431pt.
-) [73] [74
+) [75] [76
 
 ]
 File: Pictures/head2.png Graphic file (type png)
@@ -2739,7 +2746,7 @@ Overfull \hbox (0.78236pt too wide) in paragraph at lines 248--248
  1002 / andp . 19163540702$[]\T1/lmr/m/n/12 (-20) . 
  []
 
-[75] [76]
+[77] [78]
 Overfull \hbox (8.514pt too wide) in paragraph at lines 248--248
 []\T1/lmr/m/n/12 (-20) P. Binétruy. ``Mod-els of dy-nam-i-cal su-per-sym-me-try
  break-ing and quintessence''.
@@ -2751,18 +2758,18 @@ Overfull \hbox (0.52493pt too wide) in paragraph at lines 248--248
 -e-ter-ized post-Friedmann
  []
 
-[77] [78] [79] [80]
+[79] [80] [81] [82]
 Overfull \hbox (2.57446pt too wide) in paragraph at lines 248--248
 []\T1/lmr/m/n/12 (-20) M. Bartel-mann and P. Schnei-der. ``Weak grav-i-ta-tiona
 l lens-ing''. In: \T1/lmr/m/it/12 (-20) Phys. Rep.
  []
 
-[81] [82] [83] [84] [85] [86] [87]
+[83] [84] [85] [86] [87] [88] [89]
 \tf@ptc=\write7
 \openout7 = `main.ptc'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 250.
- [88]
+ [90]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 250.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 250.
@@ -2781,10 +2788,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33036 strings out of 494985
- 601607 string characters out of 6180357
- 1999858 words of memory out of 5000000
- 34765 multiletter control sequences out of 15000+600000
+ 33039 strings out of 494985
+ 601631 string characters out of 6180357
+ 1998933 words of memory out of 5000000
+ 34766 multiletter control sequences out of 15000+600000
  135524 words of font info for 234 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  56i,14n,59p,10532b,2387s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2808,10 +2815,10 @@ sr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/pu
 blic/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (100 pages, 21229916 bytes).
+Output written on main.pdf (102 pages, 21231089 bytes).
 PDF statistics:
- 2355 PDF objects out of 2487 (max. 8388607)
- 1930 compressed objects within 20 object streams
- 526 named destinations out of 1000 (max. 500000)
+ 2364 PDF objects out of 2487 (max. 8388607)
+ 1937 compressed objects within 20 object streams
+ 528 named destinations out of 1000 (max. 500000)
  40613 words of extra memory for PDF output out of 42996 (max. 10000000)
 
