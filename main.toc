@@ -64,41 +64,41 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}Measuring Magnification through Number Count}{37}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Magnification in the MICE-GC simulation}{39}{section.4.2}
+\contentsline {section}{\numberline {4.2}Magnification in the MICE-GC simulation}{40}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Magnification in DES Science Verification data}{41}{section.4.3}
+\contentsline {section}{\numberline {4.3}Magnification in DES Science Verification data}{42}{section.4.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.1}Data sample}{42}{subsection.4.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Lens sample}{44}{section*.9}
+\contentsline {subsubsection}{Lens sample}{43}{section*.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Source sample}{44}{section*.10}
+\contentsline {subsubsection}{Source sample}{45}{section*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Detection of the weak-lensing magnification signal}{44}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.2}Detection of the weak-lensing magnification signal}{45}{subsection.4.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.3}Systematic error analysis}{54}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.3}Systematic error analysis}{53}{subsection.4.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Number count slope $\alpha $}{54}{section*.11}
+\contentsline {subsubsection}{Number count slope $\alpha $}{53}{section*.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Object obscuration}{54}{section*.12}
+\contentsline {subsubsection}{Object obscuration}{56}{section*.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Stellar contamination}{54}{section*.13}
+\contentsline {subsubsection}{Stellar contamination}{56}{section*.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Survey observing conditions}{56}{section*.14}
+\contentsline {subsubsection}{Survey observing conditions}{58}{section*.14}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Dust extinction}{58}{section*.15}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Photometric redshifts}{61}{section*.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Magnification in DES Year 1 data}{64}{section.4.4}
+\contentsline {section}{\numberline {4.4}Magnification in DES Year 1 data}{65}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}Data sample}{64}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.1}Data sample}{65}{subsection.4.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Lens sample}{64}{section*.17}
+\contentsline {subsubsection}{Lens sample}{65}{section*.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Lens sample}{64}{section*.18}
+\contentsline {subsubsection}{Lens sample}{65}{section*.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}Determination of matter profile: voids \& troughs}{64}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.2}Determination of matter profile: voids \& troughs}{65}{subsection.4.4.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Conclusions}{67}{chapter.5}
 \defcounter {refsection}{0}\relax 
