@@ -5,7 +5,7 @@
 Extensive wide-field programs have allowed accurate measurements of weak-lensing effects. Previous magnification measurements involve the use of very massive objects as lenses, such as luminous red galaxies (LRGs) and clusters \cite{1995AIPC..336..320B,2014MNRAS.440.3701B,2014MNRAS.439.3755F,2016MNRAS.457.3050C}, or high redshift objects as sources, such as Lyman break galaxies (LBGs) \cite{2009A&A...507..683H,2012MNRAS.426.2489M}, quasars (QSOs) \cite{1979ApJ...227...30S,1989Natur.339..106H,1990A&A...240...11F,1993A&A...268....1B,2002A&A...386..784M,0004-637X-633-2-589} and sub-mm sources  \cite{2011MNRAS.414..596W} to improve signal-to-noise ratio. In addition to the number count technique used on this Thesis, other observational effects produced by magnification have been measured as well: the shift in magnitude \cite{2010MNRAS.405.1025M}, flux \cite{2011MNRAS.411.2113J} and size \cite{2041-8205-780-2-L16}.
 \newline
 
-On this chapter, first the methodology to measure magnification is described and validated with simulations. Then, the methodology is used to measure the magnification signal at the Dark Energy Survey Science Verification data (SV). Finally, the same technique used at the DES-SV data is employed to measure the convergence profile of voids and troughs.
+On this chapter, first, the methodology to measure magnification is described (\autoref{sec:method}) and validated with simulations (\autoref{sec:mice}). Then, the methodology is used to measure the magnification signal at the Dark Energy Survey Science Verification data (SV; \autoref{sec:svdata}). Finally, the same technique used at the DES-SV data is employed to measure the convergence profile of voids and troughs with the Year 1 data (Y1; \autoref{sec:y1data}).
 \newline
 
 It is worth to remark that, as it has been defined at \autoref{ch:theory}, given both the redshift of the lenses and the sources, the convergence is a two-dimensional scalar field that is independent on the selected lens or source sample. Nevertheless, by choosing the suitable lens sample, different parts of the log-normal distribution of the convergence field \cite{2017MNRAS.466.1444C} can be probed, leading to a different convergence profile.
@@ -15,7 +15,7 @@ It is worth to remark that, as it has been defined at \autoref{ch:theory}, given
 As it has been described at \autoref{ch:theory}, the amplitude of the magnification signal is dependent on two factors: the number-count slope parameter ($\alpha-1$) and the lensing kernel, that for a given lens sample, depends on the redshift of the source sample. LBGs and QSOs has been traditionally used on magnification studies as sources since they have an steep magnitude distribution, leading to a high value of $\alpha-1$. In addition, this population of galaxies is located at very high redshift ($2\lesssim z\lesssim 4$), leading to a high lensing efficiency and a clean redshift separation between the lens and source sample. Nevertheless, this population of galaxies has much less density than the general population of galaxies, feature that can prevent the measurement of a magnification signal for low-area surveys. In addition, the selection of a population of LBGs involve the known as {\it dropout} technique, that requires the development of a custom data-reduction pipeline just to select this specific population of galaxies. For large-area surveys such as DES and LSST, the amount of computing time to run the data-reduction pipeline is enormous ($\sim 1$ year), reaching manpower and infrastructure limitations.
 \newline
 
-The caveats related to the use of LBGs and QSOs as sources can be avoided by selecting galaxies from the general population of galaxies, that is, not selecting an specific subset of the full sample of galaxies). Then only redshift cuts are imposed in order to separate the lens and source samples. This approach has the advantage that the density of the source sample is more populated, reducing significantly the shot-noise. Nevertheless, the accuracy on the determination of the redshift on broad-band galaxy-surveys --such as DES-- is very limited, introducing an important source of systematic errors that must be avoided and carefully taken into account.
+The caveats related to the use of LBGs and QSOs as sources can be avoided by selecting galaxies from the general population of galaxies, that is, not selecting an specific subset of the full sample of galaxies. Then, only redshift cuts are imposed in order to separate the lens and source samples. This approach has the advantage that the density of the source sample is more populated, reducing significantly the shot-noise. Nevertheless, the accuracy on the determination of the redshift on broad-band galaxy-surveys --such as DES-- is very limited, introducing an important source of systematic errors that must be avoided and carefully taken into account.
 \newline
 
 In addition to the lens-source redshift overlap, magnification suffers from several systematic errors based on the photometry \cite{2015MNRAS.454.3121M,2016MNRAS.455.3943H}, such as: depth-inhomogeneities, patchiness of the zero-point correction and calibration, or shifts on the magnitude determination due to wrong sky-background subtraction. The important reduction of shot-noise on wide-field surveys requires the development of new techniques to estimate these systematic errors.
@@ -24,7 +24,7 @@ In addition to the lens-source redshift overlap, magnification suffers from seve
 The use of the general population of galaxies on shallow small-area surveys is mandatory to reach a significance that allows the detection of the magnification signal. On wide-area surveys the use of this population is not necessary although new studies can be made if it is used. Having a very dense population of galaxies as sources allows to use a set of lenses that are less numerous: voids and troughs. This allows to produce new physics analysis.
 \newline
 
-The usual approach that can be found on the literature to measure magnification is to use the {\it optimal weighting} technique \cite{2003A&A...403..817M}. This methodology can be summarized as follows:
+The usual approach that can be found on the literature to measure magnification the {\it optimal weighting} technique \cite{2003A&A...403..817M}. This methodology can be summarized as follows:
 \begin{enumerate}
 \item Split data sample into two well-separated photo-z bins, termed lens and source. Splitting must be done minimizing the overlap between the true redshift distributions of the samples. Otherwise, by \autoref{eq:4t}, an additive signal is introduced.
 \item Weight each source galaxy by its {\it optimal weight}.
@@ -73,7 +73,7 @@ where $\Omega$ is the solid angle subtended by an annulus with edges the maximum
 is independent of cosmological and covariance assumptions up to a constant factor, allowing us to use this expression for finding the optimal cut that maximizes the signal-to-noise ratio.
 \newline
 
-\autoref{eq:maxsn} finds the magnitude cut with the maximum signal-to-noise for a given source sample. Nevertheless, this requires the use of less data than the {\it optimal weighting } approach, reaching a lower significance since less information is used. To overcome this, all the magnitude cuts --not just the maximum-- are used, tracing the number-count slope evolution.
+\autoref{eq:maxsn} finds the magnitude cut with the maximum signal-to-noise for a given source sample. Nevertheless, this requires the use of less data than the {\it optimal weighting } approach, reaching a lower significance since less information is used. To overcome this, all the magnitude cuts within a band --not just the maximum-- are used, tracing the number-count slope evolution.
 
 \section{Magnification in the MICE-GC simulation}
 \label{sec:mice}
@@ -96,10 +96,10 @@ In \autoref{fig:MICE}, the results of the magnification analysis in the MICE sim
 
 \section{Magnification in DES Science Verification data}
 \label{sec:svdata}
-As of January 2014 --when I started my PhD--, the only data available at DES was the Science Verification data. The first data-release from DES. This data were taken just for testing purposes and in order to explore the capabilities of the experiment. Thus, although the nominal depth of the survey was reached, only $\sim 150$ deg$^2$ where taken. Taking this into account, only $10^4$ LBGs are expected at the full DES-SV data, preventing the measurement of magnification.
+As of January 2014 --when I started my PhD--, the only data available at DES was the Science Verification data. The first data-release from DES. This data were taken just for testing purposes and in order to explore the capabilities of the experiment. Thus, although the nominal depth of the survey was reached, only $\sim 150$ deg$^2$ where taken. Taking this into account, only $10^4$ LBGs are expected at the full DES-SV data, preventing the measurement of magnification with the usual approach.
 \newline
 
-In order to be capable to reach a detection of the magnification signal with the DES-SV data, the general population of galaxies was selected both as lens and source sample. This leads to technical difficulties, since DES has a low precision on the redshift determination and the general population of galaxies is mainly located at low redshift, complicating the possibility to reach a clean redshift separation. 
+In order to be capable to reach a detection of the magnification signal with the DES-SV data, the general population of galaxies was selected both as lens and source sample. This leads to technical difficulties, since DES has a low precision on the redshift determination and the general population of galaxies is mainly located at low redshift, complicating the possibility to reach a clean photo-z separation.  First data sample is described (\autoref{sec:data_sample_SV}). Then, the analysis is described and the results discussed at \autoref{sec:analysis_sv} following the analysis and discussion of the possible systematic errors on \autoref{sec:sys}.
 
 \subsection{Data sample}
 \label{sec:data_sample_SV}
@@ -181,6 +181,7 @@ Here $\rm S_j$ with $\rm j=1,2,3,4,5$ are the sub-samples of sample S with $\rm 
 The {\it g}-band is not used on this analysis because when the same approach is followed and a uniform sample is defined in that band, the number of galaxies of the lens and source samples decrease dramatically. This increases the shot noise preventing the measurement of number count magnification
 
 \subsection{Detection of the weak-lensing magnification signal}
+\label{sec:analysis_sv}
 To estimate the cross-correlation functions, the tree-code {\scshape TreeCorr}\footnote{github.com/rmjarvis/TreeCorr} \cite{2004MNRAS.352..338J} and the Landy-Szalay estimator \cite{1993ApJ...412...64L} are used demanding six logarithmic angular bins:
 \begin{equation}
 \omega_{\rm LS_j}(\theta) = \frac{D_{\rm L}D_{\rm S_j}(\theta)-D_{\rm L}R_{\rm S_j}(\theta)-D_{\rm S_j}R_{\rm L}(\theta)}{R_{\rm L}R_{\rm S_j}(\theta)}+1,
