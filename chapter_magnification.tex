@@ -99,7 +99,7 @@ In \autoref{fig:MICE}, the results of the magnification analysis in the MICE sim
 As of January 2014 --when I started my PhD--, the only data available at DES was the Science Verification data. The first data-release from DES. This data were taken just for testing purposes and in order to explore the capabilities of the experiment. Thus, although the nominal depth of the survey was reached, only $\sim 150$ deg$^2$ where taken. Taking this into account, only $10^4$ LBGs are expected at the full DES-SV data, preventing the measurement of magnification with the usual approach. Thus, in order to be capable to reach a detection of the magnification signal with the DES-SV data, the general population of galaxies was selected both as lens and source sample.
 \newline
 
-Data sample is described at \autoref{sec:data_sample_SV}. Then, the analysis is described and the results discussed at \autoref{sec:analysis_sv} following the analysis of the possible systematic errors on \autoref{sec:sys}. Finally a discussion on the analysis can be found at \autoref{sec:discussion_sv}
+The goal of this analysis is to detect a weak-lensing magnification signal and develop methodology to mitigate systematic errors. Data sample is described at \autoref{sec:data_sample_SV}. Then, the analysis is described and the results discussed at \autoref{sec:analysis_sv} following the analysis of the possible systematic errors on \autoref{sec:sys}. Finally a discussion on the analysis can be found at \autoref{sec:discussion_sv}.
 
 \subsection{Data sample}
 \label{sec:data_sample_SV}
@@ -488,23 +488,74 @@ All previous calculations were based on the assumption that the pdfs are a relia
 \subsection{Discussion}
 \label{sec:discussion_sv}
 
-On this analysis, the weak-lensing magnification signal has been detected on the DES-SV data using the general population of galaxies. In addition, a trough and detailed study of the possible systematic effects is made. The systematic error estimation has been made, for the first time, with the help of two simulations: MICE --a N-body-- and {\scshape Balrog} --an image simulation--.
+On this analysis, the weak-lensing magnification signal has been detected on the DES-SV data using the general population of galaxies. In addition, a thorough and detailed study of the possible systematic effects is made. The systematic error estimation has been made, for the first time, with the help of two simulations: MICE --a N-body-- and {\scshape Balrog} --an image simulation--.
 \newline
 
-From all of the systematic error estimation two have shown to be critical for magnification on photometric surveys: the observing conditions and the photo-z migration between the lens and the source sample.
+From all of the systematic error estimation, two of them have shown to be critical for magnification on photometric surveys: the observing conditions and the photo-z migration between the lens and the source sample.
 \newline
 
-This analysis demonstrates that reliable weak-lensing magnification can be measured accurately for DES-like surveys, opening a whole new window to new physic analysis within the experiment.
+This analysis demonstrates that reliable weak-lensing magnification can be measured accurately for a galaxy survey such as DES, opening a whole new window to new physic analysis within the experiment.
 
 
 \section{Magnification in DES Year 1 data}
 \label{sec:y1data}
+As the new data-release was available --the DES Year 1 (DES-Y1)-- on May 2016, with more area but less depth, the analysis started after this date were performed here. This new data-sample is much more numerous than DES-SV, allowing to do analyses that were impossible before with the Dark Energy Survey.
+\newline
+
+The goal of this analysis is to use the methodology to measure weak-lensing magnification signal developed at \autoref{sec:analysis_sv} to determine the convergence profile of voids and troughs with the DES-Y1 data. Data sample is described at \autoref{sec:data_sample_y1}. Then, the analysis is described and the results discussed at \autoref{sec:analysis_y1}. Finally a discussion on the analysis can be found at \autoref{sec:discussion_y1}.
 
 \subsection{Data sample}
-\label{sec:data_y1}
+\label{sec:data_sample_y1}
+
 
 \subsubsection{Lens sample}
-\subsubsection{Lens sample}
+Two lens samples
+
+\subsubsection{Source sample}
+The DES Y1-Gold main galaxy catalog, amounts 1600 deg$^2$ divided between several fields that include the supernovae fields, the stripe-82 (S82) and the SPT field (see \autoref{fig:des_y1_coverage}). From these fields, the largest contiguous area is selected, the SPT.
+\newline
+
+Regions with declination $ < -60^{\circ}$ are removed in order to avoid the Large Magellanic Cloud and severe stellar contamination from the Milky Way. {\scshape Modest\_class} is employed as star-galaxy classifier in combination with the additional morphological cut:
+\begin{equation}
+\mbox{spread\_model\_i} + \frac{5}{3}\mbox{spreader\_model\_i} > 0.007.
+\end{equation}
+\newline
+
+The following color cuts are made in order to remove outliers in color space:
+\begin{itemize}
+	\item $-1 < g-r < 3$,
+	\item $-1 < r-i < 2$,
+	\item $-1 < i-z < 2$;
+\end{itemize}
+where {\it g}, {\it r}, {\it i}, {\it z} stand for the corresponding {\scshape mag\_auto} magnitude measured by {\scshape SExtractor}. Bad regions, and haloes around bright stars are also removed following the same criterias as in \autoref{sec:data_sample_SV}.
+\newline
+
+Depth cuts are also imposed on the {\it riz}-bands in order to have uniform depth when combined with the magnitude cuts. These depth cuts are reached by including only the regions that meet the following conditions:
+\begin{itemize}
+	\item $r_{\rm lim} > 22.5$,
+	\item $i_{\rm lim} > 22.0$,
+	\item $z_{\rm lim} > 21.0$;
+\end{itemize}
+where $r_{\rm lim}, i_{\rm lim},z_{\rm lim}$ stand for the magnitude limit in the corresponding band. The resulting footprint, as shown in \autoref{fig:footprint_y1}, after all the masking cuts amounts to $XXXX \mbox{ deg}^2$.
+\newline
+
+Photometric redshifts (photo-z) have been estimated using different techniques. In particular, the fiducial code used in this work employs a machine-learning algorithm (random forests) as implemented by TPZ \cite{2013MNRAS.432.1483C}, which was shown to perform well on SV data \cite{2014MNRAS.445.1482S}. The redshifts of the galaxies are defined according to the mean of the probability density functions given by TPZ ($z_{\rm ph}$). Other methods are also employed to demonstrate that the measured two-point angular cross-correlation are not a feature induced by TPZ.
+\newline
+
+Three source samples are defined, one per band:
+\begin{itemize}
+	\item R: $0.7 < z_{\rm ph} < 1.0$ and $r<22.5$;
+	\item I: $0.7 < z_{\rm ph} < 1.0$ and $i<22.0$;
+	\item Z: $0.7 < z_{\rm ph} < 1.0$ and $z<21.5$.
+\end{itemize}
+
+Following the same approach as in the \autoref{sec:svdata}, the {\scshape mag\_auto} cut along with the previously defined depth cuts also guarantee uniformity on the corresponding band. Within each R, I, Z source sample four sub-samples that map the magnitude evolution are defined,
+\begin{itemize}
+	\item $\rm R_1$: $r<21.0$; $\rm R_2$: $r<21.5$; $\rm R_3$: $r<22.0$; $\rm R_4$: $r<22.5$.
+	\item $\rm I_1$: $i<20.5$; $\rm I_2$: $i<21.0$; $\rm I_3$: $i<21.5$; $\rm I_4$: $i<22.0$.
+	\item $\rm Z_1$: $z<20.0$; $\rm Z_2$: $z<20.5$; $\rm Z_3$: $z<21.0$; $\rm Z_4$: $z<21.5$.
+\end{itemize}
+Here $\rm S_j$ with $\rm j=1,2,3,4$ are the sub-samples of sample S with $\rm S\in \{R,I,Z\}$. In \autoref{fig:stacking}, the redshift distributions of the lens and source sample are shown. Note that the sub-samples $\rm R_4, I_4, Z_4$ are equal to $\rm R, I , Z$ respectively.
 
 \subsection{Determination of matter profile: voids \& troughs}
 \label{sec:analysis_y1}
