@@ -1,7 +1,7 @@
 \chapterimage{head2.png} % Chapter heading image
 \chapter{Gravitational Lensing Theory}
 \label{ch:theory}
-As it has been stated on \autoref{ch:introduction}, the gravitational fields acts on the energy-momentum tensor. Thus, massless particles that are carriers of energy --such as photons-- are also affected by gravity, leading to a bending of light rays. The first experimental determination of the gravitational light bending is by Dyson et~al. in 1919 \cite{Dyson291}, four years after the publication of General Relativity. On this work, the observed apparent position of stars close to the Sun during a solar eclipse were measured and compared with their positions when the Sun is not in front of them. The positions of the stars where shifted as predicted by General Relativity.
+As it has been stated on \autoref{ch:introduction}, the gravitational fields acts on the energy-momentum tensor. Thus, massless particles that are carriers of energy --such as photons-- are also affected by gravity, leading to a bending of light rays. The first experimental determination of the gravitational light bending was performed by Dyson et~al. in 1919 \cite{Dyson291}, four years after the publication of General Relativity. On this work, the observed apparent position of stars close to the Sun during a solar eclipse were measured and compared with their positions when the Sun is not in front of them. The positions of the stars where shifted as predicted by General Relativity.
 \newline
 
 Dyson et~al. measurement of the gravitational deflection of the light emitted by a background object --a.k.a. source--, relied on the fact that the object that causes of the light deflection --a.k.a. the lens--, can be removed by its own seasonal motion. Nevertheless, this limits the measurement of gravitational light deflection to objects within the Milky Way. The study of the large-scale-structure of the Universe requires the use of extragalactic objects, implying that the object that acts as lens can not be removed, complicating the measurement.
@@ -21,7 +21,7 @@ where $G_N$ is Newton's gravitational constant, $M$ the mass of the lens, $d_{LS
 \end{figure}
 \newline
 
-Finding Einstein rings may be a product of serendipity or digging hard on wide-field images \cite{2017arXiv170402744J}. Nevertheless, the probability of finding a system where observer-lens-source are aligned is very remote and only a small number of Einstein rings are known ($\sim20$ on the Dark Energy Survey Science Verification data). A general solution, where the system is not aligned can be found with the gravitational lens equation.
+Finding Einstein rings may be a product of serendipity or digging hard on wide-field images \cite{2017arXiv170402744J}. Nevertheless, the probability of finding a system where observer-lens-source are aligned is very smalle and only a modest number of Einstein rings are known ($\sim20$ on the Dark Energy Survey Science Verification data). A more general solution, where the system is not aligned can be found with the gravitational lens equation and is more useful for cosmology since the statistics grows enormously.
 
 \section{Lens Equation on Gravitational Fields}
 Since all the photons emitted by the source are bended coherently by the lens, the axis observer-lens constitute an optical convergent system. Thus a lens equation can be deduced using Geometrical Optics with the deflection angle ($\hat\alpha$) of a light ray --photon trajectory-- given by General Relativity \cite{Weinberg,2001PhR...340..291B,2006glsw.conf.....M,2008ARNPS..58...99H,2041-8205-723-1-L13,Weinberg201387,2015RPPh...78h6901K}:
@@ -57,7 +57,7 @@ where $r_\parallel\hat r_\parallel$ denotes the position on the direction define
 \Sigma(\vec r_\perp,r_\parallel^S) = \int\limits_0^{r_\parallel^S} dr_\parallel\rho(r_\parallel,\vec r_\perp),
 \label{eq:surface_density}
 \end{equation}
-where $\vec r^S$ is the position of the source and the quantity $\Sigma$ is called the surface density. Taking into account the flat-sky approximation --that is, all the transverse planes to LoS are parallel-- and summing to all the lens positions, \autoref{eq:deflection_angle} becomes
+where $\vec r^S$ is the position of the source and the quantity $\Sigma$ is called the surface density. Taking into account the flat-sky approximation\footnote{This approximation is responsible of part of the Planck-CFHTLens/KiDS tension.} --that is, all the transverse planes to LoS are parallel-- and summing to all the lens positions, \autoref{eq:deflection_angle} becomes
 \begin{equation}
 \hat\vec\alpha(\vec r_\perp,r_\parallel^S) = \frac{4G_N}{c^2}\int d^2\vec r_\perp \Sigma(\vec r_\perp,r_\parallel^S)\frac{\vec r^S_\perp-\vec r_\perp}{|\vec r^S_\perp-\vec r_\perp|^2}.
 \end{equation}
@@ -129,7 +129,7 @@ Here $\kappa$ is the convergence, an isotropic shape distortion and $\gamma_1,\g
 Taking into account the Born approximation --that is, the light rays of a source galaxy are deflected by only one lens--, the derivatives of the previous equation can be evaluated on the unlensed coordinates.
 
 \subsection{Magnification}
-As it has been demonstrated at the previous section, gravitational lensing increases the observed luminosity on an extended object \cite{1989Sci...245..824B,1992RvMA....5..259B,1992LNP...406..345B,1995A&A...303..643B,1995AIPC..336..307B} such that $L_\mu = \mu L_0$ with 
+As it has been demonstrated in the previous section, gravitational lensing increases the observed luminosity on an extended object \cite{1989Sci...245..824B,1992RvMA....5..259B,1992LNP...406..345B,1995A&A...303..643B,1995AIPC..336..307B} such that $L_\mu = \mu L_0$ with 
 \begin{equation}
 \mu = \frac1{(1-\kappa)^2+\gamma_1^2+\gamma_2^2}\simeq 1+2\kappa,
 \label{eq:mu_definition}
@@ -153,32 +153,32 @@ where $a=1/(1+z)$ is the scale factor and $\bar\rho$ is the average density. Thi
 \kappa(\hat n,z) = \frac{3H_0\Omega_M(z)}{2c^2}\int\limits_0^zdz'\frac{r(z')[r(z)-r(z')]}{(1+z')r(z)}\delta_M(\hat n,z).
 \label{eq:kappadeltam}
 \end{equation}
-The convergence, is the physical observable of Magnification and it traces the matter on the direction of line of sight whereas shear proves the matter on the transverse direction. This makes magnification and shear complementary measurements of the same phenomena. The dependence of magnification is usually splitted into two pieces: the lensing kernel,
+The convergence is the physical observable of magnification and it traces the matter density on the direction of line of sight whereas shear probes the matter on the transverse direction. This makes magnification and shear complementary measurements of the same phenomena. The dependence of magnification is usually split into two pieces: the lensing kernel,
 \begin{equation}
 \mathcal{K}(z) = \frac{r(z')[r(z)-r(z')]}{(1+z')r(z)}.
 \end{equation}
-and the matter density contrast ($\delta_M$). The lensing kernel contains only geometrical information and, for a given set of cosmological parameters, it is fixed. On the other side, the matter density contrast depends strongly on the population of galaxies selected as lens sample.
+and the matter density contrast ($\delta_M$). The lensing kernel contains only geometrical information and, for a given set of cosmological parameters, it is fixed. On the other side, the matter density contrast is sensitive to the growth of structure in the Universe. We see that weak lensing is both a geometrical and growth of structure probe of cosmology.
 \newline
 
 The convergence of the foreground sample can be probed tracing the three effects that it produces on the background sample:
 \begin{itemize}
-\item {\bf Change of the observed density:} The increase of the observed luminosity of the galaxies, allows to see sources that if there were no lensing, would be below our observational threshold nearby the location of the lenses. At the same time, an stretching of the solid angle behind the lenses causes a drop in the number density. This two effects compete between them and who is over the other depends on the slope of the number counts of the sources. Thus, at the neighbourhood of the lenses, a change of the number density respect to the average is produced. This is known as number-counts magnification.
+\item {\bf Change of the observed density:} The increase of the observed luminosity of the galaxies allows to see sources that if there were no lensing, would be below our observational threshold nearby the location of the lenses. At the same time, an stretching of the solid angle behind the lenses causes a drop in the number density. This two effects compete between them and which one is over the other depends on the slope of the number counts of the sources. Thus, at the neighbourhood of the lenses, a change of the number density respect to the average is produced. This is known as number-count magnification.
 \item {\bf Shift on the observed magnitude:} Since the increase of luminosity due to gravitational lensing is a short range effect, a shift on the observed magnitudes may be detected nearby the positions of the lenses. This requires, in principle, the knowledge of the unlensed magnitude of the sources. Nevertheless, although galaxies have a large variety of magnitudes, it can be assumed that, they are randomly distributed. Thus shifts on the magnitudes respect to the average can be detected.
-\item {\bf Size enlargement:} All the effects above are a consequence that the meanwhile surface brightness is conserved, a size enlargement is produced. This effect can be statistically measured despite the fact that the unlensed size is not known. Nevertheless, since galaxies have a large variety of shape and size that is strongly related to its evolution and age, no homogeneity assumption can be made and require the definition of the {\it fundamental plane} \cite{2003AJ....125.1866B}. That kind of work is beyond the scope of this Thesis and further information can be found at Huff \& Graves 2014 \cite{2041-8205-780-2-L16}.
+\item {\bf Size enlargement:} All the effects above are a consequence of the conservation of surface brightness and the size enlargement of the sources. This enlargement can be statistically measured despite the fact that the unlensed size is not known. Nevertheless, since galaxies have a large variety of shapess and size that is strongly related to its evolution and age, no homogeneity assumption can be made and require the use of empirical relations like the {\it fundamental plane} \cite{2003AJ....125.1866B,2041-8205-780-2-L16}.
 \end{itemize}
 
 Traditionally all these probes have been used independently, but the ideal scenario would be a three-way combination that may lead to a cancellation or better estimation of systematic errors.
 \newline
 
-As it has been mentioned before, the knowledge of the unlensed properties of the sources is physically impossible. Thus, all the observable quantities must be formulated in terms of changes of its variation respect the ensemble average with the distance to the lenses. The statistical way to do this is the two-point angular correlation-function. This method, provides a measurement of the average convergence profile of the lenses ($\kappa(\theta)$) as a function of its angular distance $\theta$ of a point to the lens.
+As it has been mentioned before, the knowledge of the unlensed properties of the sources is physically impossible. Thus, all the observable quantities must be formulated in terms of changes of its variation respect the ensemble average with the distance to the lenses. The statistical way to do this is through the two-point angular correlation-function. This method provides a measurement of the average convergence profile of the lenses ($\kappa(\theta)$) as a function of its angular distance $\theta$ of a point to the lens.
 
 \subsubsection{Estimation of $\kappa(\theta)$ with the number counts technique}
-The two-point angular cross-correlation between the lens ($L$) and the source ($S$) is defined as \cite{PhysRevD.77.023512,}
+The two-point angular cross-correlation between positions of galaxies in the sample lens ($L$) and in the source sample ($S$) is defined as \cite{PhysRevD.77.023512,}
 \begin{equation}
 \omega_{LS}(\theta) = \langle\delta_O(\hat n,z_L,f_\mu)\delta_O(\hat n',z_S,f_\mu)\rangle_{\theta}.
 \label{eq:2pacfmagnification}
 \end{equation}
-Where $\delta_O(\hat n,z_L,f_\mu)$ is the observed galaxy density-contrast on the sky direction $\hat n$ and redshift $z_L$ with flux limit $f_\mu$. Since due to magnification galaxies beyond the observable threshold will appear nearby the lenses introducing a non-uniform distribution of galaxies. Thus the observed galaxy density contrast can be expressed as
+Where $\delta_O(\hat n,z_L,f_\mu)$ is the observed galaxy density-contrast on the sky direction $\hat n$ and redshift $z_L$ with flux limit $f_\mu$. $\omega_{LS}$ is not zero, since due to magnification galaxies beyond the observable threshold will appear nearby the lenses introducing a non-uniform distribution of galaxies. Thus the observed galaxy density contrast can be expressed as
 \begin{equation}
 \delta_O(\hat n,z,f_\mu) = \delta_g(\hat n,z)+\delta_\mu(\hat n,z,f_\mu),
 \end{equation}
@@ -187,7 +187,7 @@ where $\delta_g$ is the intrinsic galaxy-density contrast (that is, without magn
 \omega_{LS}(\theta) = \langle\delta_g(z_L)\delta_g(z_S)\rangle+\langle\delta_g(z_L)\delta_\mu(z_S)\rangle+\langle\delta_\mu(z_L)\delta_g(z_S)\rangle+\langle\delta_\mu(z_L)\delta_\mu(z_S)\rangle.
 \label{eq:4t}
 \end{equation}
-Taking into account that $0<z_L<z_S$, and that the lens and the source sample are well redshift separated, the only non vanishing term is
+Taking into account that $0<z_L<z_S$, and that the lens and the source sample are well separated in redshift, the only non vanishing term is
 \begin{equation}
 \omega_{LS}(\theta) = \langle\delta_g(\hat n,z_L)\delta_\mu(\hat n,z_L,f_\mu)\rangle_\theta.
 \end{equation}
@@ -237,7 +237,7 @@ Where, as on  the last section $\delta_g (z,\hat n)$ is the galaxy density contr
 \begin{equation}
 \delta_m(z,\hat n) = m_\mu(\hat n,z)-m_0(\hat n,z),
 \end{equation}
-where $m_\mu$ is the lensed magnitude and $m_0$ the unlensed magnitude. Taking into account that, as it has been demonstrated previously
+where $m_\mu$ is the lensed magnitude and $m_0$ the unlensed magnitude. Taking into account that, as it has been demonstrated previously,
 \begin{equation}
 f_\mu(\hat n,z) = \mu(\hat n,z)f_0(\hat n,z) \Leftrightarrow m_\mu(\hat n,z)-m_0(\hat n,z) = -2.5\log\mu(\hat n,z),
 \end{equation}
@@ -269,7 +269,7 @@ Since gravitational lensing is acromatic, the only dependence with the wavelengt
 E^{\eta\nu}_{LS}(\theta)=\frac{2.5}{\ln 10}\langle\delta_g(\hat n,z_L)[\tau(\hat n',z_S,\lambda_\eta)-\tau(\hat n',z_S,\lambda_nu)]\rangle.
 \end{equation}
 
-Modeling the wavelength dependence of the optical depth as
+Modeling the wavelength dependence of the optical depth as \cite{2010MNRAS.405.1025M}
 \begin{equation}
 \tau_\eta = \tau(\lambda_\eta) = \tau_V\left(\frac{\lambda_V}{\lambda_\eta}\right)^\gamma,
 \end{equation}
@@ -280,7 +280,7 @@ E^{\eta\nu}_{LS}(\theta)=\lambda_V(\lambda_\eta^{-1}-\lambda_\nu^{-1})\frac{2.5}
 At a wide field survey with several broad-band band-pass filters the scale dependence of the optical depth, $\tau_V(\hat n,z_S)$ can be constrained.
 
 \subsection{Shear}
-From the Jacobian of the lensing map, it can be deduced that the transformation is not isotropic producing an elongation along one of the axis $(r_1,r_2) = \vec r_\perp$. Thus, an intrinsically round galaxy is seen as elliptical. On the case of elliptical galaxies, statistically they present a global ellipticicity. From the definition of \autoref{eq:jacobian}, the shear components are given by:
+From the Jacobian of the lensing map, it can be deduced that the transformation is not isotropic producing an elongation along one of the axis $(r_1,r_2) = \vec r_\perp$. Thus, an intrinsically round galaxy is seen as elliptical. On the case of elliptical galaxies, statistically they present a null global ellipticity\footnote{If they do not present null ellipticity it is a systematic effect known as intrinsic alignment.}. From the definition of \autoref{eq:jacobian}, the shear components are given by:
 \begin{equation}
 \gamma_1(\vec r_\perp) = -\frac{1}{2}\left(\frac{\partial^2\psi}{\partial r_1^2}-\frac{\partial^2\psi}{\partial r_2^2}\right)\mbox{ and }\gamma_1(\vec r_\perp) = -\frac{\partial^2\psi}{\partial r_1\partial r_2}.
 \end{equation}
@@ -352,20 +352,20 @@ where $\bar\Sigma(\theta)$ denotes the average surface density on an disk of ang
 \end{equation}
 \newline
 
-The last equation demonstrates that gg-lensing and magnification are produced by the same physical effect. Nevertheless, they have different systematic effects. This can be exploited in order to produce accurate and reliable magnification measurements. 
+The last equation demonstrates that gg-lensing and magnification are produced by the same physical effect. Nevertheless, they have different systematic effects. This can be exploited in order to produce accurate and reliable cosmological measurements. 
 
 \section{Theoretical expressions for $\kappa(\theta)$}
-As it has been stated on the previous section, the convergence profile  is the physical observable for both magnification and gg-lensing. Thus, in order to connect the measurements with a cosmological model, a theoretical expression for it must be provided. Depending on the nature of the lenses considered --that is, whether the lenses are galaxies, voids, clusters or troughs--, the approach may differ.
+As it has been stated on the previous section, the convergence profile  is one of the physical observables for both magnification and gg-lensing. Thus, in order to connect the measurements with a cosmological model, its dependence on the cosmological parameters must be provided. Depending on the nature of the lenses considered --that is, whether the lenses are galaxies, voids, clusters or troughs--, the approach may differ.
 \newline
 
-On this section, are only provided the solutions for galaxies and voids. Although troughs will also be considered on the data analysis, it is beyond the scope of this Thesis and it is still part of an ongoing project. A simple solution can be found on Gruen et~al. \cite{2016MNRAS.455.3367G}. Nevertheless, a more general and complete solution is still to be published.
+On this section, the solutions for galaxies and voids is calculated. A simple solution for troughs can be found on Gruen et~al. \cite{2016MNRAS.455.3367G}.
 \newline
 
-The simplest solution for the convergence profile, is for a sample of galaxies. Taking into account the definition of $\kappa$
+The simplest solution for the convergence profile is for a sample of galaxies. Taking into account the definition of $\kappa$
 \begin{equation}
 \kappa(\theta) = \langle\delta_g(\hat n,z_L)\kappa(\hat n',z_S)\rangle_\theta,
 \end{equation}
-if a linear, constant and redshift-independent galaxy-bias ($b_L$) is considered; a relation between the galaxy density contrast $\delta_g$ and matter density contrast $\delta_M$ can be established:
+if a linear, constant and redshift-independent galaxy-bias ($b_L$) is considered, a relation between the galaxy density contrast $\delta_g$ and matter density contrast $\delta_M$ can be established:
 \begin{equation}
 \delta_g(\hat n,z_L) = b_L\delta_M(\hat n,z_L).
 \end{equation}
@@ -379,14 +379,14 @@ If it is considered that the convergence field $\kappa(\hat n)$ can be expressed
 \end{equation}
 This leads finally to \cite{2003A&A...403..817M}:
 \begin{eqnarray}
-&\kappa(\theta)=\frac{3H_0^2\Omega_M^0}{c^2}\int\limits_0^\infty dz'_L\frac{\phi_L(z'_L)}{1+z'_L}\int\limits_{z'_L}^\infty dz'_S\phi_S(z'_S)\frac{r(z'_L)[r(z'_S)-r(z'_L)]}{r(z'_S)}\times\\
+&\kappa(\theta)=\frac{3H_0^2\Omega_M^0}{2c^2}\int\limits_0^\infty dz'_L\frac{\phi_L(z'_L)}{1+z'_L}\int\limits_{z'_L}^\infty dz'_S\phi_S(z'_S)\frac{r(z'_L)[r(z'_S)-r(z'_L)]}{r(z'_S)}\times\\
 &\int\limits_0^\infty\frac{dkk}{2\pi}P_M(k,z'_L)J_0[k\theta r(z'_i)],\nonumber
 \label{eq:omega0}
 \end{eqnarray}
 where $\phi_L,\phi_S$ are the redshift distributions of the lens and source sample respectively, $P_M$ the matter power spectrum of the lens sample and $J_0$ is the zero-th order Bessel function.
 \newline
 
-The calculation of the convergence profile for a void needs to assume a void profile. A general LTB solution on General Relativity for voids can be found at \cite{2008JCAP...04..003G,2016MNRAS.455.1246F,2016MNRAS.462.1882K}, 
+The calculation of the convergence profile for a void needs to assume a void profile. A solution on General Relativity for voids can be found at \cite{2008JCAP...04..003G,2016MNRAS.455.1246F,2016MNRAS.462.1882K}, based on the LTB metric,
 \begin{equation}
 \delta(r_v) = \delta_0g(a)\left(1-\frac{2}{3}\frac{r_v^2}{r_0^2}\right)\exp\left(-\frac{r_v^2}{r_0^2}\right),
 \end{equation}
@@ -402,11 +402,11 @@ where $q^2=1-e^2$ with $e$ the ellipticity of the void and
 \end{eqnarray}
 Here $r(z)$ is the radial comoving distance at redshift $z$, whereas $z_v$ is the redshit of the center of the void and $\theta$ the angular separation form the center of the void. From \autoref{eq:kgb} and \autoref{eq:kappa_definition}, the convergence profile around a single void can be obtained:
 \begin{equation}
-\kappa(\theta) = \frac{1}{1}\frac{\Sigma_{KGB}(\theta)}{\Sigma_c},
+\kappa(\theta) = \frac{1}{2}\frac{\Sigma_{KGB}(\theta)}{\Sigma_c},
 \end{equation}
 where the surface density is given by
 \begin{equation}
-\Sigma_{KGB}(\theta) = \int\limits_0^\infty dz'\bar\rho_M(z')[\delta_{KGB}(\theta,z')-1].
+\Sigma_{KGB}(\theta) = \int\limits_0^\infty dz'\bar\rho_M(z')[\delta_{KGB}(\theta,z')+1].
 \end{equation}
 Here the $\bar\rho_M(z')$ is the matter average density of the Universe at redshift $z'$, given by
 \begin{equation}

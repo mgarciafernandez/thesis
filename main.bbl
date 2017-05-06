@@ -5705,6 +5705,38 @@
       \verb http://link.aps.org/doi/10.1103/PhysRevD.77.023512
       \endverb
     \endentry
+    \entry{2010MNRAS.405.1025M}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=6f63d6fb42ef37809c32d082bfbd6484}{{Ménard}}{M\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=e15219eb5f11c6deead93069316a721c}{{Scranton}}{S\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=363ee3507a3f80355784a8c598f941b2}{{Fukugita}}{F\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=7cbdd777a5c1a38a4181be8dc4da1a54}{{Richards}}{R\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=6f63d6fb42ef37809c32d082bfbd6484}{{Ménard}}{M\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=e15219eb5f11c6deead93069316a721c}{{Scranton}}{S\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=363ee3507a3f80355784a8c598f941b2}{{Fukugita}}{F\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=7cbdd777a5c1a38a4181be8dc4da1a54}{{Richards}}{R\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{3b8d84357fe8ab0987511de1b6a1248e}
+      \strng{fullhash}{74644669885ed919e192e1bd274bd0e6}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Measuring the galaxy-mass and galaxy-dust correlations through magnification and reddening}}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\mnras}
+      \field{month}{06}
+      \field{title}{{Measuring the galaxy-mass and galaxy-dust correlations through magnification and reddening}}
+      \field{volume}{405}
+      \field{year}{2010}
+      \field{pages}{1025\bibrangedash 1039}
+      \verb{doi}
+      \verb 10.1111/j.1365-2966.2010.16486.x
+      \endverb
+      \verb{eprint}
+      \verb 0902.4240
+      \endverb
+      \keyw{gravitational lensing: weak,dust,extinction,dark matter}
+    \endentry
     \entry{2016MNRAS.455.3367G}{article}{}
       \name{labelname}{92}{}{%
         {{hash=9b6b88e06f65d392c8e92fe35df12790}{{Gruen}}{G\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
@@ -10329,38 +10361,6 @@
       \verb 1101.4796
       \endverb
       \keyw{methods: statistical,cosmology: observations,large-scale structure of Universe,infrared: galaxies}
-    \endentry
-    \entry{2010MNRAS.405.1025M}{article}{}
-      \name{labelname}{4}{}{%
-        {{hash=6f63d6fb42ef37809c32d082bfbd6484}{{Ménard}}{M\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
-        {{hash=e15219eb5f11c6deead93069316a721c}{{Scranton}}{S\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
-        {{hash=363ee3507a3f80355784a8c598f941b2}{{Fukugita}}{F\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=7cbdd777a5c1a38a4181be8dc4da1a54}{{Richards}}{R\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{4}{}{%
-        {{hash=6f63d6fb42ef37809c32d082bfbd6484}{{Ménard}}{M\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
-        {{hash=e15219eb5f11c6deead93069316a721c}{{Scranton}}{S\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
-        {{hash=363ee3507a3f80355784a8c598f941b2}{{Fukugita}}{F\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
-        {{hash=7cbdd777a5c1a38a4181be8dc4da1a54}{{Richards}}{R\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{3b8d84357fe8ab0987511de1b6a1248e}
-      \strng{fullhash}{74644669885ed919e192e1bd274bd0e6}
-      \field{sortinit}{0}
-      \field{labeltitle}{{Measuring the galaxy-mass and galaxy-dust correlations through magnification and reddening}}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{\mnras}
-      \field{month}{06}
-      \field{title}{{Measuring the galaxy-mass and galaxy-dust correlations through magnification and reddening}}
-      \field{volume}{405}
-      \field{year}{2010}
-      \field{pages}{1025\bibrangedash 1039}
-      \verb{doi}
-      \verb 10.1111/j.1365-2966.2010.16486.x
-      \endverb
-      \verb{eprint}
-      \verb 0902.4240
-      \endverb
-      \keyw{gravitational lensing: weak,dust,extinction,dark matter}
     \endentry
     \entry{2011MNRAS.411.2113J}{article}{}
       \name{labelname}{2}{}{%

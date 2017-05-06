@@ -41,7 +41,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Estimation of $\kappa (\theta )$ with magnitude-shift magnification technique}{23}{section*.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Shear}{24}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}Shear}{25}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{The gg-lensing.}{25}{section*.8}
 \defcounter {refsection}{0}\relax 
@@ -55,73 +55,67 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}Survey strategy}{30}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}The transient survey}{30}{subsection.3.2.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}The wide-field survey}{33}{subsection.3.2.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}The night operations at CTIO}{33}{subsection.3.2.3}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.3}The data reduction pipeline}{33}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Current status and latest results}{35}{section.3.4}
+\contentsline {section}{\numberline {3.4}Current status and latest results}{33}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Magnification in DES}{37}{chapter.4}
+\contentsline {chapter}{\numberline {4}Magnification in DES}{39}{chapter.4}
 \ttl@stoptoc {default@3}
 \ttl@starttoc {default@4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Measuring Magnification through Number Count}{37}{section.4.1}
+\contentsline {section}{\numberline {4.1}Measuring Magnification through Number Count}{39}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Magnification in the MICE-GC simulation}{40}{section.4.2}
+\contentsline {section}{\numberline {4.2}Magnification in the MICE-GC simulation}{42}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Magnification in DES Science Verification data}{42}{section.4.3}
+\contentsline {section}{\numberline {4.3}Magnification in DES Science Verification data}{44}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Data sample}{42}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.1}Data sample}{44}{subsection.4.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Lens sample}{43}{section*.9}
+\contentsline {subsubsection}{Lens sample}{45}{section*.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Source sample}{45}{section*.10}
+\contentsline {subsubsection}{Source sample}{47}{section*.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Detection of the weak-lensing magnification signal}{45}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.2}Detection of the weak-lensing magnification signal}{47}{subsection.4.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.3}Systematic error analysis}{54}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.3}Systematic error analysis}{56}{subsection.4.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Number count slope $\alpha $}{54}{section*.11}
+\contentsline {subsubsection}{Number count slope $\alpha $}{56}{section*.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Object obscuration}{54}{section*.12}
+\contentsline {subsubsection}{Object obscuration}{56}{section*.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Stellar contamination}{54}{section*.13}
+\contentsline {subsubsection}{Stellar contamination}{56}{section*.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Survey observing conditions}{56}{section*.14}
+\contentsline {subsubsection}{Survey observing conditions}{58}{section*.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Dust extinction}{59}{section*.15}
+\contentsline {subsubsection}{Dust extinction}{61}{section*.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Photometric redshifts}{62}{section*.16}
+\contentsline {subsubsection}{Photometric redshifts}{64}{section*.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.4}Discussion}{67}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.4}Discussion}{69}{subsection.4.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Magnification in DES Year 1 data}{67}{section.4.4}
+\contentsline {section}{\numberline {4.4}Magnification in DES Year 1 data}{69}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}Data sample}{67}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.1}Data sample}{69}{subsection.4.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Lens sample}{67}{section*.17}
+\contentsline {subsubsection}{Lens sample}{69}{section*.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Source sample}{67}{section*.18}
+\contentsline {subsubsection}{Source sample}{69}{section*.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}Determination of matter profile: voids \& troughs}{68}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.2}Determination of matter profile: voids \& troughs}{70}{subsection.4.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.3}Discussion}{68}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.3}Discussion}{70}{subsection.4.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusions}{69}{chapter.5}
+\contentsline {chapter}{\numberline {5}Conclusions}{71}{chapter.5}
 \ttl@stoptoc {default@4}
 \ttl@starttoc {default@5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix \numberline {A}Stellar contamination equation}{73}{Appendix.1.A}
+\contentsline {chapter}{Appendix \numberline {A}Stellar contamination equation}{75}{Appendix.1.A}
 \ttl@stoptoc {default@5}
 \ttl@starttoc {default@6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix \numberline {B}Additional figures}{75}{Appendix.1.B}
+\contentsline {chapter}{Appendix \numberline {B}Additional figures}{77}{Appendix.1.B}
 \ttl@stoptoc {default@6}
 \ttl@starttoc {default@7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{91}{chapter*.19}
+\contentsline {chapter}{References}{93}{chapter*.22}
 \contentsfinish 
