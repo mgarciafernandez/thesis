@@ -499,25 +499,64 @@ This analysis demonstrates that reliable weak-lensing magnification can be measu
 
 \section{Magnification in DES Year 1 data}
 \label{sec:y1data}
-As the new data-release was available --the DES Year 1 (DES-Y1)-- on May 2016, with more area but less depth, the analysis started after this date were performed here. This new data-sample is much more numerous than DES-SV, allowing to do analyses that were impossible before with the Dark Energy Survey.
+As the new data-release was available --the DES Year 1 (DES-Y1)-- on May 2016, with more area but less depth, the analysis started after this date were performed here. This new data-sample covers more area and has a bigger number of galaxies than DES-SV, allowing to do analyses that were impossible before within the Dark Energy Survey.
 \newline
 
-The goal of this analysis is to use the methodology to measure weak-lensing magnification signal developed at \autoref{sec:analysis_sv} to determine the convergence profile of voids and troughs with the DES-Y1 data. Data sample is described at \autoref{sec:data_sample_y1}. Then, the analysis is described and the results discussed at \autoref{sec:analysis_y1}. Finally a discussion on the analysis can be found at \autoref{sec:discussion_y1}.
+The goal of this analysis is to use the methodology to measure weak-lensing magnification signal developed at \autoref{sec:analysis_sv} to determine the convergence profile of voids and troughs with the DES-Y1 data. Data sample is described at \autoref{sec:data_sample_y1}. Then, the analysis is described \autoref{sec:analysis_y1} following a systematic error study (\autoref{sec:sys_y1}). Finally a discussion on the analysis can be found at \autoref{sec:discussion_y1}.
 
 \subsection{Data sample}
 \label{sec:data_sample_y1}
+The DES Y1-Gold galaxy catalog, amounts 1600 deg$^2$ divided between several fields that include the supernovae fields, the stripe-82 (S82) and the SPT field (see \autoref{fig:des_y1_coverage}).
+\newline
 
+On the DES-Y1 galaxy catalog, the {\scshape redMaPPer} algorithm \cite{2014ApJ...785..104R} is applied to find galaxy-clusters and luminous red galaxies (LRGs) \cite{2016MNRAS.461.1431R,2016ApJS..224....1R} producing the LRG catalog {\scshape redMaGiC}. Using the {\scshape redMaGiC} catalog, two set of independent lenses are produced to measure their convergence profile: voids and troughs.
+\newline
 
-\subsubsection{Lens sample}
-Two lens samples
+The two lenses represent the emptiest regions of the Universe but they are built on a different manner. Voids are defined as the underdensities on the 3D space (ra,dec and redshift) whereas troughs are defined on the 2D matter projection (ra and dec) --that is, redshift integrated--.
+\newline
+
+From the main galaxy catalog, a source sample is build, common to both lens samples.
+
+\subsubsection{Lens sample: voids}
+Following the same approach employed by Sanchez et~al. on DES-SV \cite{2017MNRAS.465..746S}, the void-finder algorithm is applied to the Y1-{\scshape redMaGiC} catalog, finding 533 voids. From this catalog, the voids with centers on the region
+\begin{equation}
+-60 < \mbox{ dec [deg]} < -40
+\end{equation}
+and redshift $z<0.45$ are selected, amounting 193 voids. The spacial distribution of the voids can be seen at \autoref{fig:footprint_voids} whereas the size and underdensity distribution of the voids can be seen at \autoref{fig:prop_voids}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.85\textwidth]{./figures_y1/voids_footprint.png}
+\caption{Spatial distribution of the DES-Y1 voids. The size of the circle is related to the size of the voids.}
+\label{fig:footprint_voids}
+\includegraphics[width=0.85\textwidth]{./figures_y1/voids_prop.png}
+\caption{Distributions of the angular size ($R_v$) and central underdensity ($\delta_0$) of the voids.}
+\label{fig:prop_voids}
+\end{center}
+\end{figure}
+
+\subsubsection{Lens sample: troughs}
+DES-Y1 troughs have been build following the same approach as on the DES-SV data \cite{2016MNRAS.455.3367G}.
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.49\textwidth,trim={4cm 0 4cm 0},clip]{./figures_y1/trough_10_q0.png}
+\includegraphics[width=0.49\textwidth,trim={4cm 0 4cm 0},clip]{./figures_y1/trough_10_q1.png}\\
+\includegraphics[width=0.49\textwidth,trim={4cm 0 4cm 0},clip]{./figures_y1/trough_10_q2.png}
+\includegraphics[width=0.49\textwidth,trim={4cm 0 4cm 0},clip]{./figures_y1/trough_10_q3.png}\\
+\includegraphics[width=0.49\textwidth,trim={4cm 0 4cm 0},clip]{./figures_y1/trough_10_q4.png}
+\end{center}
+\caption{{\scshape HEALPix} maps of the $10'$ troughs for the five quantiles considered ($Q$). Orthographic proyection of the Southern Hemisphere cap.}
+\label{fig:trough_footprint}
+\end{figure}
 
 \subsubsection{Source sample}
-The DES Y1-Gold main galaxy catalog, amounts 1600 deg$^2$ divided between several fields that include the supernovae fields, the stripe-82 (S82) and the SPT field (see \autoref{fig:des_y1_coverage}). From these fields, the largest contiguous area is selected, the SPT.
+From the DES-Y1-Gold main galaxy catalog, the largest contiguous area is selected, the SPT.
 \newline
 
 Regions with declination $ < -60^{\circ}$ are removed in order to avoid the Large Magellanic Cloud and severe stellar contamination from the Milky Way. {\scshape Modest\_class} is employed as star-galaxy classifier in combination with the additional morphological cut:
 \begin{equation}
-\mbox{spread\_model\_i} + \frac{5}{3}\mbox{spreader\_model\_i} > 0.007.
+\mbox{spread\_model\_i} + \frac{5}{3}\ \mbox{spreaderr\_model\_i} > 0.007.
 \end{equation}
 \newline
 
@@ -559,6 +598,9 @@ Here $\rm S_j$ with $\rm j=1,2,3,4$ are the sub-samples of sample S with $\rm S\
 
 \subsection{Determination of matter profile: voids \& troughs}
 \label{sec:analysis_y1}
+
+\subsection{Systematic errors}
+\label{sec:sys_y1}
 
 \subsection{Discussion}
 \label{sec:discussion_y1}

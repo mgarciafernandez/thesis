@@ -2167,8 +2167,13 @@
     <bcf:citekey order="145">2014MNRAS.445.1482S</bcf:citekey>
     <bcf:citekey order="146">2014MNRAS.441.1741G</bcf:citekey>
     <bcf:citekey order="147">2000ApJ...536..571B</bcf:citekey>
-    <bcf:citekey order="148">2013MNRAS.432.1483C</bcf:citekey>
-    <bcf:citekey order="149">2014MNRAS.445.1482S</bcf:citekey>
+    <bcf:citekey order="148">2014ApJ...785..104R</bcf:citekey>
+    <bcf:citekey order="149">2016MNRAS.461.1431R</bcf:citekey>
+    <bcf:citekey order="149">2016ApJS..224....1R</bcf:citekey>
+    <bcf:citekey order="150">2017MNRAS.465..746S</bcf:citekey>
+    <bcf:citekey order="151">2016MNRAS.455.3367G</bcf:citekey>
+    <bcf:citekey order="152">2013MNRAS.432.1483C</bcf:citekey>
+    <bcf:citekey order="153">2014MNRAS.445.1482S</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" type="entry" label="none">
   <bcf:sorting>
