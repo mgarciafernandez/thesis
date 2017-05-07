@@ -499,7 +499,7 @@ This analysis demonstrates that reliable weak-lensing magnification can be measu
 
 \section{Magnification in DES Year 1 data}
 \label{sec:y1data}
-As the new data-release was available --the DES Year 1 (DES-Y1)-- on May 2016, with more area but less depth, the analysis started after this date were performed here. This new data-sample covers more area and has a bigger number of galaxies than DES-SV, allowing to do analyses that were impossible before within the Dark Energy Survey.
+As the new data-release was available --the DES Year 1 (DES-Y1)-- on May 2016, the analysis started after this date were performed here. This new data-sample covers more area and has a bigger number of galaxies than DES-SV, allowing to do analyses that were impossible before within the Dark Energy Survey.
 \newline
 
 The goal of this analysis is to use the methodology to measure weak-lensing magnification signal developed at \autoref{sec:analysis_sv} to determine the convergence profile of voids and troughs with the DES-Y1 data. Data sample is described at \autoref{sec:data_sample_y1}. Then, the analysis is described \autoref{sec:analysis_y1} following a systematic error study (\autoref{sec:sys_y1}). Finally a discussion on the analysis can be found at \autoref{sec:discussion_y1}.
@@ -512,7 +512,7 @@ The DES Y1-Gold galaxy catalog, amounts 1600 deg$^2$ divided between several fie
 On the DES-Y1 galaxy catalog, the {\scshape redMaPPer} algorithm \cite{2014ApJ...785..104R} is applied to find galaxy-clusters and luminous red galaxies (LRGs) \cite{2016MNRAS.461.1431R,2016ApJS..224....1R} producing the LRG catalog {\scshape redMaGiC}. Using the {\scshape redMaGiC} catalog, two set of independent lenses are produced to measure their convergence profile: voids and troughs.
 \newline
 
-The two lenses represent the emptiest regions of the Universe but they are built on a different manner. Voids are defined as the underdensities on the 3D space (ra,dec and redshift) whereas troughs are defined on the 2D matter projection (ra and dec) --that is, redshift integrated--.
+The two lenses represent the emptiest regions of the Universe but they are built on a different manner. Voids are defined as the underdensities on the 3D space (ra,dec and redshift) whereas troughs are defined on the 2D matter projection (ra and dec) --that is, redshift integrated--. To avoid photo-z overlap between lens and source sample, troughs and voids have been defined on the {\scshape redMaGiC} catalog with photo-z $z_{redmagic}<0.45$. It is important to remark that these LRGs have their own photo-z based on a fit to the colors of the red sequence of galaxies. As consequence, the {\scshape redMaGiC} photo-z is more precise than machine-learning or template-based codes.
 \newline
 
 From the main galaxy catalog, a source sample is build, common to both lens samples.
@@ -522,7 +522,7 @@ Following the same approach employed by Sanchez et~al. on DES-SV \cite{2017MNRAS
 \begin{equation}
 -60 < \mbox{ dec [deg]} < -40
 \end{equation}
-and redshift $z<0.45$ are selected, amounting 193 voids. The spacial distribution of the voids can be seen at \autoref{fig:footprint_voids} whereas the size and underdensity distribution of the voids can be seen at \autoref{fig:prop_voids}
+and redshift $z<0.45$ are selected, amounting 193 voids. The spatial distribution of the voids can be seen at \autoref{fig:footprint_voids} whereas the size and underdensity distribution of the voids can be seen at \autoref{fig:prop_voids}
 
 \begin{figure}
 \begin{center}
@@ -536,8 +536,6 @@ and redshift $z<0.45$ are selected, amounting 193 voids. The spacial distributio
 \end{figure}
 
 \subsubsection{Lens sample: troughs}
-DES-Y1 troughs have been build following the same approach as on the DES-SV data \cite{2016MNRAS.455.3367G}.
-
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.49\textwidth,trim={4cm 0 4cm 0},clip]{./figures_y1/trough_10_q0.png}
@@ -546,9 +544,18 @@ DES-Y1 troughs have been build following the same approach as on the DES-SV data
 \includegraphics[width=0.49\textwidth,trim={4cm 0 4cm 0},clip]{./figures_y1/trough_10_q3.png}\\
 \includegraphics[width=0.49\textwidth,trim={4cm 0 4cm 0},clip]{./figures_y1/trough_10_q4.png}
 \end{center}
-\caption{{\scshape HEALPix} maps of the $10'$ troughs for the five quantiles considered ($Q$). Orthographic proyection of the Southern Hemisphere cap.}
+\caption{{\scshape HEALPix} maps of the $10'$ troughs for the five quantiles considered ($Q$). Orthographic projection of the Southern Hemisphere cap.}
 \label{fig:trough_footprint}
 \end{figure}
+
+DES-Y1 troughs have been build following the same approach as Gruen et~al. on the DES-SV data \cite{2016MNRAS.455.3367G}. A trough with angular aperture $\theta_T$ and quantile $Q$ is defined as the regions of the sky such that the probability $P(N)$ that a disk with angular size $\theta_T$ centered at a {\scshape HEALPix} pixel is on the range
+\begin{equation}
+P(N) \in \left[\frac{Q}{5},\frac{Q+1}{5}\right),
+\end{equation}
+with $N$ the number of {\scshape redMaGiC} galaxies. Thus, the $Q=0$ troughs are the 20\% empties disks whereas the $Q=4$ are the 20\% fullest disk (a.k.a peaks) of the log-normal distribution of galaxy counts-in-cells ($P(N)$) \cite{2017MNRAS.466.1444C}.
+\newline
+
+Three through sizes are considered on the analysis $\theta_T=10', 20', 30'$ and five quantiles $Q=0,1,2,3,4$. The spatial distribution of troughs with $\theta_T=10'$ can be found at \autoref{fig:trough_footprint}.
 
 \subsubsection{Source sample}
 From the DES-Y1-Gold main galaxy catalog, the largest contiguous area is selected, the SPT.
@@ -558,8 +565,6 @@ Regions with declination $ < -60^{\circ}$ are removed in order to avoid the Larg
 \begin{equation}
 \mbox{spread\_model\_i} + \frac{5}{3}\ \mbox{spreaderr\_model\_i} > 0.007.
 \end{equation}
-\newline
-
 The following color cuts are made in order to remove outliers in color space:
 \begin{itemize}
 	\item $-1 < g-r < 3$,
@@ -573,28 +578,22 @@ Depth cuts are also imposed on the {\it riz}-bands in order to have uniform dept
 \begin{itemize}
 	\item $r_{\rm lim} > 22.5$,
 	\item $i_{\rm lim} > 22.0$,
-	\item $z_{\rm lim} > 21.0$;
+	\item $z_{\rm lim} > 21.5$;
 \end{itemize}
 where $r_{\rm lim}, i_{\rm lim},z_{\rm lim}$ stand for the magnitude limit in the corresponding band. The resulting footprint, as shown in \autoref{fig:footprint_y1}, after all the masking cuts amounts to $XXXX \mbox{ deg}^2$.
 \newline
 
-Photometric redshifts (photo-z) have been estimated using different techniques. In particular, the fiducial code used in this work employs a machine-learning algorithm (random forests) as implemented by TPZ \cite{2013MNRAS.432.1483C}, which was shown to perform well on SV data \cite{2014MNRAS.445.1482S}. The redshifts of the galaxies are defined according to the mean of the probability density functions given by TPZ ($z_{\rm ph}$). Other methods are also employed to demonstrate that the measured two-point angular cross-correlation are not a feature induced by TPZ.
+Photometric redshifts of the source galaxies have been estimated using the template-based approach BPZ \cite{2000ApJ...536..571B}.
 \newline
 
-Three source samples are defined, one per band:
+Three source samples are defined, one per band, requiring to be the maximum signal-to-noise as described at \autoref{sec:method} without weights:
 \begin{itemize}
-	\item R: $0.7 < z_{\rm ph} < 1.0$ and $r<22.5$;
-	\item I: $0.7 < z_{\rm ph} < 1.0$ and $i<22.0$;
-	\item Z: $0.7 < z_{\rm ph} < 1.0$ and $z<21.5$.
+	\item R: $0.8 < z_{\rm ph} < 1.5$ and $r<21.0$;
+	\item I: $0.8 < z_{\rm ph} < 1.5$ and $i<20.5$;
+	\item Z: $0.8 < z_{\rm ph} < 1.5$ and $z<20.0$.
 \end{itemize}
 
-Following the same approach as in the \autoref{sec:svdata}, the {\scshape mag\_auto} cut along with the previously defined depth cuts also guarantee uniformity on the corresponding band. Within each R, I, Z source sample four sub-samples that map the magnitude evolution are defined,
-\begin{itemize}
-	\item $\rm R_1$: $r<21.0$; $\rm R_2$: $r<21.5$; $\rm R_3$: $r<22.0$; $\rm R_4$: $r<22.5$.
-	\item $\rm I_1$: $i<20.5$; $\rm I_2$: $i<21.0$; $\rm I_3$: $i<21.5$; $\rm I_4$: $i<22.0$.
-	\item $\rm Z_1$: $z<20.0$; $\rm Z_2$: $z<20.5$; $\rm Z_3$: $z<21.0$; $\rm Z_4$: $z<21.5$.
-\end{itemize}
-Here $\rm S_j$ with $\rm j=1,2,3,4$ are the sub-samples of sample S with $\rm S\in \{R,I,Z\}$. In \autoref{fig:stacking}, the redshift distributions of the lens and source sample are shown. Note that the sub-samples $\rm R_4, I_4, Z_4$ are equal to $\rm R, I , Z$ respectively.
+Following the same approach as in the \autoref{sec:svdata}, the {\scshape mag\_auto} cut along with the previously defined depth cuts also guarantee uniformity on the corresponding band.
 
 \subsection{Determination of matter profile: voids \& troughs}
 \label{sec:analysis_y1}
