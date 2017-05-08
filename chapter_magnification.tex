@@ -2,29 +2,29 @@
 \chapter{Magnification in DES}
 \label{ch:magnification}
 
-Extensive wide-field programs have allowed accurate measurements of weak-lensing effects. Previous magnification measurements involve the use of very massive objects as lenses, such as luminous red galaxies (LRGs) and clusters \cite{1995AIPC..336..320B,2014MNRAS.440.3701B,2014MNRAS.439.3755F,2016MNRAS.457.3050C}, or high redshift objects as sources, such as Lyman break galaxies (LBGs) \cite{2009A&A...507..683H,2012MNRAS.426.2489M}, quasars (QSOs) \cite{1979ApJ...227...30S,1989Natur.339..106H,1990A&A...240...11F,1993A&A...268....1B,2002A&A...386..784M,0004-637X-633-2-589} and sub-mm sources  \cite{2011MNRAS.414..596W} to improve signal-to-noise ratio. In addition to the number count technique used on this Thesis, other observational effects produced by magnification have been measured as well: the shift in magnitude \cite{2010MNRAS.405.1025M}, flux \cite{2011MNRAS.411.2113J} and size \cite{2041-8205-780-2-L16}.
+Extensive wide-field galaxy surveys have allowed accurate measurements of weak-lensing effects. Previous magnification measurements involve the use of very massive objects as lenses, such as luminous red galaxies (LRGs) and clusters \cite{1995AIPC..336..320B,2014MNRAS.440.3701B,2014MNRAS.439.3755F,2016MNRAS.457.3050C}, or high redshift objects as sources, such as Lyman break galaxies (LBGs) \cite{2009A&A...507..683H,2012MNRAS.426.2489M}, quasars (QSOs) \cite{1979ApJ...227...30S,1989Natur.339..106H,1990A&A...240...11F,1993A&A...268....1B,2002A&A...386..784M,0004-637X-633-2-589} and sub-mm sources  \cite{2011MNRAS.414..596W} to improve signal-to-noise ratio. In addition to the number count technique used on this Thesis, other observational effects produced by magnification have been measured as well: the shift in magnitude \cite{2010MNRAS.405.1025M}, flux \cite{2011MNRAS.411.2113J} and size \cite{2041-8205-780-2-L16}.
 \newline
 
-On this chapter, first, the methodology to measure magnification is described (\autoref{sec:method}) and validated with simulations (\autoref{sec:mice}). Then, the methodology is used to measure the magnification signal at the Dark Energy Survey Science Verification data (SV; \autoref{sec:svdata}). Finally, the same technique used at the DES-SV data is employed to measure the convergence profile of voids and troughs with the Year 1 data (Y1; \autoref{sec:y1data}).
+On this chapter, first, the methodology to measure magnification is described (\autoref{sec:method}) and validated with simulations (\autoref{sec:mice}). Then, the methodology is used to measure the magnification signal at the Dark Energy Survey Science Verification data (SV; \autoref{sec:svdata}). Finally, it is employed to measure the convergence profile of voids and troughs with the Year 1 data (Y1; \autoref{sec:y1data}).
 \newline
 
 It is worth to remark that, as it has been defined at \autoref{ch:theory}, given both the redshift of the lenses and the sources, the convergence is a two-dimensional scalar field that is independent on the selected lens or source sample. Nevertheless, by choosing the suitable lens sample, different parts of the log-normal distribution of the convergence field \cite{2017MNRAS.466.1444C} can be probed, leading to a different convergence profile.
 
 \section{Measuring Magnification through Number Count}
 \label{sec:method}
-As it has been described at \autoref{ch:theory}, the amplitude of the magnification signal is dependent on two factors: the number-count slope parameter ($\alpha-1$) and the lensing kernel, that for a given lens sample, depends on the redshift of the source sample. LBGs and QSOs has been traditionally used on magnification studies as sources since they have an steep magnitude distribution, leading to a high value of $\alpha-1$. In addition, this population of galaxies is located at very high redshift ($2\lesssim z\lesssim 4$), leading to a high lensing efficiency and a clean redshift separation between the lens and source sample. Nevertheless, this population of galaxies has much less density than the general population of galaxies, feature that can prevent the measurement of a magnification signal for low-area surveys. In addition, the selection of a population of LBGs involve the known as {\it dropout} technique, that requires the development of a custom data-reduction pipeline just to select this specific population of galaxies. For large-area surveys such as DES and LSST, the amount of computing time to run the data-reduction pipeline is enormous ($\sim 1$ year), reaching manpower and infrastructure limitations.
+As it has been described at \autoref{ch:theory}, the amplitude of the magnification signal is dependent on two factors: the number-count slope parameter ($\alpha-1$) and the lensing kernel, that for a given lens sample, depends on the redshift of the source sample. LBGs and QSOs have been traditionally used on magnification studies as sources since they have steep magnitude distribution, leading to a high value of $\alpha-1$. In addition, this population of galaxies is located at very high redshift ($2\lesssim z\lesssim 4$), leading to a high lensing efficiency and a clean redshift separation between the lens and source samples. Nevertheless, this population of galaxies has much less density than the general population of galaxies, feature that can prevent the measurement of a magnification signal for low-area surveys. In addition, the selection of a population of LBGs involve the known as {\it dropout} technique, that requires the development of a custom data-reduction pipeline just to select this specific population of galaxies. For large-area surveys such as DES and LSST, the amount of computing time to run the data-reduction pipeline makes this approach very inefficient, and alternative methods must be developed.
 \newline
 
-The caveats related to the use of LBGs and QSOs as sources can be avoided by selecting galaxies from the general population of galaxies, that is, not selecting an specific subset of the full sample of galaxies. Then, only redshift cuts are imposed in order to separate the lens and source samples. This approach has the advantage that the density of the source sample is more populated, reducing significantly the shot-noise. Nevertheless, the accuracy on the determination of the redshift on broad-band galaxy-surveys --such as DES-- is very limited, introducing an important source of systematic errors that must be avoided and carefully taken into account.
+The caveats related to the use of LBGs and QSOs as sources can be avoided by using the general galaxy population. Then, only redshift cuts are imposed in order to separate the lens and source samples. This approach has the advantage that the density of the source sample is higher, reducing significantly the shot-noise. Nevertheless, the accuracy on the determination of the redshift on broad-band galaxy-surveys --such as DES-- is very limited, introducing an important source of systematic errors that must be avoided and carefully taken into account.
 \newline
 
-In addition to the lens-source redshift overlap, magnification suffers from several systematic errors based on the photometry \cite{2015MNRAS.454.3121M,2016MNRAS.455.3943H}, such as: depth-inhomogeneities, patchiness of the zero-point correction and calibration, or shifts on the magnitude determination due to wrong sky-background subtraction. The important reduction of shot-noise on wide-field surveys requires the development of new techniques to estimate these systematic errors.
+In addition to the lens-source redshift overlap, magnification suffers from several systematic errors based on the photometry \cite{2015MNRAS.454.3121M,2016MNRAS.455.3943H}, such as: depth-inhomogeneities, the zero-point correction and calibration, or shifts on the magnitude determination due to inaccurate sky-background subtraction. The important reduction of shot-noise on wide-field surveys requires the development of new techniques to estimate and control these systematic errors.
 \newline
 
-The use of the general population of galaxies on shallow small-area surveys is mandatory to reach a significance that allows the detection of the magnification signal. On wide-area surveys the use of this population is not necessary although new studies can be made if it is used. Having a very dense population of galaxies as sources allows to use a set of lenses that are less numerous: voids and troughs. This allows to produce new physics analysis.
+The use of the general population of galaxies on small-area surveys is mandatory to reach a significance that allows the detection of the magnification signal. On wide-area surveys the use of this population is not necessary although new studies can be made if it is used. Having a very dense population of galaxies as sources allows to use a set of lenses that are less numerous: voids and troughs. This allows to produce new physics analysis.
 \newline
 
-The usual approach that can be found on the literature to measure magnification the {\it optimal weighting} technique \cite{2003A&A...403..817M}. This methodology can be summarized as follows:
+The usual approach that can be found on the literature to measure magnification is the {\it optimal weighting} technique \cite{2003A&A...403..817M}. This methodology can be summarized as follows:
 \begin{enumerate}
 \item Split data sample into two well-separated photo-z bins, termed lens and source. Splitting must be done minimizing the overlap between the true redshift distributions of the samples. Otherwise, by \autoref{eq:4t}, an additive signal is introduced.
 \item Weight each source galaxy by its {\it optimal weight}.
@@ -34,10 +34,10 @@ The weight of the $i$-th galaxy ($w_i$) is given by:
 \begin{equation}
 w_i = \alpha_S(m_i)-1,
 \end{equation}
-where $\alpha_S(m_i)$ is the number-count slope given by \autoref{eq:alpha} and $m_i$ is the magnitude of the $i$-th galaxy. This procedure allows to obtain the maximum signal-to-noise. Nevertheless, this weighting makes hard to model the impact of the different systematic effects on the measured signal.
+where $\alpha_S(m_i)$ is the number-count slope given by \autoref{eq:alpha} and $m_i$ is the magnitude of the $i$-th galaxy. This procedure allows to obtain the maximum signal-to-noise. Nevertheless, this weighting makes hard to obtain the impact of the different systematic effects on the measured signal.
 \newline
 
-As an alternative approach the following procedure is proposed:
+As an alternative approach the following procedure is proposed and implemented:
 \begin{enumerate}
 	\item Split the data sample into two well-separated photo-z bins, termed lens and source. Splitting must be done minimizing the overlap between the true redshift distributions of the samples. Otherwise, by \autoref{eq:4t}, an additive signal is introduced.
 	\item For each photometric band, define several subsamples from the source sample using different values for the maximum (threshold) magnitude. This is made in order to trace the evolution of the amplitude of the magnification signal with the number count slope (see \autoref{eq:alpha}).
@@ -70,16 +70,13 @@ where $\Omega$ is the solid angle subtended by an annulus with edges the maximum
 \frac{S}{N} \sim [\alpha(m)-1]\sqrt{N_S(m)},
 \label{eq:maxsn}
 \end{equation}
-is independent of cosmological and covariance assumptions up to a constant factor, allowing us to use this expression for finding the optimal cut that maximizes the signal-to-noise ratio.
-\newline
-
-\autoref{eq:maxsn} finds the magnitude cut with the maximum signal-to-noise for a given source sample. Nevertheless, this requires the use of less data than the {\it optimal weighting } approach, reaching a lower significance since less information is used. To overcome this, all the magnitude cuts within a band --not just the maximum-- are used, tracing the number-count slope evolution.
+is independent of cosmological and covariance assumptions up to a constant factor, allowing us to use this expression for finding the optimal cut that maximizes the signal-to-noise ratio. \autoref{eq:maxsn} finds the magnitude cut with the maximum signal-to-noise for a given source sample.
 
 \section{Magnification in the MICE-GC simulation}
 \label{sec:mice}
 \begin{sidewaysfigure}
 \includegraphics[width=\textwidth,trim={0 2.3cm 0 3.5cm},clip]{./figures/mag_i_MICE.pdf}
-\caption{Two-point angular cross-correlation functions for the MICE simulation (sample $i < 21.5$): measured, both with magnification (blue dots) and without (grey shade), versus that expected from the MICE cosmological parameters, both with magnification (green solid line) and without (red dashed line), the latter being zero.}
+\caption{Two-point angular cross-correlation functions for the MICE simulation ($i$-band sample): measured, both with magnification (blue dots) and without (grey shade), versus that expected from the MICE cosmological parameters, both with magnification (green solid line) and without (red dashed line), the latter being zero.}
 \label{fig:MICE}
 \end{sidewaysfigure}
 In order to test the methodology described above in a controlled environment, isolated from any source of systematic error, it is applied to a simulated galaxy sample, in particular {\scshape MICECAT v1.0}.
@@ -89,14 +86,14 @@ Among other properties, MICE-GC provides lensed and unlensed coordinates, true r
 Conversion from unlensed magnitudes to lensed magnitudes can be done by applying $m_\mu = m_0-2.5\log_{10}(1+2\kappa)$.
 
 Having two sets of coordinates and magnitudes, one in a `universe' with magnification and another without magnification, allows us to follow the methodology described in \autoref{sec:method} for both cases,
-serving as a test-bench to measure the sensitivity of the method to the magnification effect. In order to have a fiducial function with as little statistical uncertainty as possible, the full 5000 deg$^2$ of the MICE simulation are used. To match as much as possible the conditions of the DES-SV data, the magnitude cuts described in \autoref{sec:data_sample_SV} are applied to the lens and source samples. The covariance matrices of data (see \autoref{sec:svdata}) are used, in order to match the errors in the DES-SV sample.
+serving as a test-bench to measure the sensitivity of the method to the magnification effect. The full 5000 deg$^2$ of the MICE simulation are used, but to match as much as possible the conditions of the DES-SV data, the magnitude cuts described in \autoref{sec:data_sample_SV} are applied to the lens and source samples. The covariance matrices of data (see \autoref{sec:svdata}) are used, in order to match the errors in the DES-SV sample.
 
 In \autoref{fig:MICE}, the results of the magnification analysis in the MICE simulation for the cases with and without magnification can be seen compared with the theoretical expectations. The methodology used in this work clearly allows us to distinguish both cases for a data-set similar to that of the DES-SV data. Nevertheless, results obtained with the MICE simulation can not be directly extrapolated to SV data to estimate the expected significance because the density of galaxies on the simulation is a factor $\sim3$ smaller than on the SV data. Also, the luminosity function of the simulation is slightly different from the DES data, which has a direct impact on the number count slope and, consequently, on the amplitude of the measured signal.
 
 
 \section{Magnification in DES Science Verification data}
 \label{sec:svdata}
-As of January 2014 --when I started my PhD--, the only data available at DES was the Science Verification data. The first data-release from DES. This data were taken just for testing purposes and in order to explore the capabilities of the experiment. Thus, although the nominal depth of the survey was reached, only $\sim 150$ deg$^2$ where taken. Taking this into account, only $10^4$ LBGs are expected at the full DES-SV data, preventing the measurement of magnification with the usual approach. Thus, in order to be capable to reach a detection of the magnification signal with the DES-SV data, the general population of galaxies was selected both as lens and source sample.
+As of January 2014 --when I started my PhD--, the only data available at DES was the Science Verification data. The first data-release from DES. This dataset was taken just for testing purposes and in order to explore the capabilities of the experiment. Thus, although the nominal depth of the survey was reached, only $\sim 150$ deg$^2$ where taken. Taking this into account, only $10^4$ LBGs are expected at the full DES-SV data, preventing the measurement of magnification with the usual approach. Thus, in order to be capable to reach a detection of the magnification signal with the DES-SV data, the general population of galaxies was selected both as lens and source sample.
 \newline
 
 The goal of this analysis is to detect a weak-lensing magnification signal and develop methodology to mitigate systematic errors. Data sample is described at \autoref{sec:data_sample_SV}. Then, the analysis is described and the results discussed at \autoref{sec:analysis_sv} following the analysis of the possible systematic errors on \autoref{sec:sys}. Finally a discussion on the analysis can be found at \autoref{sec:discussion_sv}.
@@ -118,7 +115,7 @@ where {\it g}, {\it r}, {\it i}, {\it z} stand for the corresponding {\scshape m
 Regions of the sky that are tagged as bad, amounting to four per cent of the total area, are removed. An area of radius 2 arcminutes around each 2MASS star is masked to avoid stellar halos \cite{2005MNRAS.361.1287M,0004-637X-633-2-589}.
 \newline
 
-The DES Data Management \cite{2011arXiv1109.6741S,2012ApJ...757...83D,2012SPIE.8451E..0DM} produces a {\scshape mangle}\footnote{http://space.mit.edu/$\sim$molly/mangle/} \cite{2008MNRAS.387.1391S}  magnitude limit mask that is later translated to a $N_{\rm side}=4096$ {\scshape HEALPix}\footnote{healpix.jpl.nasa.gov} \cite{2005ApJ...622..759G} mask. Since the {\scshape HEALPix} mask is a division of the celestial sphere with romboid-like shaped pixels with the same area, to avoid boundary effects due to the possible mismatch between the {\scshape mangle} and {\scshape HEALPix} masks, each pixel is required to be totally inside the observed footprint as determined by {\scshape mangle}, by demanding
+The DES Data Management \cite{2011arXiv1109.6741S,2012ApJ...757...83D,2012SPIE.8451E..0DM} produces a {\scshape mangle}\footnote{http://space.mit.edu/$\sim$molly/mangle/} \cite{2008MNRAS.387.1391S}  magnitude limit mask that is later translated to a $N_{\rm side}=4096$ {\scshape HEALPix}\footnote{healpix.jpl.nasa.gov} \cite{2005ApJ...622..759G} mask. Since the {\scshape HEALPix} mask is a division of the celestial sphere with romboid-like shaped pixels of the same area, to avoid boundary effects due to the possible mismatch between the {\scshape mangle} and {\scshape HEALPix} masks, each pixel is required to be totally inside the observed footprint as determined by {\scshape mangle}, by demanding
 \begin{itemize}
 	\item $r_{\rm fracdet}=1$,
 	\item $i_{\rm fracdet}=1$,
@@ -210,17 +207,17 @@ Measured two-point angular cross-correlation functions and $\Lambda$CDM weak len
 \begin{sidewaysfigure}
 \includegraphics[width=\textwidth,trim={0 2.3cm 0 3.5cm},clip]{./figures/mag_r.pdf}
 \label{fig:resultsSV_r}
-\caption{Magnification signal for the DES-SV {\it r}-band sample.}
+\caption{Magnification signal for the DES-SV {\it r}-band sample. Blue dots are the measurement and red-dashed line is an eye-guide for zero. The green-solid line is theoretical predictions using \autoref{eq:omega0} and assuming Planck Collaboration 2015 cosmological parameters and a a constant scale-independent linear bias of $b_L=1.07$.}
 \end{sidewaysfigure}
 \begin{sidewaysfigure}
 \includegraphics[width=\textwidth,trim={0 2.3cm 0 3.5cm},clip]{./figures/mag_i.pdf}
 \label{fig:resultsSV_i}
-\caption{Magnification signal for the DES-SV {\it i}-band sample.}
+\caption{Magnification signal for the DES-SV {\it i}-band sample. Blue dots are the measurement and red-dashed line is an eye-guide for zero. The green-solid line is theoretical predictions using \autoref{eq:omega0} and assuming Planck Collaboration 2015 cosmological parameters and a a constant scale-independent linear bias of $b_L=1.07$.}
 \end{sidewaysfigure}
 \begin{sidewaysfigure}
 \includegraphics[width=\textwidth,trim={0 2.3cm 0 3.5cm},clip]{./figures/mag_z.pdf}
 \label{fig:resultsSV_z}
-\caption{Magnification signal for the DES-SV {\it z}-band sample.	}
+\caption{Magnification signal for the DES-SV {\it z}-band sample.	 Blue dots are the measurement and red-dashed line is an eye-guide for zero. The green-solid line is theoretical predictions using \autoref{eq:omega0} and assuming Planck Collaboration 2015 cosmological parameters and a a constant scale-independent linear bias of $b_L=1.07$.}
 \end{sidewaysfigure}
 \newline
 
@@ -369,13 +366,13 @@ no intrinsic magnification signal has been included. The {\scshape Balrog} softw
 (convolving the objects with the measured point spread function, and applying the measured photometric calibration). Then {\scshape SExtractor} was run on them, using the same DES Data Management configuration parameters used for the image processing. The positions for the simulated objects were generated randomly over the celestial sphere, meaning that these positions are intrinsically unclustered. Hence, the detected {\scshape Balrog} objects amount to a set of random points, which sample the survey detection probability. For a full description and an application to the same measurement as in \cite{2016MNRAS.455.4301C} see \cite{2016MNRAS.457..786S}. This is the first time that this extensive simulation is used to correct for systematics. The same cuts and masking of the data sample (\autoref{sec:data_sample_SV}) are also applied to the the {\scshape Balrog} sample. A re-weighting following a nearest-neighbours approach was applied to {\scshape Balrog} objects in order to follow the same magnitude distribution of the DES-SV data on both lens and sources.
     \newline
     
-     The use of Monte Carlo sampling methods provides a new approach to mitigate systematic effects complementary to methods that cross-correlate the galaxy-positions with the maps of the survey observing conditions \cite{2012MNRAS.424..564R,2012ApJ...761...14H,2015MNRAS.454.3121M} or involve masking the regions of the sky with worst values of the observing conditions \cite{2016MNRAS.455.4301C}. The amount of sky to be masked in order to mitigate the systematic effects on the correlation functions, is freely decided based on the impact on the correlation function, which may lead to a biassed measurement. On the other hand, the approach involving cross-correlations may lead to an overcorrection effect since the different maps of the observing conditions are, in general, correlated in a complicated manner \cite{2016MNRAS.456.2095E}. This new Monte Carlo technique to sample the selection function of the survey given by {\scshape Balrog}, has the advantage that takes into account the correlation of the different observing conditions maps as well as provides an objective criteria to mitigate systematic errors on the correlation function for a given sample, avoiding biassed measurements. In addition, the use of {\scshape Balrog} has the potential to allow us in the future to exploit the full depth of the survey \cite{2016MNRAS.457..786S}.
+     The use of Monte Carlo sampling methods provides a new approach to mitigate systematic effects complementary to methods that cross-correlate the galaxy-positions with the maps of the survey observing conditions \cite{2012MNRAS.424..564R,2012ApJ...761...14H,2015MNRAS.454.3121M} or involve masking the regions of the sky with worst values of the observing conditions \cite{2016MNRAS.455.4301C}. The amount of sky to be masked in order to mitigate the systematic effects on the correlation functions, is decided based on the impact on the correlation function, which may lead to a biassed measurement. On the other hand, the approach involving cross-correlations may lead to an overcorrection effect since the different maps of the observing conditions are, in general, correlated in a complicated manner \cite{2016MNRAS.456.2095E}. This new Monte Carlo technique to sample the selection function of the survey given by {\scshape Balrog}, has the advantage that takes into account the correlation of the different observing conditions maps as well as provides an objective criteria to mitigate systematic errors on the correlation function for a given sample, avoiding biassed measurements. In addition, the use of {\scshape Balrog} has the potential to allow us in the future to exploit the full depth of the survey \cite{2016MNRAS.457..786S}.
 \newline
 
 {\scshape Balrog} allows to explore how the {\it real} properties of the galaxies are mapped into the observed ones. One might think that it may be translated from observed to real quantities. This is not possible since that although the $real\rightarrow observed$ map is one-to-one, meanwhile the $observed\rightarrow real$ is not.
 \newline
 
-Although the use of {\scshape Balrog} is a ground-breaking technique on the mitigation of systematic errors, its limitation must be taken into account. The simulated catalogs are as good as the input catalogs are an accurate representation of the reality. Thus, if an specific population of galaxies is not on the input, it will not be taken into account. DES-SV {\scshape Balrog} catalogs are based on the {\scshape COSMOS} survey\footnote{cosmos.astro.caltech.edu}, that is based on images from the Hubble Telescope that are deeper than the DES survey. Thus, the overall quality of the input catalog is better than DES. Thus this should not be a limitation on this analysis.
+Although the use of {\scshape Balrog} is a ground-breaking technique on the mitigation of systematic errors, its limitation must be taken into account. The simulated catalogs inherit the properties of the input catalogs. Thus, if an specific population of galaxies is not accurately described in the input, it will not be accurately taken into account. DES-SV {\scshape Balrog} catalogs are based on the {\scshape COSMOS} survey\footnote{cosmos.astro.caltech.edu}, that is based on images from the Hubble Telescope which are deeper than the DES survey. Thus, the overall quality of the input catalog should be good enough to simulate DES and this should not be a limitation on this analysis.
 
 \subsubsection{Dust extinction}
 \label{sec:dustext}
@@ -488,13 +485,13 @@ All previous calculations were based on the assumption that the pdfs are a relia
 \subsection{Discussion}
 \label{sec:discussion_sv}
 
-On this analysis, the weak-lensing magnification signal has been detected on the DES-SV data using the general population of galaxies. In addition, a thorough and detailed study of the possible systematic effects is made. The systematic error estimation has been made, for the first time, with the help of two simulations: MICE --a N-body-- and {\scshape Balrog} --an image simulation--.
+On this analysis, the weak-lensing magnification signal has been detected on the DES-SV data using the general population of galaxies. In addition, a thorough and detailed study of the systematic effects has been made. The systematic error estimation has been computed, for the first time, with the help of two simulations: MICE --a N-body-- and {\scshape Balrog} --an image simulation--.
 \newline
 
 From all of the systematic error estimation, two of them have shown to be critical for magnification on photometric surveys: the observing conditions and the photo-z migration between the lens and the source sample.
 \newline
 
-This analysis demonstrates that reliable weak-lensing magnification can be measured accurately for a galaxy survey such as DES, opening a whole new window to new physic analysis within the experiment.
+This analysis demonstrates that reliable weak-lensing magnification can be measured accurately for a galaxy survey such as DES, opening a whole new window to new physics analysis within the experiment.
 
 
 \section{Magnification in DES Year 1 data}
