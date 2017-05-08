@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.7.5)  7 MAY 2017 12:49
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.7.5)  8 MAY 2017 10:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2756,9 +2756,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 586--588
 
  []
 
-) (./chapter_conclusions.tex [73] [74
-
-]
+[73]) (./chapter_conclusions.tex [74]
 Chapter 5.
 File: Pictures/head2.png Graphic file (type png)
 <use Pictures/head2.png>
@@ -2794,7 +2792,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--21
 
  []
 
-[75]
+[75
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 22--24
 
  []
@@ -2836,7 +2836,7 @@ File: Pictures/head2.png Graphic file (type png)
 Package pdftex.def Info: Pictures/head2.png used on input line 1.
 (pdftex.def)             Requested size: 597.50787pt x 298.90431pt.
 
-<./figures_appendix/SPTE_SNe_r.pdf, id=1824, 569.12625pt x 384.43625pt>
+<./figures_appendix/SPTE_SNe_r.pdf, id=1832, 569.12625pt x 384.43625pt>
 File: ./figures_appendix/SPTE_SNe_r.pdf Graphic file (type pdf)
 
 <use ./figures_appendix/SPTE_SNe_r.pdf>
@@ -2844,7 +2844,7 @@ Package pdftex.def Info: ./figures_appendix/SPTE_SNe_r.pdf used on input line 8
 .
 (pdftex.def)             Requested size: 353.1014pt x 238.52399pt.
 
-<./figures_appendix/SPTE_SNe_z.pdf, id=1825, 569.12625pt x 384.43625pt>
+<./figures_appendix/SPTE_SNe_z.pdf, id=1833, 569.12625pt x 384.43625pt>
 File: ./figures_appendix/SPTE_SNe_z.pdf Graphic file (type pdf)
 
 <use ./figures_appendix/SPTE_SNe_z.pdf>
@@ -2852,7 +2852,7 @@ Package pdftex.def Info: ./figures_appendix/SPTE_SNe_z.pdf used on input line 1
 0.
 (pdftex.def)             Requested size: 353.1014pt x 238.52399pt.
 
-<./figures_appendix/mag_r_MICE.pdf, id=1826, 569.12625pt x 385.44pt>
+<./figures_appendix/mag_r_MICE.pdf, id=1834, 569.12625pt x 385.44pt>
 File: ./figures_appendix/mag_r_MICE.pdf Graphic file (type pdf)
 
 <use ./figures_appendix/mag_r_MICE.pdf>
@@ -2860,7 +2860,7 @@ Package pdftex.def Info: ./figures_appendix/mag_r_MICE.pdf used on input line 1
 6.
 (pdftex.def)             Requested size: 674.33032pt x 261.18602pt.
 
-<./figures_appendix/mag_z_MICE.pdf, id=1828, 569.12625pt x 385.44pt>
+<./figures_appendix/mag_z_MICE.pdf, id=1836, 569.12625pt x 385.44pt>
 File: ./figures_appendix/mag_z_MICE.pdf Graphic file (type pdf)
 
 <use ./figures_appendix/mag_z_MICE.pdf>
@@ -2868,7 +2868,7 @@ Package pdftex.def Info: ./figures_appendix/mag_z_MICE.pdf used on input line 2
 1.
 (pdftex.def)             Requested size: 674.33032pt x 261.18602pt.
 
-<./figures_appendix/cov_matrix_mag_auto_r.pdf, id=1830, 569.12625pt x 550.055pt
+<./figures_appendix/cov_matrix_mag_auto_r.pdf, id=1838, 569.12625pt x 550.055pt
 >
 File: ./figures_appendix/cov_matrix_mag_auto_r.pdf Graphic file (type pdf)
  <use ./figures_appendix/cov_matrix_mag_auto_r.pdf>
@@ -2876,7 +2876,7 @@ Package pdftex.def Info: ./figures_appendix/cov_matrix_mag_auto_r.pdf used on i
 nput line 27.
 (pdftex.def)             Requested size: 332.3296pt x 287.97583pt.
 
-<./figures_appendix/cov_matrix_mag_auto_z.pdf, id=1832, 569.12625pt x 550.055pt
+<./figures_appendix/cov_matrix_mag_auto_z.pdf, id=1840, 569.12625pt x 550.055pt
 >
 File: ./figures_appendix/cov_matrix_mag_auto_z.pdf Graphic file (type pdf)
  <use ./figures_appendix/cov_matrix_mag_auto_z.pdf>
@@ -2884,7 +2884,7 @@ Package pdftex.def Info: ./figures_appendix/cov_matrix_mag_auto_z.pdf used on i
 nput line 29.
 (pdftex.def)             Requested size: 332.3296pt x 287.97583pt.
 
-<./figures_appendix/mag_r_photoz_comparison.pdf, id=1834, 569.12625pt x 385.44p
+<./figures_appendix/mag_r_photoz_comparison.pdf, id=1842, 569.12625pt x 385.44p
 t>
 File: ./figures_appendix/mag_r_photoz_comparison.pdf Graphic file (type pdf)
  <use ./figures_appendix/mag_r_photoz_comparison.pdf>
@@ -2892,7 +2892,7 @@ Package pdftex.def Info: ./figures_appendix/mag_r_photoz_comparison.pdf used on
  input line 35.
 (pdftex.def)             Requested size: 674.33032pt x 261.18602pt.
 
-<./figures_appendix/mag_z_photoz_comparison.pdf, id=1836, 569.12625pt x 385.44p
+<./figures_appendix/mag_z_photoz_comparison.pdf, id=1844, 569.12625pt x 385.44p
 t>
 File: ./figures_appendix/mag_z_photoz_comparison.pdf Graphic file (type pdf)
  <use ./figures_appendix/mag_z_photoz_comparison.pdf>
@@ -2900,7 +2900,7 @@ Package pdftex.def Info: ./figures_appendix/mag_z_photoz_comparison.pdf used on
  input line 40.
 (pdftex.def)             Requested size: 674.33032pt x 261.18602pt.
 
-<./figures_appendix/mag_rdust.pdf, id=1838, 569.12625pt x 385.44pt>
+<./figures_appendix/mag_rdust.pdf, id=1846, 569.12625pt x 385.44pt>
 File: ./figures_appendix/mag_rdust.pdf Graphic file (type pdf)
 
 <use ./figures_appendix/mag_rdust.pdf>
@@ -2908,7 +2908,7 @@ Package pdftex.def Info: ./figures_appendix/mag_rdust.pdf used on input line 45
 .
 (pdftex.def)             Requested size: 674.33032pt x 261.18602pt.
 
-<./figures_appendix/mag_zdust.pdf, id=1840, 569.12625pt x 385.44pt>
+<./figures_appendix/mag_zdust.pdf, id=1848, 569.12625pt x 385.44pt>
 File: ./figures_appendix/mag_zdust.pdf Graphic file (type pdf)
 
 <use ./figures_appendix/mag_zdust.pdf>
@@ -2916,7 +2916,7 @@ Package pdftex.def Info: ./figures_appendix/mag_zdust.pdf used on input line 50
 .
 (pdftex.def)             Requested size: 674.33032pt x 261.18602pt.
 
-<./figures_appendix/mag_r_mix.pdf, id=1842, 569.12625pt x 385.44pt>
+<./figures_appendix/mag_r_mix.pdf, id=1850, 569.12625pt x 385.44pt>
 File: ./figures_appendix/mag_r_mix.pdf Graphic file (type pdf)
 
 <use ./figures_appendix/mag_r_mix.pdf>
@@ -2924,7 +2924,7 @@ Package pdftex.def Info: ./figures_appendix/mag_r_mix.pdf used on input line 55
 .
 (pdftex.def)             Requested size: 674.33032pt x 261.18602pt.
 
-<./figures_appendix/mag_z_mix.pdf, id=1844, 569.12625pt x 385.44pt>
+<./figures_appendix/mag_z_mix.pdf, id=1852, 569.12625pt x 385.44pt>
 File: ./figures_appendix/mag_z_mix.pdf Graphic file (type pdf)
 
 <use ./figures_appendix/mag_z_mix.pdf>
@@ -2932,7 +2932,7 @@ Package pdftex.def Info: ./figures_appendix/mag_z_mix.pdf used on input line 60
 .
 (pdftex.def)             Requested size: 674.33032pt x 261.18602pt.
 
-<./figures_appendix/mag_r_ri.pdf, id=1846, 569.12625pt x 385.44pt>
+<./figures_appendix/mag_r_ri.pdf, id=1854, 569.12625pt x 385.44pt>
 File: ./figures_appendix/mag_r_ri.pdf Graphic file (type pdf)
 
 <use ./figures_appendix/mag_r_ri.pdf>
@@ -2940,7 +2940,7 @@ Package pdftex.def Info: ./figures_appendix/mag_r_ri.pdf used on input line 65.
 
 (pdftex.def)             Requested size: 674.33032pt x 261.18602pt.
 
-<./figures_appendix/mag_z_ri.pdf, id=1848, 569.12625pt x 385.44pt>
+<./figures_appendix/mag_z_ri.pdf, id=1856, 569.12625pt x 385.44pt>
 File: ./figures_appendix/mag_z_ri.pdf Graphic file (type pdf)
 
 <use ./figures_appendix/mag_z_ri.pdf>
@@ -2948,7 +2948,7 @@ Package pdftex.def Info: ./figures_appendix/mag_z_ri.pdf used on input line 70.
 
 (pdftex.def)             Requested size: 674.33032pt x 261.18602pt.
 
-<./figures_appendix/mag_rstars.pdf, id=1850, 569.12625pt x 385.44pt>
+<./figures_appendix/mag_rstars.pdf, id=1858, 569.12625pt x 385.44pt>
 File: ./figures_appendix/mag_rstars.pdf Graphic file (type pdf)
 
 <use ./figures_appendix/mag_rstars.pdf>
@@ -2956,7 +2956,7 @@ Package pdftex.def Info: ./figures_appendix/mag_rstars.pdf used on input line 7
 5.
 (pdftex.def)             Requested size: 674.33032pt x 261.18602pt.
 
-<./figures_appendix/mag_zstars.pdf, id=1852, 569.12625pt x 385.44pt>
+<./figures_appendix/mag_zstars.pdf, id=1860, 569.12625pt x 385.44pt>
 File: ./figures_appendix/mag_zstars.pdf Graphic file (type pdf)
 
 <use ./figures_appendix/mag_zstars.pdf>
@@ -3028,7 +3028,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 250.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 250.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 250.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A9FEDCA0F895EDC59655864FB56E67D8;2801.
+(rerunfilecheck)             Checksum: D997FBE94224B8EA7AC55E4354A68995;2786.
 
 
 LaTeX Warning: There were undefined references.
@@ -3041,9 +3041,9 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33263 strings out of 494985
- 607042 string characters out of 6180357
- 2031755 words of memory out of 5000000
+ 33267 strings out of 494985
+ 607094 string characters out of 6180357
+ 2031743 words of memory out of 5000000
  34899 multiletter control sequences out of 15000+600000
  136158 words of font info for 240 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
@@ -3068,10 +3068,10 @@ sr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/pu
 blic/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (122 pages, 22789413 bytes).
+Output written on main.pdf (122 pages, 22790756 bytes).
 PDF statistics:
- 3089 PDF objects out of 3580 (max. 8388607)
- 2325 compressed objects within 24 object streams
- 581 named destinations out of 1000 (max. 500000)
+ 3098 PDF objects out of 3580 (max. 8388607)
+ 2334 compressed objects within 24 object streams
+ 585 named destinations out of 1000 (max. 500000)
  40847 words of extra memory for PDF output out of 42996 (max. 10000000)
 

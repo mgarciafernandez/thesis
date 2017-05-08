@@ -103,11 +103,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Source sample}{70}{section*.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}Determination of matter profile: voids \& troughs}{73}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.2}Determination of convergence profile}{73}{subsection.4.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.3}Systematic errors}{73}{subsection.4.4.3}
+\contentsline {subsubsection}{Convergence profile: voids}{73}{section*.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.4}Discussion}{73}{subsection.4.4.4}
+\contentsline {subsubsection}{Convergence profile: troughs}{74}{section*.24}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.3}Systematic errors}{74}{subsection.4.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.4}Discussion}{74}{subsection.4.4.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Conclusions}{75}{chapter.5}
 \ttl@stoptoc {default@4}
@@ -121,5 +125,5 @@
 \ttl@stoptoc {default@6}
 \ttl@starttoc {default@7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{97}{chapter*.23}
+\contentsline {chapter}{References}{97}{chapter*.25}
 \contentsfinish 

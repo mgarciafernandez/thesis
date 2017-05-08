@@ -595,8 +595,22 @@ Three source samples are defined, one per band, requiring to be the maximum sign
 
 Following the same approach as in the \autoref{sec:svdata}, the {\scshape mag\_auto} cut along with the previously defined depth cuts also guarantee uniformity on the corresponding band.
 
-\subsection{Determination of matter profile: voids \& troughs}
+\subsection{Determination of convergence profile}
 \label{sec:analysis_y1}
+The convergence profile ($\kappa$) is computed from the number-count magnification cross-correlation function using \autoref{eq:kappa_nc}
+\begin{equation}
+\kappa(\theta) = \frac{\omega_{LS}(\theta)}{2[\alpha(m)-1]},
+\end{equation}
+where $\omega_{LS}$ is the two-point angular cross-correlation function as given by the Landy-Szalay estimator (\autoref{eq:landyszalay}). The number-count slope parameter ($\alpha(m)$) is computed using the same methodology as in \autoref{sec:svdata}.
+\subsubsection{Convergence profile: voids}
+A two-point angular cross-correlation function is computed between the void lens sample and each $R,I,Z$ source sample. Thus, the measured convergence profile is the average convergence profile of all the selected voids. The covariance matrix for the $S$ band is computed by bootstrapping the void sample
+\begin{equation}
+C_S(\theta_i,\theta_j) = \sum\limits_k[\omega^k_{LS}(\theta_i)-\omega_{LS}(\theta_i)][\omega^k_{LS}(\theta_j)-\omega_{LS}(\theta_j)],
+\end{equation}
+where $\omega^k$ is the correlation function computed removing the $k$-th void and $\omega$ the correlation function computed using all the voids.
+
+\subsubsection{Convergence profile: troughs}
+A unique two-point angular cross-correlation function is computed between each trough sample each $R,I,Z$ source sample. Covariance matrices are computing by jackknife resampling with $N_{JK}=50$ regions only the sources to avoid the over-estimation of the errors \cite{2017arXiv170307786F}.
 
 \subsection{Systematic errors}
 \label{sec:sys_y1}
