@@ -5272,37 +5272,6 @@
       \verb 1411.0115
       \endverb
     \endentry
-    \entry{2016arXiv161104954K}{article}{}
-      \name{labelname}{6}{}{%
-        {{hash=6d917cb172a64c8e11a5963380db7ee9}{{Kitching}}{K\bibinitperiod}{T.\bibnamedelimi D.}{T\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=e68a01513877100a7e01af3e510e183f}{{Alsing}}{A\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
-        {{hash=6d849e7630da68ce7e465ba67b97431d}{{Heavens}}{H\bibinitperiod}{A.\bibnamedelimi F.}{A\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
-        {{hash=c83458f2faa6757161c3c6e06018120a}{{Jimenez}}{J\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
-        {{hash=0bd0350878346ee08b4b80dc5bfff620}{{McEwen}}{M\bibinitperiod}{J.\bibnamedelimi D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=6629eb5d6bdf35a2edfd838cbfcdc4ab}{{Verde}}{V\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{6}{}{%
-        {{hash=6d917cb172a64c8e11a5963380db7ee9}{{Kitching}}{K\bibinitperiod}{T.\bibnamedelimi D.}{T\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=e68a01513877100a7e01af3e510e183f}{{Alsing}}{A\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
-        {{hash=6d849e7630da68ce7e465ba67b97431d}{{Heavens}}{H\bibinitperiod}{A.\bibnamedelimi F.}{A\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
-        {{hash=c83458f2faa6757161c3c6e06018120a}{{Jimenez}}{J\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
-        {{hash=0bd0350878346ee08b4b80dc5bfff620}{{McEwen}}{M\bibinitperiod}{J.\bibnamedelimi D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
-        {{hash=6629eb5d6bdf35a2edfd838cbfcdc4ab}{{Verde}}{V\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{588b2dc43fe82b66b489725e974e7d0a}
-      \strng{fullhash}{95eb7f9d112b50441f5fe860852caa5f}
-      \field{sortinit}{0}
-      \field{labeltitle}{{The Limits of Cosmic Shear}}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{ArXiv e-prints}
-      \field{month}{11}
-      \field{title}{{The Limits of Cosmic Shear}}
-      \field{year}{2016}
-      \verb{eprint}
-      \verb 1611.04954
-      \endverb
-      \keyw{Astrophysics - Cosmology and Nongalactic Astrophysics}
-    \endentry
     \entry{2017arXiv170205301K}{article}{}
       \name{labelname}{12}{}{%
         {{hash=a37d49e378d43d5370494f6bc4268006}{{Kilbinger}}{K\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
@@ -5368,6 +5337,37 @@
       \field{year}{2017}
       \verb{eprint}
       \verb 1704.01054
+      \endverb
+      \keyw{Astrophysics - Cosmology and Nongalactic Astrophysics}
+    \endentry
+    \entry{2016arXiv161104954K}{article}{}
+      \name{labelname}{6}{}{%
+        {{hash=6d917cb172a64c8e11a5963380db7ee9}{{Kitching}}{K\bibinitperiod}{T.\bibnamedelimi D.}{T\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=e68a01513877100a7e01af3e510e183f}{{Alsing}}{A\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=6d849e7630da68ce7e465ba67b97431d}{{Heavens}}{H\bibinitperiod}{A.\bibnamedelimi F.}{A\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=c83458f2faa6757161c3c6e06018120a}{{Jimenez}}{J\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=0bd0350878346ee08b4b80dc5bfff620}{{McEwen}}{M\bibinitperiod}{J.\bibnamedelimi D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=6629eb5d6bdf35a2edfd838cbfcdc4ab}{{Verde}}{V\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=6d917cb172a64c8e11a5963380db7ee9}{{Kitching}}{K\bibinitperiod}{T.\bibnamedelimi D.}{T\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=e68a01513877100a7e01af3e510e183f}{{Alsing}}{A\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=6d849e7630da68ce7e465ba67b97431d}{{Heavens}}{H\bibinitperiod}{A.\bibnamedelimi F.}{A\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=c83458f2faa6757161c3c6e06018120a}{{Jimenez}}{J\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=0bd0350878346ee08b4b80dc5bfff620}{{McEwen}}{M\bibinitperiod}{J.\bibnamedelimi D.}{J\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=6629eb5d6bdf35a2edfd838cbfcdc4ab}{{Verde}}{V\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{588b2dc43fe82b66b489725e974e7d0a}
+      \strng{fullhash}{95eb7f9d112b50441f5fe860852caa5f}
+      \field{sortinit}{0}
+      \field{labeltitle}{{The Limits of Cosmic Shear}}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{ArXiv e-prints}
+      \field{month}{11}
+      \field{title}{{The Limits of Cosmic Shear}}
+      \field{year}{2016}
+      \verb{eprint}
+      \verb 1611.04954
       \endverb
       \keyw{Astrophysics - Cosmology and Nongalactic Astrophysics}
     \endentry
