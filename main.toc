@@ -106,11 +106,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.4}Discussion}{74}{subsection.4.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusions}{77}{chapter.5}
+\contentsline {chapter}{\numberline {5}Conclusions}{79}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix \numberline {A}Stellar contamination equation}{81}{Appendix.1.A}
+\contentsline {chapter}{Appendix \numberline {A}Stellar contamination equation}{83}{Appendix.1.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix \numberline {B}Additional figures}{83}{Appendix.1.B}
+\contentsline {chapter}{Appendix \numberline {B}Additional figures}{85}{Appendix.1.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{99}{chapter*.25}
+\contentsline {chapter}{References}{101}{chapter*.25}
 \contentsfinish 
