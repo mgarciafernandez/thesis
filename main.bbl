@@ -475,6 +475,298 @@
       \endverb
       \keyw{cosmology: observations,distance scale,dark energy}
     \endentry
+    \entry{1929PNAS...15..168H}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=e7715514556135fc9cec61ff1ef51dd8}{{Hubble}}{H\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=e7715514556135fc9cec61ff1ef51dd8}{{Hubble}}{H\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{e7715514556135fc9cec61ff1ef51dd8}
+      \strng{fullhash}{e7715514556135fc9cec61ff1ef51dd8}
+      \field{sortinit}{0}
+      \field{labeltitle}{{A Relation between Distance and Radial Velocity among Extra-Galactic Nebulae}}
+      \field{journaltitle}{Proceedings of the National Academy of Science}
+      \field{month}{03}
+      \field{title}{{A Relation between Distance and Radial Velocity among Extra-Galactic Nebulae}}
+      \field{volume}{15}
+      \field{year}{1929}
+      \field{pages}{168\bibrangedash 173}
+      \verb{doi}
+      \verb 10.1073/pnas.15.3.168
+      \endverb
+    \endentry
+    \entry{1999ApJ...517..565P}{article}{}
+      \name{labelname}{33}{}{%
+        {{hash=aa77282e5b1184370556a9ee3adda973}{{Perlmutter}}{P\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=bda839919f3dea67ea89ef03504ad2e9}{{Aldering}}{A\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=08983a64d328b645982f713755a35773}{{Goldhaber}}{G\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=3918c585111088cf394165543cd90f84}{{Knop}}{K\bibinitperiod}{R.\bibnamedelimi A.}{R\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=5ebe83e715eae80228746a0850cf9b42}{{Nugent}}{N\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=f1224481d9ac4cd16fb83d7bd642f8dc}{{Castro}}{C\bibinitperiod}{P.\bibnamedelimi G.}{P\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{hash=08cb6ee3a27f5206fa47b56c438eb514}{{Deustua}}{D\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=d2d097e2fb3b86ea9b3c3f52d5176ef9}{{Fabbro}}{F\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=d2d42e044635598724d34316da72ce94}{{Goobar}}{G\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=48ae2c8107b23c89ed78ed8be45fe4a1}{{Groom}}{G\bibinitperiod}{D.\bibnamedelimi E.}{D\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=a371f51357e65a6c4abe29d854be9d98}{{Hook}}{H\bibinitperiod}{I.\bibnamedelimi M.}{I\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=57bc96edf6677a62cced4f8801b134e9}{{Kim}}{K\bibinitperiod}{A.\bibnamedelimi G.}{A\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{hash=c2ef5b6eabdfdde9b5d29b411c5a4844}{{Kim}}{K\bibinitperiod}{M.\bibnamedelimi Y.}{M\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
+        {{hash=04a1bf4cb0f5462a4fe696124bc1c031}{{Lee}}{L\bibinitperiod}{J.\bibnamedelimi C.}{J\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=1529bf18faaaeebd4fe920b82a97a940}{{Nunes}}{N\bibinitperiod}{N.\bibnamedelimi J.}{N\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=00d993b101785b41cfee9f4e8378135e}{{Pain}}{P\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=98b22576949d6544979e9252f59b1176}{{Pennypacker}}{P\bibinitperiod}{C.\bibnamedelimi R.}{C\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{hash=296ecccfeaab92fc1af5c1539126ba10}{{Quimby}}{Q\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=5ef0b47ce4d2d8c7f51a54c5204d3fac}{{Lidman}}{L\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=bf31880471827f15ba5391ab100c6cd1}{{Ellis}}{E\bibinitperiod}{R.\bibnamedelimi S.}{R\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=28002f9268392cf9dbe9e6386e3e9ae3}{{Irwin}}{I\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=e21b5260bb36261e48edb12fb40527b7}{{McMahon}}{M\bibinitperiod}{R.\bibnamedelimi G.}{R\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{hash=b63373b99ac41612626152c44866e7ad}{{Ruiz-Lapuente}}{R\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=c4f08f839b24ae85c89e1cb25a68e5f2}{{Walton}}{W\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=aa4be9f1adc295181340f4da44a14052}{{Schaefer}}{S\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=68d55a136c24afc13557980ddddfde8e}{{Boyle}}{B\bibinitperiod}{B.\bibnamedelimi J.}{B\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=581ce184390c70ea2eaf7dff0d12eb36}{{Filippenko}}{F\bibinitperiod}{A.\bibnamedelimi V.}{A\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{hash=c4f3a1f9eec98d05662a10b76c7a6f85}{{Matheson}}{M\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=f676bf505956b439670b1d0df33ef9b8}{{Fruchter}}{F\bibinitperiod}{A.\bibnamedelimi S.}{A\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=4005a3a298c3398683669de6a8ec9fce}{{Panagia}}{P\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=a99116d60897f6a531f39244bbdaa81c}{{Newberg}}{N\bibinitperiod}{H.\bibnamedelimi J.\bibnamedelimi M.}{H\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=12c9651590acd3a55a5a58c33de12407}{{Couch}}{C\bibinitperiod}{W.\bibnamedelimi J.}{W\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=e24aa8f4163a315a06f87ecda516ae87}{{Project}}{P\bibinitperiod}{T.\bibnamedelimi S.\bibnamedelimi C.}{T\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{33}{}{%
+        {{hash=aa77282e5b1184370556a9ee3adda973}{{Perlmutter}}{P\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=bda839919f3dea67ea89ef03504ad2e9}{{Aldering}}{A\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=08983a64d328b645982f713755a35773}{{Goldhaber}}{G\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=3918c585111088cf394165543cd90f84}{{Knop}}{K\bibinitperiod}{R.\bibnamedelimi A.}{R\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=5ebe83e715eae80228746a0850cf9b42}{{Nugent}}{N\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=f1224481d9ac4cd16fb83d7bd642f8dc}{{Castro}}{C\bibinitperiod}{P.\bibnamedelimi G.}{P\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{hash=08cb6ee3a27f5206fa47b56c438eb514}{{Deustua}}{D\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=d2d097e2fb3b86ea9b3c3f52d5176ef9}{{Fabbro}}{F\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=d2d42e044635598724d34316da72ce94}{{Goobar}}{G\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=48ae2c8107b23c89ed78ed8be45fe4a1}{{Groom}}{G\bibinitperiod}{D.\bibnamedelimi E.}{D\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=a371f51357e65a6c4abe29d854be9d98}{{Hook}}{H\bibinitperiod}{I.\bibnamedelimi M.}{I\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=57bc96edf6677a62cced4f8801b134e9}{{Kim}}{K\bibinitperiod}{A.\bibnamedelimi G.}{A\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{hash=c2ef5b6eabdfdde9b5d29b411c5a4844}{{Kim}}{K\bibinitperiod}{M.\bibnamedelimi Y.}{M\bibinitperiod\bibinitdelim Y\bibinitperiod}{}{}{}{}}%
+        {{hash=04a1bf4cb0f5462a4fe696124bc1c031}{{Lee}}{L\bibinitperiod}{J.\bibnamedelimi C.}{J\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=1529bf18faaaeebd4fe920b82a97a940}{{Nunes}}{N\bibinitperiod}{N.\bibnamedelimi J.}{N\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=00d993b101785b41cfee9f4e8378135e}{{Pain}}{P\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=98b22576949d6544979e9252f59b1176}{{Pennypacker}}{P\bibinitperiod}{C.\bibnamedelimi R.}{C\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{hash=296ecccfeaab92fc1af5c1539126ba10}{{Quimby}}{Q\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=5ef0b47ce4d2d8c7f51a54c5204d3fac}{{Lidman}}{L\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=bf31880471827f15ba5391ab100c6cd1}{{Ellis}}{E\bibinitperiod}{R.\bibnamedelimi S.}{R\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=28002f9268392cf9dbe9e6386e3e9ae3}{{Irwin}}{I\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=e21b5260bb36261e48edb12fb40527b7}{{McMahon}}{M\bibinitperiod}{R.\bibnamedelimi G.}{R\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{hash=b63373b99ac41612626152c44866e7ad}{{Ruiz-Lapuente}}{R\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=c4f08f839b24ae85c89e1cb25a68e5f2}{{Walton}}{W\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=aa4be9f1adc295181340f4da44a14052}{{Schaefer}}{S\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=68d55a136c24afc13557980ddddfde8e}{{Boyle}}{B\bibinitperiod}{B.\bibnamedelimi J.}{B\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=581ce184390c70ea2eaf7dff0d12eb36}{{Filippenko}}{F\bibinitperiod}{A.\bibnamedelimi V.}{A\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{hash=c4f3a1f9eec98d05662a10b76c7a6f85}{{Matheson}}{M\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=f676bf505956b439670b1d0df33ef9b8}{{Fruchter}}{F\bibinitperiod}{A.\bibnamedelimi S.}{A\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=4005a3a298c3398683669de6a8ec9fce}{{Panagia}}{P\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=a99116d60897f6a531f39244bbdaa81c}{{Newberg}}{N\bibinitperiod}{H.\bibnamedelimi J.\bibnamedelimi M.}{H\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=12c9651590acd3a55a5a58c33de12407}{{Couch}}{C\bibinitperiod}{W.\bibnamedelimi J.}{W\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=e24aa8f4163a315a06f87ecda516ae87}{{Project}}{P\bibinitperiod}{T.\bibnamedelimi S.\bibnamedelimi C.}{T\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{dfe9be4e7f244b7f737c13cff071c1e7}
+      \strng{fullhash}{86c7e56210139cbe31bfcb7698aeaf5c}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Measurements of {$\Omega$} and {$\Lambda$} from 42 High-Redshift Supernovae}}
+      \field{journaltitle}{\apj}
+      \field{month}{06}
+      \field{title}{{Measurements of {$\Omega$} and {$\Lambda$} from 42 High-Redshift Supernovae}}
+      \field{volume}{517}
+      \field{year}{1999}
+      \field{pages}{565\bibrangedash 586}
+      \verb{doi}
+      \verb 10.1086/307221
+      \endverb
+      \verb{eprint}
+      \verb astro-ph/9812133
+      \endverb
+      \keyw{COSMOLOGY: OBSERVATIONS,COSMOLOGY: DISTANCE SCALE,STARS: SUPERNOVAE: GENERAL,Cosmology: Observations,Cosmology: Distance Scale,Stars: Supernovae: General}
+    \endentry
+    \entry{2006IJMPE..15....1S}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=738f043b971ac326ecfb01472d4db07a}{{Steigman}}{S\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=738f043b971ac326ecfb01472d4db07a}{{Steigman}}{S\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{738f043b971ac326ecfb01472d4db07a}
+      \strng{fullhash}{738f043b971ac326ecfb01472d4db07a}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Primordial Nucleosynthesis:. Successes and Challenges}}
+      \field{journaltitle}{International Journal of Modern Physics E}
+      \field{title}{{Primordial Nucleosynthesis:. Successes and Challenges}}
+      \field{volume}{15}
+      \field{year}{2006}
+      \field{pages}{1\bibrangedash 35}
+      \verb{doi}
+      \verb 10.1142/S0218301306004028
+      \endverb
+      \verb{eprint}
+      \verb astro-ph/0511534
+      \endverb
+      \keyw{Big Bang nucleosynthesis,early Universe expansion rate,neutrino asymmetry}
+    \endentry
+    \entry{1982ApJ...253...70B}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=0ca302267fe95dc221c7235a34075cdf}{{Burstein}}{B\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=281af9ad2933c54be4f8e5b8e3d82d91}{{Rubin}}{R\bibinitperiod}{V.\bibnamedelimi C.}{V\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=be0061ab92c78b4bb5ec724800a0a641}{{Thonnard}}{T\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=8c2d41c697c406e022befb21ea7db2a5}{{Ford}}{F\bibinitperiod}{W.\bibnamedelimi K.}{W\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{Jr.}{J\bibinitperiod}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=0ca302267fe95dc221c7235a34075cdf}{{Burstein}}{B\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=281af9ad2933c54be4f8e5b8e3d82d91}{{Rubin}}{R\bibinitperiod}{V.\bibnamedelimi C.}{V\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=be0061ab92c78b4bb5ec724800a0a641}{{Thonnard}}{T\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=8c2d41c697c406e022befb21ea7db2a5}{{Ford}}{F\bibinitperiod}{W.\bibnamedelimi K.}{W\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{Jr.}{J\bibinitperiod}}%
+      }
+      \strng{namehash}{c1a8dfe1c22c1aa8eac2ca19a693e14a}
+      \strng{fullhash}{a74b913f7301ac4c4b8573ad17fbacfb}
+      \field{sortinit}{0}
+      \field{labeltitle}{{The distribution of mass in SC galaxies}}
+      \field{journaltitle}{\apj}
+      \field{month}{02}
+      \field{title}{{The distribution of mass in SC galaxies}}
+      \field{volume}{253}
+      \field{year}{1982}
+      \field{pages}{70\bibrangedash 85}
+      \verb{doi}
+      \verb 10.1086/159611
+      \endverb
+      \keyw{Galactic Rotation,Mass Distribution,Mass To Light Ratios,Spiral Galaxies,Astronomical Photometry,Galactic Radiation,Isophotes,Luminous Intensity,Stellar Mass}
+    \endentry
+    \entry{1983Sci...220.1339R}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=281af9ad2933c54be4f8e5b8e3d82d91}{{Rubin}}{R\bibinitperiod}{V.\bibnamedelimi C.}{V\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=281af9ad2933c54be4f8e5b8e3d82d91}{{Rubin}}{R\bibinitperiod}{V.\bibnamedelimi C.}{V\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{281af9ad2933c54be4f8e5b8e3d82d91}
+      \strng{fullhash}{281af9ad2933c54be4f8e5b8e3d82d91}
+      \field{sortinit}{0}
+      \field{labeltitle}{{The rotation of spiral galaxies}}
+      \field{journaltitle}{Science}
+      \field{month}{06}
+      \field{title}{{The rotation of spiral galaxies}}
+      \field{volume}{220}
+      \field{year}{1983}
+      \field{pages}{1339\bibrangedash 1344}
+      \verb{doi}
+      \verb 10.1126/science.220.4604.1339
+      \endverb
+      \keyw{Galactic Rotation,Spiral Galaxies,Angular Velocity,Dark Matter,Histories,Line Spectra,Luminosity,Mass Distribution}
+    \endentry
+    \entry{1985ApJ...297..423B}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=0ca302267fe95dc221c7235a34075cdf}{{Burstein}}{B\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=281af9ad2933c54be4f8e5b8e3d82d91}{{Rubin}}{R\bibinitperiod}{V.\bibnamedelimi C.}{V\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=0ca302267fe95dc221c7235a34075cdf}{{Burstein}}{B\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=281af9ad2933c54be4f8e5b8e3d82d91}{{Rubin}}{R\bibinitperiod}{V.\bibnamedelimi C.}{V\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{c24c62b6a8fad950ca7c6b00062b0ca7}
+      \strng{fullhash}{c24c62b6a8fad950ca7c6b00062b0ca7}
+      \field{sortinit}{0}
+      \field{labeltitle}{{The distribution of mass in spiral galaxies}}
+      \field{journaltitle}{\apj}
+      \field{month}{10}
+      \field{title}{{The distribution of mass in spiral galaxies}}
+      \field{volume}{297}
+      \field{year}{1985}
+      \field{pages}{423\bibrangedash 435}
+      \verb{doi}
+      \verb 10.1086/163541
+      \endverb
+      \keyw{Galactic Structure,Mass Distribution,Rotating Matter,Spiral Galaxies,Hubble Constant,Luminosity}
+    \endentry
+    \entry{1985ApJ...289...81R}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=281af9ad2933c54be4f8e5b8e3d82d91}{{Rubin}}{R\bibinitperiod}{V.\bibnamedelimi C.}{V\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=0ca302267fe95dc221c7235a34075cdf}{{Burstein}}{B\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=8c2d41c697c406e022befb21ea7db2a5}{{Ford}}{F\bibinitperiod}{W.\bibnamedelimi K.}{W\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{Jr.}{J\bibinitperiod}}%
+        {{hash=be0061ab92c78b4bb5ec724800a0a641}{{Thonnard}}{T\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=281af9ad2933c54be4f8e5b8e3d82d91}{{Rubin}}{R\bibinitperiod}{V.\bibnamedelimi C.}{V\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=0ca302267fe95dc221c7235a34075cdf}{{Burstein}}{B\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=8c2d41c697c406e022befb21ea7db2a5}{{Ford}}{F\bibinitperiod}{W.\bibnamedelimi K.}{W\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{Jr.}{J\bibinitperiod}}%
+        {{hash=be0061ab92c78b4bb5ec724800a0a641}{{Thonnard}}{T\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{9628af0809f9e2bb6a0a9497f29306b1}
+      \strng{fullhash}{783ea6e600fd83febbc739292532e1ab}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Rotation velocities of 16 SA galaxies and a comparison of Sa, Sb, and SC rotation properties}}
+      \field{journaltitle}{\apj}
+      \field{month}{02}
+      \field{title}{{Rotation velocities of 16 SA galaxies and a comparison of Sa, Sb, and SC rotation properties}}
+      \field{volume}{289}
+      \field{year}{1985}
+      \field{pages}{81\bibrangedash 98}
+      \verb{doi}
+      \verb 10.1086/162866
+      \endverb
+      \keyw{Galactic Rotation,Galactic Structure,Angular Velocity,Data Correlation,Luminosity,Mass To Light Ratios}
+    \endentry
+    \entry{2016JPhG...43a3001M}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=4a554b3547c30cf010c57f19e92019e2}{{Marrodán\bibnamedelimb Undagoitia}}{M\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=3795bac67709c6cff47aa4462eaf0c5a}{{Rauch}}{R\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=4a554b3547c30cf010c57f19e92019e2}{{Marrodán\bibnamedelimb Undagoitia}}{M\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=3795bac67709c6cff47aa4462eaf0c5a}{{Rauch}}{R\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{441bbb9dd4015ef793276942219c7a3a}
+      \strng{fullhash}{441bbb9dd4015ef793276942219c7a3a}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Dark matter direct-detection experiments}}
+      \field{eid}{013001}
+      \field{eprintclass}{physics.ins-det}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Journal of Physics G Nuclear Physics}
+      \field{month}{01}
+      \field{number}{1}
+      \field{title}{{Dark matter direct-detection experiments}}
+      \field{volume}{43}
+      \field{year}{2016}
+      \field{pages}{013001}
+      \verb{doi}
+      \verb 10.1088/0954-3899/43/1/013001
+      \endverb
+      \verb{eprint}
+      \verb 1509.08767
+      \endverb
+    \endentry
+    \entry{2016ConPh..57..496G}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=fee4752ddaee2c05293e92b4fe7996c6}{{Gaskins}}{G\bibinitperiod}{J.\bibnamedelimi M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=fee4752ddaee2c05293e92b4fe7996c6}{{Gaskins}}{G\bibinitperiod}{J.\bibnamedelimi M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{fee4752ddaee2c05293e92b4fe7996c6}
+      \strng{fullhash}{fee4752ddaee2c05293e92b4fe7996c6}
+      \field{sortinit}{0}
+      \field{labeltitle}{{A review of indirect searches for particle dark matter}}
+      \field{eprintclass}{astro-ph.HE}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Contemporary Physics}
+      \field{month}{10}
+      \field{title}{{A review of indirect searches for particle dark matter}}
+      \field{volume}{57}
+      \field{year}{2016}
+      \field{pages}{496\bibrangedash 525}
+      \verb{doi}
+      \verb 10.1080/00107514.2016.1175160
+      \endverb
+      \verb{eprint}
+      \verb 1604.00014
+      \endverb
+    \endentry
     \entry{2015arXiv150201589P}{article}{}
       \name{labelname}{11}{}{%
         {{hash=94c122bef4a4d18cc4b21919b02952ac}{{Planck\bibnamedelimb Collaboration}}{P\bibinitperiod}{}{}{}{}{}{}}%
@@ -515,6 +807,27 @@
       \verb 1502.01589
       \endverb
       \keyw{Astrophysics - Cosmology and Nongalactic Astrophysics}
+    \endentry
+    \entry{0038-5670-11-3-A13}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=3aa3f3d9f1244282feba498af34cc64c}{Zel'dovich}{Z\bibinitperiod}{Ya\bibnamedelima B}{Y\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=3aa3f3d9f1244282feba498af34cc64c}{Zel'dovich}{Z\bibinitperiod}{Ya\bibnamedelima B}{Y\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{3aa3f3d9f1244282feba498af34cc64c}
+      \strng{fullhash}{3aa3f3d9f1244282feba498af34cc64c}
+      \field{sortinit}{0}
+      \field{labeltitle}{THE COSMOLOGICAL CONSTANT AND THE THEORY OF ELEMENTARY PARTICLES}
+      \field{journaltitle}{Soviet Physics Uspekhi}
+      \field{number}{3}
+      \field{title}{THE COSMOLOGICAL CONSTANT AND THE THEORY OF ELEMENTARY PARTICLES}
+      \field{volume}{11}
+      \field{year}{1968}
+      \field{pages}{381}
+      \verb{url}
+      \verb http://stacks.iop.org/0038-5670/11/i=3/a=A13
+      \endverb
     \endentry
     \entry{RevModPhys.61.1}{article}{}
       \name{labelname}{1}{}{%
@@ -594,27 +907,6 @@
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevD.72.021301
-      \endverb
-    \endentry
-    \entry{0038-5670-11-3-A13}{article}{}
-      \name{labelname}{1}{}{%
-        {{hash=3aa3f3d9f1244282feba498af34cc64c}{Zel'dovich}{Z\bibinitperiod}{Ya\bibnamedelima B}{Y\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{hash=3aa3f3d9f1244282feba498af34cc64c}{Zel'dovich}{Z\bibinitperiod}{Ya\bibnamedelima B}{Y\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{3aa3f3d9f1244282feba498af34cc64c}
-      \strng{fullhash}{3aa3f3d9f1244282feba498af34cc64c}
-      \field{sortinit}{0}
-      \field{labeltitle}{THE COSMOLOGICAL CONSTANT AND THE THEORY OF ELEMENTARY PARTICLES}
-      \field{journaltitle}{Soviet Physics Uspekhi}
-      \field{number}{3}
-      \field{title}{THE COSMOLOGICAL CONSTANT AND THE THEORY OF ELEMENTARY PARTICLES}
-      \field{volume}{11}
-      \field{year}{1968}
-      \field{pages}{381}
-      \verb{url}
-      \verb http://stacks.iop.org/0038-5670/11/i=3/a=A13
       \endverb
     \endentry
     \entry{1974JETPL..19..183L}{article}{}

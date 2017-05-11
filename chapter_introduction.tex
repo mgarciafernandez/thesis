@@ -23,6 +23,9 @@ with $S_M$ the matter term of the action and $g=\det(g_{\mu\nu})$.
 One of the consequences of Einstein's equation is that the metric tensor is not static, implying that the geometry of the Universe changes. Thus, the space-time is a dynamical entity itself and its past and future evolution can be computed within the framework of General Relativity.
 \newline
 
+General Relativity is the first theory that allows to describe the Universe as a whole and by assuming that Earth is not an special spot of the Universe --the copernican principle--, it can be concluded that the Cosmos must be homogeneous and isotropic allowing to reach astonishing conclusions.
+\newline
+
 Assuming that the Universe is homogeneous and isotropic \citep{2014MNRAS.440...10A,2015MNRAS.449..670A}, the only possible metric tensor is the Friedman-Lema\^itre-Robertson-Walker metric (FLRW) given by the line element \cite{1927ASSB...47...49L}
 \begin{equation}
 ds^2 = -dt^2+a^2(t)\left[\frac{dr^2}{1-Kr^2}+r^2(d\theta^2+\sin^2\theta d\phi^2)\right],
@@ -46,15 +49,15 @@ with
 \begin{equation}
 \Omega_K\equiv\frac{K}{[a(t)H_0]^2}\ \ \mbox{ and }\ \ \Omega_i(t)\equiv \frac{8\pi G_N\rho_i(t)}{3H_0^2}.
 \end{equation}
-The parameter $\Omega_i$ is the density of the $i$-th matter/energy specie whose evolution with time can be computed using Thermodynamics. For non-relativistic matter --that is, matter with velocity $v\ll c$--, 
+The parameter $\Omega_i$ is the density of the $i$-th matter/energy specie whose evolution with time can be computed using Thermodynamics and assuming that each specie behaves as a fluid with different equation of state. For non-relativistic matter --that is, matter with velocity $v\ll c$--, 
 \begin{equation}
 \Omega_M(t) = \Omega_M^0a^{-3}(t),
 \end{equation}
-whereas for relativistic matter species --that is, $v\sim c$--
+because $p~sim 0$, whereas for relativistic matter species --that is, $v\sim c$--
 \begin{equation}
-\Omega_r(t) = \Omega_r^0 a^{-4}(t).
+\Omega_r(t) = \Omega_r^0 a^{-4}(t),
 \end{equation}
-Here $\Omega_i^0$ denotes the value on the present day of the $i$-th matter specie and, by construction, the following equation holds:
+because $p\sim\rho/3$. Here $\Omega_i^0$ denotes the value on the present day of the $i$-th matter specie and, by construction, the following equation holds:
 \begin{equation}
 \sum_i\Omega_i^0=1+\Omega_K^0.
 \label{eq:conservationenergy}
@@ -73,18 +76,24 @@ Taking into account that the matter species and the curvature evolve on a differ
 \end{figure}
 \newline
 
-General Relativity with FLRW metric constitutes the theoretical basis for the current fiducial cosmological model: $\Lambda$CDM. It states that the Universe is flat, homogeneous and isotropic; has a non-zero cosmological constant and its non-relativistic matter content is mainly composed by what is known as dark matter. Dark matter is a form of matter that is not on the Standard Model of High Energy Physics and interacts with the ordinary --a.k.a. baryonic-- matter trough gravity (\autoref{fig:bullet}). Latest constrains on the density of the different matter species by Planck Collaboration 2015 \cite{2015arXiv150201589P} can be found at \autoref{tab:lcdm_parameters}.
-\begin{table}
-\begin{center}
-\begin{tabular}{c | c | c | c }
-$\Omega_M$ & $\Omega_\Lambda$ & $\Omega_b$ & $\Omega_K$\\
-\hline
-$0.315\pm 0.013$ & $0.685\pm 0.013$ & $0.04904\pm 0.00051$ & $-0.0001\pm 0.0052$\\
-\end{tabular}
-\caption{Density at present of the different energy species according to Planck 2015 \citep{2015arXiv150201589P}.}
-\label{tab:lcdm_parameters}
-\end{center}
-\end{table}
+General Relativity with FLRW metric constitutes the theoretical basis for the current standard cosmological model: $\Lambda$CDM. It states that the Universe is flat, homogeneous and isotropic. The observational basis of $\Lambda$CDM are:
+\begin{itemize}
+\item {\bf The Cosmic Microwave Background (CMB):} The Cosmic Microwave background is the oldest light of the Universe that can be observed. It is composed by the photons that decoupled from barions at redshift $z=1100$, when the Universe became colder and the energy of the photons was not enough to ionize hydrogen. The energy distribution of the CMB-photons a black-body spectrum with temperature $T_{CMB}=2.72$ K. The spatial distribution of the temperature anisotropies is not random but is related to the physics of the interaction of the photons and can be divided in two types: primary --those produced by the interaction of the photons with the baryons at the last scattering surface-- and secondary --produced by the interaction of photons with the intergalactic medium and the gravitational potentials--. The power spectrum of the CMB anisotropies can be seen at \autoref{fig:cmbpk} with a fit to the $\Lambda$CDM cosmology. This excellent agreement on such a very wide range of scales is a major success for $\Lambda$CDM.
+
+\item {\bf The accelerated expansion of the Universe:} The expansion of the Universe was discovered by Hubble \cite{1929PNAS...15..168H}. Hubble established a linear relationship between the recession velocity of nearby galaxies. Nevertheless, the improvement of the measurement with the inclusion of the data of the luminosity-distance relationship with type-Ia supernovae (SNIa) showed the accelerated expansion of the Universe \cite{1999ApJ...517..565P}. The accelerated expansion of the Universe is translated on Einstein's field equation as a non-zero cosmological constant.
+
+\item {\bf The primordial nucleosynthesis:} The primordial nucleosynthesis or Big Bang nucleosynthesis is the production of the lightest elements of the periodic table other than hydrogen: deuterium, tritium, $^3$He, $^4$He, $^7$Li and $^7$Be. All the elements are produced from neutrons that decay on protons. Then, starting with the assembly of these two hadrons, the other elements can be produced. The production of heavier elements other than the mentioned is not possible since there are not stable elements with mass-number five or eight. The relative abundance of the elements is governed --besides in addition to the nuclear properties of the elements-- by the expansion of the Universe and the baryon-radiation ratio \cite{2006IJMPE..15....1S}.
+
+\item {\bf The dark matter:} The presence of a new form of matter has been proposed to explain the measurement of the rotation curve of spiral galaxies \cite{1982ApJ...253...70B,1983Sci...220.1339R,1985ApJ...297..423B,1985ApJ...289...81R}. Dark matter is a form of matter that is not in the Standard Model of High Energy Physics and interacts with the ordinary --a.k.a. baryonic-- matter trough gravity. Although several attempts have been made to constrain the nature of dark matter direct and indirectly, no evidence of its detection {\it in laboratories} has been found  \cite{2016JPhG...43a3001M,2016ConPh..57..496G}.
+\end{itemize}
+
+On \autoref{fig:om_ol}, the determination of the energy density of cosmological constant and dark matter, with the $\Lambda$CDM model can be seen.
+
+\begin{figure}
+\includegraphics[width=\textwidth]{./Pictures/CMB_pk.png}
+\caption{Power spectrum of the CMB. Red line is the best-fit to $\Lambda$CDM. Image credit: \cite{2015arXiv150201589P}}
+\label{fig:cmbpk}
+\end{figure}
 
 \section{The Cosmological Constant problem}
 The cosmological constant can be absorbed on the right-hand-side of the \autoref{eq:einsteinbare} and interpreted as a constant matter term known as dark energy:
@@ -95,41 +104,21 @@ With this matter term, assuming $\Omega_K=0$, \autoref{eq:flrw} transforms into
 \begin{equation}
 H^2(t) = H_0^2\left[\sum_i\Omega_i(t) +\Omega_\Lambda(t)\right],
 \end{equation}
-where $\Omega_\Lambda(t)=\Omega_\Lambda^0$ is the dark energy density. This new term is a time-independent constant that has the same value on every location of the Universe. Thus, as the other matter species has a density that decreases with time, the dark energy density has only impact at late cosmic times.
+where $\Omega_\Lambda(t)=\Omega_\Lambda^0$ is the dark energy density. This new term is a time-independent constant that has the same value on every location of the Universe. Thus, while the other matter species have a density that decrease with time, the dark energy density is constant and becomes dominant at late cosmic times.
 \newline
 
-This new term may be regarded as a new matter specie such that
+This new term may be regarded as a new matter specie such that its energy density is given by
 \begin{equation}
-\rho_\Lambda = \frac{3H_0^2}{8\pi G_N}\Omega_\Lambda.
-\label{eq:rho_lambda}
-\end{equation}
-Taking into account \autoref{eq:conservationenergy} and \autoref{eq:rho_lambda}, an upper bound on the dark energy density can be established
-\begin{equation}
-\rho_\Lambda \leq \frac{3H_0^2}{8\pi G_N} \sim 10 ^{-47} \mbox{ GeV}^4.
+\rho_\Lambda = \frac{3H_0^2}{8\pi G_N}\Omega_\Lambda\sim 10 ^{-47} \mbox{ GeV}^4.
 \label{eq:cosmologicalconstant}
 \end{equation}
 \newline
 
-Since this energy density fills the whole Universe and is an inherent property of the geometry of the Universe and hence of the Universe itself, from a physical point of view it can be identified as the energy of the vacuum \cite{RevModPhys.61.1,2003PhR...380..235P,PhysRevD.72.021301}. Assuming that the Standard Model is valid up to the Planck scale, the energy density of the vacuum can be estimated to be \cite{0038-5670-11-3-A13}
-\begin{equation}
-\rho_{QFT} = \int\limits_0^{1/L_P} dk \sqrt{k^2+m^2}\frac{4\pi k^2}{(2\pi)^4}\sim 10^{71}\mbox{ GeV}^4,
-\end{equation}
-where $L_P$ is Planck's length. Thus, there's a miss-match between the amount of dark energy measured and that predicted by QFT of many orders of magnitude. It can be argued that although it is known that Planck's energy scale is the upper range of validity of Standard Model physics, nothing prevents that it starts to fail at lower scales. A lower bound on this point can be established as the Quantum Cromodynamics (QCD) cutoff scale ($\sim 200$ MeV), leading to a vacuum energy density of
-\begin{equation}
-\rho_{QCD} = \int\limits_0^{1/L_{QCD}} dk \sqrt{k^2+m^2}\frac{4\pi k^2}{(2\pi)^4}\sim 10^{-3}\mbox{ GeV}^4,
-\end{equation}
-reducing the tension between theory and experiment, but still being catastrophic. It is worth to remark that establishing the range of validity of the Standard Model at the QCD cutoff scale is an optimistic scenario for the cosmological constant, since latest LHC results have demonstrated its validity of the Standard Model up to 1 TeV.
-\newline
-
-The only possible candidate for dark energy as quintessence within the Standard Model of Particle Physics is the Higgs field, a complex scalar-field that fills the Universe and couples to gauge bosons giving them its mass. The potential of the field is given by
+If $T_{\mu\nu}=0$ there is no matter/energy, the $\Lambda g_{\mu\nu}$ term acts as an alternative source of energy an can be identified as the vacuum energy density \cite{0038-5670-11-3-A13,RevModPhys.61.1,2003PhR...380..235P,PhysRevD.72.021301}. The only possible candidate for the vacuum energy within the Standard Model of Particle Physics is the Higgs field \cite{1974JETPL..19..183L,PhysRevLett.34.777}, a complex scalar-field that fills the Universe and couples to gauge bosons giving them its mass. The potential of the field is given by
 \begin{equation}
 V(\phi) = \mu_H^2\phi^\dagger\phi+\frac{1}{4}\lambda_H(\phi^\dagger\phi)^2,
 \end{equation}
-with $\mu_H$ the mass term, $\lambda_H$ the self-interaction of the field and $\phi,\phi^\dagger$ the Higgs field and its hermitian conjugate respectively. Since the potential of the field is time independent, this leads to an equation of state
-\begin{equation}
-w_{DE} = \frac{-2V(\phi)}{2V(\phi)} = -1,
-\end{equation}
-recovering the cosmological constant solution. Thus, the cosmological constant can also be interpreted alternatively as the expected value of Higgs field at vacuum \cite{1974JETPL..19..183L,PhysRevLett.34.777}
+with $\mu_H$ the mass term, $\lambda_H$ the self-interaction of the field and $\phi,\phi^\dagger$ the Higgs field and its hermitian conjugate respectively. Thus, the cosmological constant can also be interpreted as the expected value of Higgs field \cite{1974JETPL..19..183L,PhysRevLett.34.777}
 \begin{equation}
 \langle 0|\phi_0|0\rangle = \frac{|\mu_H|}{\sqrt{\lambda_H}}= \sqrt{\frac{1}{\sqrt{2}G_F}}= 246\mbox{ GeV}^4,
 \end{equation}
@@ -137,10 +126,6 @@ not solving the discrepancy of several orders of magnitude with the cosmological
 \begin{equation}
 \mu^- \rightarrow W^- + \nu_\mu \mbox{ and }W^-\rightarrow e^-+\bar\nu_e.
 \end{equation}
-\newline
-
-It can be argued that the cosmological constant is not connected to High Energy Physics. Nevertheless, the energy of the quantum vacuum is still there and must be taken into account, not solving the discrepancy.
-
 
 \section{Theories for Dark Energy}
 As it has been stated previously, the observed value of the cosmological constant can not be explained with the Standard Model of High Energy Physics. Thus, one can try to explain accelerated expansion of the Universe with other class of theories. The simplest approach is to postulate the existence of new exotic fields with negative pressure that drives the accelerated expansion. The other possibility is to extend General Relativity in order to include the observed effect.
@@ -229,10 +214,10 @@ Dark enery as an exotic form of matter, is determined by measuring the parameter
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.8\textwidth,trim={0 3mm 0 0},clip]{./Pictures/w0wa_planck2015.png}
-\caption{One- and two- sigma contours of the equation of state of dark energy $w_0,w_a$. The intersection of dashed lines is the cosmological constant. Results obtained from Planck Collaboration 2015 results \cite{2016A&A...594A..14P}.}
+\caption{One- and two- sigma contours of the equation of state of dark energy $w_0,w_a$. The intersection of dashed lines is the cosmological constant. Image credit: \cite{2016A&A...594A..14P}.}
 \label{fig:w0wa_planck2015}
 \includegraphics[width=0.8\textwidth]{./Pictures/equationofstate_planck2015.png}
-\caption{One-sigma confidence interval of the equation of state of dark energy as a function of redshift $w_{DE}(z)$ and one-sigma confidence interval. Results obtained from Planck Collaboration 2015 results \cite{2016A&A...594A..14P}.}
+\caption{One-sigma confidence interval of the equation of state of dark energy as a function of redshift $w_{DE}(z)$ and one-sigma confidence interval. Image credit: \cite{2016A&A...594A..14P}.}
 \label{fig:equationofstate_planck2015}
 \end{center}
 \end{figure}
@@ -240,11 +225,11 @@ Dark enery as an exotic form of matter, is determined by measuring the parameter
 \begin{figure}
 \begin{center}
 \includegraphics[width=0.8\textwidth]{./Pictures/mg_planck2015.png}
-\caption{One- and two- sigma modified gravity potentials at present $\mu_0,\eta_0$. Dashed line is General Relativity plus cosmological constant.}
+\caption{One- and two- sigma modified gravity potentials at present $\mu_0,\eta_0$. Dashed line is General Relativity plus cosmological constant. Image credit: \cite{2016A&A...594A..14P}.}
 \label{fig:mg_planck2015}
 \vspace*{0.2cm}
 \includegraphics[width=0.8\textwidth]{./Pictures/munu_planck2015.png}
-\caption{One- and two- sigma of the sum of the modified gravity potentials. Dashed line is General Relativity plus cosmological constant. }
+\caption{One- and two- sigma of the sum of the modified gravity potentials. Dashed line is General Relativity plus cosmological constant. Image credit: \cite{2016A&A...594A..14P}.make}
 \label{fig:munu_planck2015}
 \end{center}
 \end{figure}
