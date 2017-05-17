@@ -571,23 +571,19 @@ The following color cuts are made in order to remove outliers in color space:
 where {\it g}, {\it r}, {\it i}, {\it z} stand for the corresponding {\scshape mag\_auto} magnitude measured by {\scshape SExtractor}. Bad regions, and haloes around bright stars are also removed following the same criterias as in \autoref{sec:data_sample_SV}.
 \newline
 
-Depth cuts are also imposed on the {\it riz}-bands in order to have uniform depth when combined with the magnitude cuts. These depth cuts are reached by including only the regions that meet the following conditions:
+A depth cut is also imposed on the {\it i}-band in order to have uniform depth when combined with the magnitude cut:
 \begin{itemize}
-	\item $r_{\rm lim} > 22.5$,
 	\item $i_{\rm lim} > 22.0$,
-	\item $z_{\rm lim} > 21.5$;
 \end{itemize}
-where $r_{\rm lim}, i_{\rm lim},z_{\rm lim}$ stand for the magnitude limit in the corresponding band. The resulting footprint, as shown in \autoref{fig:footprint_y1}, after all the masking cuts amounts to $1298 \mbox{ deg}^2$.
+where $i_{\rm lim}$ stand for the magnitude limit in the corresponding band. The resulting footprint, as shown in \autoref{fig:footprint_y1}, after all the masking cuts amounts to $1298 \mbox{ deg}^2$.
 \newline
 
 Photometric redshifts of the source galaxies have been estimated using the template-based approach BPZ \cite{2000ApJ...536..571B}.
 \newline
 
-Three source samples are defined, one per band, requiring to be the maximum signal-to-noise as described at \autoref{sec:method} without weights:
+A unique source sample is defined requiring to be the maximum signal-to-noise as described at \autoref{sec:method} without weights:
 \begin{itemize}
-	\item R: $0.8 < z_{\rm ph} < 1.5$ and $r<21.0$;
-	\item I: $0.8 < z_{\rm ph} < 1.5$ and $i<20.5$;
-	\item Z: $0.8 < z_{\rm ph} < 1.5$ and $z<20.0$.
+	\item I: $0.8 < z_{\rm ph} < 1.5$ and $i<20.5$.
 \end{itemize}
 
 Following the same approach as in the \autoref{sec:svdata}, the {\scshape mag\_auto} cut along with the previously defined depth cuts also guarantee uniformity on the corresponding band.
@@ -600,36 +596,62 @@ The convergence profile ($\kappa$) is computed from the number-count magnificati
 \end{equation}
 where $\omega_{LS}$ is the two-point angular cross-correlation function as given by the Landy-Szalay estimator (\autoref{eq:landyszalay}). The number-count slope parameter ($\alpha(m)$) is computed using the same methodology as in \autoref{sec:svdata}.
 \subsubsection{Convergence profile: voids}
-A two-point angular cross-correlation function is computed between the void lens sample and each $R,I,Z$ source sample. Thus, the measured convergence profile is the average convergence profile of all the selected voids. The covariance matrix for the $S$ band is computed by bootstrapping the void sample
+A two-point angular cross-correlation function is computed between the void lens sample and the unique source sample. Thus, the measured convergence profile is the average convergence profile of all the selected voids. The covariance matrix is computed by bootstrapping the void sample
 \begin{equation}
 C_S(\theta_i,\theta_j) = \sum\limits_k[\omega^k_{LS}(\theta_i)-\omega_{LS}(\theta_i)][\omega^k_{LS}(\theta_j)-\omega_{LS}(\theta_j)],
 \end{equation}
 where $\omega^k$ is the correlation function computed removing the $k$-th void and $\omega$ the correlation function computed using all the voids.
 
 \subsubsection{Convergence profile: troughs}
-A unique two-point angular cross-correlation function is computed between each trough sample each $R,I,Z$ source sample. Covariance matrices are computing by jackknife resampling with $N_{JK}=50$ regions only the sources to avoid the over-estimation of the errors \cite{2017arXiv170307786F}.
+A unique two-point angular cross-correlation function is computed between each trough sample and the unique source sample. Covariance matrices are computed by jackknife resampling with $N_{JK}=50$ regions only the sources to avoid the over-estimation of the errors \cite{2017arXiv170307786F}.
 \newline
 
-Measured convergence profiles can be seen at \autoref{fig:troughs_ap10}, \autoref{fig:troughs_ap20} and \autoref{fig:troughs_ap30}
+Measured convergence profiles can be seen at \autoref{fig:troughs_ap10}, \autoref{fig:troughs_ap20} and \autoref{fig:troughs_ap30} and are compared with the theoretical predictions of a blinded\footnote{Collaboration policies does not allow to produce unblinded predictions until the final analysis has been approved.} $\Lambda$CDM model. Theory matches observations up to a scale factor. Finally, chi-square tests are computed testing the hypothesis that the measured signal is zero and can be seen at \autoref{tab:chisq_trough}. If only the deepest troughs ($Q=0$) and the peaks are considered ($Q=4$), it can be concluded that the measured signal is not zero. Thus it can be concluded that it has been detected the magnification signal of troughs.
 
 \begin{sidewaysfigure}
 \includegraphics[width=\textwidth]{./figures_y1/troughs_ap10_mag_auto_i1.png}
-\caption{Convergence profile for the DES-Y1 $10'$ troughs computed with the $I$ source sample. The $Q=0,1,2,3,4$ indicates the quantile of the lognormal distribution that is probed. Black-solid line is the size of the trough. Red-dashed line is an eye-guide for the zero.}
+\caption{Convergence profile for the DES-Y1 $10'$ troughs computed with the $I$ source sample. The $Q=0,1,2,3,4$ indicates the quantile of the lognormal distribution that is probed. Gray-solid line is the size of the trough. Red-dashed line is an eye-guide for the zero.}
 \label{fig:troughs_ap10}
 \end{sidewaysfigure}
 \begin{sidewaysfigure}
 \includegraphics[width=\textwidth]{./figures_y1/troughs_ap30_mag_auto_i1.png}
-\caption{Convergence profile for the DES-Y1 $20'$ troughs computed with the $I$ source sample. The $Q=0,1,2,3,4$ indicates the quantile of the lognormal distribution that is probed. Black-solid line is the size of the trough. Red-dashed line is an eye-guide for the zero.}
+\caption{Convergence profile for the DES-Y1 $20'$ troughs computed with the $I$ source sample. The $Q=0,1,2,3,4$ indicates the quantile of the lognormal distribution that is probed. Gray-solid line is the size of the trough. Red-dashed line is an eye-guide for the zero.}
 \label{fig:troughs_ap20}
 \end{sidewaysfigure}
 \begin{sidewaysfigure}
 \includegraphics[width=\textwidth]{./figures_y1/troughs_ap30_mag_auto_i1.png}
-\caption{Convergence profile for the DES-Y1 $30'$ troughs computed with the $I$ source sample. The $Q=0,1,2,3,4$ indicates the quantile of the lognormal distribution that is probed. Black-solid line is the size of the trough. Red-dashed line is an eye-guide for the zero.}
+\caption{Convergence profile for the DES-Y1 $30'$ troughs computed with the $I$ source sample. The $Q=0,1,2,3,4$ indicates the quantile of the lognormal distribution that is probed. Gray-solid line is the size of the trough. Red-dashed line is an eye-guide for the zero.}
 \label{fig:troughs_ap30}
 \end{sidewaysfigure}
 
-\subsection{Systematic errors}
-\label{sec:sys_y1}
+\begin{table}
+\begin{center}
+\begin{tabular}{c | c c c c c }
+$\theta_T$& & &$10'$& &\\
+$Q$&0&1&2&3&4\\
+$\chi^2_z/ndof$ &43.5/7&10.5/7&1.3/7&10.3/7&45.3/7\\
+\hline
+\hline
+$\theta_T$& & &$20'$& & \\
+$Q$&0&1&2&3&4 \\
+$\chi^2_z/ndof$&19.0/7&7.5/7&4.0/7&18.3/7&17.0/7\\
+\hline
+\hline
+$\theta_T$& & &$30'$& & \\
+$Q$&0&1&2&3&4\\
+$\chi^2_z/ndof$&28.3/7&3.8/7&16.4/7&5.1/7&17.3/7\\
+\end{tabular}
+\label{tab:chisq_trough}
+\caption{Chi-square tests testing the hypothesis that the measured signal is zero ($\chi_z^2$). For the three trough sizes ($\theta_T$) considered and each quantile of the matter distribution ($Q$). }
+\end{center}
+\end{table}
 
 \subsection{Discussion}
 \label{sec:discussion_y1}
+On this section, the convergence profile of the empties regions of the Universe --voids and troughs-- has been computed. For the first time,a negative convergence profile has been measured using number count magnification.
+\newline
+
+With only the 20\% of the planned area of the experiment the size of the convergence profile has been clearly measured allowing to put on the near future competitive constrains on cosmology with this data-set.
+\newline
+
+This analysis demonstrates that number-count magnification by voids and troughs constitutes a new, independent and competitive probe for cosmology. On the future, when the DES Year 5 data will be available, the size of the errors will be reduced by a factor 2, providing cosmological results with unprecedented accuracy on weak-lensing magnification.

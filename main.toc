@@ -100,11 +100,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Convergence profile: voids}{73}{section*.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Convergence profile: troughs}{74}{section*.24}
+\contentsline {subsubsection}{Convergence profile: troughs}{73}{section*.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.3}Systematic errors}{74}{subsection.4.4.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.4}Discussion}{74}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.4.3}Discussion}{74}{subsection.4.4.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Conclusions}{79}{chapter.5}
 \defcounter {refsection}{0}\relax 
