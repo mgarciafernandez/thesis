@@ -1947,6 +1947,27 @@
       \endverb
       \keyw{Astrophysics - Cosmology and Nongalactic Astrophysics}
     \endentry
+    \entry{Ata:2017dya}{article}{}
+      \true{morelabelname}
+      \name{labelname}{1}{}{%
+        {{hash=49ed7d48bcad88dbfbb8ddfd8a9cf36b}{Ata}{A\bibinitperiod}{Metin}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \true{moreauthor}
+      \name{author}{1}{}{%
+        {{hash=49ed7d48bcad88dbfbb8ddfd8a9cf36b}{Ata}{A\bibinitperiod}{Metin}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{3a351c14850d5ab23967bf570dac97db}
+      \strng{fullhash}{3a351c14850d5ab23967bf570dac97db}
+      \field{sortinit}{0}
+      \field{labeltitle}{{The clustering of the SDSS-IV extended Baryon Oscillation Spectroscopic Survey DR14 quasar sample: First measurement of Baryon Acoustic Oscillations between redshift 0.8 and 2.2}}
+      \field{eprintclass}{astro-ph.CO}
+      \field{eprinttype}{arXiv}
+      \field{title}{{The clustering of the SDSS-IV extended Baryon Oscillation Spectroscopic Survey DR14 quasar sample: First measurement of Baryon Acoustic Oscillations between redshift 0.8 and 2.2}}
+      \field{year}{2017}
+      \verb{eprint}
+      \verb 1705.06373
+      \endverb
+    \endentry
     \entry{2017MNRAS.465.1757G}{article}{}
       \name{labelname}{8}{}{%
         {{hash=ea533ee13be140732c03fe93f9a03ef1}{{Gil-Marín}}{G\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
