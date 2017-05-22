@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.7.5)  22 MAY 2017 10:23
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.7.5)  22 MAY 2017 10:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2037,81 +2037,86 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--50
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 60.
 [17] [18 <./Pictures/optical_system.png> <./Pictures/distortion.png (PNG copy)>
-] [19]
-Underfull \hbox (badness 10000) in paragraph at lines 113--116
+]
+Underfull \hbox (badness 10000) in paragraph at lines 93--96
+
+ []
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 116--119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--128
+Underfull \hbox (badness 10000) in paragraph at lines 128--131
 
  []
 
 [20]
-Underfull \hbox (badness 10000) in paragraph at lines 159--162
+Underfull \hbox (badness 10000) in paragraph at lines 162--165
 
  []
 
 [21]
-Underfull \hbox (badness 10000) in paragraph at lines 170--172
+Underfull \hbox (badness 10000) in paragraph at lines 173--175
 
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 175.
+(Font)              <10.95> on input line 178.
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--200
+Underfull \hbox (badness 10000) in paragraph at lines 200--203
 
  []
 
 [22] [23]
-Underfull \hbox (badness 10000) in paragraph at lines 251--254
+Underfull \hbox (badness 10000) in paragraph at lines 254--257
 
  []
 
 [24]
-Underfull \hbox (badness 10000) in paragraph at lines 311--314
+Underfull \hbox (badness 10000) in paragraph at lines 314--317
 
  []
 
 [25]
-Underfull \hbox (badness 10000) in paragraph at lines 337--340
+Underfull \hbox (badness 10000) in paragraph at lines 340--343
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 352--354
+Underfull \hbox (badness 10000) in paragraph at lines 355--357
 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 357.
+(hyperref)                removing `math shift' on input line 360.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\kappa' on input line 357.
+(hyperref)                removing `\kappa' on input line 360.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\theta' on input line 357.
+(hyperref)                removing `\theta' on input line 360.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 357.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 358--360
-
- []
+(hyperref)                removing `math shift' on input line 360.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 361--363
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--366
+
+ []
+
 [26]
-Underfull \hbox (badness 10000) in paragraph at lines 384--387
+Underfull \hbox (badness 10000) in paragraph at lines 387--390
 
  []
 
@@ -3041,7 +3046,7 @@ sr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/pu
 blic/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (126 pages, 23519471 bytes).
+Output written on main.pdf (126 pages, 23519379 bytes).
 PDF statistics:
  3131 PDF objects out of 3580 (max. 8388607)
  2358 compressed objects within 24 object streams
