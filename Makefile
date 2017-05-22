@@ -20,4 +20,4 @@ clean:
 	rm -rf main_resized.pdf
 
 resize:
-	pdfjam --outfile main_resized.pdf --paper a5paper main.pdf
+	pdfjam --outfile main_resized.pdf --paper b5paper main.pdf

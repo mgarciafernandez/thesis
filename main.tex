@@ -29,6 +29,7 @@
 \usepackage[utf8]{inputenc} % Required for including letters with accents
 \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
 \usepackage{lmodern}
+\usepackage{transparent}
 
 % Bibliography
 \usepackage[style=numeric-comp,sorting=none,natbib=true]{biblatex}
@@ -138,14 +139,14 @@
 \setcounter{page}{1}
 %\AddToShipoutPicture*{\put(0,0){\includegraphics[scale=1.25]{esahubble}}} % Image background
 %\AddToShipoutPicture*{\put(0,0){\includegraphics[height=23cm,angle=90,trim=4cm 2cm 0 0,clip]{ds9.png}}} % Image background
-\AddToShipoutPicture*{\put(0,0){\includegraphics[height=23cm,angle=90,trim=4cm 2cm 0 0,clip]{ds9.png}}\put(100,0){\includegraphics[width=\textwidth,angle=0,clip]{MDM_Banner.jpg}}} % Image background
+\AddToShipoutPicture*{\put(0,0){\includegraphics[height=23cm,angle=90,trim=4cm 2cm 0 0,clip]{./Pictures/ds9_transparent.png}}\put(100,50){\includegraphics[width=\textwidth,angle=0,clip]{MDM_Banner.jpg}}} % Image background
 
 \centering
 \vspace*{5cm}
 \par\normalfont\fontsize{27}{27}\sffamily\selectfont
-\textcolor{red}{\textbf{Weak-lensing magnification as a probe for the dark Universe}}\par % Book title
+\textcolor{blue}{\textbf{Weak-lensing magnification as a probe for the dark Universe}}\par % Book title
 \vspace*{1cm}
-\textcolor{red}{\textbf{\Huge Manuel Garc\'ia Fern\'andez}}\par % Author name
+\textcolor{blue}{\textbf{\Huge Manuel Garc\'ia Fern\'andez}}\par % Author name
 
 \title{Weak-lensing magnification as a probe for the dark Universe}
 \author{Manuel Garcia-Fernandez}
@@ -246,5 +247,10 @@ VALENTINE TELEGDI\\
 \end{appendices}
 
 \printbibliography[heading=bibintoc,title=References]
+
+\newpage
+~\vfill
+\thispagestyle{empty}
+\AddToShipoutPicture*{\put(0,0){\includegraphics[height=23cm,angle=90,trim=4cm 2cm 0 0,clip]{./Pictures/ds9_transparent.png}}} % Image background
 
 \end{document}
