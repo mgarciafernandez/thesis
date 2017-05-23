@@ -60,7 +60,7 @@ where $P_{LS}(\theta;m)$ is the number of pairs from the lens-source samples sep
 P_{LS}(\theta;m) = \left[\frac{N_L}{A}\Delta_\Omega(\theta)\right]\left[\frac{N_S(m)}{A}\Delta_\Omega(\theta)\right].
 \label{eq:PLS}
 \end{equation}
-Here $A$ is the solid angle subtended by the dataset, $N_L$ is the number of objects at the lens sample and $N_S(m)$ the number of objects on the source sample with magnitude limit $m$. Combining Equations \ref{eq:numbercountstheo}, \ref{eq:sn} and \ref{eq:PLS}, results finally in
+Here $A$ is the solid angle subtended by the dataset, $N_L$ is the number of objects at the lens sample and $N_S(m)$ the number of objects on the source sample with magnitude limit $m$. Combining Equations \ref{eq:kappa_nc}, \ref{eq:sn} and \ref{eq:PLS}, results finally in
 \begin{equation}
 \frac{S}{N}(m) = \langle\omega_0\rangle[\alpha(m)-1]b_L\frac{\Omega}{A}\sqrt{N_LN_S(m)},
 \label{eq:snfinal}
@@ -337,7 +337,7 @@ Chang \cite{0004-637X-801-2-73} studied whether moderately bright objects in cro
 	Assuming that the misclassification of stars is spatially random and is a representative sample of the spatial distribution of the population classified as stars and that the fraction of misclassified stars is small, the functions $\omega_{\rm L*},\omega_{\rm *S_j}$ are estimated from the cross-correlation of the galaxy population and the stellar population in the corresponding redshift bin.
     \begin{sidewaysfigure}
 \includegraphics[width=\textwidth,trim={0 2.3cm 0 3.5cm},clip]{./figures/mag_istars.pdf}
-\caption{Correction by stellar contamination on the $i<21.5$ sample. Blue dots are the correction and shaded area is the $1\sigma$ confidence interval of the measured cross-correlations of the magnification signal. Red dashed line is and eye-guide for zero.}
+\caption{Correction by stellar contamination on the $i$-band sample. Blue dots are the correction and shaded area is the $1\sigma$ confidence interval of the measured cross-correlations of the magnification signal. Red dashed line is and eye-guide for zero.}
 \label{fig:correction}
 \end{sidewaysfigure}
 \newline
@@ -379,13 +379,13 @@ Although the use of {\scshape Balrog} is a ground-breaking technique on the miti
 
 \begin{sidewaysfigure}
 \includegraphics[width=\textwidth,trim={0 2.3cm 0 3.5cm},clip]{./figures/mag_i_ri.pdf}
-\caption{Blue dots: color-density cross-correlation functions measured on SV data for the {\it r} and {\it i} bands (sample $i<21.5$). Green solid line is the expected value from \autoref{eq:colorexcess}. Red dashed line is an eye-guide for zero.}
+\caption{Blue dots: color-density cross-correlation functions measured on SV data for the {\it r} and {\it i} bands ($i$-band sample). Green solid line is the expected value from \autoref{eq:colorexcess}. Red dashed line is an eye-guide for zero.}
 \label{fig:colorexcess}
 \end{sidewaysfigure}
 
 \begin{sidewaysfigure}
 \includegraphics[width=\textwidth,trim={0 2.3cm 0 3.5cm},clip]{./figures/mag_idust.pdf}
-\caption{Impact of dust on the number count from MICE (sample $I$). Shade is the $1\sigma$ confidence interval. Blue dots are the number count differences between the case with and the case without the simulated dust profile. Red dashed line is an eye-guide for zero.}
+\caption{Impact of dust on the number count from MICE ($i$-band sample). Shade is the $1\sigma$ confidence interval. Blue dots are the number count differences between the case with and the case without the simulated dust profile. Red dashed line is an eye-guide for zero.}
 \label{fig:micedust}
 \end{sidewaysfigure}
 The possible presence of dust in the lenses may modify the observed magnitude in addition to the magnitude shift due to magnification \cite{2010MNRAS.405.1025M}. The change in magnitude ($\delta m$) on the $p$-band may be written as
@@ -447,7 +447,7 @@ where $\phi_L,\phi_S$ are the stacked pdfs of the lens and source sample respect
 To estimate the maximum photo-z migration allowed between the lens and the source sample, the MICE simulation (\autoref{sec:mice}) with the un-lensed coordinates and magnitudes is used. Galaxies are randomly sampled on the lens redshift bin and then placed on the source redshift bin. Conversely, galaxies on the source redshift bin are randomly sampled and placed on the lens redshift bin. For a given lens or source sample, the number of galaxies introduced from the other redshift bin is chosen to be 0.1, 0.3, 0.5, 0.7, 0.9 and 2 per cent of the galaxies. Then, the two-point angular cross-correlation is computed for each case. The difference of the correlation functions measured at the simulation with induced migration between lens and source sample and the original used in \autoref{sec:mice} is the signal induced by photo-z migration. The signal induced by photo-z for the cases with 0.9 and 2 per cent computed with this method can be seen at \autoref{fig:photozcontamination}. It is found that  at 0.9 per cent of contamination, the induced signal due to photo-z migration is comparable to the error in the correlation functions. This upper limit is greater than the estimated photo-z migration, demonstrating that the effect of photo-z migration is negligible. Photo-z migration has a larger impact on the brightest samples. Nevertheless, since the errors of the correlation functions of these samples are shot-noise dominated, the tightest constrains on photo-z migration are imposed by the faintest samples. With a larger data sample this statement will no longer be true.
 \begin{sidewaysfigure}
 \includegraphics[width=\textwidth,trim={0 2.3cm 0 3.5cm},clip]{./figures/mag_i_mix.pdf}
-\caption{Estimation of the signal induced by migration of selected fractions of MICE un-lensed galaxies between the lens and the source sample (sample $I$). Shaded area is the $1\sigma$ confidence interval for the measured number count cross-correlations. Dark blue dots correspond to a contamination fraction of 0.9 per cent. Violet squares correspond to a 2 per cent. Squares are displaced at the X axis for clarity. Red dashed line is an eye-guide for zero.}
+\caption{Estimation of the signal induced by migration of selected fractions of MICE un-lensed galaxies between the lens and the source sample ($i$-band sample). Shaded area is the $1\sigma$ confidence interval for the measured number count cross-correlations. Dark blue dots correspond to a contamination fraction of 0.9 per cent. Violet squares correspond to a 2 per cent. Squares are displaced at the X axis for clarity. Red dashed line is an eye-guide for zero.}
 \label{fig:photozcontamination}
 \end{sidewaysfigure}
 \newline
@@ -478,7 +478,7 @@ All previous calculations were based on the assumption that the pdfs are a relia
     Finally, to demonstrate that the measured signal is independent of the photo-z technique employed to estimate the redshift, the two-point angular cross-correlation functions used on this analysis are re-computed with redshift estimated with other two different approaches that have shown to have similar performance as TPZ \cite{2014MNRAS.445.1482S} a neural network, Skynet  \cite{2014MNRAS.441.1741G}, and a template based approach, Bayesian Photo-Z (BPZ) \cite{2000ApJ...536..571B}. \autoref{fig:bpzskynet} compares the cross-correlations computed with the three codes for the $i$-band, showing them to be within $1\sigma$ errors.
 \begin{sidewaysfigure}
 \includegraphics[width=\textwidth,trim={0 2.3cm 0 3.5cm},clip]{./figures/mag_i_photoz_comparison.pdf}
-\caption{Comparison of the measured two-point angular cross-correlation functions corresponding to the sample $i<21.5$ measured with the Landy-Szalay estimator using TPZ, Skynet and BPZ. Triangles and squares are displaced at the horizontal axis for clarity.}
+\caption{Comparison of the measured two-point angular cross-correlation functions corresponding to the $i$-band sample measured with the Landy-Szalay estimator using TPZ, Skynet and BPZ. Triangles and squares are displaced at the horizontal axis for clarity.}
 \label{fig:bpzskynet}
 \end{sidewaysfigure}
 
