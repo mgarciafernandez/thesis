@@ -1,10 +1,10 @@
 [0] Config.pm:318> INFO - This is Biber 1.8
 [0] Config.pm:321> INFO - Logfile is 'main.blg'
-[46] biber:275> INFO - === mar may 23, 2017, 18:16:14
+[47] biber:275> INFO - === mar may 23, 2017, 18:30:24
 [47] Biber.pm:333> INFO - Reading 'main.bcf'
 [98] Biber.pm:630> INFO - Found 177 citekeys in bib section 0
 [109] Biber.pm:3053> INFO - Processing section 0
-[122] Biber.pm:3190> INFO - Looking for bibtex format file 'thesis_bibliography.bib' for section 0
+[123] Biber.pm:3190> INFO - Looking for bibtex format file 'thesis_bibliography.bib' for section 0
 [165] bibtex.pm:933> INFO - Decoding LaTeX character macros into UTF-8
 [228] bibtex.pm:808> INFO - Found BibTeX data source 'thesis_bibliography.bib'
 [230] Utils.pm:169> WARN - Duplicate entry key: '2016MNRAS.455.3367G' in file 'thesis_bibliography.bib', skipping ...
@@ -21,11 +21,11 @@
 [245] Utils.pm:169> WARN - Duplicate entry key: '2016ApJ...827...51N' in file 'thesis_bibliography.bib', skipping ...
 [247] Utils.pm:169> WARN - Duplicate entry key: 'PhysRevD.77.023512' in file 'thesis_bibliography.bib', skipping ...
 [248] Utils.pm:169> WARN - Duplicate entry key: '2010ApJ...721..456M' in file 'thesis_bibliography.bib', skipping ...
-[992] Utils.pm:169> WARN - BibTeX subsystem: /tmp/OsdqeZDlzT/thesis_bibliography.bib_6278.utf8, line 4447, warning: 92 characters of junk seen at toplevel
-[1007] Utils.pm:169> WARN - The field 'abstract' in entry '0038-5670-11-3-A13' cannot be null, deleting it
-[1179] Biber.pm:2939> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
-[1179] Biber.pm:2945> INFO - Sorting 'entry' list 'none' keys
-[1180] Biber.pm:2949> INFO - No sort tailoring available for locale 'en_US.UTF-8'
+[994] Utils.pm:169> WARN - BibTeX subsystem: /tmp/qFqYt7JvvI/thesis_bibliography.bib_6727.utf8, line 4447, warning: 92 characters of junk seen at toplevel
+[1009] Utils.pm:169> WARN - The field 'abstract' in entry '0038-5670-11-3-A13' cannot be null, deleting it
+[1180] Biber.pm:2939> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[1181] Biber.pm:2945> INFO - Sorting 'entry' list 'none' keys
+[1181] Biber.pm:2949> INFO - No sort tailoring available for locale 'en_US.UTF-8'
 [1497] bbl.pm:482> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1579] bbl.pm:555> INFO - Output to main.bbl
-[1579] Biber.pm:105> INFO - WARNINGS: 16
+[1580] bbl.pm:555> INFO - Output to main.bbl
+[1580] Biber.pm:105> INFO - WARNINGS: 16

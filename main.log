@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.7.5)  23 MAY 2017 18:16
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.7.5)  23 MAY 2017 18:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1668,7 +1668,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 166--169
 File: Pictures/head1.png Graphic file (type png)
 
 <use Pictures/head1.png>
-Package pdftex.def Info: Pictures/head1.png used on input line 221.
+Package pdftex.def Info: Pictures/head1.png used on input line 219.
 (pdftex.def)             Requested size: 597.50787pt x 298.90431pt.
  (./main.toc
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 15.
@@ -2963,9 +2963,9 @@ ri.pdf>] [98 <./figures_appendix/mag_rstars.pdf, page is rotated 90 degrees>]
 File: Pictures/head2.png Graphic file (type png)
 
 <use Pictures/head2.png>
-Package pdftex.def Info: Pictures/head2.png used on input line 249.
+Package pdftex.def Info: Pictures/head2.png used on input line 247.
 (pdftex.def)             Requested size: 597.50787pt x 298.90431pt.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 249.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 247.
 
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -2975,14 +2975,14 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (0.78236pt too wide) in paragraph at lines 249--249
+Overfull \hbox (0.78236pt too wide) in paragraph at lines 247--247
 \T1/lmr/m/it/12 (-20) nalen der Physik \T1/lmr/m/n/12 (-20) 354 (1916), pp. 769
 ^^U822. \T1/lmr/m/sc/12 (-20) doi\T1/lmr/m/n/12 (-20) : []$\T1/lmtt/m/n/12 10 .
  1002 / andp . 19163540702$[]\T1/lmr/m/n/12 (-20) . 
  []
 
 [101] [102] [103] [104] [105]
-Overfull \hbox (2.57446pt too wide) in paragraph at lines 249--249
+Overfull \hbox (2.57446pt too wide) in paragraph at lines 247--247
 []\T1/lmr/m/n/12 (-20) M. Bartel-mann and P. Schnei-der. ``Weak grav-i-ta-tiona
 l lens-ing''. In: \T1/lmr/m/it/12 (-20) Phys. Rep.
  []
@@ -2991,18 +2991,18 @@ l lens-ing''. In: \T1/lmr/m/it/12 (-20) Phys. Rep.
 \tf@ptc=\write7
 \openout7 = `main.ptc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 256.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 254.
 File: ./Pictures/ds9_transparent.png Graphic file (type png)
 
 <use ./Pictures/ds9_transparent.png>
-Package pdftex.def Info: ./Pictures/ds9_transparent.png used on input line 256.
+Package pdftex.def Info: ./Pictures/ds9_transparent.png used on input line 254.
 
 (pdftex.def)             Requested size: 935.16016pt x 654.41338pt.
  [115]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 256.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 254.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 256.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 256.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 254.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 254.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 16A59B4068D718579518B41B0D4806E5;2740.
 
@@ -3041,7 +3041,7 @@ sr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/pu
 blic/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (127 pages, 23490022 bytes).
+Output written on main.pdf (127 pages, 23490205 bytes).
 PDF statistics:
  3178 PDF objects out of 3580 (max. 8388607)
  2376 compressed objects within 24 object streams
