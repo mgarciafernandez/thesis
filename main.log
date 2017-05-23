@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.7.5)  23 MAY 2017 11:25
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.7.5)  23 MAY 2017 17:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1789,11 +1789,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
  []
 
-) [11
+)
+Underfull \vbox (badness 6125) has occurred while \output is active []
 
-] [12
+ [11
 
-] (./chapter_introduction.tex
+]
+[12] (./chapter_introduction.tex
 Chapter 1.
 \c@ttl@toc@default=\count370
 <Pictures/head2.png, id=312, 1027.6794pt x 514.0806pt>
@@ -1836,6 +1838,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--25
  []
 
 [1
+
 
  <./Pictures/head2.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 26--28
@@ -2808,16 +2811,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--12
  []
 
 
-Underfull \vbox (badness 6125) has occurred while \output is active []
-
- [81
-
-]
 Underfull \hbox (badness 10000) in paragraph at lines 13--15
 
  []
 
-) (./appendix_stellar_contamination.tex [82]
+
+Underfull \vbox (badness 6125) has occurred while \output is active []
+
+ [81
+
+])
+(./appendix_stellar_contamination.tex [82]
 Appendix A.
 File: Pictures/head2.png Graphic file (type png)
 <use Pictures/head2.png>
@@ -3057,7 +3061,7 @@ sr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/pu
 blic/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (127 pages, 23491167 bytes).
+Output written on main.pdf (127 pages, 23491332 bytes).
 PDF statistics:
  3184 PDF objects out of 3580 (max. 8388607)
  2382 compressed objects within 24 object streams
