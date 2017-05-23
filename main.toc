@@ -84,25 +84,25 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Photometric redshifts}{64}{section*.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.4}Discussion}{69}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.4}Discussion}{67}{subsection.4.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Magnification in DES Year 1 data}{69}{section.4.4}
+\contentsline {section}{\numberline {4.4}Magnification in DES Year 1 data}{70}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}Data sample}{69}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.1}Data sample}{70}{subsection.4.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Lens sample: voids}{70}{section*.20}
+\contentsline {subsubsection}{Lens sample: voids}{71}{section*.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Lens sample: troughs}{70}{section*.21}
+\contentsline {subsubsection}{Lens sample: troughs}{71}{section*.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Source sample}{70}{section*.22}
+\contentsline {subsubsection}{Source sample}{71}{section*.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}Determination of convergence profile}{73}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.2}Determination of convergence profile}{74}{subsection.4.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Convergence profile: voids}{73}{section*.23}
+\contentsline {subsubsection}{Convergence profile: voids}{74}{section*.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Convergence profile: troughs}{75}{section*.24}
+\contentsline {subsubsection}{Convergence profile: troughs}{76}{section*.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.3}Discussion}{76}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.3}Discussion}{77}{subsection.4.4.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Conclusions}{81}{chapter.5}
 \defcounter {refsection}{0}\relax 
