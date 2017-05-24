@@ -496,26 +496,26 @@ This analysis demonstrates that reliable weak-lensing magnification can be measu
 
 \section{Magnification in DES Year 1 data}
 \label{sec:y1data}
-As the new data-release was available --the DES Year 1 (DES-Y1)-- on May 2016, the analysis started after this date were performed here. This new data-sample covers more area and has a bigger number of galaxies than DES-SV, allowing to do analyses that were impossible before within the Dark Energy Survey.
+The most complete data-set that is available is called the Year 1 (DES-Y1). It covers more area and has a bigger number of galaxies than DES-SV, allowing to do new and more sensitive analyses.
 \newline
 
-The goal of this analysis is to use the methodology to measure weak-lensing magnification signal developed at \autoref{sec:analysis_sv} to determine the convergence profile of voids and troughs with the DES-Y1 data. Data sample is described at \autoref{sec:data_sample_y1}. Then, the analysis is described \autoref{sec:analysis_y1}. Finally a discussion on the analysis can be found at \autoref{sec:discussion_y1}.
+Here we use the methodology to measure weak-lensing magnification signal developed at \autoref{sec:analysis_sv} to determine the convergence profile of voids and troughs with the DES-Y1 data. Data sample is described at \autoref{sec:data_sample_y1}. Then, the analysis is described \autoref{sec:analysis_y1}. Finally a discussion on the analysis can be found at \autoref{sec:discussion_y1}.
 \newline
 
-Voids and troughs weak-lensing analyses has already been made with the DES-SV data \cite{2016MNRAS.455.3367G,2017MNRAS.465..746S} using gg-lensing. Nevertheless, the small area of the Science Verification data-set does not allow to detect the magnification signal of these lenses.
+The measurement of weak-lensing of voids and troughs has already been made with the DES-SV data \cite{2016MNRAS.455.3367G,2017MNRAS.465..746S} using gg-lensing. Nevertheless, the small area of the Science Verification data-set did not allow to detect the magnification signal of these lenses.
 
 \subsection{Data sample}
 \label{sec:data_sample_y1}
 The DES Y1-Gold galaxy catalog, amounts 1600 deg$^2$ divided between several fields that include the supernovae fields, the stripe-82 (S82) and the SPT field (see \autoref{fig:des_y1_coverage}).
 \newline
 
-On the DES-Y1 galaxy catalog, the {\scshape redMaPPer} algorithm \cite{2014ApJ...785..104R} is applied to find galaxy-clusters and luminous red galaxies (LRGs) \cite{2016MNRAS.461.1431R,2016ApJS..224....1R} producing the LRG catalog {\scshape redMaGiC}. Using the {\scshape redMaGiC} catalog, two set of independent lenses are produced to measure their convergence profile: voids and troughs.
+On the DES-Y1 galaxy catalog, the {\scshape redMaPPer} algorithm \cite{2014ApJ...785..104R} is applied to find galaxy-clusters and luminous red galaxies (LRGs) \cite{2016MNRAS.461.1431R,2016ApJS..224....1R} producing the LRG catalog {\scshape redMaGiC}that allows the definition of voids and troughs, a class of lenses adapted to measure dark energy using weak-lensing.
 \newline
 
-The two lenses represent the emptiest regions of the Universe but they are built on a different manner. Voids are defined as the underdensities on the 3D space (ra,dec and redshift) whereas troughs are defined on the 2D matter projection (ra and dec) --that is, redshift integrated--. To avoid photo-z overlap between lens and source sample, troughs and voids have been defined on the {\scshape redMaGiC} catalog with photo-z $z_{redmagic}<0.45$. It is important to remark that these LRGs have their own photo-z based on a fit to the colors of the red sequence of galaxies. As consequence, the {\scshape redMaGiC} photo-z is more precise than machine-learning or template-based codes.
+The two lenses represent the emptiest regions of the Universe but they are built on a different manner. Voids are defined as the underdensities on the 3D space (ra,dec and redshift) whereas troughs are defined on the 2D matter projection (ra and dec) --that is, redshift integrated--. To avoid photo-z overlap between lens and source sample, troughs and voids have been defined on the {\scshape redMaGiC} catalog with photo-z $z_{redmagic}<0.45$. It is important to remark that LRGs allow a more precise determination of the photo-z, based on a fit to the colors of the red sequence of galaxies.
 \newline
 
-From the main galaxy catalog, a source sample is build, common to both lens samples.
+The source sample is build and will be common to both lens samples.
 
 \subsubsection{Lens sample: voids}
 Following the same approach employed by Sanchez et~al. on DES-SV \cite{2017MNRAS.465..746S}, the void-finder algorithm is applied to the Y1-{\scshape redMaGiC} catalog, finding 533 voids. From this catalog, the voids with centers on the region
@@ -571,7 +571,7 @@ The following color cuts are made in order to remove outliers in color space:
 	\item $-1 < r-i < 2$,
 	\item $-1 < i-z < 2$;
 \end{itemize}
-where {\it g}, {\it r}, {\it i}, {\it z} stand for the corresponding {\scshape mag\_auto} magnitude measured by {\scshape SExtractor}. Bad regions, and haloes around bright stars are also removed following the same criterias as in \autoref{sec:data_sample_SV}.
+where {\it g}, {\it r}, {\it i}, {\it z} stand for the corresponding {\scshape mag\_auto} magnitude measured by {\scshape SExtractor}. Bad regions and haloes around bright stars are also removed following the same criteria as in \autoref{sec:data_sample_SV}.
 \newline
 
 A depth cut is also imposed on the {\it i}-band in order to have uniform depth when combined with the magnitude cut:
@@ -636,7 +636,7 @@ The measured convergence profile for the voids can be seen at \autoref{fig:kappa
 A unique two-point angular cross-correlation function is computed between each trough sample and the unique source sample. Covariance matrices are computed by jackknife resampling with $N_{JK}=50$ regions only the sources to avoid the over-estimation of the errors \cite{2017arXiv170307786F}.
 \newline
 
-Measured convergence profiles can be seen at \autoref{fig:troughs_ap10}, \autoref{fig:troughs_ap20} and \autoref{fig:troughs_ap30} and are compared with the theoretical predictions of a blinded\footnote{Collaboration policies does not allow to produce unblinded predictions until the final analysis has been approved.} $\Lambda$CDM model. Theory matches observations up to a scale factor. Finally, chi-square tests are computed testing the hypothesis that the measured signal is zero and can be seen at \autoref{tab:chisq_trough}. If only the deepest troughs ($Q=0$) and the peaks are considered ($Q=4$), it can be concluded that the measured signal is not zero. Thus it can be concluded that it has been detected the magnification signal of troughs.
+Measured convergence profiles can be seen at \autoref{fig:troughs_ap10}, \autoref{fig:troughs_ap20} and \autoref{fig:troughs_ap30} and are compared with the theoretical predictions of a blinded\footnote{Collaboration policies do not allow to produce unblinded predictions until the final analysis has been approved.} $\Lambda$CDM model. Finally, chi-square tests are computed testing the hypothesis that the measured signal is zero and can be seen at \autoref{tab:chisq_trough}. It can be concluded that the measured signal is not zero.troughs magnification has been detectedf.
 
 \begin{sidewaysfigure}
 \includegraphics[width=\textwidth]{./figures_y1/troughs_ap10_mag_auto_i1.png}
@@ -678,10 +678,10 @@ $\chi^2_z/ndof$&28.3/7&3.8/7&16.4/7&5.1/7&17.3/7\\
 
 \subsection{Discussion}
 \label{sec:discussion_y1}
-On this section, the convergence profile of the empties regions of the Universe --voids and troughs-- has been computed. For the first time,a negative convergence profile has been measured using number count magnification. The measured magnification signal has been detected for both voids an troughs, being less significant the detection of voids since there is a small number of them.
+On this section, the convergence profile of the empties regions of the Universe --voids and troughs-- has been computed. For the first time,a negative convergence profile has been measured using number count magnification. The measured magnification signal has been detected for both voids an troughs.
 \newline
 
 With only the 20\% of the planned area of the experiment the convergence profile has been clearly measured allowing to put on the immediate future competitive constrains on cosmology with this data-set.
 \newline
 
-This analysis demonstrates that number-count magnification by voids and troughs constitutes a new, independent and competitive probe for cosmology. On the near future, when the DES Year 5 data will be available, the size of the errors will be reduced by a factor 2, providing cosmological results with unprecedented accuracy on weak-lensing magnification.
+This analysis demonstrates that number-count magnification by voids and troughs constitutes a new, independent and competitive probe for cosmology. On the near future, when the DES Year 5 data will be available, the size of the errors will be reduced by at least a factor 2, providing cosmological results with unprecedented accuracy on weak-lensing magnification.
