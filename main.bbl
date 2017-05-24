@@ -11164,6 +11164,41 @@
       \endverb
       \keyw{Galaxies: Distances and Redshifts,Galaxies: Photometry,Methods: Statistical}
     \endentry
+    \entry{2014MNRAS.440.2922M}{article}{}
+      \name{labelname}{5}{}{%
+        {{hash=6b8fcdfcaf06addce0e020af5d02461e}{{Melchior}}{M\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=d9455ba1d05f42a30f7f665bc32132af}{{Sutter}}{S\bibinitperiod}{P.\bibnamedelimi M.}{P\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=a572c4b76e7e1976eb814466b907a371}{{Sheldon}}{S\bibinitperiod}{E.\bibnamedelimi S.}{E\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=4341348dfa798f33c31f6bbf591090f6}{{Krause}}{K\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=703624cd8ba627a1c408705274c3989b}{{Wandelt}}{W\bibinitperiod}{B.\bibnamedelimi D.}{B\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{hash=6b8fcdfcaf06addce0e020af5d02461e}{{Melchior}}{M\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=d9455ba1d05f42a30f7f665bc32132af}{{Sutter}}{S\bibinitperiod}{P.\bibnamedelimi M.}{P\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=a572c4b76e7e1976eb814466b907a371}{{Sheldon}}{S\bibinitperiod}{E.\bibnamedelimi S.}{E\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+        {{hash=4341348dfa798f33c31f6bbf591090f6}{{Krause}}{K\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=703624cd8ba627a1c408705274c3989b}{{Wandelt}}{W\bibinitperiod}{B.\bibnamedelimi D.}{B\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{aa09c904e379b580e6e883f4193651f4}
+      \strng{fullhash}{70099d2adb0ac10e42e7b75151b51733}
+      \field{sortinit}{0}
+      \field{sortinithash}{a08a9549c5c2429f8cec5d1a581b26ca}
+      \field{labeltitle}{{First measurement of gravitational lensing by cosmic voids in SDSS}}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\mnras}
+      \field{month}{06}
+      \field{title}{{First measurement of gravitational lensing by cosmic voids in SDSS}}
+      \field{volume}{440}
+      \field{year}{2014}
+      \field{pages}{2922\bibrangedash 2927}
+      \verb{doi}
+      \verb 10.1093/mnras/stu456
+      \endverb
+      \verb{eprint}
+      \verb 1309.2045
+      \endverb
+      \keyw{gravitational lensing: weak,cosmology: observations}
+    \endentry
     \entry{2014ApJ...785..104R}{article}{}
       \name{labelname}{15}{}{%
         {{hash=7a043bb50f73cee15c724d11948d33e2}{{Rykoff}}{R\bibinitperiod}{E.\bibnamedelimi S.}{E\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
