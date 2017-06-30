@@ -2,13 +2,13 @@
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\color {ocre}Resumen y Conclusiones}{ix}{chapter*.2}
+\contentsline {chapter}{\color {ocre}Resumen y Conclusiones}{xi}{chapter*.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Resumen}{ix}{section*.3}
+\contentsline {section}{Resumen}{xi}{section*.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Conclusiones}{x}{section*.4}
+\contentsline {section}{Conclusiones}{xii}{section*.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\color {ocre}Summary}{xi}{chapter*.5}
+\contentsline {chapter}{\color {ocre}Summary}{xiii}{chapter*.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
@@ -100,15 +100,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Convergence profile: voids}{74}{section*.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Convergence profile: troughs}{76}{section*.24}
+\contentsline {subsubsection}{Convergence profile: troughs}{77}{section*.24}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.3}Discussion}{77}{subsection.4.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusions}{81}{chapter.5}
+\contentsline {chapter}{\numberline {5}Conclusions}{83}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix \numberline {A}Stellar contamination equation}{83}{Appendix.1.A}
+\contentsline {chapter}{Appendix \numberline {A}Stellar contamination equation}{85}{Appendix.1.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendix \numberline {B}Additional figures}{85}{Appendix.1.B}
+\contentsline {chapter}{Appendix \numberline {B}Additional figures}{87}{Appendix.1.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{101}{chapter*.25}
+\contentsline {chapter}{References}{103}{chapter*.25}
 \contentsfinish 

@@ -613,7 +613,7 @@ The convergence profile ($\kappa$) is computed from the number-count magnificati
 \end{equation}
 where $\omega_{LS}$ is the two-point angular cross-correlation function as given by the Landy-Szalay estimator (\autoref{eq:landyszalay}). The number-count slope parameter ($\alpha(m)$) is computed using the same methodology as in \autoref{sec:svdata}.
 \subsubsection{Convergence profile: voids}
-A two-point angular cross-correlation function is computed between the void lens sample and the unique source sample using uniform random samples for both lens and source. Thus, the measured convergence profile is the average convergence profile of all the selected voids. The covariance matrix of the measured correlation function is computed by bootstrapping the void sample
+A two-point angular cross-correlation function is computed between the void lens sample and the unique source sample. Thus, the measured convergence profile is the average convergence profile of all the selected voids. The covariance matrix of the measured correlation function is computed by bootstrapping the void sample
 \begin{equation}
 C(\theta_i,\theta_j) = \sum\limits_k[\omega^k_{LS}(\theta_i)-\omega_{LS}(\theta_i)][\omega^k_{LS}(\theta_j)-\omega_{LS}(\theta_j)],
 \end{equation}
@@ -634,13 +634,13 @@ The significance of the detection is computing by doing a chi-square test is com
 The computed chi-square is $\chi^2_{zero}=33.6$ with $ndof=15$ degrees of freedom, implying that the measured signal is not compatoble with zero. Thus, it can be conlcuded that the magnification signal has been detected.
 \newline
 
-The measured convergence profile for the voids can be seen at \autoref{fig:kappa_voids} compared with expected theory. Theoretical predictions are computed using the KGB profile (\autoref{eq:kgb} and \autoref{eq:kappakrause}) on a $\Lambda$CDM Universe with blinded cosmological parameters\footnote{Collaboration policies do not allow to produce unblinded predictions until the final analysis has been approved.}. The void properties --depth and size ($\delta_0, R_v$ respectively)-- used to compute the theoretical void profile, are given by the void finder itself. Thus, a systematic analysis on simulations must be made in order to study the possible impact of inaccuracies on the determination of $\delta_0,R_v$ as well the position of the center of the void on the theoretical KGB profile. In addition, different void-finder algorithms should be used following the same approach as in \autoref{sec:analysis_sv} with the photo-z codes in order to map the possible discrepancies and ensure that the measured signal is not a feature induced by the methodology employed to detect the voids.
+The measured convergence profile for the voids can be seen at \autoref{fig:kappa_voids} compared with expected theory. Theoretical predictions are computed using the KGB profile (\autoref{eq:kgb} and \autoref{eq:kappakrause}) on a $\Lambda$CDM Universe with blinded cosmological parameters\footnote{Collaboration policies do not allow to produce unblinded predictions until the final analysis has been approved.}. The void properties --depth and size ($\delta_0, R_v$ respectively)-- used to compute the theoretical void profile, are given by the void finder itself. Thus, a systematic analysis on simulations must be made in order to study the possible impact of inaccuracies on the determination of $\delta_0,R_v$ on the theoretical KGB profile.
 \newline
 
 On this section, the significance of the detection has not followed the same bayesian approach as in \autoref{sec:analysis_sv} due to the blinding scheme imposed by the collaboration.
 
 \subsubsection{Convergence profile: troughs}
-A unique two-point angular cross-correlation function is computed between each trough sample and the unique source sample using the Landy-Szalay estimator (\autoref{eq:landyszalay}). The positions of the troughs are defined as the center of the {\scshape HEALPix} pixels with weight equal to one. Uniform random samples are used for both lenses and sources . Covariance matrices are computed by jackknife resampling with $N_{JK}=50$ regions only the sources to avoid the over-estimation of the errors \cite{2017arXiv170307786F}:
+A unique two-point angular cross-correlation function is computed between each trough sample and the unique source sample. Covariance matrices are computed by jackknife resampling with $N_{JK}=50$ regions only the sources to avoid the over-estimation of the errors \cite{2017arXiv170307786F}:
 \begin{equation}
 C(\theta_\eta,\theta_\nu) = \frac{N_{\rm JK}}{N_{\rm JK}-1}\sum\limits_k^{N_{\rm JK}}[\omega(\theta_\eta)-\omega(\theta_\eta)][\omega(\theta_\nu)-\omega(\theta_\nu)],
 \end{equation}

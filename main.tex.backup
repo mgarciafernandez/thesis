@@ -202,11 +202,6 @@ Chapter header credit: NASA
 \end{flushleft}
 
 \newpage
-~\vfill
-\thispagestyle{empty}
-
-
-\newpage
 \thispagestyle{empty}
 \begin{flushright}
 \begin{large}
@@ -217,6 +212,10 @@ LAO TS\'E\\
 \end{large}
 ~\vfill
 \end{flushright}
+
+\newpage
+~\vfill
+\thispagestyle{empty}
 
 %----------------------------------------------------------------------------------------
 %	TABLE OF CONTENTS
@@ -255,14 +254,6 @@ LAO TS\'E\\
 \end{appendices}
 
 \printbibliography[heading=bibintoc,title=References]
-
-\newpage
-~\vfill
-\thispagestyle{empty}
-
-\newpage
-~\vfill
-\thispagestyle{empty}
 
 \newpage
 ~\vfill
