@@ -4098,6 +4098,62 @@
       \endverb
       \keyw{Astrophysics}
     \endentry
+    \entry{DIEHL20121332}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=9525003f0d54d719313c4e1340759dcd}{Diehl}{D\bibinitperiod}{Thomas}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=9525003f0d54d719313c4e1340759dcd}{Diehl}{D\bibinitperiod}{Thomas}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{9525003f0d54d719313c4e1340759dcd}
+      \strng{fullhash}{9525003f0d54d719313c4e1340759dcd}
+      \field{sortinit}{0}
+      \field{labeltitle}{The Dark Energy Survey Camera (DECam)}
+      \field{issn}{1875-3892}
+      \field{journaltitle}{Physics Procedia}
+      \field{note}{Proceedings of the 2nd International Conference on Technology and Instrumentation in Particle Physics (TIPP 2011)}
+      \field{title}{The Dark Energy Survey Camera (DECam)}
+      \field{volume}{37}
+      \field{year}{2012}
+      \field{pages}{1332\bibrangedash 1340}
+      \verb{doi}
+      \verb http://dx.doi.org/10.1016/j.phpro.2012.02.472
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S1875389212018378
+      \endverb
+      \keyw{Cerro Tolo Inter-American Observatory}
+    \endentry
+    \entry{2016AJ....151...22B}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=cf5c4cc992bd3c1b73d20dde42347f9f}{{Batygin}}{B\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=c518dc99acebb1e948676b03f4d9da12}{{Brown}}{B\bibinitperiod}{M.\bibnamedelimi E.}{M\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=cf5c4cc992bd3c1b73d20dde42347f9f}{{Batygin}}{B\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=c518dc99acebb1e948676b03f4d9da12}{{Brown}}{B\bibinitperiod}{M.\bibnamedelimi E.}{M\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{68a9a029ed21d8394b7b384d1ce250b1}
+      \strng{fullhash}{68a9a029ed21d8394b7b384d1ce250b1}
+      \field{sortinit}{0}
+      \field{labeltitle}{{Evidence for a Distant Giant Planet in the Solar System}}
+      \field{eid}{22}
+      \field{eprintclass}{astro-ph.EP}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\aj}
+      \field{month}{02}
+      \field{title}{{Evidence for a Distant Giant Planet in the Solar System}}
+      \field{volume}{151}
+      \field{year}{2016}
+      \field{pages}{22}
+      \verb{doi}
+      \verb 10.3847/0004-6256/151/2/22
+      \endverb
+      \verb{eprint}
+      \verb 1601.05438
+      \endverb
+      \keyw{Kuiper Belt: general,planets and satellites: dynamical evolution and stability}
+    \endentry
     \entry{2002ASPC..281..228B}{inproceedings}{}
       \name{labelname}{6}{}{%
         {{hash=f197e5a7d566e95ecba11311c48a4961}{{Bertin}}{B\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
