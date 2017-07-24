@@ -12,13 +12,13 @@ It is worth to remark that, as it has been defined at \autoref{ch:theory}, given
 
 \section{Measuring Magnification through Number Count}
 \label{sec:method}
-As it has been described at \autoref{ch:theory}, the amplitude of the magnification signal is dependent on two factors: the number-count slope parameter ($\alpha-1$) and the lensing kernel, that for a given lens sample, depends on the redshift of the source sample. LBGs and QSOs have been traditionally used on magnification studies as sources since they have steep magnitude distribution, leading to a high value of $\alpha-1$. In addition, this population of galaxies is located at very high redshift ($2\lesssim z\lesssim 4$), leading to a high lensing efficiency and a clean redshift separation between the lens and source samples. Nevertheless, this population of galaxies has much less density than the general population of galaxies, feature that can prevent the measurement of a magnification signal for low-area surveys. In addition, the selection of a population of LBGs involve the known as {\it dropout} technique, that requires the development of a custom data-reduction pipeline just to select this specific population of galaxies. For large-area surveys such as DES and LSST, the amount of computing time to run the data-reduction pipeline makes this approach very inefficient, and alternative methods must be developed.
+As it has been described in \autoref{ch:theory}, the amplitude of the magnification signal depends on two factors: the number-count slope parameter ($\alpha-1$) and the lensing kernel, that for a given lens sample, is a function of the redshift of the source sample. LBGs and QSOs have been traditionally used on magnification studies as sources since they have steep magnitude distribution, leading to a high value of $\alpha-1$. In addition, this population of galaxies is located at very high redshift ($2\lesssim z\lesssim 4$), leading to a high lensing efficiency and a clean redshift separation between the lens and source samples. Nevertheless, this population of galaxies has very low density, feature that can prevent the measurement of a magnification signal for small-area surveys. In addition, the selection of a population of LBGs involve the known as {\it dropout} technique, that requires the development of a custom data-reduction pipeline just to select this specific population of galaxies. For large-area surveys such as DES and LSST, the amount of computing time to run the data-reduction pipeline makes this approach very inefficient, and alternative methods must be developed.
 \newline
 
-The caveats related to the use of LBGs and QSOs as sources can be avoided by using the general galaxy population. Then, only redshift cuts are imposed in order to separate the lens and source samples. This approach has the advantage that the density of the source sample is higher, reducing significantly the shot-noise. Nevertheless, the accuracy on the determination of the redshift on broad-band galaxy-surveys --such as DES-- is very limited, introducing an important source of systematic errors that must be avoided and carefully taken into account.
+The caveats related to the use of LBGs and QSOs as sources can be avoided by using the whole measured galaxy population. Then, only redshift cuts are imposed in order to separate the lens and source samples. This approach has the advantage that the density of the source sample is higher, reducing significantly the shot-noise. Nevertheless, the accuracy on the determination of the redshift on broad-band galaxy-surveys --such as DES-- is limited, introducing an important source of systematic errors that must be avoided and carefully taken into account.
 \newline
 
-In addition to the lens-source redshift overlap, magnification suffers from several systematic errors based on the photometry \cite{2015MNRAS.454.3121M,2016MNRAS.455.3943H}, such as: depth-inhomogeneities, the zero-point correction and calibration, or shifts on the magnitude determination due to inaccurate sky-background subtraction. The important reduction of shot-noise on wide-field surveys requires the development of new techniques to estimate and control these systematic errors.
+In addition to the lens-source redshift overlap, magnification suffers from several systematic errors based on the photometry \cite{2015MNRAS.454.3121M,2016MNRAS.455.3943H}, such as: depth-inhomogeneities, the zero-point correction and calibration, or possible shifts on the magnitude determination due to inaccurate sky-background subtraction. The important reduction of shot-noise on wide-field surveys requires the development of new techniques to estimate and control these sources of systematic errors.
 \newline
 
 The use of the general population of galaxies on small-area surveys is mandatory to reach a significance that allows the detection of the magnification signal. On wide-area surveys the use of this population is not necessary although new studies can be made if it is used. Having a very dense population of galaxies as sources allows to use a set of lenses that are less numerous: voids and troughs. This allows to produce new physics analysis.
@@ -34,7 +34,7 @@ The weight of the $i$-th galaxy ($w_i$) is given by:
 \begin{equation}
 w_i = \alpha_S(m_i)-1,
 \end{equation}
-where $\alpha_S(m_i)$ is the number-count slope given by \autoref{eq:alpha} and $m_i$ is the magnitude of the $i$-th galaxy. This procedure allows to obtain the maximum signal-to-noise. Nevertheless, this weighting makes hard to obtain the impact of the different systematic effects on the measured signal.
+where $\alpha_S(m_i)$ is the number-count slope given by \autoref{eq:alpha} and $m_i$ is the magnitude of the $i$-th galaxy. This procedure allows to obtain the maximum signal-to-noise. Nevertheless, this weighting makes hard to disentangle the impact of the different systematic effects on the measured signal.
 \newline
 
 As an alternative approach the following procedure is proposed and implemented:
@@ -324,7 +324,7 @@ In addition to the parameter determination, a possible non-completeness on the S
 
 \subsubsection{Object obscuration}
 
-Chang \cite{0004-637X-801-2-73} studied whether moderately bright objects in crowded environments produce a decrease in the detection probability of nearby fainter objects at scales $\theta\lesssim10\ $arcsec. However, such scales are well below those considered in this analysis ($\theta>36$ arcsec) and therefore this effect is ignored.
+Chang et al.\cite{0004-637X-801-2-73} studied whether moderately bright objects in crowded environments produce a decrease in the detection probability of nearby fainter objects at scales $\theta\lesssim10\ $arcsec. However, such scales are well below those considered in this analysis ($\theta>36$ arcsec) and therefore this effect is ignored.
 
 \subsubsection{Stellar contamination}
     

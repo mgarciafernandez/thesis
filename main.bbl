@@ -4098,6 +4098,121 @@
       \endverb
       \keyw{Astrophysics}
     \endentry
+    \entry{2002ASPC..281..228B}{inproceedings}{}
+      \name{labelname}{6}{}{%
+        {{hash=f197e5a7d566e95ecba11311c48a4961}{{Bertin}}{B\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=fee4a38ac5059c200e5ac71954969123}{{Mellier}}{M\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=057d31f4fb1420ee0798ba4276558d28}{{Radovich}}{R\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=541757094be418c928f3ff0ac65b72fd}{{Missonnier}}{M\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=633e005af02b765acef5d4e745885d89}{{Didelon}}{D\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=83b9bdac68b6c59c8cfdba0164d96e0b}{{Morin}}{M\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=f197e5a7d566e95ecba11311c48a4961}{{Bertin}}{B\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=fee4a38ac5059c200e5ac71954969123}{{Mellier}}{M\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=057d31f4fb1420ee0798ba4276558d28}{{Radovich}}{R\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=541757094be418c928f3ff0ac65b72fd}{{Missonnier}}{M\bibinitperiod}{G.}{G\bibinitperiod}{}{}{}{}}%
+        {{hash=633e005af02b765acef5d4e745885d89}{{Didelon}}{D\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=83b9bdac68b6c59c8cfdba0164d96e0b}{{Morin}}{M\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=d234d63a9461289fb02a3f043547f625}{{Bohlender}}{B\bibinitperiod}{D.\bibnamedelimi A.}{D\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=08f6a13d566e6ac9bf23f3a1e3e49071}{{Durand}}{D\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=1e8197833e013749ef051df7eee5c9a4}{{Handley}}{H\bibinitperiod}{T.\bibnamedelimi H.}{T\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{9866294310efef63169fc8c01db058db}
+      \strng{fullhash}{feeb50ea9b02d107f824f3411c7aeb2a}
+      \field{sortinit}{0}
+      \field{labeltitle}{{The TERAPIX Pipeline}}
+      \field{booktitle}{Astronomical Data Analysis Software and Systems XI}
+      \field{series}{Astronomical Society of the Pacific Conference Series}
+      \field{title}{{The TERAPIX Pipeline}}
+      \field{volume}{281}
+      \field{year}{2002}
+      \field{pages}{228}
+      \keyw{astronomy: optical,astronomy: software,pipelines: data reduction,software: package,software: development,software: data analysis,data analysis,databases,distributed processing}
+    \endentry
+    \entry{1996A&AS..117..393B}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=f197e5a7d566e95ecba11311c48a4961}{{Bertin}}{B\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=613bbf48969012f84ba711a6814913dc}{{Arnouts}}{A\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=f197e5a7d566e95ecba11311c48a4961}{{Bertin}}{B\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=613bbf48969012f84ba711a6814913dc}{{Arnouts}}{A\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{208ab995b5f5214e83ffa71af4c0c68c}
+      \strng{fullhash}{208ab995b5f5214e83ffa71af4c0c68c}
+      \field{sortinit}{0}
+      \field{labeltitle}{{SExtractor: Software for source extraction.}}
+      \field{journaltitle}{\aaps}
+      \field{month}{06}
+      \field{title}{{SExtractor: Software for source extraction.}}
+      \field{volume}{117}
+      \field{year}{1996}
+      \field{pages}{393\bibrangedash 404}
+      \verb{doi}
+      \verb 10.1051/aas:1996164
+      \endverb
+      \keyw{METHODS: DATA ANALYSIS,TECHNIQUES: IMAGE PROCESSING,GALAXIES: PHOTOMETRY}
+    \endentry
+    \entry{2013MNRAS.434.1604Z}{article}{}
+      \name{labelname}{6}{}{%
+        {{hash=0c6085d97dc932cc4e059dbdc0cb4d51}{{Zuntz}}{Z\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=c03dd80625a02a8771e43ed4ccd39a31}{{Kacprzak}}{K\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=032baf914e3b307ec6a85e43bec530a7}{{Voigt}}{V\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=053717814172f4fb87ab81ae1b6a9e05}{{Hirsch}}{H\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=681272a28920dceea5453af08dc36b5d}{{Rowe}}{R\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=d169987a4c2b98ec7c675550dddeed24}{{Bridle}}{B\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{hash=0c6085d97dc932cc4e059dbdc0cb4d51}{{Zuntz}}{Z\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=c03dd80625a02a8771e43ed4ccd39a31}{{Kacprzak}}{K\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=032baf914e3b307ec6a85e43bec530a7}{{Voigt}}{V\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=053717814172f4fb87ab81ae1b6a9e05}{{Hirsch}}{H\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=681272a28920dceea5453af08dc36b5d}{{Rowe}}{R\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=d169987a4c2b98ec7c675550dddeed24}{{Bridle}}{B\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{807b7b1b25693dc7820fad6dbcd46fcf}
+      \strng{fullhash}{e37347d1b48253cc443ee7c9f0f23069}
+      \field{sortinit}{0}
+      \field{labeltitle}{{IM3SHAPE: a maximum likelihood galaxy shear measurement code for cosmic gravitational lensing}}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{\mnras}
+      \field{month}{09}
+      \field{title}{{IM3SHAPE: a maximum likelihood galaxy shear measurement code for cosmic gravitational lensing}}
+      \field{volume}{434}
+      \field{year}{2013}
+      \field{pages}{1604\bibrangedash 1618}
+      \verb{doi}
+      \verb 10.1093/mnras/stt1125
+      \endverb
+      \verb{eprint}
+      \verb 1302.0183
+      \endverb
+      \keyw{gravitational lensing: weak,methods: data analysis,methods: statistical,techniques: image processing,cosmology: observations,dark energy}
+    \endentry
+    \entry{2015ascl.soft08008S}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=5fdbe50fe81462e0148d040cf3938531}{{Sheldon}}{S\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=5fdbe50fe81462e0148d040cf3938531}{{Sheldon}}{S\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{5fdbe50fe81462e0148d040cf3938531}
+      \strng{fullhash}{5fdbe50fe81462e0148d040cf3938531}
+      \field{sortinit}{0}
+      \field{labeltitle}{{NGMIX: Gaussian mixture models for 2D images}}
+      \field{eprinttype}{ascl}
+      \field{howpublished}{Astrophysics Source Code Library}
+      \field{month}{08}
+      \field{title}{{NGMIX: Gaussian mixture models for 2D images}}
+      \field{year}{2015}
+      \verb{eprint}
+      \verb 1508.008
+      \endverb
+      \keyw{Software}
+    \endentry
     \entry{2015MNRAS.454.1260A}{article}{}
       \name{labelname}{80}{}{%
         {{hash=4b354a8f63a4eda6e0cba025b5eff685}{{Agnello}}{A\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
@@ -8907,30 +9022,6 @@
       \verb{url}
       \verb http://stacks.iop.org/0004-637X/801/i=2/a=73
       \endverb
-    \endentry
-    \entry{1996A&AS..117..393B}{article}{}
-      \name{labelname}{2}{}{%
-        {{hash=f197e5a7d566e95ecba11311c48a4961}{{Bertin}}{B\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
-        {{hash=613bbf48969012f84ba711a6814913dc}{{Arnouts}}{A\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{2}{}{%
-        {{hash=f197e5a7d566e95ecba11311c48a4961}{{Bertin}}{B\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
-        {{hash=613bbf48969012f84ba711a6814913dc}{{Arnouts}}{A\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{208ab995b5f5214e83ffa71af4c0c68c}
-      \strng{fullhash}{208ab995b5f5214e83ffa71af4c0c68c}
-      \field{sortinit}{0}
-      \field{labeltitle}{{SExtractor: Software for source extraction.}}
-      \field{journaltitle}{\aaps}
-      \field{month}{06}
-      \field{title}{{SExtractor: Software for source extraction.}}
-      \field{volume}{117}
-      \field{year}{1996}
-      \field{pages}{393\bibrangedash 404}
-      \verb{doi}
-      \verb 10.1051/aas:1996164
-      \endverb
-      \keyw{METHODS: DATA ANALYSIS,TECHNIQUES: IMAGE PROCESSING,GALAXIES: PHOTOMETRY}
     \endentry
     \entry{2005MNRAS.361.1287M}{article}{}
       \name{labelname}{9}{}{%
