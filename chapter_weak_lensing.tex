@@ -24,12 +24,12 @@ where $G_N$ is Newton's gravitational constant, $M$ the mass of the lens, $d_{LS
 Finding Einstein rings may be a product of serendipity or digging hard on wide-field images \cite{2017arXiv170402744J}. Nevertheless, the probability of finding a system where observer-lens-source are aligned is very small and only a modest number of Einstein rings are known ($\sim20$ on the Dark Energy Survey Science Verification data). A more general solution, where the system is not aligned can be found with the gravitational lens equation and is more useful for cosmology since the statistics grows enormously.
 
 \section{Lens Equation on Gravitational Fields}
-Since all the photons emitted by the source are bended coherently by the lens, the axis observer-lens constitute an optical convergent system. Thus a lens equation can be deduced using Geometrical Optics with the deflection angle ($\hat\alpha$) of a light ray --photon trajectory-- given by General Relativity \cite{Weinberg,2001PhR...340..291B,2006glsw.conf.....M,2008ARNPS..58...99H,2041-8205-723-1-L13,Weinberg201387,2015RPPh...78h6901K}:
+Since all the photons emitted by the source are bent coherently by the lens, the axis observer-lens constitute an optical convergent system. Thus a lens equation can be deduced using Geometrical Optics with the deflection angle ($\hat\alpha$) of a light ray --photon trajectory-- given by General Relativity \cite{Weinberg,2001PhR...340..291B,2006glsw.conf.....M,2008ARNPS..58...99H,2041-8205-723-1-L13,Weinberg201387,2015RPPh...78h6901K}:
 \begin{equation}
 \hat\alpha = \frac{4G_NM}{\xi c^2}.
 \label{eq:deflection_angle}
 \end{equation}
-Here $M$ is the mass of the point-particle (lens hereafter), $G_N$ is Newton's constant, $c$ the speed of light and $\xi$ the closest encounter distance (a.k.a. impact paramenter). Using \autoref{fig:optical_system} as reference and defining $\theta$ as the observed and $\beta$ the real lens-source angle, it can be deduced that
+Here $M$ is the mass of the point-particle (lens hereafter), $G_N$ is Newton's constant, $c$ the speed of light and $\xi$ the closest encounter distance (a.k.a. impact parameter). Using \autoref{fig:optical_system} as reference and defining $\theta$ as the observed and $\beta$ the real lens-source angle, it can be deduced that
 \begin{equation}
 \beta = \theta - \frac{D_{ds}}{D_s}\hat\alpha(D_d\theta)=\theta-\alpha(\theta),
 \label{eq:lens_equation}
@@ -48,16 +48,16 @@ where $D_{ds},D_s$ and $D_d$ are the source-lens, observer-source and observer-l
 \end{figure}
 \newline
 
-Considering now an extended matter distribution, with density $\rho(\vec r)$, where the observer is located at the origin. The position vector can be splitted such that
+Considering now an extended matter distribution, with density $\rho(\vec r)$, where the observer is located at the origin. The position vector can be split such that
 \begin{equation}
 \vec r = r_\parallel \hat r_\parallel + \vec r_\perp,
 \end{equation}
-where $r_\parallel\hat r_\parallel$ denotes the position on the direction defined by the axis observer-lens (line-of-sight or LoS hereafter) and $\vec r_\perp$ denotes a 2D vector on the plane transverse to the line-of-sight. Thus, the total matter distribution that the photon goes trough from the source to the observer is given by
+where $r_\parallel\hat r_\parallel$ denotes the position on the direction defined by the axis observer-lens (line-of-sight or LoS hereafter) and $\vec r_\perp$ denotes a 2D vector on the plane transverse to the line-of-sight. Thus, the total matter distribution that the photon goes through from the source to the observer is given by
 \begin{equation}
 \Sigma(\vec r_\perp,r_\parallel^S) = \int\limits_0^{r_\parallel^S} dr_\parallel\rho(r_\parallel,\vec r_\perp),
 \label{eq:surface_density}
 \end{equation}
-where $\vec r^S$ is the position of the source and the quantity $\Sigma$ is called the surface density. Taking into account the flat-sky approximation\footnote{This approximation is responsible of part of the Planck-CFHTLens/KiDS tension.} --that is, all the transverse planes to LoS are parallel-- and summing to all the lens positions, \autoref{eq:deflection_angle} becomes
+where $\vec r^S$ is the position of the source and the quantity $\Sigma$ is called the surface density. Taking into account the flat-sky approximation\footnote{This approximation is responsible of part of the Planck-CFHTLens/KiDS tension.} --that is, all the transverse planes to LoS are parallel-- and summing through all possible lens positions, \autoref{eq:deflection_angle} becomes
 \begin{equation}
 \hat\vec\alpha(\vec r_\perp,r_\parallel^S) = \frac{4G_N}{c^2}\int d^2\vec r_\perp \Sigma(\vec r_\perp,r_\parallel^S)\frac{\vec r^S_\perp-\vec r_\perp}{|\vec r^S_\perp-\vec r_\perp|^2}.
 \end{equation}
@@ -65,7 +65,7 @@ This leads to a deflection angle
 \begin{equation}
 \hat \vec\alpha(\vec r_\perp,r_\parallel^S) = \frac1{\pi}\int d^2\vec r_\perp\kappa(\vec r_\perp,r_\parallel^S)\frac{\vec r^S_\perp-\vec r_\perp}{|\vec r^S_\perp-\vec r_\perp|^2},
 \end{equation}
-where the convergence ($\kappa$) and critical density ($\Sigma_c$) has been defined such that
+where the convergence ($\kappa$) and critical density ($\Sigma_c$) have been defined such that
 \begin{equation}
 \kappa(\vec r_\perp,r_\parallel^S) = \frac{\Sigma(\vec r_\perp,r_\parallel^S)}{\Sigma_c} \mbox{ with } \Sigma_c = \frac{c^2}{4\pi G_N}\frac{D_s}{D_dD_{ds}}.
 \label{eq:kappa_definition}
@@ -94,7 +94,7 @@ Taking into account the definition of the lensing potential, it can also be writ
 Thus, gravitational lensing is a direct probe for the underlying gravitational field
 \newline
 
-As weak-lensing wide-field surveys start to proliferate, the limit of validity of the flat-sky approximation is being reached \cite{2017arXiv170205301K,2017arXiv170401054L}. A solution without the flat-sky approximation can be found at Kitching et~al. \cite{2016arXiv161104954K}, and adds an additional prefactor that is function of the wavenumber on the power spectrum. 
+As weak-lensing wide-field surveys become larger and more precise, the limit of validity of the flat-sky approximation is being reached \cite{2017arXiv170205301K,2017arXiv170401054L}. A solution without the flat-sky approximation can be found at Kitching et~al. \cite{2016arXiv161104954K}, and adds an additional prefactor that is function of the wavenumber on the power spectrum. 
 
 \section{Weak Gravitational Lensing}
 
@@ -114,7 +114,7 @@ where $\det(\mathcal{J})$ denotes the determinant of the jacobian matrix. Thus, 
 \begin{equation}
 L_\mu = \frac{1}{\det(\mathcal{J})}L_0 = \mu L_0,
 \end{equation}
-where $\mu$ is called the magnification factor and is defined as de inverse of the determinant of the jacobian matrix of the lensing map.
+where $\mu$ is called the magnification factor and is defined as the inverse of the determinant of the jacobian matrix of the lensing map.
 \newline
 
 Taking into account that the jacobian matrix is given by $\mathcal{J}=(\hat n_\perp\cdot\nabla_\perp)\vec\beta$ with $\hat n_\perp$ a unit vector on the plane transverse to LoS, by \autoref{eq:lens_equation_2d} the jacobian can be expressed as
@@ -126,7 +126,7 @@ resulting finally
 \mathcal{J}(\vec r_\perp) = \left(\delta_{ij}-\frac{\partial^2\psi}{\partial r_i\partial r_j}\right)=\left( \begin{array}{c c}1-\kappa-\gamma_1 & -\gamma_2\\-\gamma_2 & 1-\kappa+\gamma_1\end{array} \right).
 \label{eq:jacobian}
 \end{equation}
-Here $\kappa$ is the convergence, an isotropic shape distortion and $\gamma_1,\gamma_2$ is the shear, an elongation/shrink on the shape along one of the axis (\autoref{fig:wl_distortion}).
+Here $\kappa$ is the convergence, an isotropic shape distortion and $\gamma_1,\gamma_2$ is the shear, an elongation/shrink on the shape along one of the axes (\autoref{fig:wl_distortion}).
 \newline
 
 Taking into account the Born approximation --that is, the light rays of a source galaxy are deflected by only one lens--, the derivatives of the previous equation can be evaluated on the unlensed coordinates.
@@ -137,16 +137,16 @@ As it has been demonstrated in the previous section, gravitational lensing incre
 \mu = \frac1{(1-\kappa)^2+\gamma_1^2+\gamma_2^2}\simeq 1+2\kappa,
 \label{eq:mu_definition}
 \end{equation}
-where on the last step it has been used that $1\gg\kappa\gg\gamma$. Taking into account the definition given at \autoref{eq:kappa_definition}, the convergence suffered by the photons emitted by a source located on the sky direction $\hat n$ and redshift $z$ is given by
+where on the last step it has been used that $1\gg\kappa\gg\gamma$. Taking into account the definition given in \autoref{eq:kappa_definition}, the convergence suffered by the photons emitted by a source located in sky direction $\hat n$ and redshift $z$ is given by
 \begin{equation}
 \kappa(\hat n,z) = \frac{1}{2}\frac{\Sigma(\hat n,z)}{\Sigma_c}.
 \end{equation}
-Using the definition given at \autoref{eq:surface_density} and the Poisson equation for the gravitational field this leads to
+Using the definition given in \autoref{eq:surface_density} and the Poisson equation for the gravitational field this leads to
 \begin{equation}
 \kappa(\hat n,z) = \int\limits_0^zdz'\frac{r(z')[r(z)-r(z')]}{r(z)}\nabla_\perp\Phi(\hat n,z'),
 \label{eq:kappaphi}
 \end{equation}
-where $r(z)$ is the comoving distance at redshift $z$ and $\Phi$ the gravitational potential. Expressing now the gravitational potential as an homogeneus therm plus a perturbation ($\Phi = \bar\Phi+\delta_\Phi$), the previous equation can be expressed as a funcion of the matter density contrast ($\delta_M$)
+where $r(z)$ is the comoving distance at redshift $z$ and $\Phi$ the gravitational potential. Expressing now the gravitational potential as an homogeneus term plus a perturbation ($\Phi = \bar\Phi+\delta_\Phi$), the previous equation can be expressed as a funcion of the matter density contrast ($\delta_M$)
 \begin{equation}
 \nabla^2\Phi(\hat n,z) = \nabla^2\delta_\Phi(\hat n,z) = 4\pi Ga^2\bar\rho\delta_M(\hat n,z),
 \label{eq:kappadeltam}
@@ -167,7 +167,7 @@ The convergence of the foreground sample can be probed tracing the three effects
 \begin{itemize}
 \item {\bf Change of the observed density:} The increase of the observed luminosity of the galaxies allows to see sources that if there were no lensing, would be below our observational threshold nearby the location of the lenses. At the same time, an stretching of the solid angle behind the lenses causes a drop in the number density. This two effects compete between them and which one is over the other depends on the slope of the number counts of the sources. Thus, at the neighbourhood of the lenses, a change of the number density respect to the average is produced. This is known as number-count magnification.
 \item {\bf Shift on the observed magnitude:} Since the increase of luminosity due to gravitational lensing is a short range effect, a shift on the observed magnitudes may be detected nearby the positions of the lenses. This requires, in principle, the knowledge of the unlensed magnitude of the sources. Nevertheless, although galaxies have a large variety of magnitudes, it can be assumed that, they are randomly distributed. Thus shifts on the magnitudes respect to the average can be detected.
-\item {\bf Size enlargement:} All the effects above are a consequence of the conservation of surface brightness and the size enlargement of the sources. This enlargement can be statistically measured despite the fact that the unlensed size is not known. Nevertheless, since galaxies have a large variety of shapess and size that is strongly related to its evolution and age, no homogeneity assumption can be made and require the use of empirical relations like the {\it fundamental plane} \cite{2003AJ....125.1866B,2041-8205-780-2-L16}.
+\item {\bf Size enlargement:} All the effects above are a consequence of the conservation of surface brightness and the size enlargement of the sources. This enlargement can be statistically measured despite the fact that the unlensed size is not known. Nevertheless, since galaxies have a large variety of shapes and sizes that is strongly related to their evolution and age, no homogeneity assumption can be made and requires the use of empirical relations like the {\it fundamental plane} \cite{2003AJ....125.1866B,2041-8205-780-2-L16}.
 \end{itemize}
 
 Traditionally all these probes have been used independently, but the ideal scenario would be a three-way combination that may lead to a cancellation or better estimation of systematic errors.
@@ -181,7 +181,7 @@ The two-point angular cross-correlation between positions of galaxies in the sam
 \omega_{LS}(\theta) = \langle\delta_O(\hat n,z_L,f_\mu)\delta_O(\hat n',z_S,f_\mu)\rangle_{\theta}.
 \label{eq:2pacfmagnification}
 \end{equation}
-Where $\delta_O(\hat n,z_L,f_\mu)$ is the observed galaxy density-contrast on the sky direction $\hat n$ and redshift $z_L$ with flux limit $f_\mu$. $\omega_{LS}$ is not zero, since due to magnification galaxies beyond the observable threshold will appear nearby the lenses introducing a non-uniform distribution of galaxies. Thus the observed galaxy density contrast can be expressed as
+Where $\delta_O(\hat n,z_L,f_\mu)$ is the observed galaxy density-contrast in the sky direction $\hat n$ and redshift $z_L$ with flux limit $f_\mu$. $\omega_{LS}$ is not zero, since due to magnification galaxies beyond the observable threshold will appear near the lenses introducing a non-uniform distribution of galaxies. Thus the observed galaxy density contrast can be expressed as
 \begin{equation}
 \delta_O(\hat n,z,f_\mu) = \delta_g(\hat n,z)+\delta_\mu(\hat n,z,f_\mu),
 \end{equation}
@@ -190,11 +190,11 @@ where $\delta_g$ is the intrinsic galaxy-density contrast (that is, without magn
 \omega_{LS}(\theta) = \langle\delta_g(z_L)\delta_g(z_S)\rangle+\langle\delta_g(z_L)\delta_\mu(z_S)\rangle+\langle\delta_\mu(z_L)\delta_g(z_S)\rangle+\langle\delta_\mu(z_L)\delta_\mu(z_S)\rangle.
 \label{eq:4t}
 \end{equation}
-Taking into account that $0<z_L<z_S$, and that the lens and the source sample are well separated in redshift, the only non vanishing term is
+Taking into account that $0<z_L<z_S$, and assuming that the lens and the source sample are well separated in redshift, the only non vanishing term is
 \begin{equation}
 \omega_{LS}(\theta) = \langle\delta_g(\hat n,z_L)\delta_\mu(\hat n,z_L,f_\mu)\rangle_\theta.
 \end{equation}
-Let define the magnification density contrast on the sky direction $\hat n$ as 
+Let's define the magnification density contrast on the sky direction $\hat n$ as 
 \begin{equation}
 \delta_\mu(\hat n,z,f_\mu) = \frac{N_\mu(\hat n,z,f_\mu)}{N_0(\hat n,z,f_0)}-1,
 \end{equation}
@@ -267,7 +267,7 @@ where $\tau(\lambda_\eta)$ is the optical depth at the wavelength $\lambda_\eta$
 \begin{equation}
 E^{\eta\nu}_{LS}(\theta) = \langle\delta_g(\hat n,z_L)[m_\mu(\hat n',z_S,\lambda_\eta)-m_\mu(\hat n',z_S,\lambda_\nu)]\rangle_\theta.
 \end{equation}
-Since gravitational lensing is acromatic, the only dependence with the wavelength comes from the extinction law
+Since gravitational lensing is achromatic, the only dependence with the wavelength comes from the extinction law
 \begin{equation}
 E^{\eta\nu}_{LS}(\theta)=\frac{2.5}{\ln 10}\langle\delta_g(\hat n,z_L)[\tau(\hat n',z_S,\lambda_\eta)-\tau(\hat n',z_S,\lambda_nu)]\rangle.
 \end{equation}
