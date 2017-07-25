@@ -2,17 +2,17 @@
 \chapter{Magnification in DES}
 \label{ch:magnification}
 
-Extensive wide-field galaxy surveys have allowed accurate measurements of weak-lensing effects. Previous magnification measurements involve the use of very massive objects as lenses, such as luminous red galaxies (LRGs) and clusters \cite{1995AIPC..336..320B,2014MNRAS.440.3701B,2014MNRAS.439.3755F,2016MNRAS.457.3050C}, or high redshift objects as sources, such as Lyman break galaxies (LBGs) \cite{2009A&A...507..683H,2012MNRAS.426.2489M}, quasars (QSOs) \cite{1979ApJ...227...30S,1989Natur.339..106H,1990A&A...240...11F,1993A&A...268....1B,2002A&A...386..784M,0004-637X-633-2-589} and sub-mm sources  \cite{2011MNRAS.414..596W} to improve signal-to-noise ratio. In addition to the number count technique used on this Thesis, other observational effects produced by magnification have been measured as well: the shift in magnitude \cite{2010MNRAS.405.1025M}, flux \cite{2011MNRAS.411.2113J} and size \cite{2041-8205-780-2-L16}.
+Extensive wide-field galaxy surveys have allowed accurate measurements of weak-lensing effects. Previous magnification measurements involved the use of very massive objects as lenses, such as luminous red galaxies (LRGs) and clusters \cite{1995AIPC..336..320B,2014MNRAS.440.3701B,2014MNRAS.439.3755F,2016MNRAS.457.3050C}, or high redshift objects as sources, such as Lyman break galaxies (LBGs) \cite{2009A&A...507..683H,2012MNRAS.426.2489M}, quasars (QSOs) \cite{1979ApJ...227...30S,1989Natur.339..106H,1990A&A...240...11F,1993A&A...268....1B,2002A&A...386..784M,0004-637X-633-2-589} and sub-mm sources  \cite{2011MNRAS.414..596W} to improve signal-to-noise ratio. In addition to the number count technique used on this Thesis, other observational effects produced by magnification have been measured as well: the shift in magnitude \cite{2010MNRAS.405.1025M}, flux \cite{2011MNRAS.411.2113J} and size \cite{2041-8205-780-2-L16}.
 \newline
 
 On this chapter, first, the methodology to measure magnification is described (\autoref{sec:method}) and validated with simulations (\autoref{sec:mice}). Then, the methodology is used to measure the magnification signal at the Dark Energy Survey Science Verification data (SV; \autoref{sec:svdata}). Finally, it is employed to measure the convergence profile of voids and troughs with the Year 1 data (Y1; \autoref{sec:y1data}).
 \newline
 
-It is worth to remark that, as it has been defined at \autoref{ch:theory}, given both the redshift of the lenses and the sources, the convergence is a two-dimensional scalar field that is independent on the selected lens or source sample. Nevertheless, by choosing the suitable lens sample, different parts of the log-normal distribution of the convergence field \cite{2017MNRAS.466.1444C} can be probed, leading to a different convergence profile.
+It is worth remarking that, as it was defined in \autoref{ch:theory}, given both the redshift of the lenses and the sources, the convergence is a two-dimensional scalar field that is independent of the selected lens or source sample. Nevertheless, by choosing a suitable lens sample, different parts of the log-normal distribution of the convergence field \cite{2017MNRAS.466.1444C} can be probed, leading to a different convergence profile.
 
 \section{Measuring Magnification through Number Count}
 \label{sec:method}
-As it has been described in \autoref{ch:theory}, the amplitude of the magnification signal depends on two factors: the number-count slope parameter ($\alpha-1$) and the lensing kernel, that for a given lens sample, is a function of the redshift of the source sample. LBGs and QSOs have been traditionally used on magnification studies as sources since they have steep magnitude distribution, leading to a high value of $\alpha-1$. In addition, this population of galaxies is located at very high redshift ($2\lesssim z\lesssim 4$), leading to a high lensing efficiency and a clean redshift separation between the lens and source samples. Nevertheless, this population of galaxies has very low density, feature that can prevent the measurement of a magnification signal for small-area surveys. In addition, the selection of a population of LBGs involve the known as {\it dropout} technique, that requires the development of a custom data-reduction pipeline just to select this specific population of galaxies. For large-area surveys such as DES and LSST, the amount of computing time to run the data-reduction pipeline makes this approach very inefficient, and alternative methods must be developed.
+As it was described in \autoref{ch:theory}, the amplitude of the magnification signal depends on two factors: the magnitude number-count slope parameter ($\alpha-1$) and the lensing kernel, which for a given lens sample, is a function of the redshift of the source sample. LBGs and QSOs have been traditionally used on magnification studies as sources since they have steep magnitude distribution, leading to a high value of $\alpha-1$. In addition, this population of galaxies is located at very high redshift ($2\lesssim z\lesssim 4$), leading to a high lensing efficiency and a clean redshift separation between the lens and source samples. Nevertheless, this population of galaxies has very low density, feature that can prevent the measurement of a magnification signal for small-area surveys. In addition, the selection of a population of LBGs involves the method known as {\it dropout} technique, that requires the development of a custom data-reduction pipeline just to select this specific population of galaxies. For large-area surveys such as DES and LSST, the amount of computing time to run the data-reduction pipeline makes this approach very inefficient, and alternative methods must be developed.
 \newline
 
 The caveats related to the use of LBGs and QSOs as sources can be avoided by using the whole measured galaxy population. Then, only redshift cuts are imposed in order to separate the lens and source samples. This approach has the advantage that the density of the source sample is higher, reducing significantly the shot-noise. Nevertheless, the accuracy on the determination of the redshift on broad-band galaxy-surveys --such as DES-- is limited, introducing an important source of systematic errors that must be avoided and carefully taken into account.
@@ -34,7 +34,7 @@ The weight of the $i$-th galaxy ($w_i$) is given by:
 \begin{equation}
 w_i = \alpha_S(m_i)-1,
 \end{equation}
-where $\alpha_S(m_i)$ is the number-count slope given by \autoref{eq:alpha} and $m_i$ is the magnitude of the $i$-th galaxy. This procedure allows to obtain the maximum signal-to-noise. Nevertheless, this weighting makes hard to disentangle the impact of the different systematic effects on the measured signal.
+where $\alpha_S(m_i)$ is the number-count slope given by \autoref{eq:alpha} and $m_i$ is the magnitude of the $i$-th galaxy. This procedure allows to obtain the maximum signal-to-noise. Nevertheless, this weighting makes it hard to disentangle the impact of the different systematic effects on the measured signal.
 \newline
 
 As an alternative approach the following procedure is proposed and implemented:
@@ -46,7 +46,7 @@ As an alternative approach the following procedure is proposed and implemented:
 Once the two-point angular correlation function has been measured, it can be compared with theoretical predictions as described in \autoref{ch:theory} allowing the desired parameter constraints.
 \newline
 
-As has been stated previously, the amplitude of the measured cross-correlation function depends on the shape of the galaxy number count distribution. Nevertheless, due to this shape --for a fixed footprint, population of galaxies and redshift distribution--, the brighter is the magnitude limit of the sample, the bigger is the amplitude of the two point angular cross correlation function. However, the number of bright galaxies is lower than the number of faint galaxies \cite{1976ApJ...203..297S}, so shot noise is bigger at brighter magnitude cuts, increasing their measurement uncertainties. For this reason, there exists a magnitude cut that is a trade-off between amplitude and shot noise, maximizing the signal-to-noise ratio.  In  order to find the optimum magnitude cut for a given sample, define the signal-to-noise ratio for a given angular range  and magnitude cut $m'<m$ as \cite{1998MNRAS.294L..18M}:
+As it has been stated previously, the amplitude of the measured cross-correlation function depends on the shape of the galaxy number count distribution. Nevertheless, due to this shape --for a fixed footprint, population of galaxies and redshift distribution--, the brighter is the magnitude limit of the sample, the bigger is the amplitude of the two point angular cross correlation function. However, the number of bright galaxies is lower than the number of faint galaxies \cite{1976ApJ...203..297S}, so shot noise becomes more important increasing their measurement uncertainties. For this reason, there exists a magnitude cut that is a trade-off between amplitude and shot noise, maximizing the signal-to-noise ratio.  In  order to find the optimum magnitude cut for a given sample, define the signal-to-noise ratio for a given angular range  and magnitude cut $m'<m$ can be defined as \cite{1998MNRAS.294L..18M}:
 \begin{equation}
 \frac{S}{N}(m) = \frac{\langle \omega_{LS}(\theta;m)\rangle}{\langle s(\omega_{LS}(\theta;m))\rangle},
 \label{eq:sn}
@@ -60,7 +60,7 @@ where $P_{LS}(\theta;m)$ is the number of pairs from the lens-source samples sep
 P_{LS}(\theta;m) = \left[\frac{N_L}{A}\Delta_\Omega(\theta)\right]\left[\frac{N_S(m)}{A}\Delta_\Omega(\theta)\right].
 \label{eq:PLS}
 \end{equation}
-Here $A$ is the solid angle subtended by the dataset, $N_L$ is the number of objects at the lens sample and $N_S(m)$ the number of objects on the source sample with magnitude limit $m$. Combining Equations \ref{eq:kappa_nc}, \ref{eq:sn} and \ref{eq:PLS}, results finally in
+Here $A$ is the solid angle subtended by the dataset, $N_L$ is the number of objects at the lens sample and $N_S(m)$ the number of objects in the source sample with magnitude limit $m$. Combining Equations \ref{eq:kappa_nc}, \ref{eq:sn} and \ref{eq:PLS}, results finally in
 \begin{equation}
 \frac{S}{N}(m) = \langle\omega_0\rangle[\alpha(m)-1]b_L\frac{\Omega}{A}\sqrt{N_LN_S(m)},
 \label{eq:snfinal}
@@ -96,7 +96,7 @@ In \autoref{fig:MICE}, the results of the magnification analysis in the MICE sim
 As of January 2014 --when I started my PhD--, the only data available at DES was the Science Verification data. The first data-release from DES. This dataset was taken just for testing purposes and in order to explore the capabilities of the experiment. Thus, although the nominal depth of the survey was reached, only $\sim 150$ deg$^2$ where taken. Taking this into account, only $10^4$ LBGs are expected at the full DES-SV data, preventing the measurement of magnification with the usual approach. Thus, in order to be capable to reach a detection of the magnification signal with the DES-SV data, the general population of galaxies was selected both as lens and source sample.
 \newline
 
-The goal of this analysis is to detect a weak-lensing magnification signal and develop methodology to mitigate systematic errors. Data sample is described at \autoref{sec:data_sample_SV}. Then, the analysis is described and the results discussed at \autoref{sec:analysis_sv} following the analysis of the possible systematic errors on \autoref{sec:sys}. Finally a discussion on the analysis can be found at \autoref{sec:discussion_sv}.
+The goal of this analysis is to detect a weak-lensing magnification signal and develop methodology to mitigate systematic errors. The data sample is described in \autoref{sec:data_sample_SV}. Then, the analysis is described and the results discussed in \autoref{sec:analysis_sv} following the analysis of the possible systematic errors in \autoref{sec:sys}. Finally a discussion on the analysis can be found in \autoref{sec:discussion_sv}.
 
 \subsection{Data sample}
 \label{sec:data_sample_SV}
@@ -203,7 +203,7 @@ where $\omega^k_{\rm LS_j}$ stands for the cross-correlation of the $k$-th jack-
 \end{figure}
 \newline
 
-Measured two-point angular cross-correlation functions and $\Lambda$CDM weak lensing theoretical predictions can be found in \autoref{fig:resultsSV_r}, \autoref{fig:resultsSV_i} and \autoref{fig:resultsSV_z}. Measured correlation functions are found to be non-zero, compatible with $\Lambda$CDM and its amplitude evolves with the magnitude cut. The magnitude cuts imposed to guarantee uniform depth make that, for this data, no negative amplitudes are expected.
+The measured two-point angular cross-correlation functions and the $\Lambda$CDM weak lensing theoretical predictions can be found in \autoref{fig:resultsSV_r}, \autoref{fig:resultsSV_i} and \autoref{fig:resultsSV_z}. The measured correlation functions are found to be non-zero, compatible with $\Lambda$CDM and their amplitude evolves with the magnitude cut. The magnitude cuts imposed to guarantee uniform depth make that, for this data, no negative amplitudes are expected.
 \begin{sidewaysfigure}
 \includegraphics[width=\textwidth,trim={0 2.3cm 0 3.5cm},clip]{./figures/mag_r.pdf}
 \label{fig:resultsSV_r}
@@ -221,7 +221,7 @@ Measured two-point angular cross-correlation functions and $\Lambda$CDM weak len
 \end{sidewaysfigure}
 \newline
 
-To compare with the expected theory, \autoref{eq:kappa_nc} and \autoref{eq:omega0} and  have been used assuming Planck 2015 \cite{2016A&A...594A..13P} cosmological parameters. The bias of the lens sample has already been measured independently with different techniques: clustering \cite{2016MNRAS.455.4301C}, gg-lensing \cite{2016arXiv160908167P}, shear \cite{2016MNRAS.459.3203C} and CMB-lensing \cite{2016MNRAS.456.3213G}. From these values the most precise, from \cite{2016MNRAS.455.4301C}, is selected ($b_{\rm L}=1.07\pm0.08$) and is assumed to be a constant scale-independent parameter. The number count slope parameter $\alpha_{\rm S}$ is computed by fitting the cumulative number count of the sample S to a Schechter function \cite{1976ApJ...203..297S} on the range of interest
+To compare with theory, \autoref{eq:kappa_nc} and \autoref{eq:omega0} and  have been used assuming Planck 2015 \cite{2016A&A...594A..13P} cosmological parameters. The bias of the lens sample has already been measured independently with different techniques: clustering \cite{2016MNRAS.455.4301C}, gg-lensing \cite{2016arXiv160908167P}, shear \cite{2016MNRAS.459.3203C} and CMB-lensing \cite{2016MNRAS.456.3213G}. From these values the most precise, from \cite{2016MNRAS.455.4301C}, is selected ($b_{\rm L}=1.07\pm0.08$) and is assumed to be a constant scale-independent parameter. The number count slope parameter $\alpha_{\rm S}$ is computed by fitting the cumulative number count of the sample S to a Schechter function \cite{1976ApJ...203..297S} on the range of interest
 \begin{equation}
 N_\mu(m) = A\left[10^{0.4(m-m_*)}\right]^\beta\times\exp\left[-10^{0.4(m-m*)}\right],
 \label{eq:sch}
@@ -496,26 +496,26 @@ This analysis demonstrates that reliable weak-lensing magnification can be measu
 
 \section{Magnification in DES Year 1 data}
 \label{sec:y1data}
-The most complete data-set that is available is called the Year 1 (DES-Y1). It covers more area and has a bigger number of galaxies than DES-SV, allowing to do new and more sensitive analyses.
+The most complete data-set that is available is called the Year 1 (DES-Y1). It covers more area and has a larger number of galaxies than DES-SV, allowing to do new and more sensitive analyses.
 \newline
 
-Here we use the methodology to measure weak-lensing magnification signal developed at \autoref{sec:analysis_sv} to determine the convergence profile of voids and troughs with the DES-Y1 data. Data sample is described at \autoref{sec:data_sample_y1}. Then, the analysis is described \autoref{sec:analysis_y1}. Finally a discussion on the analysis can be found at \autoref{sec:discussion_y1}.
+Here we use the methodology to measure weak-lensing magnification signal developed in \autoref{sec:analysis_sv} to determine the convergence profile of voids and troughs with the DES-Y1 data. Data sample is described in \autoref{sec:data_sample_y1}. Then, the analysis is described in \autoref{sec:analysis_y1}. Finally a discussion on the analysis can be found in \autoref{sec:discussion_y1}.
 \newline
 
-The first weak-lensing measurement by voids has already been made at SDSS \cite{2014MNRAS.440.2922M}. Weak-lensing measurements of voids and troughs has also been made with the DES-SV data \cite{2016MNRAS.455.3367G,2017MNRAS.465..746S} using gg-lensing. Nevertheless, the small area of the Science Verification data-set did not allow to detect the magnification signal of these lenses.
+The first weak-lensing measurement by voids has already been made with SDSS \cite{2014MNRAS.440.2922M}. Weak-lensing measurements of voids and troughs has also been made with DES-SV data \cite{2016MNRAS.455.3367G,2017MNRAS.465..746S} using gg-lensing. Nevertheless, the small area of the Science Verification data-set did not allow to detect the magnification signal of these lenses.
 
 \subsection{Data sample}
 \label{sec:data_sample_y1}
-The DES Y1-Gold galaxy catalog, amounts 1600 deg$^2$ divided between several fields that include the supernovae fields, the stripe-82 (S82) and the SPT field (see \autoref{fig:des_y1_coverage}).
+The DES Y1-Gold galaxy catalog, spans 1600 deg$^2$ divided into several fields that include the supernovae fields, the stripe-82 (S82) and the SPT field (see \autoref{fig:des_y1_coverage}).
 \newline
 
-On the DES-Y1 galaxy catalog, the {\scshape redMaPPer} algorithm \cite{2014ApJ...785..104R} is applied to find galaxy-clusters and luminous red galaxies (LRGs) \cite{2016MNRAS.461.1431R,2016ApJS..224....1R} producing the LRG catalog {\scshape redMaGiC}that allows the definition of voids and troughs, a class of lenses adapted to measure dark energy using weak-lensing.
+On the DES-Y1 galaxy catalog, the {\scshape redMaPPer} algorithm \cite{2014ApJ...785..104R} is applied to find galaxy-clusters and luminous red galaxies (LRGs) \cite{2016MNRAS.461.1431R,2016ApJS..224....1R} producing the LRG catalog {\scshape redMaGiC} that allows the definition of voids and troughs, a class of lenses adapted to measure dark energy using weak-lensing.
 \newline
 
-The two lenses represent the emptiest regions of the Universe but they are built on a different manner. Voids are defined as the underdensities on the 3D space (ra,dec and redshift) whereas troughs are defined on the 2D matter projection (ra and dec) --that is, redshift integrated--. To avoid photo-z overlap between lens and source sample, troughs and voids have been defined on the {\scshape redMaGiC} catalog with photo-z $z_{redmagic}<0.45$. It is important to remark that LRGs allow a more precise determination of the photo-z, based on a fit to the colors of the red sequence of galaxies.
+The two lenses represent the emptiest regions of the Universe but they are built on a different manner. Voids are defined as the underdensities on 3D space (ra,dec and redshift) whereas troughs are defined on the 2D matter projection (ra and dec) --that is, redshift integrated--. To avoid photo-z overlap between the lens and source sample, troughs and voids have been defined on the {\scshape redMaGiC} catalog with photo-z $z_{redmagic}<0.45$. It is important to remark that LRGs allow a more precise determination of the photo-z, based on a fit to the colors of the red sequence of galaxies.
 \newline
 
-The source sample is build and will be common to both lens samples.
+The source sample is built and will be common to both lens samples.
 
 \subsubsection{Lens sample: voids}
 Following the same approach employed by Sanchez et~al. on DES-SV \cite{2017MNRAS.465..746S}, the void-finder algorithm is applied to the Y1-{\scshape redMaGiC} catalog, finding 533 voids. From this catalog, the voids with centers on the region
@@ -548,7 +548,7 @@ and redshift $z<0.45$ are selected, amounting 193 voids. The spatial distributio
 \label{fig:trough_footprint}
 \end{figure}
 
-DES-Y1 troughs have been build following the same approach as Gruen et~al. on the DES-SV data \cite{2016MNRAS.455.3367G}. A trough with angular aperture $\theta_T$ and quantile $Q$ is defined as the regions of the sky such that the probability $P(N)$ that a disk with angular size $\theta_T$ centered at a {\scshape HEALPix} pixel is on the range
+DES-Y1 troughs have been built following the same approach as Gruen et~al. on the DES-SV data \cite{2016MNRAS.455.3367G}. A trough with angular aperture $\theta_T$ and quantile $Q$ is defined as the regions of the sky such that the probability $P(N)$ that a disk with angular size $\theta_T$ centered at a {\scshape HEALPix} pixel is on the range
 \begin{equation}
 P(N) \in \left[\frac{Q}{5},\frac{Q+1}{5}\right),
 \end{equation}
@@ -558,10 +558,10 @@ with $N$ the number of {\scshape redMaGiC} galaxies. Thus, the $Q=0$ troughs are
 Three through sizes are considered on the analysis $\theta_T=10', 20', 30'$ and five quantiles $Q=0,1,2,3,4$. The spatial distribution of troughs with $\theta_T=10'$ can be found at \autoref{fig:trough_footprint}.
 
 \subsubsection{Source sample}
-From the DES-Y1-Gold main galaxy catalog, the largest contiguous area is selected, the SPT.
+From the DES-Y1-Gold, the largest contiguous area is selected, the SPT.
 \newline
 
-Regions with declination $ < -60^{\circ}$ are removed in order to avoid the Large Magellanic Cloud and severe stellar contamination from the Milky Way. {\scshape Modest\_class} is employed as star-galaxy classifier in combination with the additional morphological cut:
+Regions with declination $ < -60^{\circ}$ are removed in order to avoid the Large Magellanic Cloud. {\scshape Modest\_class} is employed as star-galaxy classifier in combination with the additional morphological cut:
 \begin{equation}
 \mbox{spread\_model\_i} + \frac{5}{3}\ \mbox{spreaderr\_model\_i} > 0.007.
 \end{equation}
@@ -589,7 +589,7 @@ A unique source sample is defined requiring to be the maximum signal-to-noise as
 	0.8 < z_{\rm ph} < 1.5\mbox{ and }i<20.5.
 \end{equation}
 
-Following the same approach as in the \autoref{sec:svdata}, the {\scshape mag\_auto} cut along with the previously defined depth cuts also guarantee uniformity on the corresponding band.
+Following the same approach as in \autoref{sec:svdata}, the {\scshape mag\_auto} cut along with the previously defined depth cuts also guarantees uniformity in the corresponding band.
 \newline
 
 The redshift distributions of the lens and source sample can be seen at \autoref{fig:ndz_y1}. The redshift distribution of the lens sample is computed from the available spectra of the {\scshape RedMaGiC} galaxies with $z_{redmagic}<0.45$. The redshift distribution of the source sample is computed by monte carlo sampling the stacked pdf of the sources as given by BPZ. It can be deduced that the redshift overlap between the lens and source sample can be safely ignored.
@@ -631,10 +631,10 @@ The significance of the detection is computing by doing a chi-square test is com
 \begin{equation}
 \chi^2_{zero} = \sum\limits_{\eta\nu} \omega_{LS}(\theta_\eta)C(\theta_\eta,\theta_\nu)\omega_{LS}(\theta_\nu).
 \end{equation}
-The computed chi-square is $\chi^2_{zero}=33.6$ with $ndof=15$ degrees of freedom, implying that the measured signal is not compatoble with zero. Thus, it can be conlcuded that the magnification signal has been detected.
+The computed chi-square is $\chi^2_{zero}=33.6$ with $ndof=15$ degrees of freedom, implying that the measured signal is not compatible with zero. Thus, it can be concluded that the magnification signal has been detected.
 \newline
 
-The measured convergence profile for the voids can be seen at \autoref{fig:kappa_voids} compared with expected theory. Theoretical predictions are computed using the KGB profile (\autoref{eq:kgb} and \autoref{eq:kappakrause}) on a $\Lambda$CDM Universe with blinded cosmological parameters\footnote{Collaboration policies do not allow to produce unblinded predictions until the final analysis has been approved.}. The void properties --depth and size ($\delta_0, R_v$ respectively)-- used to compute the theoretical void profile, are given by the void finder itself. Thus, a systematic analysis on simulations must be made in order to study the possible impact of inaccuracies on the determination of $\delta_0,R_v$ as well the position of the center of the void on the theoretical KGB profile. In addition, different void-finder algorithms should be used following the same approach as in \autoref{sec:analysis_sv} with the photo-z codes in order to map the possible discrepancies and ensure that the measured signal is not a feature induced by the methodology employed to detect the voids.
+The measured convergence profile for the voids can be seen in \autoref{fig:kappa_voids} compared with theory. Theoretical predictions are computed using the KGB profile (\autoref{eq:kgb} and \autoref{eq:kappakrause}) on a $\Lambda$CDM Universe with blinded cosmological parameters\footnote{Collaboration policies do not allow to produce unblinded predictions until the final analysis has been approved.}. The void properties --depth and size ($\delta_0, R_v$ respectively)-- used to compute the theoretical void profile, are given by the void finder itself. Thus, a systematic analysis on simulations must be made in order to study the possible impact of inaccuracies on the determination of $\delta_0,R_v$ as well the position of the center of the void on the theoretical KGB profile. In addition, different void-finder algorithms should be used following the same approach as in \autoref{sec:analysis_sv} with the photo-z codes in order to map the possible discrepancies and ensure that the measured signal is not a feature induced by the methodology employed to detect the voids.
 \newline
 
 On this section, the significance of the detection has not followed the same bayesian approach as in \autoref{sec:analysis_sv} due to the blinding scheme imposed by the collaboration.
@@ -688,7 +688,7 @@ $\chi^2_z/ndof$&28.3/7&3.8/7&16.4/7&5.1/7&17.3/7\\
 
 \subsection{Discussion}
 \label{sec:discussion_y1}
-On this section, the convergence profile of the empties regions of the Universe --voids and troughs-- has been computed. For the first time,a negative convergence profile has been measured using number count magnification. The measured magnification signal has been detected for both voids an troughs.
+On this section, the convergence profile of the emptiest regions of the Universe --voids and troughs-- has been computed. For the first time,a negative convergence profile has been measured using number count magnification. The measured magnification signal has been detected for both voids and troughs.
 \newline
 
 With only the 20\% of the planned area of the experiment the convergence profile has been clearly measured allowing to put on the immediate future competitive constrains on cosmology with this data-set.
